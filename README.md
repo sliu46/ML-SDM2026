@@ -13,7 +13,7 @@ Document type:Article
 
 Search strategy:
 
-TS =("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*")AND("machine learning" OR "MaxEnt" OR "Random Forest"OR"deeplearning"OR "CNN" OR "GNN" OR "Transformer")
+TS = ("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*") AND ("machine learning" OR "MaxEnt" OR "Random Forest" OR "deep learning" OR "Convolutional Neural Network" OR "Graph Neural Network" OR "Multilayer Perceptron" OR "Transformer")
 
 ## Repository structure
 

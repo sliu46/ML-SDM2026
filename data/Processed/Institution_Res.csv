@@ -1,0 +1,6080 @@
+Institution,Recs,LCS,GCS
+Chinese Acad Sci,304,661,7096
+Univ Nacl Autonoma Mexico,96,121,3043
+Univ Chinese Acad Sci,85,86,1728
+Univ Florida,76,193,3075
+Beijing Forestry Univ,67,91,1618
+US Geol Survey,65,371,2661
+Univ Kansas,59,2179,9941
+US Forest Serv,53,312,2253
+CSIC,51,207,1687
+Nanjing Forestry Univ,51,17,1024
+Colorado State Univ,47,498,2911
+Univ Melbourne,47,3551,14111
+Univ Porto,46,118,1225
+Amer Museum Nat Hist,44,5969,22358
+Univ Oxford,40,110,2159
+James Cook Univ,39,411,2397
+Russian Acad Sci,39,45,676
+Univ Lisbon,39,49,783
+Univ Queensland,39,158,1365
+Univ Sao Paulo,39,46,986
+Univ Helsinki,38,195,1372
+Univ Calif Davis,37,1240,5382
+Univ Minnesota,37,146,1558
+Univ British Columbia,35,88,975
+Univ Pretoria,34,81,975
+Ain Shams Univ,33,30,504
+Polish Acad Sci,33,150,1639
+Univ Fed Goias,33,133,1645
+Univ Ghent,33,120,953
+Univ KwaZulu Natal,33,52,650
+Macquarie Univ,32,204,1463
+Oregon State Univ,32,66,1072
+Texas A&M Univ,32,62,625
+Isfahan Univ Technol,31,184,961
+Islamic Azad Univ,31,37,418
+Univ Illinois,31,119,736
+CUNY,30,1590,5165
+Beijing Normal Univ,29,170,876
+Consejo Nacl Invest Cient & Tecn,29,50,463
+Univ Bristol,29,205,1205
+Univ Tehran,29,29,628
+Aarhus Univ,28,117,1546
+Ferdowsi Univ Mashhad,28,28,409
+Chinese Acad Forestry,27,174,827
+Oklahoma State Univ,27,166,818
+Shahid Beheshti Univ,27,61,378
+Univ Western Australia,27,205,1689
+Fisheries & Oceans Canada,26,167,971
+Inst Ecol AC,26,17,519
+Univ Abomey Calavi,26,38,306
+Univ Calif Berkeley,26,234,1665
+Univ Montpellier,26,27,766
+Chungnam Natl Univ,25,25,345
+King Saud Univ,25,26,412
+Minist Nat Resources,25,1,537
+Natl Inst Ecol,25,10,248
+US Fish & Wildlife Serv,25,71,647
+Michigan State Univ,24,103,691
+NOAA,24,52,941
+Northeast Forestry Univ,24,30,298
+Qinghai Univ,24,34,284
+Tribhuvan Univ,24,12,307
+Univ Calif Los Angeles,24,269,1211
+Univ Copenhagen,24,81,865
+Czech Univ Life Sci Prague,23,26,521
+Swedish Univ Agr Sci,23,124,863
+Univ Fed Vicosa,23,38,472
+Univ Twente,23,85,987
+Univ Wisconsin,23,127,1349
+Univ Lausanne,22,913,3493
+Univ Nottingham,22,106,1060
+Zool Soc London,22,90,539
+Addis Ababa Univ,21,14,196
+Univ Adelaide,21,44,532
+Univ Cambridge,21,97,1302
+Univ Nacl Cordoba,21,28,304
+Univ Oslo,21,151,966
+Univ Tasmania,21,37,844
+Wildlife Inst India,21,34,343
+Chinese Acad Agr Sci,20,27,422
+Seoul Natl Univ,20,26,243
+Univ Brasilia,20,90,654
+Yunnan Univ,20,7,273
+Australian Natl Univ,19,227,1166
+Inst Politecn Nacl,19,0,248
+Sun Yat sen Univ,19,14,435
+Univ Chile,19,12,305
+Univ Massachusetts,19,76,692
+Univ Washington,19,333,5187
+Dalhousie Univ,18,17,345
+Int Ctr Insect Physiol & Ecol ICIPE,18,18,301
+Korea Univ,18,0,350
+Murdoch Univ,18,27,340
+Northwest A&F Univ,18,29,284
+Ocean Univ China,18,13,489
+Shanghai Ocean Univ,18,0,162
+Texas Tech Univ,18,39,335
+Univ Alaska Fairbanks,18,36,554
+Univ Barcelona,18,40,413
+Univ Georgia,18,26,310
+Univ Guelph,18,64,405
+Univ Tehran Med Sci,18,19,272
+Univ Trier,18,184,1021
+Univ Veracruzana,18,0,162
+Univ Witwatersrand,18,16,311
+CNR,17,117,743
+Hacettepe Univ,17,3,138
+Shanxi Agr Univ,17,38,480
+Shiraz Univ,17,32,439
+SUNY Stony Brook,17,2523,8293
+Univ Alberta,17,56,444
+Univ Fed Parana,17,47,578
+Univ Plymouth,17,111,516
+Univ Tennessee,17,172,796
+USDA ARS,17,44,568
+Wageningen Univ,17,32,610
+Wageningen Univ & Res,17,6,247
+Harvard Univ,16,153,960
+Mississippi State Univ,16,20,1468
+Nat Hist Museum,16,77,415
+No Arizona Univ,16,7,467
+Shaanxi Normal Univ,16,42,587
+Univ Bayreuth,16,70,594
+Univ Cordoba,16,7,344
+Univ Fed Minas Gerais,16,36,348
+Univ Leeds,16,87,1035
+Univ Naples Federico II,16,97,646
+Univ Ottawa,16,32,312
+Univ Utrecht,16,30,437
+Utah State Univ,16,228,4266
+Xinjiang Univ,16,7,266
+China West Normal Univ,15,26,279
+Chinese Ctr Dis Control & Prevent,15,10,319
+Cornell Univ,15,29,280
+Isparta Univ Appl Sci,15,33,245
+Nanjing Normal Univ,15,38,503
+South China Agr Univ,15,23,176
+Stanford Univ,15,1762,5729
+Univ Cape Town,15,34,338
+Univ Nacl Colombia,15,0,437
+Univ Nevada,15,27,371
+Univ New England,15,168,870
+Univ Oviedo,15,8,238
+Univ Zimbabwe,15,43,287
+Czech Acad Sci,14,34,368
+Flinders Univ S Australia,14,42,534
+Hebei Univ,14,19,178
+Louisiana State Univ,14,84,407
+Natl Pk Serv,14,169,784
+Rhodes Univ,14,15,198
+Tarbiat Modares Univ,14,0,126
+Univ Calif Santa Cruz,14,46,505
+Univ Complutense Madrid,14,7,110
+Univ Edinburgh,14,26,512
+Univ Fed Rio Grande do Sul,14,4,212
+Univ Grenoble Alpes,14,33,394
+Univ Hamburg,14,33,455
+Univ Hong Kong,14,22,486
+Univ Maryland,14,28,579
+Univ Molise,14,70,622
+Wildlife Conservat Soc,14,35,278
+Yale Univ,14,80,667
+Bulgarian Acad Sci,13,7,92
+Goethe Univ Frankfurt,13,45,414
+Humboldt State Univ,13,62,607
+Natl Univ Singapore,13,128,441
+Nature Conservancy,13,51,270
+North Carolina State Univ,13,45,594
+Ohio State Univ,13,4,245
+Peking Univ,13,25,213
+Princess Nourah Bint Abdulrahman Univ,13,1,202
+Southwest Forestry Univ,13,0,115
+Univ Autonoma Estado Mexico,13,7,179
+Univ Evora,13,29,375
+Univ Milan,13,6,232
+Univ Milano Bicocca,13,109,667
+Univ Nacl La Plata,13,34,319
+Univ Salamanca,13,51,132
+Univ Toronto,13,66,671
+Univ Zurich,13,33,429
+Adam Mickiewicz Univ,12,22,158
+Alexandria Univ,12,7,110
+Bangor Univ,12,116,501
+Chinese Acad Fishery Sci,12,0,112
+Colegio Postgrad,12,1,221
+CSIR,12,52,357
+German Ctr Integrat Biodivers Res iDiv,12,12,283
+Griffith Univ,12,46,431
+Guizhou Univ,12,0,113
+Humboldt Univ,12,48,410
+Katholieke Univ Leuven,12,13,329
+Kyoto Univ,12,11,1109
+Nord Univ,12,46,285
+Pontificia Univ Catolica Chile,12,6,141
+Suleyman Demirel Univ,12,31,339
+Swiss Fed Inst Technol,12,12,266
+Tech Univ Munich,12,11,1430
+UFZ Helmholtz Ctr Environm Res,12,78,405
+Univ Arizona,12,146,1015
+Univ Calif Santa Barbara,12,17,451
+Univ Fed Pernambuco,12,25,234
+Univ Granada,12,61,441
+Univ Idaho,12,8,171
+Univ Leon,12,6,263
+Univ Maine,12,13,201
+Univ Missouri,12,87,631
+Univ Montreal,12,28,208
+Univ Texas Austin,12,737,2382
+Univ Tokyo,12,44,290
+Washington State Univ,12,6,168
+Zool Res Museum Alexander Koenig,12,109,1545
+Arak Univ,11,19,166
+Aristotle Univ Thessaloniki,11,9,150
+China Agr Univ,11,26,190
+Consejo Nacl Invest Cient & Tecn CONICET,11,3,85
+ICAR Cent Arid Zone Res Inst,11,10,90
+Imperial Coll London,11,53,411
+Kasetsart Univ,11,22,164
+Kerala Agr Univ,11,10,150
+Mem Univ Newfoundland,11,10,283
+Minist Educ,11,0,289
+Natl Acad Sci Ukraine,11,51,389
+Princeton Univ,11,4301,17255
+Rutgers State Univ,11,18,303
+Sorbonne Univ,11,32,270
+Stellenbosch Univ,11,8,102
+Univ Acores,11,20,271
+Univ Algarve,11,2,142
+Univ Antioquia,11,1,330
+Univ Auckland,11,155,741
+Univ Colorado,11,17,321
+Univ Fed Bahia,11,21,248
+Univ Fed Rio Grande do Norte,11,78,553
+Univ Freiburg,11,3,297
+Univ Miami,11,49,399
+Univ Montana,11,55,893
+Univ Roma La Sapienza,11,60,498
+Univ Turin,11,5,275
+Virginia Tech,11,34,392
+Yangzhou Univ,11,48,293
+Acad Sci & Innovat Res AcSIR,10,0,57
+Cent Michigan Univ,10,13,84
+Clark Univ,10,41,263
+CNRS,10,16,330
+Curtin Univ,10,12,169
+Deakin Univ,10,27,223
+Duke Univ,10,329,1736
+Hokkaido Univ,10,3,176
+Inst Nacl Salud Publ,10,3,158
+IPB Univ,10,6,47
+Kangwon Natl Univ,10,2,160
+Lanzhou Univ,10,2,211
+Leibniz Inst Zoo & Wildlife Res,10,6,1298
+Manchester Metropolitan Univ,10,36,265
+Marine Conservat Inst,10,134,701
+Monash Univ,10,12,191
+Nat Biodivers Ctr,10,41,696
+Northwest Univ,10,0,89
+Poznan Univ Life Sci,10,85,1005
+Royal Bot Gardens,10,52,746
+Sichuan Univ,10,1,100
+Tokyo Univ Agr & Technol,10,22,186
+Univ Alabama,10,55,571
+Univ Amsterdam,10,12,535
+Univ Calgary,10,7,225
+Univ Connecticut,10,100,462
+Univ Costa Rica,10,195,758
+Univ Estadual Santa Cruz,10,7,148
+Univ Exeter,10,3,295
+Univ Fed Rio de Janeiro,10,9,189
+Univ Fed Sergipe,10,0,40
+Univ Girona,10,19,402
+Univ Liverpool,10,0,291
+Univ Otago,10,18,159
+Univ Pavia,10,8,187
+Univ Seville,10,1,325
+Univ Stellenbosch,10,63,685
+Univ Wisconsin Madison,10,15,138
+ARS,9,50,429
+Ashoka Trust Res Ecol & Environm,9,16,119
+Cankiri Karatekin Univ,9,1,31
+Charles Univ Prague,9,11,247
+CSIRO,9,38,321
+CUNY City Coll,9,4729,18064
+Florida Int Univ,9,101,1032
+Fujian Agr & Forestry Univ,9,26,190
+Helwan Univ,9,0,97
+Kastamonu Univ,9,1,84
+Minist Agr & Rural Affairs,9,0,115
+Missouri Bot Garden,9,257,996
+Museum Natl Hist Nat,9,120,492
+Natl Inst Environm Studies,9,20,168
+Natl Inst Water & Atmospher Res,9,45,359
+Natl Res & Innovat Agcy BRIN,9,1,16
+New Mexico State Univ,9,44,277
+New York Bot Garden,9,6,328
+Northeast Agr Univ,9,52,402
+Penn State Univ,9,26,291
+Purdue Univ,9,26,202
+Qinghai Normal Univ,9,1,167
+Sapienza Univ Rome,9,57,388
+Shenyang Agr Univ,9,0,151
+Sichuan Prov Rural Econ Informat Ctr,9,13,258
+Swiss Fed Res Inst WSL,9,130,794
+Tech Univ Dresden,9,6,108
+UNAM,9,25,176
+Univ Aberdeen,9,2,287
+Univ Alicante,9,26,270
+Univ Autonoma Barcelona,9,60,270
+Univ Autonoma Nuevo Leon,9,10,174
+Univ Azores,9,13,291
+Univ Bern,9,84,485
+Univ Calif Riverside,9,4,365
+Univ Fed Para,9,2,202
+Univ Fed Santa Catarina,9,2,96
+Univ Genoa,9,1,280
+Univ Gottingen,9,36,1229
+Univ Guadalajara,9,0,63
+Univ Laval,9,9,309
+Univ Libre Bruxelles,9,30,240
+Univ Lodz,9,4,135
+Univ Murcia,9,7,148
+Univ N Carolina,9,75,400
+Univ Natl Agr,9,2,116
+Univ Parakou,9,14,106
+Univ Pisa,9,6,118
+Univ Santo Tomas,9,6,87
+Univ Siena,9,2,184
+Univ Tsukuba,9,8,51
+Univ Tuscia,9,20,122
+Univ Vigo,9,19,274
+USDA Forest Serv,9,8,140
+Vietnam Acad Sci & Technol,9,7,128
+Vietnam Natl Univ Forestry,9,16,54
+Virginia Polytech Inst & State Univ,9,13,95
+Zhejiang Ocean Univ,9,0,62
+Agr Res Educ & Extens Org AREEO,8,12,77
+Aix Marseille Univ,8,7,385
+Arizona State Univ,8,11,381
+Brigham Young Univ,8,20,139
+Charles Sturt Univ,8,8,162
+CIRAD,8,6,272
+Clemson Univ,8,12,95
+Embrapa Roraima,8,5,57
+Fdn Edmund Mach,8,69,263
+Forestry & Forest Prod Res Inst,8,7,47
+Fundacao Oswaldo Cruz,8,2,237
+Gauhati Univ,8,14,51
+Guangdong Ocean Univ,8,0,87
+Hakim Sabzevari Univ,8,11,75
+Hebei Normal Univ,8,60,278
+ICFRE Himalayan Forest Res Inst,8,4,48
+Inst Marine Res,8,6,213
+Inst Nacl de Pesquisas da Amazonia,8,8,270
+Int Ctr Insect Physiol & Ecol,8,17,236
+Kansas State Univ,8,24,272
+Konkuk Univ,8,6,58
+Max Planck Inst Ornithol,8,33,352
+NASA,8,102,326
+Natl Inst Forest Sci,8,0,55
+Peregrine Fund,8,27,95
+Queens Univ Belfast,8,56,316
+Radboud Univ Nijmegen,8,102,485
+Shanxi Normal Univ,8,0,289
+Tanta Univ,8,4,38
+Tohoku Univ,8,2,114
+Trent Univ,8,0,55
+Univ Bergen,8,12,169
+Univ Buenos Aires,8,7,122
+Univ Cagliari,8,154,460
+Univ Calif Merced,8,220,808
+Univ Canberra,8,99,585
+Univ Cologne,8,9,74
+Univ Estadual Campinas,8,0,343
+Univ Fed Paraiba,8,3,162
+Univ Fed Vales Jequitinhonha & Mucuri,8,9,91
+Univ Felix Houphouet Boigny,8,1,50
+Univ Florence,8,9,257
+Univ Hawaii,8,9,135
+Univ Kebangsaan Malaysia,8,3,62
+Univ Kent,8,28,335
+Univ Lucknow,8,5,54
+Univ Michoacana,8,5,125
+Univ New Hampshire,8,78,374
+Univ Reading,8,13,320
+Univ Rhode Isl,8,27,256
+Univ Torino,8,9,125
+Univ Vermont,8,7,287
+Univ Vienna,8,3,30
+Univ Western Cape,8,14,147
+Univ Wurzburg,8,16,194
+Univ Wyoming,8,5,96
+Uppsala Univ,8,200,801
+Zool Forsch Museum Alexander Koenig,8,92,414
+Auburn Univ,7,5,109
+Australian Inst Marine Sci,7,28,348
+Biovers Int,7,7,138
+Bursa Tech Univ,7,11,72
+Carleton Univ,7,0,61
+CIBIO,7,2,76
+Columbia Univ,7,661,2091
+Conservat Int,7,25,380
+CSIR Natl Bot Res Inst,7,1,41
+CSIRO Ecosyst Sci,7,106,613
+Ctr Dis Control & Prevent,7,6,191
+Educ Univ Hong Kong,7,0,110
+Fiocruz MS,7,0,345
+Free Univ Berlin,7,21,201
+Gansu Agr Univ,7,0,53
+Goethe Univ,7,3,159
+Gorgan Univ Agr Sci & Nat Resources,7,10,204
+Hankyong Natl Univ,7,0,134
+IFREMER,7,12,203
+Ilia State Univ,7,1,82
+Indian Inst Technol,7,36,126
+Indian Space Res Org,7,4,82
+Inst Fed Goiano,7,5,110
+Inst Pesquisas Jardim Bot Rio De Janeiro,7,84,516
+Jodhpur Inst Engn & Technol,7,9,83
+Kookmin Univ,7,0,23
+Kyung Hee Univ,7,9,249
+Leiden Univ,7,1,247
+Masaryk Univ,7,4,113
+Minist Ecol & Environm,7,0,99
+Minist Environm,7,12,98
+Nelson Mandela Univ,7,8,108
+Newcastle Univ,7,21,133
+Norwegian Inst Nat Res,7,42,211
+Pilot Natl Lab Marine Sci & Technol Qingdao,7,0,296
+Qatar Univ,7,0,279
+Qingdao Agr Univ,7,3,56
+Qiongtai Normal Univ,7,0,78
+Recep Tayyip Erdogan Univ,7,4,44
+Res Inst Nat & Forest INBO,7,34,257
+Shandong Univ,7,10,201
+Sichuan Agr Univ,7,13,246
+Smithsonian Inst,7,11,288
+Sokoine Univ Agr,7,10,183
+South African Natl Biodivers Inst,7,8,49
+Southern Illinois Univ,7,11,125
+Stn Zool Anton Dohrn,7,5,171
+Taizhou Univ,7,21,148
+Tecnol Nacl Mexico,7,0,43
+Temple Univ,7,105,550
+Tianjin Normal Univ,7,9,157
+Uniformed Serv Univ Hlth Sci,7,18,205
+Univ Autonoma Madrid,7,1,51
+Univ Aveiro,7,2,82
+Univ Basel,7,94,665
+Univ Bonn,7,9,160
+Univ Catania,7,0,79
+Univ Cent Oklahoma,7,22,125
+Univ East Anglia,7,4,228
+Univ Estado Mato Grosso,7,11,247
+Univ Estadual Goias,7,13,112
+Univ Fed Santa Maria,7,2,106
+Univ Fed Vales Jequitinhonha & Mucuri UFVJM,7,4,60
+Univ Free State,7,0,48
+Univ Grenoble 1,7,276,4071
+Univ Joseph KI ZERBO,7,1,98
+Univ Juarez Estado Durango,7,2,96
+Univ Leipzig,7,1,263
+Univ Malaga,7,12,110
+Univ Nacl Patagonia San Juan Bosco,7,14,123
+Univ Nebraska,7,9,135
+Univ Newcastle,7,4,191
+Univ Notre Dame,7,45,390
+Univ Oklahoma,7,22,293
+Univ Politecn Madrid,7,19,318
+Univ Rey Juan Carlos,7,32,350
+Univ Stirling,7,13,181
+Univ Sunshine Coast,7,6,126
+Univ Sydney,7,64,245
+Univ Turku,7,15,91
+Univ Venda,7,3,329
+Univ Victoria,7,6,95
+Univ Virginia,7,17,144
+Univ Zabol,7,37,167
+Univ Zagreb,7,3,64
+USDA,7,1,152
+Wuhan Univ,7,1,255
+Xinjiang Agr Univ,7,5,58
+Zhejiang Univ,7,2,155
+Alexandru Ioan Cuza Univ,6,12,109
+Aligarh Muslim Univ,6,6,208
+Arthur Rylah Inst Environm Res,6,220,755
+Beni Suef Univ,6,0,79
+Bindura Univ Sci Educ,6,3,66
+Cent South Univ Forestry & Technol,6,0,113
+Chinese Res Inst Environm Sci,6,0,186
+Concordia Univ,6,7,138
+CREAF,6,48,237
+CSIC UCLM JCCM,6,10,266
+Ctr Tecnol Forestal Catalunya,6,24,426
+Dalian Ocean Univ,6,0,21
+Damghan Univ,6,1,5
+Daugavpils Univ,6,0,40
+Ege Univ,6,0,17
+Environm & Climate Change Canada,6,4,62
+Field Museum Nat Hist,6,376,1280
+Finnish Environm Inst,6,234,1398
+Forest Res Inst,6,36,212
+Fujian Prov Key Lab Marine Ecol Conservat & Resto,6,1,376
+Guangxi Univ,6,0,114
+Indian Inst Sci,6,3,98
+Indian Stat Inst,6,6,78
+INRA,6,22,260
+Inst Ecol,6,48,559
+Iowa State Univ,6,1,129
+Kyungpook Natl Univ,6,0,52
+La Trobe Univ,6,1,221
+Lebanese Univ,6,6,94
+Leibniz Inst Evolut & Biodivers Sci,6,4,110
+Lincoln Univ,6,2,205
+Malayer Univ,6,8,75
+Mekelle Univ,6,14,117
+Miami Univ,6,19,70
+Minist Hlth,6,0,58
+Mohammed V Univ Rabat,6,5,115
+Nankai Univ,6,12,242
+Natl Biodivers Future Ctr NBFC,6,0,126
+Natl Res & Innovat Agcy,6,3,34
+Oxford Brookes Univ,6,74,230
+Razi Univ,6,14,61
+Royal Belgian Inst Nat Sci,6,13,212
+Sakarya Univ,6,0,44
+Senckenberg Res Inst,6,16,124
+Shahjalal Univ Sci & Technol,6,73,221
+Shahrekord Univ,6,14,163
+Southwest Univ,6,4,70
+St Louis Univ,6,46,307
+Suez Canal Univ,6,24,138
+Swiss Fed Inst Forest Snow & Landscape Res WSL,6,5,96
+Swiss Ornithol Inst,6,0,101
+Tech Univ Berlin,6,23,141
+Tech Univ Carolo Wilhelmina Braunschweig,6,32,273
+Tel Aviv Univ,6,7,78
+UCL,6,0,72
+United Arab Emirates Univ,6,0,68
+Univ Andres Bello,6,89,323
+Univ Antananarivo,6,2,64
+Univ Antwerp,6,8,193
+Univ Aquila,6,23,181
+Univ Arkansas,6,21,96
+Univ Autonoma Estado Morelos,6,0,48
+Univ Bari,6,16,252
+Univ Bari Aldo Moro,6,2,31
+Univ Delhi,6,12,136
+Univ Extremadura,6,51,161
+Univ Fed Pelotas,6,5,59
+Univ Glasgow,6,9,150
+Univ Greifswald,6,0,78
+Univ Ljubljana,6,6,75
+Univ Los Andes,6,8,251
+Univ Nacl Comahue,6,18,125
+Univ Nat Resources & Life Sci,6,22,203
+Univ Nat Resources & Life Sci BOKU,6,12,102
+Univ New Mexico,6,2,50
+Univ New S Wales,6,157,709
+Univ Okara,6,0,75
+Univ Palermo,6,3,180
+Univ Potsdam,6,15,1428
+Univ Sassari,6,0,76
+Univ Southampton,6,16,174
+Univ Sussex,6,14,131
+Univ Tabuk,6,0,427
+Univ Texas El Paso,6,6,274
+Univ Texas Tyler,6,9,56
+Univ Trieste,6,4,88
+Univ Tubingen,6,18,492
+Victoria Univ Wellington,6,5,72
+Vietnam Natl Univ,6,2,34
+Yangtze Univ,6,2,43
+Zool Survey India,6,0,26
+Agr Univ Athens,5,13,78
+Akdeniz Univ,5,3,30
+Anhui Univ,5,0,26
+AT&T Labs Res,5,6650,24615
+Aydin Adnan Menderes Univ,5,0,18
+Bur Land Management,5,13,73
+Cadi Ayyad Univ,5,11,75
+Calif Polytech State Univ San Luis Obispo,5,0,189
+Cardiff Univ,5,9,101
+Carl von Ossietzky Univ Oldenburg,5,6,163
+Catholic Univ Avila,5,0,17
+Catholic Univ Louvain,5,9,175
+Cent China Normal Univ,5,14,131
+Charles Darwin Univ,5,2,179
+Colegio Frontera Sur,5,0,27
+Ctr Ecol & Hydrol,5,66,364
+Ctr Environm Fisheries & Aquaculture Sci,5,11,142
+Czech Univ Life Sci,5,4,71
+East China Normal Univ,5,0,120
+El Colegio Frontera Sur,5,6,99
+Ewha Womans Univ,5,1,38
+Forest Res & Management Org,5,5,57
+GB Pant Natl Inst Himalayan Environm,5,8,36
+Guangxi Acad Sci,5,1,59
+Guizhou Educ Univ,5,0,44
+Guizhou Normal Univ,5,2,40
+Gyeongsang Natl Univ,5,0,45
+Helmholtz Ctr Polar & Marine Res,5,2,111
+Idaho Dept Fish & Game,5,1,53
+Indian Inst Technol Kharagpur,5,12,130
+Inst Nacl Pesquisas Espaciais,5,16,254
+Iranian Res Inst Plant Protect,5,4,88
+Ist Zooprofilatt Sperimentale Venezie,5,7,110
+Istanbul Univ,5,0,23
+Jagiellonian Univ,5,18,180
+Khon Kaen Univ,5,16,113
+King Khalid Univ,5,0,24
+Kwara State Univ,5,8,73
+Kyushu Univ,5,26,146
+Leibniz Inst Freshwater Ecol & Inland Fisheries,5,15,165
+London Sch Hyg & Trop Med,5,2,120
+McGill Univ,5,149,2907
+Midlands State Univ,5,7,149
+Minist Agr,5,3,105
+Minist Environm & Forestry,5,0,33
+Montana State Univ,5,0,36
+Museo Sci,5,36,231
+N Carolina State Univ,5,112,571
+Nanjing Forest Police Coll,5,0,80
+Nanjing Univ,5,0,39
+Nat Resources Canada,5,16,227
+Natl Audubon Soc,5,10,130
+Natl Bot Res Inst,5,4,42
+Natl Forestry & Grassland Adm,5,0,87
+Natl Museums Kenya,5,7,85
+NatureServe,5,712,2286
+New Mexico Dept Game & Fish,5,1,49
+North Eastern Hill Univ,5,3,59
+Northwest Minzu Univ,5,0,70
+Norwegian Univ Life Sci,5,44,265
+Plymouth Marine Lab,5,75,371
+Plymouth Univ,5,4,61
+PMAS Arid Agr Univ,5,0,38
+Qingdao Marine Sci & Technol Ctr,5,0,15
+RAS,5,3,62
+Royal Bot Garden Edinburgh,5,1,345
+Royal Soc Protect Birds,5,65,321
+Rubber Res Inst India,5,20,68
+Sari Agr Sci & Nat Resources Univ,5,5,24
+Shanghai Jiao Tong Univ,5,0,54
+Stockholm Univ,5,38,155
+SUNY Coll Environm Sci & Forestry,5,1,38
+Texas A&M Univ Kingsville,5,2,58
+Texas State Univ,5,6,217
+Tsinghua Univ,5,9,54
+Univ Angers,5,120,1469
+Univ Austral Chile,5,3,49
+Univ Autonoma Baja California Sur,5,1,53
+Univ Autonoma Campeche,5,0,8
+Univ Autonoma Chapingo,5,0,68
+Univ Autonoma San Luis Potosi,5,1,65
+Univ Autonoma Yucatan,5,0,43
+Univ Belgrade,5,3,111
+Univ Bourgogne Franche Comte,5,3,70
+Univ Calcutta,5,1,80
+Univ Cantabria,5,6,93
+Univ Canterbury,5,11,214
+Univ Cincinnati,5,14,129
+Univ E Anglia,5,18,385
+Univ Eastern Finland,5,6,43
+Univ Environm & Sustainable Dev,5,4,13
+Univ Estadual Paulista,5,4,240
+Univ Fed Mato Grosso,5,0,58
+Univ Fed Pelotas UFPEL,5,0,9
+Univ Gadjah Mada,5,1,18
+Univ Gdansk,5,6,39
+Univ Ghana,5,0,32
+Univ Hawaii Manoa,5,12,140
+Univ Hohenheim,5,13,152
+Univ Jendouba,5,7,51
+Univ Kashmir,5,5,63
+Univ Kentucky,5,22,112
+Univ Konstanz,5,0,113
+Univ Lethbridge,5,3,55
+Univ Liege,5,7,72
+Univ Magallanes,5,5,37
+Univ Malaya,5,28,199
+Univ Manchester,5,0,76
+Univ Manitoba,5,8,168
+Univ Marburg,5,7,186
+Univ Michigan,5,0,216
+Univ Munster,5,0,87
+Univ Nacl Jujuy,5,6,69
+Univ Nacl Mar Del Plata,5,5,49
+Univ Nacl Misiones,5,7,244
+Univ Nacl Salta,5,9,111
+Univ Nairobi,5,0,54
+Univ Napoli Federico II,5,39,315
+Univ Nova Lisboa,5,3,103
+Univ Oulu,5,309,1576
+Univ Punjab,5,0,90
+Univ Quindio,5,0,56
+Univ Roma Tor Vergata,5,3,96
+Univ Rostock,5,8,151
+Univ Sheffield,5,3,127
+Univ Sierra Juarez,5,0,65
+Univ St Andrews,5,2,350
+Univ Tartu,5,0,49
+Univ Technol Sydney,5,6,109
+Univ Tecn Estatal Quevedo,5,0,8
+Univ Texas Rio Grande Valley,5,1,82
+Univ Tours,5,14,590
+Univ Tras os Montes & Alto Douro,5,3,48
+Univ Utah,5,0,178
+Univ Valladolid,5,2,136
+Univ Vet Med Vienna,5,9,63
+Univ Wollongong,5,9,45
+Western Sydney Univ,5,22,118
+Woldia Univ,5,0,56
+Woods Hole Oceanog Inst,5,7,240
+Xiamen Univ,5,2,182
+Zhejiang Acad Forestry,5,0,195
+Adnan Menderes Univ,4,0,35
+AG Zool Garten Koln,4,6,30
+Agr Res Educ & Extens Org,4,0,33
+Al Azhar Univ,4,0,31
+Alma Mater Studiorum Univ Bologna,4,0,12
+Amity Univ,4,2,12
+Anhui Normal Univ,4,1,19
+Ankara Univ,4,0,34
+Anqing Normal Univ,4,0,7
+AREEO,4,9,141
+Assoc Vahatra,4,370,1232
+Bavarian Forest Natl Pk,4,1,44
+Behbahan Khatam Alanbia Univ Technol,4,3,21
+Benemerita Univ Autonoma Puebla,4,0,129
+Berlin Brandenburg Inst Adv Biodivers Res BBIB,4,21,170
+British Antarctic Survey,4,17,189
+Canadian Museum Nat,4,3,70
+Canakkale Onsekiz Mart Univ,4,4,15
+Capital Normal Univ,4,8,45
+Cent Marine Fisheries Res Inst,4,2,12
+Cent Queensland Univ,4,8,251
+Chengdu Univ Tradit Chinese Med,4,0,300
+China Univ Geosci,4,0,99
+Chongqing Univ,4,0,287
+Chungbuk Natl Univ,4,1,37
+CoNISMa,4,7,120
+CSIRO Environm,4,12,60
+Cukurova Univ,4,1,12
+Dagestan State Univ,4,0,41
+Dept Biodivers Conservat & Attract,4,0,52
+East Tennessee State Univ,4,1,22
+Eastern Connecticut State Univ,4,7,74
+Eawag Swiss Fed Inst Aquat Sci & Technol,4,5,68
+Edith Cowan Univ,4,21,105
+Ehime Univ,4,0,34
+Embrapa Recursos Genet & Biotecnol,4,5,62
+Endangered Wildlife Trust,4,7,78
+Fdn Lombardia Ambiente,4,26,155
+Fed Univ Para,4,24,310
+Fergana State Univ,4,0,8
+Florida Atlantic Univ,4,3,17
+Florida Fish & Wildlife Conservat Commiss,4,1,27
+Florida State Univ,4,45,198
+Fraunhofer Inst Mol Biol & Appl Ecol,4,0,25
+Fudan Univ,4,0,54
+Georgia Inst Technol,4,0,120
+Global Change Res Inst AS CR,4,4,61
+Guangdong Acad Sci,4,1,40
+Guangxi Normal Univ,4,1,108
+Guangzhou Univ,4,26,168
+Guizhou Univ Tradit Chinese Med,4,0,46
+Hawassa Univ,4,0,37
+Henan Univ,4,0,99
+Hierofalcon Res Grp,4,14,45
+Hiroshima Univ,4,0,28
+ICAR Cent Inst Subtrop Hort,4,4,33
+INPA,4,13,304
+INRIA,4,0,106
+Inst Biodivers Conservat & Training,4,6,33
+Inst Invest Recursos Biol Alexander von Humboldt,4,0,53
+Inst Rech Dev,4,21,197
+Int Ctr Trop Agr CIAT,4,5,27
+ISRO,4,99,289
+Ist Super Protez & Ric Ambientale ISPRA,4,0,39
+Istanbul Tech Univ,4,0,22
+Jazan Univ,4,2,66
+Jiangxi Normal Univ,4,1,44
+Kafrelsheikh Univ,4,0,16
+King Mongkuts Univ Technol Thonburi,4,2,37
+Kings Coll London,4,0,44
+Kochi Univ,4,1,21
+Kongju Natl Univ,4,0,42
+KORA,4,7,1190
+Kumaun Univ,4,11,48
+Kuwait Univ,4,0,31
+Landcare Res,4,5,142
+Leibniz Inst Anal Biodivers Change,4,0,14
+Leibniz Inst Primate Res,4,6,53
+Lomonosov Moscow State Univ,4,6,29
+Lund Univ,4,1,127
+Martin Luther Univ Halle Wittenberg,4,4,114
+Massey Univ,4,31,155
+Mendel Univ Brno,4,0,60
+Minist Forests & Environm,4,0,102
+Minist Publ Hlth,4,10,65
+Minnesota Dept Nat Resources,4,4,35
+Museo Nacl Ciencias Nat CSIC,4,28,275
+Nanchang Univ,4,0,5
+Nanjing Agr Univ,4,0,37
+Nat Resources Inst Finland,4,4,69
+Natl & Kapodistrian Univ Athens,4,1,193
+Natl Biodivers Future Ctr,4,1,8
+Natl Chung Hsing Univ,4,1,15
+Natl Inst Agr Sci,4,13,44
+Natl Res Council Italy,4,0,63
+Natl Taiwan Ocean Univ,4,1,11
+Natl Taiwan Univ,4,4,51
+Nicolaus Copernicus Univ Torun,4,28,228
+Ningbo Univ,4,0,6
+Northeastern Univ,4,0,16
+NSW Dept Primary Ind,4,11,65
+Palacky Univ Olomouc,4,6,58
+Philipps Univ Marburg,4,4,40
+Pontificia Univ Catolica Rio Grande do Sul,4,3,97
+Pukyong Natl Univ,4,0,10
+San Francisco State Univ,4,6,117
+Sao Paulo State Univ,4,0,30
+Senckenberg Biodivers & Climate Res Ctr BiK F,4,3,124
+Senckenberg Deutsch Entomol Inst,4,3,32
+Simon Fraser Univ,4,5,81
+Slovak Acad Sci,4,15,115
+Smithsonian Conservat Biol Inst,4,3,246
+South China Normal Univ,4,0,79
+Southern Univ Sci & Technol,4,0,109
+St Marys Univ,4,0,13
+State Museum Nat Hist,4,0,56
+Sulaimani Polytech Univ,4,5,436
+Swedish Univ Agr Sci SLU,4,16,128
+Technion Israel Inst Technol,4,18,89
+Tezpur Univ,4,0,15
+Thapar Inst Engn & Technol,4,1,7
+Umea Univ,4,14,116
+UNC,4,6,54
+UNESP,4,35,241
+Univ Alcala,4,8,93
+Univ Andes,4,0,208
+Univ Autonoma Agr Antonio Narro,4,0,45
+Univ Autonoma Estado Hidalgo,4,0,84
+Univ Autonoma Metropolitana,4,40,107
+Univ Autonoma Metropolitana Iztapalapa,4,3,88
+Univ Autonoma Sinaloa,4,0,53
+Univ Azad Jammu & Kashmir,4,2,146
+Univ Basque Country,4,14,77
+Univ Bremen,4,6,87
+Univ Cadiz,4,0,34
+Univ Carthage,4,0,62
+Univ Chittagong,4,17,91
+Univ Crete,4,6,91
+Univ Dschang,4,2,36
+Univ Duisburg Essen,4,4,71
+Univ Fed Acre,4,2,175
+Univ Fed Espirito Santo,4,2,50
+Univ Fed Lavras,4,2,223
+Univ Fed Rural Pernambuco,4,0,53
+Univ Geneva,4,767,2487
+Univ Haripur,4,2,36
+Univ Indonesia,4,0,20
+Univ Insubria,4,1,139
+Univ Jaen,4,8,71
+Univ Kassel,4,0,91
+Univ Koblenz Landau,4,5,110
+Univ La Laguna,4,0,26
+Univ Lagos,4,8,29
+Univ Lleida,4,4,52
+Univ Lorraine,4,10,104
+Univ Malakand,4,1,188
+Univ Miguel Hernandez,4,7,43
+Univ Nacl Nordeste,4,0,63
+Univ Nacl San Antonio Abad Cusco,4,0,220
+Univ Namur,4,11,131
+Univ New South Wales,4,5,77
+Univ North Carolina,4,25,129
+Univ Oriente,4,1,23
+Univ Padua,4,7,59
+Univ Parma,4,14,229
+Univ Paul Valery Montpellier,4,36,189
+Univ Puerto Rico,4,0,2
+Univ Regensburg,4,23,200
+Univ S Florida,4,0,51
+Univ San Carlos,4,1,63
+Univ San Francisco Quito,4,0,190
+Univ Santiago de Compostela,4,0,23
+Univ Saskatchewan,4,0,13
+Univ Savoie Mt Blanc,4,2,47
+Univ South Bohemia,4,1,45
+Univ South Dakota,4,2,29
+Univ Strasbourg,4,0,19
+Univ Teknol Malaysia,4,0,103
+Univ Toronto Scarborough,4,4,166
+Univ Toulouse,4,0,69
+Univ Valencia,4,0,71
+Univ Warsaw,4,0,41
+Univ York,4,12,127
+Unknown,4,3,41
+Walter Reed Army Inst Res,4,11,225
+Washington Dept Fish & Wildlife,4,17,79
+West Virginia Univ,4,0,19
+Western Australian Dept Environm & Conservat,4,1831,5813
+World Agroforestry Ctr,4,75,288
+Wroclaw Univ Environm & Life Sci,4,0,46
+WWF Malaysia,4,27,183
+Xinzhou Teachers Univ,4,0,89
+Zhejiang A&F Univ,4,0,178
+Zhejiang Marine Fisheries Res Inst,4,0,15
+Aalborg Univ,3,12,126
+Aalto Univ,3,2,39
+Abo Akad Univ,3,8,115
+Acad Plateau Sci & Sustainabil,3,1,44
+Africa Rice Ctr AfricaRice,3,0,134
+Agr & Agrifood Canada,3,0,8
+Agr & Forestry Univ,3,0,67
+Agr Res Council,3,15,134
+ARC Plant Protect Res Inst,3,7,132
+Assam Univ,3,6,31
+ATREE,3,29,205
+Australian Museum,3,13,138
+Bahauddin Zakariya Univ,3,0,1
+Banaras Hindu Univ,3,0,24
+Bar Ilan Univ,3,0,6
+Bedford Inst Oceanog,3,4,42
+Ben Gurion Univ Negev,3,8,37
+Boise State Univ,3,7,57
+Bristol Zool Soc,3,1,27
+Bulgarian Soc Protect Birds BirdLife Bulgaria,3,3,30
+Cairo Univ,3,0,29
+Calif Dept Publ Hlth,3,3,57
+Calif State Polytech Univ Pomona,3,0,57
+CALTECH,3,68,268
+Canadian Wildlife Serv,3,0,15
+Carnegie Inst Sci,3,5,79
+Carnegie Mellon Univ,3,29,215
+Cele Natl Stn Observat & Res Desert Grassland Ecos,3,0,32
+Cent Univ Jharkhand,3,4,60
+Chengdu Univ Technol,3,0,19
+Chiang Mai Univ,3,0,30
+China Jiliang Univ,3,0,42
+Chinese Acad Med Sci,3,0,63
+Chinhoyi Univ Technol,3,1,10
+Chongqing Normal Univ,3,0,8
+Christian Albrechts Univ Kiel,3,6,39
+Chulalongkorn Univ,3,2,9
+CoLAB ForestWISE Collaborat Lab Integrated Forest,3,1,12
+Cologne Zoo,3,2,38
+Colorado Pk & Wildlife,3,0,24
+Consorzio Nazl Interuniv Sci Mare,3,0,7
+Copenhagen Zoo,3,27,204
+Corbett Fdn,3,0,134
+CSIRO Ecosyst Sci & Climate Adaptat Flagship,3,104,856
+CSIRO Marine & Atmospher Res,3,66,761
+Ctr Cooperat Int Rech Agron Dev,3,18,122
+Ctr Invest Biol Noroeste,3,0,30
+Damanhour Univ,3,0,83
+Dedan Kimathi Univ Technol,3,0,15
+Dept Conservat,3,8,59
+Dept Natl Pk Wildlife & Plant Conservat,3,6,60
+Dr Hari Singh Gour Vishwavidyalaya,3,2,49
+East Fdn,3,0,35
+Eco Bridge Continental,3,0,10
+Egyptian Environm Affairs Agcy,3,24,94
+Embrapa Clima Temperado,3,0,5
+ETH,3,9,152
+Ethiopian Forest Dev,3,0,11
+Ethiopian Space Sci & Technol Inst ESSTI,3,0,116
+Fairchild Trop Bot Garden,3,24,237
+Fdn Bariloche,3,0,4
+Fisheries Res Inst,3,1,6
+Florida Museum Nat Hist,3,4,36
+Food & Agr Org United Nations,3,2,28
+Fujian Acad Agr Sci,3,0,48
+Fuzhou Univ,3,0,21
+Gen Dept Nat Resources & Watershed Management Ilam,3,0,59
+GEOMAR Helmholtz Ctr Ocean Res Kiel,3,1,37
+Georg August Univ Gottingen,3,0,21
+Georgetown Univ,3,9,143
+Georgia Southern Univ,3,0,12
+German Aerosp Ctr DLR,3,16,168
+Golestan Univ,3,3,11
+Golestan Univ Med Sci,3,1,14
+Gombe State Univ,3,0,33
+Govt Arts Coll,3,6,20
+Grad Univ Adv Technol,3,1,14
+Guangdong Acad Forestry,3,0,18
+Guangxi Minzu Normal Univ,3,0,22
+Hainan Univ,3,0,38
+Hebei Dahaituo Natl Nat Reserve Management Ctr,3,1,21
+Heilongjiang Univ,3,11,77
+Helmholtz Ctr Environm Res,3,0,13
+Helmholtz Ctr Environm Res UFZ Leipzig,3,2,11
+Himalayan Forest Res Inst,3,9,28
+Hohai Univ,3,16,91
+Huazhong Agr Univ,3,3,37
+Hubei Minzu Univ,3,0,9
+ICAR Cent Inst Cotton Res,3,13,48
+ICAR Natl Bur Plant Genet Resources,3,4,18
+ICFRE Forest Res Inst,3,0,17
+Ilam Univ,3,0,59
+Illinois Dept Nat Resources,3,7,40
+Illinois Nat Hist Survey,3,0,39
+Incheon Natl Univ,3,0,41
+Indian Council Forestry Res & Educ,3,7,27
+Indian Inst Forest Management,3,4,12
+Indiana Univ,3,5,32
+Inner Mongolia Univ,3,0,18
+INRAE,3,1,62
+Inst Ecol AC INECOL,3,0,18
+Inst Espanol Oceanog,3,0,112
+Inst Fed Ciencia & Tecnol Triangulo Mineiro,3,4,17
+Inst Forest Genet & Tree Breeding,3,0,67
+Inst Invest Biol Clemente Estable,3,6,82
+Inst Nacl Invest Forestales Agr & Pecuarias,3,0,20
+Inst Nacl Salud,3,8,126
+Inst Politecn Castelo Branco,3,0,48
+Inst Senegalais Rech Agr,3,18,139
+Inst Space Technol,3,17,137
+Inst Trop Med,3,0,61
+Inst Venezolano Invest Cient,3,1,87
+Inst Zool,3,0,15
+Int Ctr Integrated Mt Dev,3,22,79
+Int Livestock Res Inst ILRI,3,0,18
+Int Potato Ctr CIP,3,1,9
+Interamer Trop Tuna Commiss,3,4,63
+IRD,3,26,158
+Islamia Univ Bahawalpur,3,4,16
+Ist Super Sanita,3,0,42
+Izmir Katip Celebi Univ,3,9,75
+Jawaharlal Nehru Univ,3,19,163
+Jiangsu Acad Forestry,3,0,8
+Jiangsu Ctr Collaborat Innovat Geog Informat Reso,3,11,238
+Jiangsu Marine Fisheries Res Inst,3,0,45
+Jinggangshan Univ,3,0,20
+Joint Lab Monitoring & Conservat Aquat Living Reso,3,0,10
+Jomo Kenyatta Univ Agr & Technol,3,5,25
+Jonian Dolphin Conservat,3,7,49
+Justus Liebig Univ Giessen,3,0,17
+Karadeniz Tech Univ,3,0,6
+Karlsruhe Inst Technol,3,8,52
+Kenyatta Univ,3,1,21
+Kharazmi Univ,3,1,30
+Kirstenbosch Res Ctr,3,42,223
+Klaipeda Univ,3,6,67
+Klamath Ctr Conservat Res,3,37,263
+KN Toosi Univ Technol,3,0,13
+Korea Forestry Promot Inst,3,0,53
+Kwame Nkrumah Univ Sci & Technol,3,1,34
+La Sierra Univ,3,4,30
+Leibniz Assoc,3,7,97
+Leibniz Ctr Agr Landscape Res ZALF,3,20,166
+Lorestan Univ,3,0,125
+Loyola Univ Chicago,3,1,3
+Mahidol Univ,3,0,10
+Makerere Univ,3,17,66
+Malawi Univ Sci & Technol,3,0,7
+Manipal Acad Higher Educ,3,1,12
+Manipal Univ,3,35,107
+Mansoura Univ,3,90,265
+Marshall Univ,3,2,39
+Mem Univ,3,4,23
+Mianyang Normal Univ,3,5,24
+Michigan Technol Univ,3,2,30
+Minist Forest & Environm,3,2,22
+Minist Forest Environm & Soil Conservat,3,0,35
+Minist Hlth & Med Educ,3,11,114
+Minist Water Resources,3,5,59
+Misool Fdn,3,4,60
+Missouri Dept Conservat,3,2,28
+Mohammed VI Polytech Univ,3,0,25
+Mt Allison Univ,3,1,73
+Mulawarman Univ,3,0,1046
+Murray State Univ,3,0,26
+Museo Argentino Ciencias Nat Bernardino Rivadavia,3,2,31
+Museo Nacl Hist Nat,3,69,227
+Museu Paraense Emilio Goeldi,3,0,172
+Museum Koenig Bonn,3,1,14
+Nanjing Med Univ,3,0,29
+Nat Hist Museum Vienna,3,2,48
+Nat Res Ctr,3,5,120
+Natl Chiayi Univ,3,0,5
+Natl Ctr Wildlife,3,0,27
+Natl Inst Oceanog & Appl Geophys OGS,3,3,25
+Natl Inst Water & Atmospher Res NIWA,3,1,28
+Natl Marine Fisheries Serv,3,1,56
+Natl Museum Nat Hist,3,8,44
+Natl Museum Nat Sci,3,9,101
+Natl Ocean & Atmospher Adm,3,0,44
+Natl Oceanog Ctr,3,2,83
+Natl Res Council CNR,3,19,145
+Natl Taiwan Normal Univ,3,7,94
+Natl Trust Nat Conservat,3,0,56
+Natl Univ Sci & Technol,3,24,72
+Naturalis Biodivers Ctr,3,5,42
+Naval Med Res Ctr,3,6,58
+Netherlands Inst Ecol NIOO KNAW,3,7,64
+New Zealand Inst Plant & Food Res Ltd,3,0,37
+Nicolaus Copernicus Univ,3,0,35
+Ningxia Univ,3,0,25
+North Carolina Museum Nat Sci,3,7,69
+North China Elect Power Univ,3,120,333
+North West Univ,3,1,60
+Northwestern Polytech Univ,3,0,11
+Norwegian Univ Sci & Technol,3,0,46
+Nova Southeastern Univ,3,4,87
+Ohio Univ,3,12,118
+Okinawa Inst Sci & Technol Grad Univ,3,210,770
+Oregon Dept Fish & Wildlife,3,3,31
+Osun State Univ,3,0,32
+Pakistan Museum Nat Hist,3,8,74
+Pilot Natl Lab Marine Sci & Technol,3,0,54
+Pir Mehr Ali Shah Arid Agr Univ Rawalpindi,3,0,158
+Point Blue Conservat Sci,3,0,91
+Pokhara Zool Pk & Wildlife Rescue Ctr,3,0,38
+Pondicherry Univ,3,80,225
+Publ Hlth Agcy Canada,3,11,116
+Qingdao Natl Lab Marine Sci & Technol,3,1,18
+Quaid I Azam Univ,3,0,190
+Queensland Univ Technol,3,11,114
+Real Jardin Bot RJB CSIC,3,3,108
+Resources Himalaya Fdn,3,0,20
+RMIT Univ,3,15,136
+Royal Netherlands Inst Sea Res,3,0,38
+Royal Ontario Museum,3,9,83
+Royal Zool Soc Antwerp RZSA,3,1,15
+S African Natl Biodivers Inst,3,25,162
+Salim Ali Ctr Ornithol & Nat Hist,3,0,7
+San Diego State Univ,3,2,141
+Sapienza Univ Roma,3,18,76
+Senckenberg Biodivers & Climate Res Ctr,3,79,412
+Senckenberg Dresden,3,6,46
+Serv Nacl Areas Nat Protegidas Estado SERNANP,3,0,19
+Shahid Bahonar Univ Kerman,3,6,22
+Shahid Sadoughi Univ Med Sci,3,1,43
+Shandong Univ Sci & Technol,3,0,45
+Shanxi Univ,3,4,100
+Shenyang Normal Univ,3,0,16
+Sichuan Meteorol Observ,3,0,190
+Sikkim Reg Ctr,3,3,57
+Small Mammals Conservat & Res Fdn,3,0,79
+Smithsonian Environm Res Ctr,3,38,153
+Smithsonian Trop Res Inst,3,20,107
+Soc Preservat Herpetol Divers,3,4,74
+Sofia Univ St Kliment Ohridski,3,0,48
+South African Inst Aquat Biodivers,3,2,74
+South Australian Museum,3,9,23
+South Australian Res & Dev Inst,3,13,190
+Southwest Minzu Univ,3,0,29
+State Key Lab Cultivat Base Geog Environm Evolut,3,11,238
+Stephen F Austin State Univ,3,0,10
+Sunway Univ,3,0,30
+SUNY Buffalo,3,18,52
+SUNY Syracuse,3,21,139
+Taita Taveta Univ,3,7,54
+Taiwan Forestry Res Inst,3,1,21
+Tech Univ Denmark,3,2,118
+Tennessee State Univ,3,1,38
+Texas Parks & Wildlife Dept,3,2,13
+Tianshui Normal Univ,3,0,43
+Tokyo Inst Technol,3,3,27
+Tokyo Metropolitan Univ,3,0,105
+Tokyo Univ Agr,3,4,17
+Tongji Univ,3,0,24
+Trier Univ,3,2,32
+Tripura Univ,3,1,17
+UiT Arctic Univ Norway,3,1,31
+Univ Aegean,3,4,48
+Univ Agr Sci,3,30,79
+Univ Almeria,3,0,65
+Univ Antilles,3,2,23
+Univ Autonoma Chiapas,3,0,11
+Univ Bath,3,2,57
+Univ Birmingham,3,1,60
+Univ Bologna,3,3,70
+Univ Bordeaux,3,0,13
+Univ Brunei Darussalam,3,0,110
+Univ Bucharest,3,3,85
+Univ Buffalo,3,10,123
+Univ Burdwan,3,0,27
+Univ Calabria,3,0,97
+Univ Caldas,3,1,27
+Univ Calif,3,1,45
+Univ Coll Cork,3,11,59
+Univ Concepcion,3,3,22
+Univ Dar es Salaam,3,0,11
+Univ Delaware,3,5,73
+Univ Durham,3,6,91
+Univ Estado Rio de Janeiro,3,0,110
+Univ Estadual Montes Claros,3,0,4
+Univ Estadual Paulista UNESP,3,59,148
+Univ Fed Amazonas,3,0,15
+Univ Fed Juiz de Fora,3,0,8
+Univ Fed Reconcavo Bahia,3,0,11
+Univ Fed Rio Grande,3,0,20
+Univ Fed Sao Carlos UFSCar,3,1,37
+Univ Fed Tocantins,3,0,8
+Univ Fed Uberlandia,3,0,14
+Univ Gothenburg,3,4,107
+Univ Guilan,3,6,24
+Univ Guyane,3,5,200
+Univ Hyderabad,3,0,155
+Univ Ibadan,3,10,56
+Univ Ilorin,3,0,33
+Univ Johannesburg,3,0,90
+Univ Khartoum,3,0,72
+Univ Kiel,3,0,24
+Univ Kurdistan,3,3,53
+Univ Las Palmas Gran Canaria,3,2,33
+Univ Malaysia Sabah,3,0,1170
+Univ Malaysia Sarawak,3,1,33
+Univ Malaysia Terengganu,3,0,79
+Univ Malta,3,3,63
+Univ Mayor,3,0,62
+Univ Metropolitana Ciencias Educ,3,5,36
+Univ Minho,3,0,41
+Univ Minnesota Twin Cities,3,21,223
+Univ Montpellier 2,3,5,50
+Univ Montpellier 3,3,16,128
+Univ Munich,3,7,91
+Univ Nacl,3,5,49
+Univ Nacl Agr La Molina,3,0,211
+Univ Nacl Colombia Sede Medellin,3,1,31
+Univ Nacl Mayor San Marcos,3,65,204
+Univ Nacl Moquegua,3,4,18
+Univ Nacl Sur,3,15,66
+Univ Nacl Toribio Rodriguez Mendoza Amazonas,3,4,45
+Univ Nacl Tucuman,3,13,60
+Univ New Brunswick,3,6,39
+Univ Nordland,3,52,310
+Univ North Texas,3,0,49
+Univ Ostrava,3,0,7
+Univ Pablo de Olavide,3,3,39
+Univ Paul Sabatier,3,16,230
+Univ Peradeniya,3,0,53
+Univ Philippines Los Banos,3,2,33
+Univ Poitiers,3,18,70
+Univ Pompeu Fabra,3,0,36
+Univ Putra Malaysia,3,0,111
+Univ Reg Amazon Ikiam,3,1,179
+Univ Ryukyus,3,1,30
+Univ S Carolina,3,28,165
+Univ Sains Malaysia,3,1,22
+Univ Salento,3,0,82
+Univ Seoul,3,139,447
+Univ Silesia,3,0,22
+Univ Silesia Katowice,3,0,18
+Univ Simon Bolivar,3,0,122
+Univ Southern Mississippi,3,0,12
+Univ Southern Queensland,3,32,233
+Univ Sulaimani,3,0,68
+Univ Swat,3,0,9
+Univ Szczecin,3,0,19
+Univ Tecn Norte,3,0,172
+Univ Texas Arlington,3,1,133
+Univ Thessaly,3,2,44
+Univ Tras Os Montes & Alto Douro UTAD,3,0,17
+Univ Ulm,3,30,189
+Univ Vet & Anim Sci,3,1,12
+Univ Wroclaw,3,0,11
+Univ Zaragoza,3,7,54
+USA,3,16,138
+Uttarakhand Space Applicat Ctr,3,19,88
+Virginia Commonwealth Univ,3,15,63
+Vrije Univ Brussel,3,2,94
+Wageningen UR,3,26,168
+Washington Univ,3,71,285
+Water Saving Agr Southern Hill Area Key Lab Sichu,3,0,190
+Wesleyan Univ,3,9,68
+Western Australian Museum,3,0,18
+Wisconsin Dept Nat Resources,3,0,30
+World Agroforestry Ctr ICRAF,3,0,54
+WWF India,3,0,51
+Xinjiang Univ Finance & Econ,3,0,75
+Yeungnam Univ,3,0,48
+Yunnan Acad Forestry & Grassland,3,0,28
+Zhejiang Normal Univ,3,0,47
+Zhejiang Prov Ctr Dis Control & Prevent,3,2,67
+Zhengzhou Univ,3,0,25
+Zhoukou Normal Univ,3,8,41
+1 Univ New Mexico,2,6,34
+Abdelmalek Essaadi Univ,2,0,18
+Aberystwyth Univ,2,9,56
+Adigrat Univ,2,0,1
+Adm Parques Nac,2,5,21
+Agr & Agri Food Canada,2,1,35
+Agr Res Ctr,2,0,4
+Agr Sci & Nat Resources Univ Khuzestan,2,3,53
+Agr Univ Krakow,2,2,38
+AgResearch,2,9,31
+Ahmadu Bello Univ,2,7,36
+Airlangga Univ,2,0,10
+Aksaray Univ,2,1,4
+Al Farabi Kazakh Natl Univ,2,0,12
+Alabama A&M Univ,2,0,14
+Alfred Wegener Inst,2,0,26
+Alianza Gato Andino,2,2,28
+Anastasia Mosquito Control Dist,2,9,64
+Anhui Tianma Natl Nat Reserve Adm,2,0,5
+Anhui Univ Chinese Med,2,0,12
+Anim & Plant Quarantine Agcy,2,10,24
+Anim Dis Prevent & Control Ctr Qinghai Prov,2,0,15
+Anna Univ,2,79,219
+ANSES,2,0,74
+AquaBiota Water Res,2,4,89
+Ardakan Univ,2,3,93
+Arizona Game & Fish Dept,2,0,19
+Arkansas Game & Fish Commiss,2,1,10
+ASEAN Ctr Biodivers,2,1,31
+Asociac Armonia BirdLife Int,2,65,274
+Assoc Kwata,2,0,34
+Assoc Sustainable & Smart Aquaculture,2,0,21
+Atlanta Bot Garden,2,0,35
+Australian Antarctic Div,2,0,38
+Australian Wildlife Conservancy,2,0,3
+Avia GIS,2,7,39
+Avia GIS NV,2,0,6
+AZTI Tecnalia,2,16,103
+Bahauddin Zakariya Univ Multan,2,6,77
+Bahir Dar Univ,2,1,10
+Balikesir Univ,2,0,19
+Bartin Univ,2,0,5
+Bat Conservat Trust,2,36,183
+Bavarian State Inst Forestry,2,9,50
+Beijing Inst Microbiol & Epidemiol,2,0,42
+Biodivers & Climate Res Ctr Bik F,2,1,48
+Biodivers Res & Conservat Soc,2,0,4
+Biol Ctr CAS,2,1,25
+Biota North Amer Program,2,7,67
+Birbal Sahni Inst Palaeosci,2,0,6
+Bird Conservat Nepal,2,0,6
+BirdLife Australia,2,12,42
+BirdLife Hungary,2,3,13
+BirdLife Int,2,0,131
+Bodoland Univ,2,0,1
+Bonn ZFMK,2,6,25
+Borneo Nat Fdn Int,2,0,5
+Bot Gardens Conservat Int,2,0,36
+Bot Survey India,2,5,28
+Botswana Univ Agr & Nat Resources,2,0,1
+Brazilian Inst Environm & Renewable Nat Resources,2,0,47
+British Trust Ornithol,2,0,1
+Brown Univ,2,3,141
+Burdur Mehmet Akif Ersoy Univ,2,0,14
+Ca Foscari Univ Venice,2,0,79
+CABI,2,0,6
+Calif Acad Sci,2,0,161
+Calif Dept Food & Agr,2,1,63
+Calif State Polytech Univ Humboldt,2,0,39
+Canadian Food Inspect Agcy,2,4,24
+Cape Peninsula Univ Technol,2,0,24
+Cary Inst Ecosyst Studies,2,1,12
+CAS,2,0,4
+Case Western Reserve Univ,2,11,40
+Cent Forest State Nat Biosphere Reserve,2,0,3
+Cent Inland Fisheries Res Inst,2,2,10
+Cent South Univ,2,1,6
+Cent Univ Kerala,2,0,3
+Cent Univ Punjab,2,0,7
+Cent Univ Rajasthan,2,2,12
+Cetacean Sirenian Indonesia CETASI,2,2,46
+CGIAR Res Program Climate Change Agr & Food Secur,2,5,193
+Chaharmahal & Bakhtiari Agr & Nat Resources Res &,2,8,23
+Changbai Mt Acad Sci,2,0,34
+Chengdu Res Base Giant Panda Breeding,2,3,55
+Chengdu Univ,2,0,7
+Cheongju Univ,2,0,2
+Chiba Univ,2,3,22
+China Geol Survey,2,0,3
+China Meteorol Adm,2,0,48
+Chinese Acad Agr Sci CAAS,2,0,50
+Chinese Acad Sci & Minist Water Resources,2,0,53
+Chongqing Technol & Business Univ,2,0,194
+Chonnam Natl Univ,2,0,2
+CIBIO InBio,2,5,52
+CINVESTAV Merida,2,0,12
+City Univ Hong Kong,2,0,16
+Clarkson Univ,2,4,36
+CMCC Fdn Euro Mediterranean Ctr Climate Change,2,0,6
+Cochin Univ Sci & Technol,2,2,6
+COFAA,2,0,124
+Colecc Boliviana Fauna,2,14,48
+Colgate Univ,2,1,18
+Coll Agr & Environm Sci,2,13,41
+Comis Nacl Conocimiento & Uso Biodiversidad Conab,2,0,15
+Commonwealth Sci & Ind Res Org,2,3,157
+COMSATS Univ,2,7,24
+COMSATS Univ Islamabad,2,7,24
+CONACYT Univ Autonoma Sinaloa,2,0,7
+Consejo Nacl Ciencia & Technol,2,0,28
+Consejo Nacl Invest Cient & tecnol CONICET,2,0,5
+Conservac Biodiversidad Usumacinta AC,2,5,64
+Conservac Biol & Desarrollo Social AC,2,5,48
+Conservat Biol Inst,2,8,209
+Cooperat Res Ctr Natl Plant Biosecur,2,102,807
+Council Sci & Ind Res CSIR,2,4,37
+CSIR Inst Himalayan Bioresource Technol,2,8,36
+CSIRO Climate Adaptat Flagship & Ecosyst Sci,2,23,76
+CSIRO Land & Water,2,44,166
+CSIRO Livestock Ind,2,102,807
+CSIROs Wealth Oceans Flagship,2,13,125
+CSS,2,2,48
+CSS Inc,2,9,48
+Ctr Atom Bariloche,2,0,2
+Ctr Cambio Global & Sustentabilidad AC,2,0,830
+Ctr Cambio Global & Sustentabilidad Sureste AC,2,0,430
+Ctr Cooperat Int Rech Agron Dev CIRAD,2,6,30
+Ctr Environm Fisheries & Aquaculture Sci Cefas,2,14,124
+Ctr Excellence Biodivers & Mol Plant Breeding,2,0,8
+Ctr Invest & Estudios Avanzados Cinvestav,2,0,20
+Ctr Invest Biodiversidade & Recursos Genet CIBIO,2,24,133
+Ctr Invest Cient & Educ Super Ensenada CICESE,2,0,9
+Ctr Invest Cient Yucatan AC,2,3,57
+Ctr Rech Sci Nat,2,1,69
+Ctr Suisse Rech Sci,2,0,12
+CUNY Grad Sch & Univ Ctr,2,1,34
+CUNY Hunter Coll,2,4,29
+Danube Res Inst,2,3,13
+Debre Markos Univ,2,0,19
+Democritus Univ Thrace,2,0,175
+Denver Museum Nat & Sci,2,2,17
+Dept Agr & Rural Affairs Jiangxi Prov,2,1,27
+Dept Biol,2,0,7
+Dept Environm,2,0,105
+Dept Planning & Environm,2,0,2
+Doon Univ,2,8,27
+DOPPS BirdLife Slovenia,2,0,21
+Dr Yashwant Singh Parmar Univ Hort & Forestry,2,4,19
+Durrell Wildlife Conservat Trust,2,1,9
+Duy Tan Univ,2,3,198
+Duzce Univ,2,0,8
+E China Normal Univ,2,10,96
+Earlham Coll,2,15,82
+East Coast Geospatial Consultants,2,0,38
+Ecobridge Continental,2,33,113
+Ecohlth Alliance,2,0,53
+Ecole Polytech Fed Lausanne EPFL,2,0,35
+Eduardo Mondlane Univ,2,0,69
+Egyptian Minist Environm,2,0,5
+Elon Univ,2,0,45
+EMBRAPA,2,2,39
+Embrapa Amapa,2,3,22
+Embrapa Cenargen,2,0,92
+Embrapa Pantanal,2,10,103
+Emory Univ,2,0,5
+Ente gest Aree Protette Alpi Cozie,2,2,11
+Environm Canada,2,9,67
+Environm Consultant ENVI,2,3,20
+Environm Def Fund,2,6,78
+Erzincan Binali Yildirim Univ,2,0,3
+Escuela Politec Nacl,2,0,166
+Estonian Univ Life Sci,2,0,15
+ETT SpA,2,0,4
+Euro Mediterranean Ctr Climate Change,2,1,75
+European Commiss,2,5,62
+Fac Vet,2,0,57
+Fatima Jinnah Women Univ,2,0,6
+Fauna & Flora Int,2,0,54
+Fdn Invest Clima,2,0,26
+Fdn Migres,2,4,41
+Fdn ProYungas,2,2,32
+Fed Ctr Anim Hlth FGBI ARRIAH,2,0,3
+Fed Res Ctr Virol & Microbiol,2,0,3
+Fed Res Inst Anim Hlth,2,1,36
+Fed Univ Agr,2,0,30
+Fed Univ Technol Akure,2,0,15
+Fed Univ Western Para,2,0,0
+FGBI Fed Ctr Anim Hlth FGBI ARRIAH,2,0,8
+Field Observat & Res Stn Green Agr Dancheng Cty,2,1,5
+Florida Dept Agr & Consumer Serv,2,6,175
+Food & Agr Org,2,0,32
+Food & Agr Org United Nations FAO,2,6,69
+Food & Environm Res Agcy,2,5,142
+Force Hlth Protect & Prevent Med,2,5,24
+Forest Res,2,4,58
+Forest Res Inst Baden Wuerttemberg,2,84,317
+Forest Res Inst Baden Wurttemberg,2,0,36
+Forest Res Inst Deemed Univ,2,14,62
+FRB CESAB,2,0,20
+FREELAND Fdn,2,0,30
+French Inst Pondicherry,2,19,123
+Friedrich Schiller Univ,2,0,74
+Fundacao Univ Fed Grande Dourados,2,0,54
+GB Pant Natl Inst Himalayan Environm & Sustainabl,2,23,97
+GB Pant Natl Inst Himalayan Environm NIHE,2,0,32
+Georg August Univ,2,7,16
+Georgia Dept Nat Resources,2,7,25
+Global Penguin Soc,2,0,11
+Global Primate Network Nepal,2,7,27
+Gorgon Univ Agr Sci & Nat Resources,2,1,27
+Govt Hashmat Ali Islamia Associate Coll Rawalpind,2,0,178
+Govt India,2,0,5
+Govt Nepal,2,2,37
+Govt Western Australia,2,11,76
+Grad Univ Sci & Technol,2,2,16
+Grand Valley State Univ,2,0,18
+Green Governance Nepal,2,0,8
+Grigore Antipa Natl Museum Nat Hist,2,0,63
+Guangdong Acad Agr Sci,2,19,141
+Guangdong Inspect & Quarantine Technol Ctr,2,25,160
+Guangxi Forest Inventory & Planning Inst,2,0,7
+Guangxi Normal Univ Nationalities,2,0,12
+Guiyang Univ,2,0,6
+Guizhou Inst Forest Inventory & Planning,2,0,19
+Gunung Leuser Natl Pk Agcy,2,0,2
+Hainan Normal Univ,2,2,83
+Hangzhou Normal Univ,2,4,22
+Harbin Univ,2,0,36
+Harvard Med Sch,2,0,16
+Harvard Univ Herbaria,2,0,24
+Hasselt Univ,2,0,24
+Headwaters Corp,2,4,58
+Hebei Univ Chinese Med,2,0,6
+Hebrew Univ Jerusalem,2,0,8
+Heidelberg Univ,2,0,12
+Heilongjiang Ecometeorol Ctr,2,0,48
+Hellen Ctr Marine Res,2,10,69
+Helmholtz Ctr Environm Res GmbH UFZ,2,0,4
+Helmholtz Zentrum Polar & Meeresforsch,2,2,41
+Henan Agr Univ,2,0,10
+Henan Univ Technol,2,0,11
+Herman Teirlinckgebouw,2,0,55
+Herping,2,0,21
+Higher Natl Sch Forests,2,0,4
+HNB Garhwal Univ,2,0,5
+Hormozgan Univ Med Sci,2,3,31
+Hosp Gen Enrique Garces,2,0,69
+HSE Univ,2,0,9
+Huaqiao Univ,2,0,7
+Hunan Univ Sci & Technol,2,1,10
+Huzhou Ecol Forestry Protect Res Ctr,2,0,0
+Huzhou Univ,2,0,0
+IAEA,2,18,119
+Ibn Tofail Univ,2,0,10
+Ibn Zohr Univ,2,0,5
+ICAR Indian Agr Res Inst,2,7,35
+ICAR Res Complex Eastern Reg,2,11,27
+ICIPE,2,0,72
+ICMR Natl Inst Malaria Res,2,0,54
+IEB,2,0,35
+IIFM,2,0,17
+Imperial Coll,2,0,28
+Indian Inst Remote Sensing,2,6,49
+Indian Inst Remote Sensing ISRO,2,1,14
+Indiana State Univ,2,7,46
+Inland Norway Univ Appl Sci,2,0,17
+Inner Mongolia Agr Univ,2,0,6
+Inner Mongolia Minzu Univ,2,0,15
+INSP,2,0,12
+Inst Agro,2,0,22
+Inst Balseiro,2,0,2
+Inst Bot Shaanxi Prov,2,0,31
+Inst Ecol & Biodiversidad,2,0,22
+Inst Ecol & Sistemat,2,1,7
+Inst Fed Ciencia & Tecnol Triangulo Mineiro IFTM C,2,0,8
+Inst Fed Educ Ciencia & Tecnol Mato Grosso,2,1,18
+Inst Fomento Pesquero,2,9,45
+Inst Globally Distributed Open Res & Educ IGDORE,2,0,3
+Inst Pasteur,2,5,58
+Inst Politecn Viana Do Castelo,2,0,16
+Inst Potosino Invest Cient & Tecnol,2,0,37
+Inst Salud Publ Chile,2,3,22
+Inst Stat Math,2,1,29
+Inst Tecnol Ciudad Victoria,2,0,2
+Inst Tecnol Vale,2,0,7
+Inst Univ France,2,0,39
+Int Crops Res Inst Semi Arid Trop,2,6,41
+Int Ctr Integrated Mt Dev ICIMOD,2,4,100
+Int Fund Anim Welf IFAW,2,0,21
+Int Hellen Univ,2,2,61
+Int Inst Trop Agr IITA,2,0,1
+Int Islamic Univ Islamabad,2,4,150
+Int Joint Res Ctr Resource Utilizat & Qual Evaluat,2,0,6
+Int Livestock Res Inst,2,4,36
+Int Res Ctr Big Data Sustainable Dev Goals,2,0,49
+Int Rice Res Inst,2,690,2235
+Int Union Conservat Nat,2,0,5
+Int Water Management Inst,2,22,91
+INTA,2,0,8
+Iranian Natl Inst Oceanog & Atmospher Sci INIOAS,2,0,4
+Italian Inst Environm Protect & Res ISPRA,2,0,41
+IUCN,2,0,15
+IUCN SSC Spider & Scorp Specialist Grp,2,2,54
+IVIC,2,0,174
+James Hutton Inst,2,0,60
+Jamia Millia Islamia,2,0,46
+Japan Wildlife Res Ctr,2,0,21
+Jawaharlal Nehru Technol Univ,2,1,29
+Jeju Natl Univ,2,0,4
+Jiangsu Agr Biodivers Cultivat & Utilizat Res Ctr,2,1,8
+Jiangsu Maritime Inst,2,0,11
+Jiangsu Prov Ctr Dis Control & Prevent,2,1,61
+Jiangxi Agr Univ,2,0,138
+Jiaying Univ,2,0,13
+Jilin Agr Univ,2,0,3
+Jimei Univ,2,0,2
+Jimma Univ,2,0,1
+Junta Andalucia,2,3,66
+Karlsruhe Inst Technol KIT,2,2,23
+Kazan Fed Univ,2,3,26
+Kazimierz Wielki Univ,2,0,38
+Kenya Forestry Res Inst,2,0,61
+Kenya Govt Med Res Ctr,2,2,34
+Kenya Plant Hlth Inspectorate Serv,2,1,19
+Kerala Forest Res Inst,2,1,2
+Kerala Univ Fisheries & Ocean Studies KUFOS,2,1,20
+Kerman Univ Med Sci,2,0,13
+Key Lab Sustainable Utilizat Technol Res Fishery R,2,0,7
+Kings Pk Sci,2,0,7
+Knowledge Ctr Biodivers,2,0,3
+Korea Inst Ocean Sci & Technol,2,0,19
+Korea Natl Arboretum,2,0,36
+Kotebe Univ Educ,2,0,11
+La Rochelle Univ,2,0,0
+Lab Nacl Biol Cambio Climat,2,0,5
+Lab Nacl Resiliencia Costera LANRESC,2,0,8
+Lakehead Univ,2,0,4
+Latvian State Forest Res Inst Silava,2,28,142
+Lee Univ,2,1,32
+Leibniz Inst Anal Biodiversitatswandels,2,0,0
+Leibniz Inst Balt Sea Res,2,2,80
+Leibniz Inst Freshwater Ecol & Inland Fisheries I,2,1,36
+Leibniz Sci Campus Primate Cognit,2,0,19
+Leibniz Univ Hannover,2,2,52
+Liaoning Univ,2,0,0
+Lipu BirdLife Italia,2,0,19
+Liverpool John Moores Univ,2,2,34
+Los Alamos Natl Lab,2,0,109
+Loyola Univ,2,5,15
+Ludong Univ,2,0,26
+Maastricht Univ,2,22,63
+Maharaja Sriram Chandra Bhanja Deo Univ,2,0,3
+Maine Dept Inland Fisheries & Wildlife,2,0,2
+Manaaki Whenua Landcare Res,2,0,4
+Manitoba Conservat Data Ctr,2,1,26
+Mattu Univ,2,1,10
+Max Planck Inst Chem,2,1,179
+Mediterranean Univ Reggio Calabria,2,1,22
+Mehmet Akif Ersoy Univ,2,4,15
+Michigan State Univ Extens,2,7,20
+Microsoft,2,0,20
+Microsoft Res,2,40,699
+MigraMar,2,0,19
+Millsaps Coll,2,3,37
+Milwaukee Publ Museum,2,1,6
+Minist Agroind & Food Secur,2,0,170
+Minist AYUSH,2,8,17
+Minist Ecol & Environm Peoples Republ China,2,13,43
+Minist Hlth & Child Care,2,1,27
+Minist Primary Ind,2,0,137
+Minnesota Dept Hlth,2,6,64
+Missouri State Univ,2,17,60
+Mizan Tepi Univ,2,0,6
+Mongolian Acad Sci,2,0,64
+Morgan State Univ,2,2,36
+Moscow MV Lomonosov State Univ,2,8,54
+Museo Nacl Ciencias Nat,2,1,8
+Museo Nacl Ciencias Nat MNCN CSIC,2,3,42
+Museu Granollers Ciencies Nat,2,0,16
+Museu Zool,2,3,50
+Museum Nat Kunde,2,5,85
+Nanyang Technol Univ,2,0,12
+NAS Ukraine,2,3,17
+Nat Hist Museum Los Angeles Cty,2,1,18
+Nat Punt Studie,2,0,75
+Nat Resources Inst Finland Luke,2,0,16
+Natl Adm Minist Nat Resources,2,0,36
+Natl Agr Res Ctr,2,0,4
+Natl Basic Sci Data Ctr,2,4,34
+Natl Ctr Atmospher Res,2,0,76
+Natl Inst Agroenvironm Sci,2,4,45
+Natl Inst Environm Res,2,6,39
+Natl Inst Hlth Res,2,2,30
+Natl Inst Parasit Dis,2,0,8
+Natl Inst Space Res INPE,2,7,29
+Natl Marine Fisheries Res Inst,2,4,38
+Natl Meteorol Ctr,2,0,12
+Natl Museum,2,1,58
+Natl Museums Scotland,2,5,42
+Natl Res & Innovat Agcy Indonesia,2,0,0
+Natl Zool Pk,2,2,75
+Navy Med Univ,2,0,15
+NBFC Natl Biodivers Future Ctr,2,0,2
+Negaunee Integrat Res Ctr,2,0,3
+Nelson Mandela Metropolitan Univ,2,1,69
+Neotrop Primate Conservat,2,0,6
+Nepalese Ornithol Union,2,0,4
+NERC,2,3,105
+NERC Ctr Ecol & Hydrol,2,6,44
+Netherlands eSci Ctr,2,11,76
+New South Wales Dept Primary Ind,2,0,93
+Nigerian Inst Med Res,2,0,30
+Niigata Univ,2,0,56
+Ningxia Acad Agr & Forestry Sci,2,0,16
+NIOZ Royal Netherlands Inst Sea Res,2,4,68
+NIWA,2,790,2519
+NLBIF Netherlands Biodivers Informat Facil,2,3,48
+NOAA Fisheries,2,6,44
+Norfolk Isl Natl Pk & Bot Garden,2,1,10
+Normandeau Associates Inc,2,0,102
+Northeast Fisheries Sci Ctr,2,4,38
+Northeast Normal Univ,2,0,3
+Norwegian Inst Bioecon Res,2,1,16
+Norwegian Inst Nat Res NINA,2,6,51
+Norwegian Univ Life Sci NMBU,2,0,46
+Norwegian Univ Sci & Technol NTNU,2,28,64
+Nova Sch Business & Econ,2,0,30
+Nova Scotia Community Coll,2,1,91
+Nova Scotia Museum,2,0,3
+NOVA Univ Lisbon,2,3,157
+NSW Forest Sci,2,4,63
+Oak Ridge Natl Lab,2,0,23
+Occident Coll,2,10,89
+Ocean Alliance,2,0,16
+Off Environm & Heritage,2,9,64
+Okinawa Inst Sci & Technol,2,76,527
+Oklahoma Dept Wildlife Conservat,2,0,18
+Old Dominion Univ,2,6,24
+Ondokuz Mayis Univ,2,0,4
+Open Univ Cyprus,2,0,16
+Oracle Res,2,0,21
+Pace Univ,2,82,307
+Pacific Isl Ecosyst Res Ctr,2,5,47
+Paleontol Res Inst,2,7,44
+Pamukkale Univ,2,0,18
+Panthera,2,5,79
+Paris Lodron Univ Salzburg,2,0,32
+Pelagios Kakunja aC,2,0,14
+Peter Griffioen Consulting,2,50,233
+Pistachio Res Inst,2,4,11
+Plant Protect Res Inst,2,1,16
+Plantlife,2,1,13
+Polar Oceans Res Grp,2,17,140
+Politecn Colombiano Jaime Isaza Cadavid,2,0,21
+Politecn Torino,2,0,15
+Polytech Inst Castelo Branco,2,0,11
+Pontificia Univ Javeriana,2,0,93
+Potsdam Inst Climate Impact Res PIK,2,9,88
+Prairie Res Inst,2,0,3
+Prince Songkla Univ,2,1,25
+Prov Geomat Ctr Jiangsu,2,1,61
+Punjabi Univ,2,14,44
+Qilu Univ Technol,2,0,37
+Qom Univ Med Sci,2,0,49
+Quebec Ctr Biodivers Sci,2,4,59
+Queensland Dept Agr & Fisheries,2,0,93
+Quiad I Azam Univ,2,103,284
+Rainforest Alliance,2,1,5
+Real Jardin Bot CSIC,2,50,149
+Reg Ctr Mapping Resources Dev,2,0,53
+Res Inst Humanity & Nat,2,1,70
+Rey Juan Carlos Univ,2,0,3
+Rhode Isl Dept Environm Management,2,1,34
+Rhodes Coll,2,9,18
+Rimba,2,0,30
+Riphah Int Univ,2,0,11
+Royal Bot Gardens Kew,2,0,4
+Royal Bot Gardens Victoria,2,0,31
+Royal Museum Cent Africa,2,1,136
+Royal Roads Univ,2,1,34
+Royal Vet Coll,2,0,29
+RSPB,2,5,21
+Rupantaran Nepal,2,3,48
+Sakon Nakhon Rajabhat Univ,2,11,56
+Sam Houston State Univ,2,13,73
+San Diego Zoo Wildlife Alliance,2,0,8
+San Jose State Univ,2,9,74
+Satpaev Kazakh Natl Res Tech Univ,2,0,12
+Saudi Falcon Club,2,0,6
+Secretaria Estado Saude Sao Paulo,2,0,54
+Seikei Univ,2,1,29
+Semnan Univ,2,18,44
+Senckenberg Gesell Nat Forsch,2,0,137
+Senckenberg Gesell Naturforsch,2,1,47
+SEO BirdLife,2,6,97
+Shaanxi Forestry Dept,2,0,41
+Shandong Second Med Univ,2,0,4
+Shandong Vocat Anim Sci & Vet Coll,2,0,1
+Shanghai Aquat Wildlife Conservat & Res Ctr,2,0,4
+Shanghai Aquat Wildlife Conservat Res Ctr,2,0,18
+Shanghai Chenshan Bot Garden,2,0,7
+Shantou Univ,2,7,44
+Shenzhen Univ,2,1,21
+Shihezi Univ,2,0,6
+Shoolini Univ Biotechnol & Management Sci,2,8,22
+Sichuan Acad Tradit Chinese Med Sci,2,0,7
+Skolkovo Inst Sci & Technol,2,0,24
+Slovenian Museum Nat Hist,2,2,17
+Smithsonian Natl Museum Nat Hist,2,0,40
+Smithsonians Natl Zoo & Conservat Biol Inst,2,0,177
+Snow Leopard Trust,2,0,187
+Soberco Environm,2,3,55
+South African Natl Pk,2,0,7
+South China Sea Inst Oceanol,2,0,14
+South Dakota State Univ,2,5,92
+Southeast Univ,2,1,45
+Southern Med Univ,2,2,65
+Southwest Jiaotong Univ,2,0,6
+Sri Sathya Sai Univ Human Excellence,2,3,12
+SRM Univ AP,2,0,9
+St Louis Zoo,2,16,77
+St Marys Univ Minnesota,2,1,14
+State Engn Technol Inst Karst Desertificat Control,2,0,6
+State Ocean Adm,2,3,33
+State Power Investment Corp Power Stn Operat Techn,2,0,14
+SUNY,2,0,24
+SUNY Coll Potsdam,2,4,36
+Swiss Fed Inst Aquat Sci & Technol,2,0,99
+Swiss Trop & Publ Hlth Inst,2,10,39
+Taipei Med Univ,2,0,16
+Tamil Nadu Agr Univ,2,5,10
+Tech Univ Zvolen,2,3,43
+Technol Educ Inst Thessaly,2,2,29
+Tecnol Antioquia Inst Univ,2,0,10
+Tennessee Technol Univ,2,1,10
+Texas A&M AgriLife Res,2,0,77
+Texas A&M Univ Corpus Christi,2,0,8
+Texas Christian Univ,2,0,41
+Texas Dept State Hlth Serv,2,0,5
+Third Inst Oceanog,2,1,30
+Threatened Species Recovery Hub,2,0,44
+Tibet Agr & Anim Husb Univ,2,0,14
+Tibet Plateau Inst Biol,2,13,64
+Tibet Univ,2,0,15
+Tigray Agr Res Inst,2,0,13
+Toho Univ,2,0,12
+Ton Duc Thang Univ,2,5,217
+Tottori Univ,2,0,6
+Towson Univ,2,14,72
+Toyama Univ,2,13,81
+Tragsatec,2,0,24
+Transilvania Univ Brasov,2,0,26
+Translat Genom Res Inst,2,0,42
+Tribhuwan Univ,2,0,24
+Trout Unltd,2,94,524
+Tshwane Univ Technol,2,1,2
+Tufts Univ,2,1,14
+Tulane Univ,2,7,38
+Tunghai Univ,2,0,10
+UAE Univ,2,0,2
+UAF,2,16,84
+UBA,2,10,44
+UCLouvain,2,1,27
+UFPR,2,1,17
+Unitec Inst Technol,2,3,31
+United Nation Dev Program UNDP,2,12,29
+Univ Aarhus,2,713,2161
+Univ Aix Marseille Avignon,2,0,12
+Univ Alaska,2,0,16
+Univ Alaska Anchorage,2,18,117
+Univ Alaska Fairbanks UAF,2,0,13
+Univ Alaska Museum,2,370,1222
+Univ Alaska Southeast,2,3,43
+Univ Autonoma Chihuahua,2,0,23
+Univ Autonoma Chihuahua UACH,2,0,37
+Univ Autonoma Nayarit,2,3,11
+Univ Autonoma Puebla,2,0,18
+Univ Autonoma Tamaulipas,2,0,0
+Univ Azuay,2,0,6
+Univ Bernardo OHiggins,2,0,22
+Univ Birjand,2,0,12
+Univ Brasilia UnB,2,0,85
+Univ British Columbia Okanagan,2,0,5
+Univ Calabar,2,0,3
+Univ Calicut,2,0,3
+Univ Calif Cooperat Extens,2,2,20
+Univ Calif Irvine,2,0,16
+Univ Calif San Diego,2,5,80
+Univ Castilla La Mancha,2,47,158
+Univ Catamarca,2,0,7
+Univ Catolica Brasilia,2,1,72
+Univ Cent Ecuador,2,0,11
+Univ CES,2,0,14
+Univ Cheikh Anta Diop,2,0,64
+Univ Chester,2,3,12
+Univ Chicago,2,0,21
+Univ Coll Dublin,2,0,16
+Univ Cote Azur,2,0,57
+Univ Ctr Svalbard,2,0,294
+Univ Cuenca,2,0,6
+Univ Cumbria,2,8,90
+Univ dAbomey Calavi,2,1,9
+Univ Debrecen,2,4,49
+Univ Dedougou,2,0,56
+Univ Derby,2,0,73
+Univ Dhaka,2,9,50
+Univ Dodoma,2,0,25
+Univ Doha Sci & Technol,2,0,43
+Univ Educ,2,0,2
+Univ El Salvador,2,0,3
+Univ Energy & Nat Resources UENR,2,0,54
+Univ Estado Amapa,2,0,5
+Univ Estadual Campinas UNICAMP,2,0,3
+Univ Estadual Londrina,2,0,16
+Univ Estadual Maringa,2,0,10
+Univ Estadual Norte Fluminense Darcy Ribeiro UENF,2,0,12
+Univ Estatal Amazon,2,0,176
+Univ Eswatini,2,0,9
+Univ Fada NGourma,2,1,5
+Univ Fed Alagoas,2,0,171
+Univ Fed Ceara,2,0,2
+Univ Fed Ouro Preto,2,0,5
+Univ Fed Parana UFPR,2,0,13
+Univ Fed Piaui,2,0,1
+Univ Fed Rondonia,2,0,173
+Univ Fed Rural Amazonia,2,0,170
+Univ Fed Rural Semi Arido,2,9,118
+Univ Fed Sao Carlos,2,0,34
+Univ Fed Sao Paulo,2,0,36
+Univ Franche Comte,2,0,6
+Univ Groningen,2,2,31
+Univ Guanajuato,2,1,6
+Univ Hormozgan,2,0,51
+Univ Huelva,2,6,14
+Univ Iceland,2,9,75
+Univ Ind Santander,2,0,3
+Univ Jammu,2,3,21
+Univ Juarez Autonoma Tabasco,2,0,41
+Univ Kashan,2,8,18
+Univ Kotli,2,0,2
+Univ La Habana,2,1,9
+Univ La Rochelle,2,0,46
+Univ Lahore,2,0,26
+Univ Lancaster,2,1,32
+Univ Latvia,2,1,17
+Univ Leuven,2,4,76
+Univ Libre Bruxelles ULB,2,0,5
+Univ Liverpool Liverpool Sch Trop Med,2,0,9
+Univ London Imperial Coll Sci Technol & Med,2,6,95
+Univ Los Lagos,2,0,8
+Univ Louisville,2,8,49
+Univ Lyon,2,0,17
+Univ Lyon 1,2,95,426
+Univ M Mammeri,2,24,86
+Univ Madeira,2,0,29
+Univ Manouba,2,3,27
+Univ Mayor San Andres,2,4,33
+Univ Messina,2,0,6
+Univ Miyazaki,2,0,3
+Univ Mohaghegh Ardabili,2,5,19
+Univ Mons,2,4,45
+Univ Montenegro,2,0,56
+Univ Nacl Autonoma Honduras,2,5,41
+Univ Nacl Toribio Rodriguez de Mendoza Amazonas,2,0,21
+Univ Nacl Toribio Rodriguez Mendoza Amazonas UNTR,2,0,45
+Univ Nat Resources & Life Sci Vienna BOKU,2,9,143
+Univ Nevada Reno,2,0,50
+Univ North Georgia,2,0,3
+Univ Nottingham Malaysia,2,0,6
+Univ Opole,2,0,8
+Univ Oregon,2,3,70
+Univ Ouagadougou,2,6,64
+Univ Pamplona,2,0,76
+Univ Paris Est Creteil,2,2,63
+Univ Paul Valery Montpellier 3,2,0,25
+Univ Pecs,2,0,5
+Univ Pedag & Tecnol Colombia,2,0,0
+Univ Peshawar,2,17,49
+Univ Picardie Jules Verne,2,6,85
+Univ Politecn Valencia,2,0,39
+Univ Porto FCUP,2,3,62
+Univ Presov,2,2,12
+Univ Puerto Rico Rio Piedras,2,4,20
+Univ Quebec,2,10,110
+Univ Quebec Abitibi Temiscamingue,2,0,48
+Univ Quebec Montreal,2,0,66
+Univ Reg Blumenau FURB,2,0,9
+Univ Reg Integrada Alto Uruguai & Missoes,2,0,33
+Univ Rennes,2,1,24
+Univ Republ,2,0,13
+Univ Republica,2,0,43
+Univ Rosario,2,0,7
+Univ Salzburg,2,0,55
+Univ San Buenaventura,2,0,8
+Univ San Diego,2,2,15
+Univ Santiago Compostela,2,0,6
+Univ Sch Adv Studies IUSS Pavia,2,0,5
+Univ Sousse,2,0,71
+Univ South,2,1,13
+Univ South Australia,2,6,21
+Univ South Carolina,2,0,3
+Univ St Thomas,2,0,38
+Univ Szeged,2,3,13
+Univ Tabriz,2,0,5
+Univ Tecn Particular Loja,2,1,21
+Univ Tecnol Indoamer,2,3,32
+Univ Texas Pan Amer,2,1,57
+Univ Trento,2,6,71
+Univ Tripoli,2,0,15
+Univ Valle,2,0,60
+Univ Waikato,2,4,33
+Univ Warwick,2,5,31
+Univ Waterloo,2,2,126
+Univ West England,2,0,2
+Univ Winnipeg,2,1,26
+UNL,2,13,24
+UPMC,2,0,2447
+Urmia Univ Med Sci,2,0,15
+US Dept Agr,2,16,39
+US Naval Med Res Unit 3,2,0,57
+USDA APHIS,2,2,65
+UTAD,2,0,14
+Vahatra,2,6,47
+Vietnamese Acad Forest Sci,2,7,42
+Virginia Inst Marine Sci,2,20,440
+Visayas State Univ,2,0,1
+Wageningen Univ & Res Ctr,2,0,43
+Wake Forest Univ,2,24,335
+Washington State Dept Agr,2,0,11
+Washington State Univ Extens,2,1,27
+Water Saving Agr Southern Hill Area Key Lab Sichua,2,0,9
+Weifang Vocat Coll Food Sci & Technol,2,0,1
+Wenzhou Univ,2,3,30
+Western Norway Univ Appl Sci,2,34,127
+WHO,2,0,19
+Wildlife Borders Publ Fund,2,0,12
+Wildlife Ecol Inst,2,0,10
+Wonkwang Univ,2,0,5
+World Parrot Trust,2,0,14
+World Wildlife Fund,2,4,148
+Wright State Univ,2,2,7
+WWF Colombia,2,0,40
+WWF Greece,2,1,23
+Xerces Soc Invertebrate Conservat,2,0,32
+Xian Jiaotong Liverpool Univ,2,0,14
+Xinjiang Acad Agr Sci,2,0,0
+Xinjiang Tarim River Basin Management Bur,2,0,29
+Xueyuan Rd 29,2,0,78
+Yamagata Univ,2,0,57
+Yokohama City Univ,2,1,29
+York Univ,2,3,26
+Yorkshire Dales Natl Pk Author,2,38,143
+Yuanhua Forestry Biol Technol Co Ltd,2,0,40
+Yulin Univ,2,0,8
+Yunnan Agr Univ,2,0,1
+Yunnan Int Joint Lab Southeast Asia Biodivers Cons,2,0,9
+Yunnan Normal Univ,2,0,74
+Zagros Herpetol Inst,2,0,12
+Zhaotong Univ,2,0,1
+Zhejiang Acad Agr Sci,2,0,13
+Zhejiang Sci Tech Univ,2,0,107
+Zimbabwe Pk & Wildlife Management Author,2,0,1
+00014 Univ Helsinki,1,0,43
+13 Rue Commune,1,0,3
+130 Colony Trail,1,0,8
+165-12-5-1 Pk Rd,1,0,3
+18th Med Command,1,6,40
+19 Rue Lathiere,1,0,2
+19 Xinjiekouwai St,1,0,9
+235 West Coll Rd,1,0,2
+26-1 Triq LImmakulata Kuncizzjoni,1,0,3
+2834 Lakewood Circle,1,1,6
+32-3 Cent Rd,1,0,2
+4 Zaliki Str,1,0,0
+501 Univ Crescent,1,1,6
+65th Med Brigade,1,10,36
+86-2 Moo 5,1,0,7
+94 5th Cross,1,0,0
+A 53 Judge Farm,1,0,5
+A Rocha France,1,3,10
+A&K Strategy Ltd,1,0,3
+Aba Prefecture Inst Forestry Sci & Technol,1,0,5
+Abbes Laghrour Univ,1,0,2
+Abd El Hafid Boussouf Univ,1,0,7
+Abdelmalek Essadi Univ,1,0,5
+Abdou Moumouni Univ Niamey,1,0,0
+Abdul Wali Khan Univ,1,0,0
+Aboville Fdn,1,0,7
+Abt Associates Inc,1,1,15
+Abt Garten Wissensch & Padagog,1,3,26
+Abt Meeresforsch,1,0,54
+Abuko Nat Reserve Headquarters,1,0,0
+AC,1,0,4
+AC Ctr Reg Chihuahua,1,2,17
+AC Red Ambiente & Sustentabilidad,1,7,51
+Acad Ciencias Bas,1,0,6
+Acad Forest Inventory & Planning Jilin Prov,1,8,41
+Acad Inventory & Planning,1,0,17
+Acad Mil Med Sci,1,8,56
+Acad Sci & Innovat Res,1,0,3
+Acad Sci Agr Durable & Protect Environm ASADuPE,1,0,1
+Acad Sci Czech Republ,1,0,54
+Acad Sinica,1,0,4
+Acadia Univ,1,0,16
+ACEER Fdn,1,0,169
+Acuario Univ Murcia,1,0,36
+Adamello Brenta Nat Pk,1,2,9
+Adami Tullu Agr Res Ctr,1,0,37
+Adana Metropolitan Municipal,1,0,0
+Addis Ababa Univ AAU,1,3,8
+Adekunle Ajasin Univ Akungba Akoko,1,0,2
+Adet Agr Res Ctr AARC,1,0,1
+Adm Ctr Chinas Agenda 21,1,0,25
+Adm Ctr Zhejiang Jiulongshan Natl Nat Reserve,1,0,2
+Adm Parques Nacl,1,1,10
+Adm Parques Nacl APN DRNOA,1,0,0
+Adm Wolong Natl Nat Reserve,1,0,5
+Adm Zhejiang Dapanshan Natl Nat Reserve,1,0,3
+ADNET Syst Inc,1,0,2
+AFBI,1,1,19
+AfriBugs CC,1,0,161
+Africa & Madagascar Dept,1,18,115
+African Inst Conservat Ecol,1,0,2
+African Inst Math Sci,1,0,4
+African Lion & Environm Res Trust,1,0,0
+African Plant Nutr Inst APNI,1,0,2
+African Union,1,1,4
+African Union Interafrican Phytosanitary Council A,1,0,9
+Agence Eau Rhone Mediterranee Corse,1,2,47
+Agence Natl Parcs Nationaux,1,0,2
+Agencia Medio Ambiente & Agua,1,0,7
+Agencia Medio Ambiente & Agua Andalucia,1,3,20
+Agencia Reg Desenvolvimento Invest Tecnol & Inova,1,0,26
+Agentschap Nat Bos,1,0,0
+Agenzia Forestas,1,0,6
+Agenzia Nazl Nuove Tecnol Energia Sviluppo Econom,1,4,69
+Agenzia Reg Protez Ambiente Ligure ARPAL,1,0,1
+Agenzia Veneta Innovaz Settore Primario,1,0,2
+Agr & Bioconservat Org Youth Empowerment & Rural D,1,0,9
+Agr Biotechnol Res Inst Iran ABRII,1,0,4
+Agr Res Council Biotechnol Platform,1,0,0
+Agr Res Educ & Extent Org,1,0,8
+Agr Resources Educ & Extens Org AREEO,1,0,1
+Agr Univ Hebei,1,0,8
+Agri Food & Biosci AFBI,1,0,4
+AGRI TE CO Sc Ambiente Progetto Terr,1,14,206
+Agrifood & Biosci Inst,1,0,5
+Agrifood Res & Technol Ctr Aragon CITA,1,0,8
+Agroscope,1,4,44
+Agroseope,1,0,6
+Agteca Amazon,1,0,169
+AHE,1,0,2
+Ahi Evran Univ,1,1,53
+Ahmad Dahlan Univ,1,0,7
+Ahmedabad Univ,1,0,0
+Ahvaz Jundishapur Univ Med Sci,1,3,27
+AICRP Maize Agr Res Stn,1,0,0
+Airbus Def & Space,1,0,1
+Akagera Natl Pk,1,0,0
+Aksum Univ,1,0,0
+Akvaplan Niva,1,0,39
+Al Akhawayn Univ,1,0,1
+Al Dhaid Wildlife Ctr,1,0,0
+Al Fateh Univ,1,6,32
+Al Nat Team,1,0,2
+Alaska Dept Fish & Game,1,0,4
+Alaska Fisheries Sci Ctr,1,5,22
+Albert Ludwigs Univ,1,0,8
+Alberta Wheat Commiss & Alberta Barley,1,0,3
+Alex Ekwueme Fed Univ,1,4,8
+Alex Pharmaceut Inc,1,1,14
+Alexander von Humboldt Biol Resources Res Inst,1,0,4
+Alfred Wegener Inst AWI,1,2,9
+Alfredo Paredes Univ Cent,1,0,169
+Algerian Wildlife Watchers Assoc,1,0,3
+Alice Holt Lodge,1,0,13
+All Russian Inst Plant Protect,1,0,10
+ALLFORLAND,1,0,3
+Alliance Biovers Int & CIAT,1,0,3
+Alliance Biovers Int CIAT,1,0,6
+AllStar Ecol LLC,1,0,6
+Almaty State Nat Reserve,1,0,6
+Alpha Insect Div Lab,1,0,55
+Alpha Insect Divers Lab,1,0,1
+Altai State Univ,1,0,1
+Alterra Wageningen UR,1,2,15
+Althouse & Meade Inc,1,0,12
+Alzahra Univ,1,0,0
+Amazon,1,0,60
+Amazon Conservat Team,1,0,169
+Amazon Corp,1,0,170
+Amec Foster Wheeler,1,0,38
+Amer Bird Conservancy,1,0,0
+Amer Chestnut Fdn,1,5,43
+Amer Univ Madaba,1,0,1
+Amer Univ Nigeria,1,0,4
+Amhara Reg Agr Res Inst,1,0,11
+Amherst Coll,1,0,14
+Amirkabir Univ Technol,1,0,4
+Amity Univ Uttar Pradesh,1,0,3
+Amphibian & Reptile Conservat Trust,1,0,2
+Amrita Vishwa Vidyapeetham,1,0,3
+Amway China Bot R&D Ctr,1,0,4
+AN Bukeikhan Kazakh Res Inst Forestry & Agroforest,1,0,3
+AN Severtsov Inst Ecol & Evolut,1,1,15
+Anantara Peace Haven Tangalle Resort,1,0,2
+Andalusian Plant Germplasm Bank BGVA,1,0,19
+Andes Amazon Biodivers Program,1,0,169
+Andromede Oceanol,1,2,47
+Angelo State Univ,1,0,0
+Anhui Agr Univ,1,0,1
+Anhui Inst Schistosomiasis Control,1,0,4
+Anhui Univ Sci & Technol,1,0,4
+Anhui Wanfoshan Prov Nat Reserve Adm,1,0,4
+Anim & Plant Hlth Agcy,1,0,2
+Anim Plant Hlth Inspect Serv,1,2,9
+Animal Plant & Foodstuff Inspect Ctr Tianjin Custo,1,0,1
+AnJi Longshan Forest Farm,1,0,37
+ANLIS CG Malbrdn,1,0,4
+Anna Univ Chennai,1,0,4
+Annamalai Univ,1,0,0
+Anqing Normal Coll,1,0,204
+ANSAB,1,11,34
+Anshun Univ,1,0,24
+Antarctic Climate & Ecosyst CRC,1,3,38
+Anton de Kom Univ Suriname,1,0,4
+Aonyx Environm,1,0,106
+APEC Marine Sustainable Dev Ctr,1,0,1
+Apex Resource Management Solut Ltd,1,3,26
+APHIS,1,0,123
+Appalachian State Univ,1,6,34
+Approval Serv Ctr Beijing Municipal Forestry & Pk,1,3,8
+Aquasearch,1,0,28
+Aquat Conservat & Rescue Ctr Jiangxi Prov,1,0,7
+Aquazoo Lobbecke Museum,1,1,2
+Aquila Conservat & Environm Consulting,1,0,8
+Arabian Gulf Univ,1,0,87
+Arava Dev Co Ltd,1,0,13
+Arbeitskreis Heuschrecken Rheinland Pfalz,1,2,18
+Arboretum Flagstaff,1,0,6
+ARC Ctr Excellence Australian Biodivers & Heritage,1,0,22
+ARC Ind Transformat Training Ctr Forest Value,1,0,22
+ARC Inst Soil Climate & Water,1,3,15
+ARC OVR,1,0,8
+Archbold Biol Stn,1,0,6
+Archipelagos Inst Marine Conservat,1,7,45
+Arctic Univ Norway,1,2,30
+Ardabil Univ Med Sci,1,0,14
+ARDEA Assoc Ric Divulgaz & Educ Ambientale,1,0,2
+Areas Costeras & Recursos Marinos,1,2,10
+Arid Agr Univ,1,0,7
+Armed Forces Med Command,1,0,14
+Armed Forces Res Inst Med Sci AFRIMS,1,0,7
+Armed Police Force Command & Staff Coll,1,0,8
+Army Publ Hlth Ctr,1,0,24
+Arnold Arboretum Harvard Univ,1,0,13
+ARO,1,0,12
+ARTENreich,1,0,11
+Asahi Hanzaki Res Assoc,1,0,4
+ASCR,1,0,69
+Ashoka Trust Res Ecol & Environm ATREE,1,3,4
+Asian Inst Technol,1,13,54
+Asian Int River Ctr,1,0,7
+Asociac ANDINUS,1,0,2
+Asociac Civil Sea Vida,1,0,28
+Asociac Ecosistemas Andinos ECOAN,1,0,43
+Asociac Estudio & Conservac Recursos Nat,1,0,3
+Asociac Guatemalteca Mastozoologos,1,0,2
+Asociac Neotrop Primate Conservat Colombia,1,0,2
+Asociac Neotrop Primate Conservat Peru,1,0,4
+AsOER Assoc Ornitol Emilia Romagna,1,0,2
+Assam Royal Global Univ,1,0,3
+Assoc ACROLA,1,0,0
+Assoc Biodivers Conservat & Res,1,0,8
+Assoc Cerrado Vivo Conservacao Biodiversidade,1,0,4
+Assoc Comp Machinery ACM,1,19,130
+Assoc Conservat Biodivers Kazakhstan,1,0,1
+Assoc FaunaViva,1,1,27
+Assoc Faunisti Veneti,1,0,2
+Assoc Gestao Socioambiental Triangulo Mineiro,1,0,0
+Assoc Mitsinjo,1,2,27
+Assoc Nat Futuro,1,0,4
+Assoc Nereide,1,0,11
+Assoc Pesquisa & Preservacao Ecossistemas Aquat Aq,1,0,2
+Assoc Terra Nat,1,0,3
+Associate Lab Anim & Vet Sci AL4AnimalS,1,0,27
+Associate Lab Terra,1,0,1
+Associated Lab TERRA,1,0,11
+ASTER Projects,1,0,9
+Astma Allergi Danmark,1,0,63
+Aswan Univ,1,0,0
+Atlantic Technol Univ,1,0,3
+Atlas Living Australia,1,23,141
+Audubon North Carolina,1,0,2
+Austin Peay State Univ,1,0,0
+Australian Govt Dept Agr Water & Environm,1,0,31
+Australian Inst Bot Sci,1,0,14
+Australian Plague Locust Commiss,1,5,48
+Austrian Natl Publ Hlth Inst,1,0,11
+Autilloproducciones,1,0,1
+Autonomous Univ Barcelona,1,0,31
+Autonomous Univ Chile,1,0,6
+Autonomous Univ Madrid,1,0,158
+Autonomous Univ State Mexico,1,0,25
+Autor Nacl Acuicultura & Pesca,1,0,2
+Ave FD Roosevelt 50,1,0,10
+Ave Inst Politecn Nacl,1,0,0
+Avicienne Hosp Mil,1,5,26
+Avignon Univ,1,0,2
+Axim Geospatial,1,0,5
+Aydin Adrian Menderes Univ,1,0,18
+Azorean Biodivers Grp,1,0,10
+AZORINA SA,1,2,13
+AZTI,1,0,39
+Baba Ghulam Shah Badshah Univ,1,0,2
+Baba Ghulam Shah Badshah Univ Rajouri,1,0,27
+Babes Bolyai Univ,1,0,8
+Babson Coll,1,0,9
+Badger Trust,1,0,0
+Baekdudaegan Natl Aboretum,1,0,5
+Baekdudaegan Natl Arboretum,1,0,0
+Banda Univ Agr & Technol,1,1,6
+Bangladesh Forest Dept,1,0,29
+Bangliang Gibbon Natl Nat Reserve,1,0,6
+Bangor Coll China,1,0,45
+Bannari Amman Inst Technol,1,0,0
+Baotou Med Coll,1,0,8
+Baotou Teachers Coll,1,9,67
+Barrick Gold Corp,1,6,26
+BAS,1,3,17
+BASF SE,1,1,15
+Basque Res & Technol Alliance BRTA,1,0,15
+Batumi Shota Rustaveli State Univ,1,0,12
+Bavarian Reg Author Environm,1,1,4
+Bavarian Reg Author Environm Ornithol Stn,1,1,5
+Bayanbulak Alpine Grassland Observat & Res Stn Xin,1,0,1
+Bayero Univ,1,0,26
+Bayingol Vocat & Tech Coll,1,3,21
+Baylor Coll Med,1,0,77
+Bayreuth Ctr Ecol & Environm Res,1,4,22
+Bayreuth Ctr Ecol & Environm Res BayCEER,1,0,7
+BC Minist Forests & Range,1,12,103
+BC Minist Forests Coast Area Res,1,0,5
+BC Minist Forests Lands Nat Resource Operat & Rur,1,0,19
+BCE,1,3,11
+Beibu Gulf Univ,1,0,5
+Beihang Univ,1,0,10
+Beihang Univ Aeronaut & Astronaut,1,0,2
+Beiing Inst Technol,1,0,2
+Beijing Engn Corp Ltd,1,0,5
+Beijing Jiaotong Univ,1,0,7
+Beijing Key Lab Ornamental Plants Germplasm Innov,1,0,47
+Beijing Lab Urban & Rural Ecol Environm,1,0,47
+Beijing Natl Day Sch,1,0,20
+Beijing Univ Agr,1,0,11
+Beijing VMinFull Ltd,1,0,27
+Berlin Brandenburg Inst Adv Biodivers Res,1,0,8
+Bermuda Minist Hlth,1,19,61
+Betty & Gordon Moore Ctr Sci,1,5,28
+Bharathiar Univ,1,0,1
+Biberfachstelle Info Fauna CSCF & Karch,1,0,9
+Bicho Mato Inst Pesquisa,1,0,9
+Bigelow Lab Ocean Sci,1,19,57
+Bijie Rocky Desertificat & Prevent Management Ctr,1,0,0
+BIO,1,7,45
+Bio West Inc,1,0,1
+Bio3 Estudos & Projectos Biol & Valorizacao Recur,1,4,43
+Bioconciencia AC,1,5,41
+Bioctr Grindel,1,1,14
+Biodivers & Climate Res Ctr,1,3,26
+Biodivers & Climate Res Ctr Frankfurt BiK F,1,51,187
+Biodivers Assoc Taiwan,1,1,13
+Biodivers Conservat Soc,1,0,10
+Biodivers Conservat Soc Nepal BIOCOS,1,0,1
+Biodivers Consultancy,1,0,1035
+Biodivers Ctr Kasetsart Univ BDCKU,1,0,1
+Biodivers Res Ctr,1,0,4
+Biodivers Res Inst,1,0,20
+Bioefarmoges Eleftheriou LP Integrated Mosquito C,1,0,15
+Bioforest SA,1,0,12
+Biol Resources,1,0,4
+Biomath & Stat Scotland,1,0,17
+Biome Inc,1,0,12
+Biomed Res & Training Inst,1,0,12
+BIOMEDICINE SA,1,0,13
+Bionum GmbH,1,0,1
+Biopixel Oceans Fdn,1,0,0
+Bioresource Res Ctr,1,4,13
+Biosecur Queensland,1,2,10
+Biovers France,1,0,22
+BIOWEST Inc,1,0,0
+Birbal Sahni Inst Palaeosciences,1,0,6
+Bird Conservancy Rockies,1,0,16
+Bird Protect & Study Soc Serbia,1,6,14
+Birding Beijing,1,0,0
+BirdLife Austria,1,0,17
+BirdLife Malta,1,0,3
+Birdlife Northern Queensland,1,0,13
+BirdLife Norway,1,0,3
+BirdLife Ukraine,1,3,10
+Birds Russia,1,0,36
+Birdwatch Ireland,1,1,19
+BirdWatch Zambia,1,0,6
+Birla Inst Technol Mesra,1,0,4
+Biwatech Ltd,1,0,15
+Black Swamp Bird Observ,1,2,28
+Blattfisch eU,1,0,22
+Board Educ Himi City,1,0,0
+Bogor Agr Univ,1,0,32
+Bogor Bot Garden,1,0,16
+Bohemian Switzerland Natl Pk Adm,1,0,3
+BOK TOWER GARDENS,1,0,6
+Bombay Nat Hist Soc,1,0,0
+Bonellis Eagle Study & Conservat Grp,1,0,2
+Borneo Conservat Trust,1,0,1035
+Boston Univ,1,0,4
+Bot Garden D Brandza,1,3,22
+Bot Garden Inst FEB RAS,1,0,5
+Bot Garden Rio de Janeiro,1,5,32
+Bot Inst Barcelona IBB CSIC ICUB,1,0,28
+Bot Res Inst Texas,1,1,10
+Bottlenose Dolphin Res Inst BDRI,1,0,3
+Boubakar Ba Univ Tillaberi,1,0,0
+Bournemouth Univ,1,2,22
+Bowling Green State Univ,1,0,3
+Bozhou Vocat & Tech Coll,1,0,3
+BP Eye Fdn,1,0,1
+Brandenburg Univ Technol Cottbus Sefftenberg,1,0,0
+Brandenburg Univ Technol Cottbus Senftenberg,1,1,6
+Brazilian Agr Res Corp Embrapa Florestas,1,0,2
+Brazilian Agr Res Corp Embrapa Milho & Sorgo,1,0,10
+Brazilian Agr Res Corp EMBRAPA Pantanal,1,0,3
+Brazilian Agr Res Corp Embrapa Roraima,1,0,2
+Bridgewater State Univ,1,0,10
+Brinkerhoff Environm Serv,1,0,20
+British Columbia Ctr Dis Control,1,1,2
+British Columbia Minist Forests,1,0,17
+British Columbia Univ,1,2,24
+British Geol Survey,1,4,14
+Brittany Ctr,1,0,11
+Bros Mentouri Univ,1,0,7
+Broward Mosquito Control Sect,1,0,11
+Brown Bear Fdn,1,0,5
+Brown Hyaena Res Project,1,0,1
+BSPB BirdLife Bulgaria,1,3,10
+Bu Ali Sina Univ,1,0,0
+Bucknell Univ,1,0,4
+Buero Faunist & Landschaftsokol,1,3,14
+Buffalo State Coll,1,4,8
+Bukit Barisan Selatan Natl Pk,1,0,0
+Bulgarian Soc Protect Birds,1,0,1
+Bundesamt Naturschutz BfN,1,0,1
+Bundeswehr Inst Microbiol,1,0,34
+Bur Agr & Herding,1,0,6
+Bur Agr & Rural Affairs Yuncheng City,1,0,2
+Bur Faunist & Landschaftsokol,1,0,3
+Bur Nat Resources & Planning Xiongan New Area,1,0,4
+Bur Nat Resources Anxi Cty,1,0,4
+Bur Ocean Energy Management,1,4,21
+Butterfly Conservat,1,0,8
+Cabanas Bougainvillae,1,0,19
+CABI East & South East Asia,1,0,5
+CABI Kenya,1,0,45
+CABI Switzerland,1,0,45
+Cadiz Oceanog Ctr,1,0,12
+Cadiz Univ,1,0,12
+CAF,1,0,3
+Cal Poly State Univ,1,0,12
+Calabria Marine Ctr,1,0,2
+Calcutta Univ,1,0,20
+Calif Dept Fish & Game,1,79,250
+Calif Polytech State Univ Humboldt,1,0,1
+Calif State Univ Dominguez Hills,1,8,40
+Calif State Univ Fresno,1,0,18
+Calif State Univ Monterey Bay,1,0,22
+Calle Santa Clara 599,1,0,43
+Campus Mar Int Campus Excellence,1,0,2
+Cangzhou Normal Univ,1,0,13
+Canterbury Museum,1,1,16
+Capac Bldg & Sustainabil Agrifood Prod Inov4Agro,1,1,2
+Cape Fear Community Coll,1,0,21
+CapeNature,1,0,20
+Caraga State Univ,1,0,0
+Carbon Sinks Forests Variety Innovat Ctr,1,0,0
+CARE Ethiopia HO,1,0,8
+Carleton Coll,1,0,1
+Carleton Coll Northfield,1,0,24
+Carter Ctr,1,0,2
+CAS Ctr Excellence Tibetan Plateau Earth Sci,1,5,24
+CASABIO,1,1,7
+Cascades,1,0,2
+Cascades Carnivore Project,1,0,8
+Castelldefels,1,0,161
+Catalonian Reptiles & Amphibians Rescue Ctr CRARC,1,0,7
+Catholic Univ,1,8,79
+Catholic Univ Chile,1,14,47
+Catholic Univ Hlth & Allied Sci,1,0,31
+Catholic Univ Lublin,1,15,97
+CATIE,1,0,8
+Caucasian State Biosphere Reserve,1,8,36
+Cawthron Inst,1,0,0
+CBGP,1,0,28
+CCARI Cent Coastal Agr Res Inst,1,1,4
+CCT CONICET La Plata,1,1,13
+CCT Mendoza,1,21,61
+CCT Mendoza CONICET,1,0,1
+CDCP,1,0,1
+CDFW,1,13,58
+CEDO Inc,1,0,8
+Cefas,1,0,8
+CEFAS Lowestoft Lab,1,0,30
+CENERIC Res Ctr,1,0,21
+CENPAT CONICET,1,1,17
+Cent Coastal Agr Res Inst,1,18,35
+Cent Himalayan Environm Assoc CHEA,1,1,9
+Cent Inst Med & Aromat Plants,1,0,12
+Cent IPM Ctr,1,0,17
+Cent Luzon State Univ,1,0,2
+Cent Univ Gujarat,1,0,7
+Cent Univ Odisha,1,0,5
+Centro Oceanog Canarias,1,0,8
+CEPLAC,1,0,9
+CERNAS,1,0,8
+CESAR Consultants,1,4,29
+Cetacean Sirenian Indonesia,1,2,14
+CETAS,1,1,10
+CETREC WA,1,0,4
+Ch Mendes Inst Biodivers Conservat,1,0,6
+Chadli Bendjedid Univ,1,0,3
+Chaffey Coll,1,0,161
+Chainama Hills Hosp Grounds,1,0,12
+Chair IUCN Invas Species Specialist Grp,1,0,50
+Changan Univ,1,0,10
+Changjiang Water Resources Commiss,1,0,2
+Changjiang Water Resources Protect Inst,1,0,2
+Changsha Univ Sci & Technol,1,16,57
+Cheikh Anta Diop Univ Dakar,1,0,13
+Chengde Med Coll,1,0,4
+Chengde Meteorol Bur,1,0,8
+Chengdu Acad Agr & Forestry Sci,1,0,13
+Chengdu Agr Technol Extens Stn,1,0,6
+Chengdu Longquan Moumain Forest Pk Potect & Dev C,1,0,5
+Chengdu Med Coll,1,0,30
+Chengdu Normal Univ,1,0,5
+Chengdu Univ TCM,1,0,9
+Chennai Snake Pk,1,0,0
+Chernivtsi Reg Museum,1,0,27
+Chesapeake Conservancy,1,0,55
+Chester Zoo,1,4,15
+Chiba Wildlife Res Soc,1,0,6
+Chicago Bot Garden,1,1,22
+Chicago State Univ,1,0,6
+Chico Mendes Inst Biodivers Conservat,1,0,9
+China Acad Chinese Med Sci,1,0,8
+China Atom Energy Author Ctr Excellence Nucl Tech,1,0,34
+China Birdwatching Assoc,1,0,15
+China CDC,1,0,26
+China Coop,1,0,2
+China Inst Water Resources & Hydropower Res,1,0,22
+China Meteorol Adm Xiongan Atmospher Boundary Laye,1,0,8
+China Three Gorges Corp,1,0,0
+China Univ Geosci Beijing,1,0,5
+China Yangtze River Three Gorges Grp Ltd,1,0,3
+Chinese Acad Forestry Hangzhou,1,0,0
+Chinese Acad Inspect & Quarantine,1,1,5
+Chinese Acad Med Sci & Peking Union Med Coll,1,0,5
+Chinese Acad Trop Agr Sci,1,1,16
+Chinese Culture Univ,1,0,4
+Chinese Felid Conservat Alliance,1,0,1
+Chinese Univ Hong Kong,1,0,10
+Chiredzi Rural Dist Council,1,0,20
+Chongqing Acad Ecol & Environm Sci,1,0,159
+Chongqing Jinfo Mt Natl Nat Reserve Management Aff,1,0,4
+Chongqing Three Gorges Univ,1,0,1
+Chongqing Univ Posts & Telecommun,1,0,35
+Chongqing Univ Technol,1,0,0
+Chongqing Wildlife Conservat Assoc,1,0,0
+Chooj Ajauil AC,1,0,4
+Chrysalis Consulting,1,0,3
+Chuka Univ,1,7,21
+Chukwuemeka Odumegwu Ojukwu Univ,1,0,5
+Chungcheongbuk Do Agr Res & Extens Serv,1,2,10
+Chungcheongnam Do Agr Res & Extens Serv,1,2,10
+Chungnam Inst,1,0,5
+Chuo Univ,1,0,20
+CIAT,1,0,8
+CICESE,1,0,28
+CICGE,1,6,31
+CICGE Ctr Invest Ciencias Geoespaciais Observ Ast,1,0,8
+CIDEIM,1,0,5
+CIFE,1,0,6
+CIFOR Headquarters,1,0,8
+CIMA Res Fdn,1,1,12
+CINVESTAV,1,0,19
+Cirad Selmat,1,3,38
+CITA,1,7,27
+CITA Zaragoza Univ,1,0,0
+Citrus Res Int,1,0,1
+City New Orleans Mosquito & Termite Control Board,1,0,24
+City Univ New York,1,0,3
+Claustro San Agustin,1,0,0
+Cleveland State Univ,1,1,11
+Climate Forestry Ltd,1,0,29
+Clin Res Ctr,1,0,5
+Cloud Mt Conservat,1,2,9
+CMCC Fdn,1,0,6
+CMCC Univ Fed ABC,1,11,141
+CNPq,1,0,0
+CNR Consiglio Nazl Ric,1,0,10
+CNR IAS,1,0,2
+CNR STIIMA,1,0,3
+CNR Water Res Inst,1,0,2
+Coastal Carolina Univ,1,0,7
+Coastal Def & Nat Conservat Agcy NLWKN,1,2,37
+COISPA Technol & Res,1,3,23
+Col Postgrad Campus Montecillo,1,0,0
+Colby Coll,1,0,7
+Colegio Frontera,1,0,54
+Colegio Frontera Sur ECOSUR,1,1,7
+Colegio Posgrad,1,0,10
+Colegio Postgrad Campus San Luis Potosi,1,0,0
+Colegio Postgraduados CP,1,0,6
+Coll African Wildlife Management Mweka,1,0,1
+Coll Charleston,1,0,5
+Coll Forestry,1,2,2
+Coll North Atlantic Qatar,1,1,6
+Coll Postgrad Agr Sci,1,0,0
+Coll Sci,1,0,12
+Coll Southern Nevada,1,0,7
+Colobus Conservat,1,0,9
+Colorado Coll,1,7,30
+Colorado Plateau Archaeol Alliance,1,0,0
+Columbia High Sch,1,0,7
+Columbus State Univ,1,0,10
+Com Ecuatoriano Registros Ornitol,1,0,1
+Comis Invest Cient Prov Buenos Aires,1,0,15
+Comis Invest Cient Prov Buenos Aires CIC,1,0,0
+Comis Nacl Actividades Espaciales CONAE,1,1,22
+Comis Nacl Conocimiento & Uso Biodiversidad,1,0,23
+Comis Nacl Conocimiento & Uso Biodiversidad Liga,1,0,24
+Comis Nacl Forestal,1,0,27
+Comis Parques & Biodivers Tamaulipas,1,0,0
+Comis Permanente Pacifico Sur,1,0,38
+Commercial Bank Ceylon PLC,1,0,10
+Commiss Atlante SHI,1,0,1
+Commiss European Communities,1,5,34
+Commissariat Reg Dev Agr Kef,1,0,4
+Commonwealth Sci & Ind Res Org CSIRO,1,0,4
+Community Vis,1,0,26
+Complutense Univ Madrid UCM,1,6,43
+CONACyT,1,0,3
+CONACYT Ctr Invest Biol Noroeste,1,0,4
+CONACYT Ctr Invest Biol Noroeste CIBNOR,1,0,11
+CONACYT Inst Politecn Nacl,1,0,10
+CONACYT IPICYT,1,0,21
+CONANP,1,22,66
+Confederated Tribes Umatilla Indian Reservat,1,0,6
+CONICET CCT Mendoza,1,1,55
+CONICET UNL,1,3,27
+CONICET UNS,1,0,1
+Connecticut Coll,1,6,28
+Consejeria Desarrollo Sostenible,1,0,3
+Consejo Nacl Humanidades Ciencias & Tecnol,1,0,0
+Consejo Super Invest Cient CIDE CSIC,1,0,13
+Consejo Super Invest Cient MBG CSIC,1,0,3
+Conservac Biol & Desarrollo Social,1,0,12
+Conservat Dept,1,0,13
+Conservat Dev Fdn CODEFUND,1,0,0
+Conservat Himalaya,1,0,1
+Conservatoire & Jardin Bot Gen,1,0,33
+Conservatoire & Jardin Bot Ville Geneve,1,3,38
+Conservatory & Bot Garden City Geneva,1,0,14
+Conserve Wildlife Fdn New Jersey,1,1,20
+Consiglio Nazl Ric IGG CNR,1,1,12
+Consiglio Nazl Ric ISTI CNR,1,1,12
+Consorcio Desarrollo Sostenible Ecorreg Andina CO,1,0,120
+Consorzio Gest Torre Guaceto,1,0,6
+Consorzio Interuniv Ist Nazl Biosistemi & Biostru,1,0,4
+Consorzio Nazl Interuniv Sci Mare CoNISMa,1,0,13
+Constantine Philosopher Univ Nitra,1,0,6
+Contra Costa Cty Publ Works,1,1,8
+ConyDes,1,1,14
+Cooperativa Silene,1,0,3
+Cooperaz Int,1,0,4
+Coordinadora Estudio Mamiferos Marinos CEMMA,1,0,3
+Copenhagen Business Sch,1,0,1
+CORACIAS SROPU,1,3,10
+Coral Sol Res,1,0,28
+Cornell Inst Host Microbe Interact & Dis,1,0,3
+Cornell Lab Ornithol,1,17,118
+Corp Invest Biol,1,0,4
+Corp Nacl Forestal,1,0,0
+Corvidae Environm Consulting,1,0,8
+CORYS Res & Conservat Biodivers,1,0,12
+Costa Rica Wildlife Fdn,1,0,1
+Costa Rican Alliance Sea Turtle Conservat & Sci,1,0,0
+COT Ctr Ornitol Toscano,1,0,2
+Cotton Coll State Univ,1,4,16
+Cotton Univ,1,0,3
+Council Agr Res & Econ,1,3,29
+Council Agr Res & Econ Forestry Res Ctr CREA SEL,1,0,23
+Council Agr Res & Econ Res,1,0,2
+CP 513,1,0,38
+Craighead Inst,1,0,1035
+Cranfield Univ,1,6,67
+CREA Res Ctr Agr Pol & Bioecon,1,0,5
+Creighton Univ,1,0,2
+Creocean,1,0,11
+CRIA,1,11,141
+Croatian Acad Sci & Arts,1,3,10
+Croatian Biospeleol Soc,1,1,25
+Croatian Nat Hist Museum,1,3,11
+Crocodylus Porosus Philippines Inc,1,1,2
+Crop Res Inst,1,0,1
+Crop Wild Relat & Useful Plants,1,6,31
+Cross River Univ Technol,1,0,1
+Crown Agents,1,0,3
+Crp Colombiana Invest Agr AGROSAVIA C I Selva,1,0,9
+Crp Colombiana Invest Agr AGROSAVIA CI La Selva,1,0,2
+Crp Colombiana Invest Agr AGROSAVIA CI Obonuco,1,0,2
+CS1C,1,0,9
+CSC IT Ctr Sci Ltd,1,0,14
+CSIC Ajuntament Barcelona,1,0,2
+CSIC UC,1,14,36
+CSIC UO PA,1,0,16
+CSIC UPF,1,0,21
+CSIR Cent Inst Med & Aromat Plants,1,0,13
+CSIR Ctr Cellular & Mol Biol,1,0,5
+CSIR Natl Environm Engn Res Inst,1,0,29
+CSIR Natl Phys Lab,1,0,3
+CSIR NBRI,1,6,16
+CSIR North East Inst Sci & Technol,1,0,12
+CSIRO Agr & Food,1,3,87
+CSIRO Climate Adaptat Flagship,1,0,71
+CSIRO EcoSci Precinct,1,0,33
+CSIRO Energy,1,0,8
+CSIRO Hlth & Biosecur,1,0,15
+CSIRO Natl Res Collect Australia,1,0,5
+CSIRO Ocean & Atmosphere,1,1,9
+CSIRO Oceans & Atmosphere Flagship,1,11,71
+CSIRO Plant Ind,1,1,28
+CSL Seqirus USA,1,0,2
+CSS Inc Contract NOAA Natl Ctr Coastal Ocean Sci,1,0,5
+Ctr Agr & Biosci Int CABI,1,2,2
+Ctr Anal Sustainable Agr Syst CASAS Global,1,4,69
+Ctr Appl Spatial Ecol,1,5,48
+Ctr Biodivers & Genet,1,2,9
+Ctr Biodivers Res,1,0,4
+Ctr Biotecnol Plantas Beira Interior,1,0,29
+Ctr Cambia Global & Sustentabilidad AC,1,0,105
+Ctr Cellular & Mol Biol,1,1,3
+Ctr Ciencia i Tecnol Forestal Catalunya,1,0,3
+Ctr Climate Change Res,1,0,25
+Ctr Conservac Biodiversidad Chiloe Silvestre,1,14,62
+Ctr Conservat & Utilizat Rare & Endem Fishes Sichu,1,0,0
+Ctr Crop & Dis Management,1,0,1
+Ctr Decouverte Scamandre,1,4,27
+Ctr Dis Control & Prevent Ningxia Hui Autonomous R,1,0,0
+Ctr E Asian,1,0,6
+Ctr Ecol & Evolut Synth CEES,1,0,1
+Ctr Ecol Aplicada Litoral CECOAL CONICET,1,0,14
+Ctr Ecol Evolut & Environm Changes CE3C,1,2,13
+Ctr Ecol Res,1,0,5
+Ctr Ecosyst,1,0,44
+Ctr Ecosyst Soc & Biosecur,1,0,60
+Ctr Enseignement & Rech Foresterie Ste Foy,1,0,87
+Ctr Environm & Geog Informat Serv,1,0,51
+Ctr Environm Sci Saitama,1,1,5
+Ctr Epidemiol & Anim Hlth CEAH,1,0,3
+Ctr Estudios Avanzados Zonas Aridas,1,0,4
+Ctr Estudios Ecol Espacial & Medio Ambiente,1,0,10
+Ctr Estudios Parasitol & Vectores CEPAVE CCT La P,1,0,26
+Ctr Estudios Terr Ambientales & Sociales,1,2,24
+Ctr Estudios Terr Ambientales & Sociales CETAS UNJ,1,0,0
+Ctr Estudos Africanos Desenvolvimento & Inovacao,1,0,5
+Ctr Estudos Africans Desenvolvimento & Inovacao C,1,0,25
+Ctr Etud Neige,1,0,2
+Ctr Etud Saclay,1,0,10
+Ctr Etudes Biol Chize,1,59,258
+Ctr FONDAP Invest Dinam Ecosistemas Marinos Altas,1,0,6
+Ctr Francais Etud Ethiopiennes,1,0,9
+Ctr Geog Informat Sci,1,4,10
+Ctr Grassland Biol Disaster Prevent & Control Xinj,1,0,1
+Ctr Infect Dis Control CIb,1,0,32
+Ctr Infect Dis Res Zambia,1,0,12
+Ctr Int Agr Trop,1,0,120
+Ctr Int Agr Trop CIAT,1,0,13
+Ctr Int Monitoraggio Ambientale CIMA Res Fdn,1,0,11
+Ctr Integrat Ecol,1,0,15
+Ctr Invest & Estudios Avanzados,1,0,24
+Ctr Invest & Estudios Avanzados IPN CINVESTAV,1,0,6
+Ctr Invest & Promoc Campesinado,1,0,169
+Ctr Invest & Tecnol Agroalimentaria Gobierno Arag,1,1,16
+Ctr Invest Agroecol Pacifico Cent CIAPCP AIP,1,0,0
+Ctr Invest Alimentac & Desarrollo,1,0,8
+Ctr Invest Aplicada & Transferencia Tecnol Recurs,1,0,15
+Ctr Invest Aplicada Chile CIACHI,1,3,9
+Ctr Invest Biodiversidade & Recursos Genet,1,0,3
+Ctr Invest Biol Noroeste Planeac Ambiental & Cons,1,0,9
+Ctr Invest Biol Noroeste SC,1,0,5
+Ctr Invest Ciencias Geoespaciais CICGE,1,3,20
+Ctr Invest Cient & Educ Super Ensenada,1,0,15
+Ctr Invest Cient & Transferencia Tecnol Prod CICY,1,0,6
+Ctr Invest Cient Caucaseco,1,0,43
+Ctr Invest Cient Yucatan,1,1,17
+Ctr Invest Forestal CIFOR INIA,1,0,2
+Ctr Invest Matemat,1,859,2673
+Ctr Invest Pando,1,2,9
+Ctr Invest San Anim CISA,1,0,3
+Ctr Monitoring Vectors Food & Consumer Prod Safet,1,0,19
+Ctr Nacl Invest Cafe Cenicafe,1,0,3
+Ctr Nacl Invest Disciplinaria Relac Agua Suelo Pl,1,0,10
+Ctr Nacl Invest Evoluc Humana CENIEH,1,0,13
+Ctr Nacl Pesquisa & Conservacao Aves Silvestres C,1,0,4
+Ctr Nacl Pesquisa & Conservacao Biodivers & Restau,1,0,0
+Ctr Nacl Pesquisa & Conservacao Mamiferos Carnivo,1,0,42
+Ctr Oceanog Gijon IEO CSIC,1,0,13
+Ctr Oceanog Murcia,1,0,23
+Ctr Oceanog Vigo,1,1,9
+Ctr Ornitol & Biodiversidad CORBIDI,1,0,1
+Ctr Pesquisa Agroflorestal Roraima,1,0,169
+Ctr Plant Biodivers Res,1,10,143
+Ctr Plant Conservat,1,0,6
+Ctr Plant Hlth Sci & Technol,1,4,84
+Ctr Rech Entomol Cotonou,1,0,5
+Ctr Recuperac Fauna Santa Faz,1,6,32
+Ctr Reg Invest Cient & Transferencia Tecnol CRILA,1,0,26
+Ctr Res Environm iGen & Livelihood,1,0,8
+Ctr Res Environm IGen & Livelihood CREGL,1,0,8
+Ctr Res Land Use Sustainabil,1,11,47
+Ctr Studio & Protez Pipistrelli Sardegna,1,0,37
+Ctr Suivi Ecol,1,0,9
+Ctr Sustainable Dev Studies,1,0,3
+Ctr Tecnol Agrario & Agroalimentario ITAGRA CT,1,0,16
+Ctr Tecnol Forestal Catalunya CEMFOR CTFC,1,0,9
+Ctr Trop Biodivers Conservat,1,0,1
+Ctr Univ Costa Sur,1,0,1
+Ctr Univ El Tarf,1,6,32
+Ctr Univ Estado Para,1,0,2
+Ctr Univ Metodista Izabela Hendrix,1,7,36
+Ctr ValBio,1,2,27
+Ctr ValBio Res Stn,1,0,12
+Ctr Whale Res WA Inc,1,0,8
+CUNY Grad Ctr,1,0,4
+CUNY Queens Coll,1,1,8
+Curtin Univ Technol,1,30,213
+CW & Associates,1,0,5
+Cyprus Conservat Fdn,1,0,4
+Dachverband Deutsch Avifaunisten,1,0,2
+Dali Univ,1,7,45
+Damietta Univ,1,0,5
+Dankook Univ,1,0,4
+Dartmouth Coll,1,0,13
+Dartmouth Coll Woodlands,1,0,0
+Datenzent Baden Wurttemberg,1,9,87
+Dauphin Isl Sea Lab,1,0,2
+Davidson Coll,1,3,17
+Daxiangling Prov Nat Reserve,1,0,10
+DDEE,1,6,23
+De La Salle Univ,1,0,10
+Deep Sea Node,1,0,25
+Def Ctr Publ Hlth Aberdeen,1,0,4
+Defiance Coll,1,1,9
+Delegac Canarias,1,0,0
+Delegac Reg Noroeste,1,10,49
+Delfini Ponente APS,1,0,1
+Delft Univ Technol,1,0,1
+Delhi Univ,1,1,6
+Delta State Univ,1,0,26
+Deltares,1,0,169
+Demo Farm Inc,1,0,7
+Denver Fed Ctr,1,0,1
+Dept Agr & Environm Bac Giang Prov,1,0,0
+Dept Agr Water & Environm,1,0,28
+Dept Agron,1,0,1
+Dept Anim Prod & Hlth,1,0,1
+Dept Biol Sci,1,2,11
+Dept Chem Environm & Feed Hyg,1,0,3
+Dept Ciencias Bas,1,0,0
+Dept City & Metropolitan Planning,1,0,0
+Dept Earth & Environm Sci,1,2,64
+Dept Ecol & Genet,1,0,2
+Dept Entomol,1,0,1
+Dept Environm & Climate Change NSW,1,0,108
+Dept Environm & Nat Resources,1,3,24
+Dept Environm & Nat Resources DENR,1,0,2
+Dept Environm Conservat,1,41,90
+Dept Environm DOE,1,3,5
+Dept Environm Forest & Climate Change,1,1,4
+Dept Environm Protect Agcy,1,2,5
+Dept Environm Water & Nat Resources,1,2,23
+Dept Forest Conservat,1,0,29
+Dept Funct & Evolutionary Ecol EEZA CSIC,1,3,10
+Dept Geosci,1,0,5
+Dept Interior Northwest Climate Sci Ctr,1,1,18
+Dept Livestock Dev,1,0,0
+Dept Marine & Coastal Environm,1,690,2065
+Dept Marine Res,1,0,40
+Dept Natl Heritage,1,0,2
+Dept Natl Pk & Wildlife Conservat,1,0,3
+Dept Pks & Wildlife,1,7,33
+Dept Planning Ind & Environm NSW,1,4,26
+Dept Plant Resources,1,5,12
+Dept Plant Sci,1,0,1
+Dept Primary Ind,1,1,25
+Dept Primary Ind & Reg Dev,1,0,10
+Dept Publ Hlth,1,0,5
+Dept Res & Conservat,1,0,3
+Dept Res & Dev Funct Act & Resource Utilizat Edibl,1,0,3
+Dept Res & Specialist Serv,1,0,23
+Dept Sustainabil & Environm,1,26,164
+Dept Tree Breeding,1,0,3
+Dept Vet Serv,1,0,8
+Dept Wildlife & Natl Pk,1,1,9
+Dept Wildlife & Natl Pk DWNP,1,3,21
+Dept Wildlife & Natl Pk DWNP Malacca,1,3,21
+Dept Wildlife & Natl Pk Peninsular Malaysia,1,27,66
+Depto Campanas Prioridad Nacl,1,0,32
+Desert Bot Garden,1,0,6
+Desert Res Inst,1,0,22
+Desh Bhagat Univ,1,0,2
+Desiderio Finamor Vet Res Inst,1,2,18
+Design & Res Inst,1,0,40
+DEstrees Entomol & Sci Serv,1,3,12
+Deutsch Gesell Int Zusammenarbeit GIZ GmbH,1,0,29
+Deutsch Truffelbaume,1,0,8
+Deutsch Zentrum Marine Biodiversitatsforsch,1,9,40
+DIANA,1,3,34
+DIANA Carpathian Wildlife Res,1,0,9
+Dibru Saikhowa Conservat Soc,1,0,9
+Dienst Vastgoed Def,1,4,27
+Dilla Univ,1,0,42
+Dire Dawa Univ,1,0,8
+Direcc Medio Ambiente Municipio Guadalajara,1,0,4
+Direcc Reg Salud Cusco,1,0,15
+Direct Interarmees Serv Sante Guyane,1,5,13
+Direct Rech & Appui Sci,1,0,1
+Direct Serv Vet,1,18,111
+Directorate Anim Protect Serv,1,0,1
+Diretoria Geral Vigilancia Saude,1,0,32
+Dis Control Program Lampung Prov Hlth Off,1,2,8
+Discover Blu,1,0,1
+Div CBRN Def & Secur,1,0,3
+Div Forest Off,1,0,23
+Div Resources Management & Sci,1,0,45
+DiyarMehr Inst Palaeolith Res,1,0,1
+DMZ Ecol Res Inst,1,0,26
+Doga Dernegi,1,0,4
+Dokuz Eylul Univ,1,0,5
+Dolphin Res Inst,1,0,4
+Domaine Rochat,1,0,14
+Dominican Univ Calif,1,2,15
+Donana Biol Stn CSIC,1,0,2
+Dosel SA Rain Forest Adventures,1,0,3
+Dr Harisingh Gour Cent Univ,1,0,16
+Dr Mahalingam Coll Engn & Technol,1,0,0
+Dr Richard Oxborough Consultancy,1,0,7
+Dr Vishwanath Karad MIT World Peace Univ,1,0,2
+DRYSRHU,1,0,3
+Dublin City Univ,1,0,8
+Ducks Unlimited Canada,1,1,13
+Durban Nat Sci Museum,1,6,36
+Durban Univ Technol,1,0,27
+E Source,1,0,16
+E&S Environm Chem Inc,1,0,40
+Earth Day Network,1,0,55
+Earth Observat Applicat,1,0,5
+Earth Syst Res Lab NOAH,1,0,17
+East Carolina Univ,1,0,6
+East China Sea Fisheries Res Inst,1,0,3
+East China Survey & Planning Inst,1,0,138
+East West Ctr,1,6,28
+Eastern Gulf Thailand Marine & Coastal Resources,1,1,17
+Eastern Illinois Univ,1,7,30
+Eastern Kentucky Univ,1,0,2
+Eastern Mediterranean Univ,1,0,13
+Eastern Oregon Univ,1,0,1
+Eastern Piedmont Univ,1,0,27
+Eastern Tianshan State Forestry Adm Xinjiang Uygur,1,0,1
+Eastern Washington Univ,1,1,5
+Eberswalde Univ Sustainable Dev HNEE,1,0,18
+EBN Italia,1,0,2
+EBN Italia Pro Nat,1,0,91
+Ebo Forest Res Project,1,0,2
+EchoEcology,1,2,44
+Ecoacsa,1,2,24
+Ecol Res Training Itd,1,2,14
+Ecol Specialists,1,6,11
+Ecole Polytech Fed Lausanne,1,0,2
+Ecole Polytech Univ Francois Rabelais,1,16,54
+Ecole Prat Hautes Etud,1,16,55
+Ecolibrium Inc,1,2,10
+EcoOcean Inst,1,0,11
+EcoPacifico,1,2,10
+Ecopath Int Initiat EII,1,0,6
+Ecosci Precinct,1,0,1
+EcoSmart Ecol,1,0,2
+Ecostudies Inst,1,3,3
+Eden Univ,1,0,12
+Edge Hill Univ,1,0,2
+Edificio 4,1,0,1
+Edward & Christie Pvt Ltd,1,0,0
+EHPF,1,2,22
+El Colegio Frontera,1,0,2
+El Colegio Frontera Sur ECOSUR,1,0,18
+El Fayoum Univ,1,0,1
+ELGO DIMITRA,1,0,16
+Ellangawa Unity Care Community & Nat,1,2,4
+Elwandle Node,1,1,6
+Embassy Finland,1,0,7
+Embrapa Amazonia Oriental,1,0,169
+Embrapa Cerrados,1,1,4
+EMBRAPA Eastern Amazon,1,3,21
+Embrapa Empresa Brasileira Pesquisa Agrepecuaria,1,1,2
+Embrapa Florestas PR,1,0,23
+Embrapa Forestry,1,0,0
+EMBRAPA Roraima Pesquisa,1,8,34
+Embrapa Temperate Agr,1,5,20
+Embrapa Temperate Climate,1,0,16
+Embrapa Western Amazon,1,0,0
+Emergency Ctr Transboundary Anim Dis,1,0,6
+Empresa Brasileira Pesquisa Agr Acre,1,7,21
+Empresa Brasileira Pesquisa Agr Embrapa,1,2,4
+Empresa Nacl Protecc Flora & Fauna,1,0,30
+Endangered & Nongame Species Program,1,0,6
+Endangered Species Coalit,1,0,169
+Endem Species Res Inst,1,0,2
+Enshi Tujia & Miao Autonomous Prefecture Acad Fore,1,0,2
+Ente Gest Aree Protette Alpi Marittime,1,0,2
+Ente Gest Aree Protette Monviso,1,0,2
+Ente Gest Aree Protette Ossola,1,0,2
+Ente Parco Nat Reg Alpi Liguri,1,0,0
+Environm & Forestry Res & Dev Agcy Aek Nauli,1,0,19
+Environm Agcy Austria,1,0,1
+Environm Forests & Climate Change Dept,1,0,1
+Environm Management Navarre SA,1,14,61
+Environm Protect Bur Yaohai Dist,1,120,304
+Environm Res Grp Oxford Ltd ERGO,1,0,4
+Environm Serv,1,1,17
+Environm Syst Res Inst,1,0,3
+Envjoy,1,0,11
+Eotvos Lorand Univ,1,2,27
+EPPO OEPP,1,0,69
+Equipe ARBOREAL AgricultuReBiOdiveRsite & vAloris,1,16,47
+Equipo Primatol Peru,1,0,4
+Erciyes Univ,1,0,3
+ERM Rescan Environm Serv,1,6,26
+Ernst Moritz Arndt Univ Greifswald,1,3,11
+Erzincan Social Sci High Sch,1,0,3
+ESA,1,12,51
+Escola Super Agr,1,0,29
+Escola Super Tecnol,1,0,29
+Escuela Nacl Estudios Superiores Unidad Merida UN,1,0,18
+Escuela Politecn Super Gandia,1,9,85
+Escuela Super Politecn Litoral ESPOL,1,5,25
+Eskisehir Osmangazi Univ,1,0,0
+ESPOL Polytech Univ,1,3,22
+Esri,1,0,56
+ESSA Technol Ltd,1,3,26
+Estn Biol Donana CSIC,1,3,19
+Estn Biol Donana EBD CSIC,1,50,250
+Estn Cient Coiba COIBA AIP,1,0,0
+Estn Expt Agr Rafaela,1,0,18
+Estn Expt Agroforestal Esquel INTA,1,0,11
+Estonian Environm Agcy,1,0,9
+Estr Capenha 1467,1,0,4
+ETH Zurich Domain,1,0,23
+Ethiopian Forestry Dev EFD,1,3,8
+Ethiopian Wildlife Conservat Author,1,0,1
+Eurac Res,1,0,9
+Euro Mediterranean Water Inst,1,0,36
+Euromediterranean Ctr Climate Change,1,2,17
+Euromediterranean Ctr Climate Changes,1,6,22
+European & Mediterranean Plant Protect Org,1,11,74
+European Commiss Joint Res Ctr,1,2,4
+European Ctr Medium Range Weather Forecasts,1,1,5
+European Invertebrate Survey Kennisctr Insecten N,1,2,15
+European Invertebrate Survey Netherlands,1,0,181
+European Mycol Inst EGTC EMI,1,0,8
+European Reg Ctr Ecohydrol PAS Auspices UNESCO,1,0,17
+European Univ Lefke,1,0,4
+European Univ St Petersburg,1,0,1
+Evangel Coll,1,0,2
+Everest Snow Leopard Conservat Ctr,1,20,69
+Evora Univ,1,0,3
+Exploramer,1,0,29
+ExxonMobil Biomed Sci,1,0,3
+ExxonMobil Res Qatar,1,0,3
+Fac Ciencias Agr UNJu,1,0,0
+Fac Ciencias Exactas & Nat & Agrimensura UNNE,1,0,3
+Fac Ciencias UNED,1,1,14
+Fac Dom Bosco,1,4,54
+Fac Elect Engn & Informat Technol,1,2,31
+Fac Fed Para,1,0,12
+Fac Forestry & Wood Technol,1,0,6
+Fac Forestry Wood Sci & Design,1,0,15
+Fac Med La Timone,1,5,13
+Fac Med Marilia,1,0,28
+Fac Metropolitana Anapolis,1,0,0
+Fac Nat Sci & Math,1,2,31
+Fac Resource Sci & Technol,1,0,106
+Fairchild Trop Bot Garden Coral,1,0,169
+Fairylake Bot Garden,1,9,36
+Fakir Mohan Univ,1,0,8
+Falkland Isl Govt Fisheries Dept,1,0,9
+Falklands Conservat,1,0,12
+FAN,1,2,9
+Fano Marine Ctr,1,0,10
+FAO,1,0,2
+Far Eastern Branch Russian Acad Sci,1,0,11
+Far Eastern Fed Univ,1,0,35
+Far North Queensland Reg Org Councils,1,0,39
+Faroe Marine Res Inst,1,0,58
+Fars Agr & Nat Resources Res & Educ Ctr AREEO,1,0,8
+Fars Prov Off Dept Environm,1,14,52
+FAU Erlangen Nurnberg,1,4,38
+Fauna & Flora Int Viet Nam Programme,1,0,6
+FCEF & N UNC,1,0,12
+Fdn Aula Mar Mediterraneo,1,0,0
+Fdn Biodiversidad,1,4,14
+Fdn Bioethos,1,1,3
+Fdn Bruno Kessler,1,5,34
+Fdn Cethus,1,0,13
+Fdn Ctr Euro Mediterraneo Cambiamenti Climat CMCC,1,0,15
+Fdn Ctr Euro Mediterraneo Cambiamenti Climatici CM,1,0,10
+Fdn E Mach,1,0,43
+Fdn Ecotonos,1,0,17
+Fdn Estn Biol,1,0,169
+Fdn Estudio Especies Invas,1,0,11
+Fdn Estudio Especies Invas FUEDEI,1,0,2
+Fdn Int Nat & Sostenibilidad,1,0,28
+Fdn Invest & Conservac Loros Bolivia CLB,1,0,8
+Fdn Jocotoco,1,0,1
+Fdn KORA,1,0,9
+Fdn Macuat Colombia,1,0,28
+Fdn Mamiferos & Conservac,1,2,26
+Fdn Miguel Lillo,1,3,11
+Fdn Otonga,1,1,10
+Fdn PROINPA,1,0,17
+Fdn Puerto Rastrojo,1,0,169
+Fdn Rapaces & Bosques Panama,1,1,5
+Fdn Shoonem,1,0,2
+Fdn Sudamer Diversa,1,0,3
+Fdn Tierra,1,0,3
+Fdn Whalesound,1,0,0
+Fdn Yaguara Panama,1,5,41
+Fdn Yubarta,1,0,0
+FEB RAS,1,0,35
+Fed Agcy Nat Conservat,1,0,18
+Fed Inst Sci & Technol Sergipe,1,0,5
+Fed Inst Sci & Technol Triangulo Mineiro IFTM Cam,1,0,3
+Fed Minist Hlth,1,0,26
+Fed Rural Univ Amazonia UFRA,1,0,1
+Fed State Inst Zapovednaya Ossetia Alania,1,0,1
+Fed Technol Univ Parana UTFPR,1,0,1
+Fed Univ,1,0,26
+Fed Univ Goias UFG,1,13,104
+Fed Univ Jequitinhonha & Mucuri Valley,1,0,10
+Fed Univ Pampa,1,0,23
+Fed Univ Parana UFPR,1,0,1
+Fed Univ Rio Grande FURG,1,0,6
+Fed Univ San Francisco Valley UNIVASF,1,0,0
+Fed Univ Technol,1,0,26
+Fed Univ Tocantins,1,0,1
+Fed Univ Uberlandia UFU,1,0,0
+Fed Univ Vales Jequitinhonha & Mucuri,1,0,1
+Fed Univ Western,1,0,2
+Fed Univ Western Bahia,1,0,0
+Fed Univ Western Para UFOPA,1,0,0
+Federal Minist Hlth,1,0,22
+Federat Univ,1,0,0
+Federat Univ Ballarat,1,0,52
+Federico II Univ Napoli,1,0,210
+Fedstan GMC Register Pvt Ltd,1,0,1
+Fengcheng Forestry Dev Serv Ctr,1,0,4
+Ferhat Abbas Univ,1,0,7
+Ficedula,1,0,2
+Field Museum,1,0,169
+Filariases & Other Trop Dis Res Ctr CRFilMT,1,1,19
+Finch Res Network,1,0,10
+Finnish Forest Ctr,1,0,11
+Finnish Forest Res Inst Metla,1,5,34
+Finnish Museum Nat Hist,1,3,16
+Finnish Museum Nat Hist LUOMUS,1,0,3
+Fins Attached,1,0,19
+FIOCRUZ Amazonas,1,0,43
+Fiocruz Minas Belo Horizonte Minas Gerais,1,0,8
+Fischerstr 1,1,0,12
+Fisheries & Oceans Canada DFO,1,0,4
+Fisheries Res Stn Baden Wuerttemberg,1,4,22
+Fisheries Res Stn Baden Wurttemberg,1,0,18
+Fishery Patrol Vessel Pharos SG,1,0,13
+FLAME Univ,1,0,8
+Flanders Marine Inst,1,0,1
+Flanders Marine Inst VLIZ,1,0,92
+Flanders Res Inst Agr Fishery & Food,1,0,30
+Flemish Inst Technol Res VITO,1,4,21
+Flora & Fauna Chile Limitada,1,0,4
+Florentino Ameghino Prov Museum Nat Sci,1,0,0
+Florida A&M Univ,1,0,72
+Florida Dept Hlth,1,0,23
+Florida Inst Technol,1,0,10
+Florida Mech & Agr Univ,1,4,84
+Focke & Co,1,0,30
+Food & Consumer Prod Safety Author,1,0,42
+For Nat Srl,1,0,4
+Force Hlth Protect,1,6,40
+Forest Coll & Res Inst,1,0,21
+Forest Dept Myanmar,1,0,29
+Forest Dept Sarawak,1,0,29
+Forest Inventory & Planning Inst,1,0,29
+Forest Nepal,1,0,3
+Forest Res & Dev Ctr FRDC,1,0,29
+Forest Res & Training Ctr,1,0,9
+Forest Res Agcy,1,11,101
+Forest Res Agcy Forestry Commiss,1,0,15
+Forest Sci & Technol Ctr Catalonia,1,0,8
+Forest Sci Ctr,1,10,38
+Forest Sci Ctr Catalonia CTFC,1,3,19
+Forestry & Conservat,1,0,37
+Forestry & Grassland Sci Res Inst Baoshan City,1,0,6
+Forestry & Grassland Tech Extent Stn Baoshan City,1,0,6
+Forestry & Grassland Tech Promot Stn Baoshan City,1,0,1
+Forestry Bur Wufeng Cty,1,0,69
+Forestry Commiss Zimbabwe,1,1,10
+Forestry Explorat & Design Inst Sichuan,1,0,13
+Forestry Grassland Invest & Planning Inst Heilongj,1,0,4
+Forestry Res Inst Nigeria FRIN,1,0,2
+Fram Ctr,1,6,138
+Francis Schaffner Consultancy,1,0,11
+Frankfurt Zool Soc,1,0,1
+Franklin Univ,1,0,16
+Frederick Univ,1,0,9
+Free Univ Amsterdam,1,0,169
+Free Univ Bozen Bolzano,1,0,3
+French Inst Pondicherry IFP,1,1,2
+French Natl Res Inst Sustainable Dev IRD,1,0,5
+Frey Biol Res,1,0,6
+fRI Res,1,0,13
+Friedrich Alexander Univ & Erlangen Nurnberg,1,4,21
+Friedrich Alexander Univ Erlangen Nuremberg,1,0,1
+Friedrich Loeffler Inst,1,0,2
+Friedrich Schiller Univ Jena,1,0,1
+Froglife,1,3,31
+Ft Collins Sci Ctr,1,0,50
+Ft Hays State Univ,1,1,7
+Ft Hood Mil Reservat,1,2,31
+Ft Lewis Coll,1,5,41
+Fujian Acad Forestry,1,0,45
+Fujian Forestry Prospect & Design Inst,1,0,0
+Fujian Normal Univ,1,0,26
+Fujian Prov Key Lab Marine Ecol Conservat & Restor,1,0,16
+Fujian Prov Stn Field Observat & Res Isl & Coasta,1,0,13
+Fujian Res Inst Forestry,1,0,67
+Fujian Univ Technol,1,0,16
+Fukken Co Ltd,1,1,7
+Fukui Prefectural Govt,1,1,18
+Fukui Prefectural Satoyama Satoumi Res Inst,1,1,18
+Funct Act & Resource Utilizat Edible & Med Fungi J,1,0,9
+Fundac Mamiferos & Conservac,1,1,3
+Fundacao Inst Pesca Estado Rio de Janeiro,1,2,18
+Fundacao Mamiferos Aquat,1,0,2
+Fundacao Med Trop Dr Heitor Vieira Dourado,1,0,43
+Fundacao Pronat,1,0,4
+Fundacao Univ Fed Rondonia,1,0,28
+Fundacao Zoobot Rio Grande do Sul FZB,1,2,24
+Fundacio Univ Girona Innovacio & Form,1,1,3
+FundacionEcoCiencia,1,0,10
+FutureFeed Pty Ltd,1,0,0
+G 403,1,0,13
+Gachon Univ,1,0,18
+Gaia Res Inst,1,0,11
+Gaia Res Inst Onlus,1,7,45
+Galileo Inst Technol & Educ Amazonas,1,0,0
+Gansu Acad Agr Sci,1,31,87
+Gansu Taohe Natl Nat Reserve Adm,1,0,1
+Gansu Univ Chinese Med,1,0,10
+Ganzi Tibetan Autonomous Prefecture Forestry Sci,1,0,13
+Gazi Univ,1,0,0
+GB Pant Natl Inst Himalayan Environm & Sustainab,1,8,17
+GEAC,1,10,43
+GEF UNDP,1,1,27
+GEMM Lagos,1,0,43
+Gen Directorate Nat Conservat & Natl Pk,1,0,0
+Gen Directorate Nat Resources & Watershed Manageme,1,0,7
+Geneva Univ Hosp,1,0,19
+Geog Inst Bayreuth GIB,1,0,7
+GeoIS,1,0,169
+Geol Survey Ireland,1,18,46
+GEOMAR,1,0,20
+George Mason Univ,1,0,28
+George Washington Univ,1,0,17
+Geosci Australia,1,8,36
+GEREPI,1,16,54
+German Biomass Res Ctr gemeinnutzige GmbH DBFZ,1,0,27
+German Ctr Marine Biodivers Res DZMB,1,0,35
+German Inst Human Nutr,1,0,106
+German Remote Sensing Data Ctr DFD,1,0,47
+German Res Ctr Artificial Intelligence,1,0,14
+Gest Acuicola Maritima & Ambiental Ltda GEOGAMA,1,0,5
+Gest Estrateg & Manejo Ambiental SC Nuevo Leon,1,0,3
+Gettysburg Coll,1,0,2
+GFI Gochang Future Policy Inst,1,0,0
+GFZ German Res Ctr Geosci,1,0,43
+GHD Pty Ltd,1,10,143
+Ghent Univ UGent,1,1,6
+Gilan Prov Off,1,9,31
+Gilgit Baltistan Forest Wildlife & Environm Dept,1,0,88
+GIS Analyst Natl Engn Serv Pakistan,1,0,1
+Global Biodivers Informat Facil,1,0,4
+Global Canopy Programme,1,0,106
+Global Change Impact Studies Ctr,1,0,88
+Global Change Res Ctr Czech Globe,1,0,8
+Global Change Res Inst,1,2,7
+Global Conservat Program,1,2,24
+Global Inst Interdisciplinary Studies,1,0,1
+Global Virus Network,1,0,12
+Global Wildlife Conservat,1,5,41
+Goa Univ,1,3,9
+Gobierno Cantabria CIFA,1,14,36
+GOI,1,0,3
+GoI GEF UNDPs,1,0,5
+Gongju Natl Univ Educ,1,0,0
+Gorgan Univ Agr & Natl Resources,1,0,10
+Govt Arts Coll Women,1,0,1
+Govt Azad Jammu & Kashmir,1,0,2
+Govt Catalonia,1,0,9
+Govt Coll Univ,1,0,7
+Govt Hashmat Ali Islamia Associate Coll Rawalpindi,1,0,19
+Govt Hashmat Ali Islamia Coll Rawalpindi,1,4,11
+Govt Newfoundland & Labrador,1,1,8
+Govt Tripura,1,0,11
+Govt Yukon,1,0,1
+GRA Grp Ric Avifauna,1,0,2
+Grad Univ,1,22,66
+Gran Paradiso Natl Pk,1,0,9
+Grap Era Deemed Univ,1,0,1
+Graph Era Hill Univ,1,5,26
+Graz Univ,1,4,110
+Great Lakes Lab Fisheries & Aquat Sci,1,0,2
+Great Smoky Mts Natl Pk,1,0,0
+Green Blue Solut,1,0,21
+Green Diamond,1,0,10
+Green Diamond Resource Co,1,0,2
+Green Environm Ctr,1,0,0
+Green Mt & Finger Lakes Natl Forests,1,0,0
+Green Mt Natl Forest,1,0,0
+GREEN Together Inst,1,0,17
+Greenland Inst Nat Resources,1,0,12
+Grenoble Alpes Univ,1,0,6
+Grge Novaka 3,1,0,6
+Grp Biol Conservac S RL CV,1,0,23
+Grp Chiropteres Provence,1,4,27
+Grp Energia Bogota SAESP,1,0,12
+Grp Estudio Primates Ecuador GEPE,1,1,3
+Grp Estudos Mamiferos Aquat Rio Grande do Sul,1,0,9
+Grp Geog Informat Res & Anal Populat Hlth GIRAPH,1,0,19
+Grp Iberico Anillamiento,1,0,17
+Grp Insubrico Ornitol Onlus,1,1,27
+Grp Invest Biodivers Sostenibil & Medio Ambiente,1,0,0
+Grp Invest Bioforense Tecnol Antioquia,1,0,3
+Grp Invest Biogeog & Ecol Espacial BioGeo2,1,1,3
+Grp Invest Serpientes Neotrop BOTHROPERIO,1,0,0
+Grp Jaragua,1,1,13
+Grp Ornithol Deux Sevres,1,0,6
+Grp Piemontese Studi Ornitol FA Bonelli Onlus,1,0,2
+Grp Rech Cetaces,1,6,26
+Guangdong Inst Appl Biol Resources,1,0,55
+Guangdong Pearl River Estuary Chinese White Dolph,1,3,20
+Guangdong Second Prov Gen Hosp,1,0,6
+Guangdong Univ Petrochem Technol,1,0,139
+Guangxi Bot Garden Med Plants,1,6,32
+Guangxi Forestry Res Inst,1,0,7
+Guangxi Inst Bot,1,0,2
+Guangxi Inst Chinese Med & Pharmaceut Sci,1,0,3
+Guangxi Key Lab Emerging Contaminants Monitoring,1,0,1
+Guangxi Key Lab Landscape Resources Conservat & Su,1,0,92
+Guangxi Modern Polytech Coll,1,0,1
+Guangzhou Inst Geog,1,0,25
+Guilan Univ,1,0,6
+Guizhou Acad Agr Sci,1,0,12
+Guizhou Engn Res Ctr Cultivat & Planting Chinese M,1,0,12
+Guizhou Med Univ,1,0,1
+Guizhou Prov Key Lab Rare Anim & Econ Insect Mount,1,2,9
+Guizhou Prov Peoples Hosp,1,0,1
+Guizhou Univ Engn Sci,1,0,0
+Gujarat Univ,1,3,28
+Gulf Maine Res Inst,1,19,57
+Gulf South Ctr Vector Educ Ctr Training Outreach &,1,0,2
+Gunma Prefectural Off,1,0,8
+Gunnars Veg 10,1,0,5
+Guru Gobind Singh Indraprastha Univ,1,1,7
+Gurukul Kangri Vishwavidyalaya,1,0,2
+Gurukula Kangri Deemed Univ,1,0,1
+Guy Harvey Ocean Fdn,1,0,4
+Guyra Paraguay,1,0,0
+Gyeonggi Do Agr Res & Extens Serv,1,2,10
+Gyeonggi Res Inst,1,0,4
+H 2-5-26-H,1,4,6
+HabiProt,1,3,11
+Hail Univ,1,0,21
+Hainan Acad Ocean & Fisheries Sci,1,0,13
+Hainich Natl Pk Adm,1,0,1
+Hakai Inst,1,0,30
+Halmstad Univ,1,2,13
+Halu Oleo Univ,1,0,0
+Hamilton Coll,1,0,6
+Hands Conservat,1,0,0
+Hangzhou Dianzi Univ,1,0,7
+Hannam Univ,1,0,26
+Hannover Sch Vet Med,1,0,3
+Hanoi Univ Sci & Technol,1,0,0
+Hanse Wissenschaftskolleg Inst Adv Study HWK,1,1,14
+Hanshan Normal Univ,1,0,0
+Hanyang Univ,1,0,5
+Hanzaki Res Inst Japan,1,0,4
+Haramaya Univ,1,0,3
+Harbin Med Univ,1,0,4
+Harbin Normal Univ,1,9,67
+Hardner & Gullison Associates,1,6,26
+Harmusch,1,0,46
+Harper Adams Univ,1,1,5
+Harran Univ,1,0,1
+Harrison Inst,1,6,36
+Harvard TH Chan Sch Publ Hlth,1,0,12
+Harvey Ecol,1,1,50
+Harz Natl Pk,1,0,9
+Hasanuddin Univ,1,0,0
+Haus Natur,1,0,11
+Hawaii Div Forestry & Wildlife,1,0,6
+Hawaii State Dept Land & Nat Resources,1,0,0
+Hazara Univ,1,0,29
+HealthBridge,1,0,31
+Hebei Acad Agr & Forestry Sci,1,6,27
+Hebei Acad Sci,1,0,42
+Hebei Agr Univ,1,0,1
+Hebei Med Univ,1,0,0
+Hebei Prov Acad Chinese Med Sci,1,0,42
+Hefei Normal Univ,1,0,12
+Heidelberg Univ Educ,1,0,7
+Heilongjiang Forestry Technol Serv Ctr,1,0,4
+Heilongjiang Prov Inst Meteorol Sci,1,0,47
+Heilongjiang River Fisheries Res Inst,1,0,0
+Heilongjiang Vocat Inst Ecol Engn,1,0,0
+Heilongjiang Wildlife Res Inst,1,0,5
+Heiloniang Univ,1,0,10
+Hejiang Bur Agr & Rural Affairs,1,0,6
+Hellen Agr Org DIMITRA,1,0,2
+Hellen Agr Org DIMITRA ELGO DIMITRA,1,0,15
+Hellen Ornithol Soc,1,1,22
+Helmholtz Ctr Polar and Marine Res,1,0,13
+Helmholtz Zent Dresden Rossendorf,1,0,0
+Helmholtz Zentrum Geesthacht,1,2,37
+Helmholtz Zentrurn Geesthacht,1,0,40
+Helsinki Univ Hosp,1,7,28
+Hemvati Nandan Bahuguna Garhwal Univ,1,3,28
+Henan Acad Agr Sci,1,0,5
+Henan Mech & Elect Vocat Coll,1,0,2
+Henan Normal Univ,1,0,0
+Henan Polytech Univ,1,0,18
+Henan Yellow River Wetland Natl Nat Reserve,1,0,0
+Henry Jackson Fdn,1,0,14
+Henry M Jackson Fdn,1,0,24
+Henry M Jackson Fdn Adv Mil Med,1,6,20
+Henry M Jackson Fdn Adv Mil Med Inc,1,0,12
+Herbario Nacl Bolivia Inst Ecol,1,3,8
+Herbario Nacl Ecuador QCNE,1,2,26
+Herbario Univ PORT UNELLEZ Guanare,1,0,169
+Herbarium Univ Senensis,1,1,11
+Heriot Watt Univ,1,0,1
+HERP MX,1,0,21
+Herpetol Fdn Sri Lanka,1,0,5
+Hexi Univ,1,0,0
+Higdon Wildlife Consulting,1,1,6
+Higher Sch Econ,1,0,1
+Himachal Reg Ctr,1,6,18
+Himalayan Nat,1,1,8
+Hirola Conservat Program,1,0,1
+HNB Garhwal Univ SRT Campus Badshahithaul Tehri Ga,1,0,2
+Hokkaido Res Ctr,1,0,5
+Hokkaido Univ Toikanbetsu,1,0,8
+Holden Arboretum,1,0,6
+Honam Natl Inst Biol Resources,1,1,4
+Hong Kong Baptist Univ,1,0,0
+Hong Kong Observ,1,0,10
+Hong Kong Univ Sci & Technol,1,0,12
+Hortus Botanicus Leiden,1,3,21
+Hosp Clin San Carlos IdISSC,1,0,0
+Hosp Gen Dr Manuel Gea Gonzalez,1,0,19
+Houzhai Town Peoples Govt Nanao Cty,1,0,7
+HR Wallingford,1,0,4
+HR Wallingford Ltd,1,0,54
+Hsch nachhaltige Entwicklung Eberswalde,1,1,6
+Huangshan Univ,1,0,0
+Hubei Normal Univ,1,0,1
+Hubei Polytech Univ,1,0,1
+Hubei Univ,1,0,0
+Hubei Univ Technol,1,0,5
+Hubei Xianning Jiugongshan Adm Comm Natl Nat Reser,1,0,0
+Hulun Buir Forestry & Grassland Dev Ctr,1,0,20
+Hume Ctr Ecol & Wildlife Biol,1,0,2
+Hunan Acad Forestry,1,0,2
+Hunan Agr Univ,1,0,0
+Hunan Big Data Engn Technol Res Ctr Nat Protected,1,0,0
+Hunan Global Messenger Technol Co Ltd,1,2,31
+Hungarian Acad Sci,1,2,27
+Hungarian Univ Agr & Life Sci,1,0,1
+Hunting Federat Macedonia & Thrace,1,0,17
+Hussaini Adamu Fed Polytech HAFED Poly,1,0,0
+HUTECH Univ,1,0,22
+Hwange Naal Pk,1,0,20
+Hwange Natl Pk,1,0,1
+Hybrid Rapeseed Res Ctr Shaanxi Prov,1,0,7
+IAC,1,6,23
+IADIZA CCT CONICET Mendoza,1,0,14
+IAFENT Div,1,0,41
+IAFES Div,1,0,5
+Ian Kusabs & Associates Ltd,1,0,0
+IBSS Corp,1,0,20
+ICAR Cent Agroforestry Res Inst,1,0,0
+ICAR Cent Coastal Agr Res Inst,1,0,1
+ICAR Cent Inst Brackishwater Aquaculture,1,0,1
+ICAR Cent Tuber Crops Res Inst,1,1,8
+ICAR CMFRI,1,0,6
+ICAR Indian Grassland & Fodder Res Inst,1,0,1
+ICAR Indian Inst Maize Res,1,0,0
+ICAR Natl Acad Agr Res Management,1,0,0
+ICAR Natl Bur Agr Insect Resources,1,0,3
+ICAR Natl Bur Plant Genet Resources NBPGR,1,0,2
+ICAR Natl Bur Soil Survey & Land Use Planning,1,0,0
+ICAR Natl Ctr Integrated Pest Management,1,0,3
+ICAR Natl Res Ctr Integrated Pest Management,1,0,17
+ICAR Res Complex North Eastern Hill NEH Reg,1,0,2
+Iceland Inst Nat Hist,1,0,23
+ICFRE Inst Forest Prod,1,0,4
+ICFRE IWST,1,0,0
+ICLEI Local Govt Sustainabil,1,21,56
+ICMAN CSIC,1,0,12
+ICREA,1,0,7
+ICS,1,0,105
+IE Univ,1,0,125
+IEPA,1,0,169
+IF Goiano,1,6,11
+IFAB CONICET INTA EEA Bariloche,1,5,35
+IFP,1,2,20
+IGCMC,1,0,4
+IHBT,1,3,28
+IIAP,1,0,169
+IIT Kharagpur,1,0,7
+IITA,1,0,123
+Ikerbasque Fdn,1,0,24
+Ilam Univ Med Sci,1,0,4
+Ile Alatau Natl Pk,1,0,6
+Illinois State Museum,1,0,1
+IMARES Wageningen UR,1,7,88
+Imperial Coll London Silwood,1,10,98
+IMSS,1,0,16
+Incheon Climate & Environm Res Ctr,1,0,9
+INCT DT,1,0,0
+INCT IN TREE Inst Nacl Ciencia & Tecnol Estudos I,1,0,9
+Ind Econ Inc,1,4,21
+Indian Agr Res Inst,1,0,17
+Indian Council Agr Res,1,14,40
+Indian Council Forestry Res & Educ ICFRE,1,0,5
+Indian Grassland & Fodder Res Inst IGFRI,1,0,1
+Indian Inst Integrat Med,1,0,2
+Indian Inst Sci Educ & Res IISER,1,0,1
+Indian Inst Sci Educ & Res IISER Tirupati,1,0,2
+Indian Inst Sci Educ & Res Kolkata,1,0,21
+Indian Inst Technol IIT,1,0,8
+Indian Inst Technol Kharagpur IIT KGP,1,0,4
+Indian Inst Trop Meteorol,1,0,52
+Indian Reg Assoc Landscape Ecol,1,0,1
+Indigenous Plant Propagat Unit,1,1,7
+Indonesian Inst Sci,1,0,8
+Indonesian Res Ctr Vet Sci Balai Besar Penelitian,1,2,10
+inED Ctr Invest & Inovacao Educ,1,0,3
+INESC ID,1,0,10
+INESC TEC Inst Engn Sistemas & Comp Tecnol & Cienc,1,0,12
+Informat Engn Univ,1,1,19
+Ingerod,1,0,7
+INIFAP,1,0,2
+INIFAP Campo Expt Chetumal,1,3,17
+INIFAP Campo Expt Ctr Chiapas,1,3,17
+INIFAP Campo Expt El Palmar,1,3,17
+INIFAP Campo Expt Huimanguillo,1,3,17
+INIFAP Campo Expt Saltillo,1,3,17
+Inner Mongolia Ecoenvironm Big Data Ltd Co,1,0,22
+Inner Mongolia Higher Educ Inst,1,0,6
+Inner Mongolia Hosp Tradit Chinese Med,1,0,8
+Inner Mongolia Key Lab Characterist Geoherbs Resou,1,0,8
+Inner Mongolia Med Univ,1,0,8
+Inner Mongolia Normal Univ,1,0,0
+Inner Mongolian Hulun Lake Natl Nat Reserve,1,0,59
+Innland Cty Council,1,188,631
+Innovat Agr SS,1,0,1
+Inova Fairfax Med Campus,1,0,0
+INPE,1,0,169
+INRAB,1,0,37
+InsPIRE Network Environm,1,21,56
+Inst Agr Innovat Panama,1,0,0
+Inst Agr Super Andino IASA,1,1,2
+Inst Agroalimentario Aragon IA2,1,0,27
+Inst Agron Neo Caledonien IAC,1,0,98
+Inst Alexander von Humboldt,1,8,64
+Inst Appl Ecol,1,0,6
+Inst Architecture & Urban & Spatial Planning Serb,1,0,15
+Inst Argentino Oceanog,1,0,15
+Inst Bio & Geociencias Noroeste Argentino,1,0,14
+Inst Biodivers & Conservat,1,0,7
+Inst Biodivers & Conservat IBCT,1,0,27
+Inst Biodivers NGO,1,0,0
+Inst Bioecon & Agri Technol iBO,1,1,12
+Inst Bioecon Natl Res Council,1,2,21
+Inst BioEcoScience,1,0,2
+Inst Biol Evolut CSIC UPF,1,0,7
+Inst Biol UNAM,1,5,41
+Inst Biomed Dr Jacinto Convit,1,1,6
+Inst Biotrop,1,0,1
+Inst Bird Conservancy Rockies,1,0,34
+Inst Bird Populat,1,0,7
+Inst Boliviano Invest Forestal,1,0,169
+Inst Bot & Phytointroduct,1,0,3
+Inst Bot CAS,1,0,5
+Inst Bot Darwin,1,0,1
+Inst Bot Nordeste UNNE CONICET,1,0,3
+Inst Brasileiro Meio Ambiente CSR IBAMA,1,0,15
+Inst Butantan,1,0,3
+Inst Catala Paleoecol Humana & Evolucio Social IPH,1,0,8
+Inst Chico Mendes Conservacao Biodiversidade,1,0,2
+Inst Chico Mendes Conservacao Biodiversidade MMA,1,7,30
+Inst Ciencias Terra ICT,1,3,20
+Inst Ciencies Mar Consejo Super Invest Cient ICM C,1,0,1
+Inst Commercial Forestry Res,1,1,12
+Inst Conservac Especies Amenazadas,1,0,6
+Inst Conservacao Anim Silvestres ICAS,1,2,23
+Inst Conservacao Carnivoros Neotropicais,1,0,42
+Inst Cytol,1,0,11
+Inst Dendrol,1,0,0
+Inst Dept Salud,1,0,15
+Inst Desenvolvimento Sustentavel Mamiraua,1,0,13
+Inst Diagnost & Referencia Epidemiol,1,0,3
+Inst Diversidad & Ecol Anim IDEA,1,0,21
+Inst Ecol & Biodiversidad IEB,1,3,14
+Inst Ecol & Bot,1,0,20
+Inst Econ Rurale,1,0,0
+Inst Educac Secundaria Vega Atarfe,1,0,7
+Inst Environm IonE,1,0,4
+Inst Environm Protect & Res,1,0,1
+Inst Espanol Oceanog COST IEO,1,0,17
+Inst Espanol Oceanog CSIC,1,0,0
+Inst Espanol Oceanog IEO CSIC,1,0,17
+Inst Estudos Socioambientais Bahia,1,0,9
+Inst Evandro Chagas,1,0,10
+Inst Evolutionary Biol CSIC UPF,1,4,42
+Inst Expt & Clin Vet Med,1,0,5
+Inst Fed Ciencia & Tecnol Triangulo Mineiro Campus,1,0,1
+Inst Fed Educ Ciencia & Tecnol Paraiba,1,0,8
+Inst Fed Educ Ciencia & Tecnol Triangulo Mineiro,1,0,5
+Inst Fed Tocantins,1,0,1
+Inst Fomento Pesquero IFOP,1,0,0
+Inst Forest & Wildlife Res & Dev,1,0,29
+Inst Forest Prod,1,0,0
+Inst Forest Prod IFP,1,0,21
+Inst Forest Prod Indian Council Forestry Res & Edu,1,0,13
+Inst Forestry,1,0,23
+Inst Formac Docente Salome Urena,1,1,6
+Inst Fundamental Res & Studies,1,0,1
+Inst Global Food Secur IGFS,1,0,4
+Inst Hlth & Environm,1,0,1
+Inst Hlth Serv & Med Informat,1,0,21
+Inst Hydrobiol,1,0,3
+Inst IBYDA,1,0,8
+Inst Infectiol Emilio Ribas,1,0,38
+Inst Ingn & Tecnol,1,0,4
+Inst Innovac Agr Panama,1,0,0
+Inst Innovat,1,1,2
+Inst Invest Agr,1,0,3
+Inst Invest Biol Paraguay,1,0,0
+Inst Invest Biol Paraguay IIBP,1,0,1
+Inst Invest Energia Convencional CONICET,1,0,45
+Inst Invest Recursos Biol Alexander Humboldt,1,1,11
+Inst Invest RecursosBiol Alexander Humboldt,1,0,2
+Inst Invest Sanitaria Valdecilla IDIVAL,1,0,17
+Inst Ionosphere,1,0,6
+Inst Life Sci,1,0,19
+Inst Mar Peru,1,2,10
+Inst Marine,1,11,49
+Inst Marine Biol Resources & Biotechnol IRBIM,1,0,0
+Inst Marine Biol Resources & Inland Waters,1,0,0
+Inst Maurice Lamontagne,1,5,21
+Inst Mediterrani Estudis Avancats CSIC UIB,1,0,9
+Inst Multidisciplinario Invest Biol IMIBIO CONICE,1,0,9
+Inst Nacl Biodiversidad INABIO,1,0,19
+Inst Nacl Costarricense Pesca & Acuicultura,1,2,10
+Inst Nacl Enfermedades Infecciosas,1,0,45
+Inst Nacl Innovac Agr,1,0,2
+Inst Nacl Innovac Agr INIA,1,0,9
+Inst Nacl Invest & Desarrollo Pesqucro,1,0,15
+Inst Nacl Invest & Desarrollo Pesquero,1,3,9
+Inst Nacl Invest & Desarrollo Pesquero INIDEP,1,0,0
+Inst Nacl Invest Forest Agricolas & Pecuarias INI,1,0,6
+Inst Nacl Invest Forestales Agr & Pecuarias INIFA,1,0,2
+Inst Nacl Invest Forestales Agr & Pecuarias INIFAP,1,0,6
+Inst Nacl Mata Atlantic,1,0,0
+Inst Nacl Mata Atlantica INMA,1,1,9
+Inst Nacl Pesquisas Amazonia INPA,1,0,0
+Inst Nacl Pesquisas Arnazonia,1,0,10
+Inst Nacl Pesquisas Pantanal INPP,1,0,5
+Inst Nacl Salud Publ INSP,1,0,24
+Inst Nacl Tecnol Agr INTA,1,0,2
+Inst Nacl Tecnol Agr IRB CIRN,1,0,0
+Inst Nat Sci,1,0,1
+Inst Nat Tocantins NATURATINS,1,0,4
+Inst Natl Med Trop INMeT,1,0,7
+Inst Natl Pesca & Acuacultura,1,2,10
+Inst Natl Rech Agr Benin INRAB,1,0,4
+Inst Natl Rech Informat & Automat INRIA Sophia An,1,0,33
+Inst Obert Catalunya,1,0,23
+Inst Oceanog & Fisheries,1,3,23
+Inst Oceanol,1,0,6
+Inst Oswaldo Cruz,1,0,43
+Inst Penyelidikan Perhutanan Malaysia,1,0,29
+Inst Pertanian Bogor,1,0,7
+Inst Pesquisa Jardim Bot Rio de Janeiro JBRJ,1,8,19
+Inst Pesquisas Cananeia IPeC,1,0,13
+Inst Pesquisas Ecol IPE,1,2,23
+Inst Phys Globe Paris IPGP,1,0,9
+Inst Pierre Richet,1,0,1
+Inst Politecn Castelo,1,0,9
+Inst Politecn Nacl CICIMAR,1,0,11
+Inst Politecn Nacl Cinvestav,1,0,0
+Inst Potosino Invest Cientif & Tecnol,1,0,14
+Inst Pro Carnivoros,1,0,1
+Inst Publ Invest Acuicultura & Pesca,1,2,10
+Inst Rech Biomed Armeees,1,5,13
+Inst Rech Biomed Armees,1,0,18
+Inst Rech Tour Valat,1,3,10
+Inst Recifes Costeiros IRCOS,1,0,45
+Inst Recursos Nat & Ordenac Terr INDUROT,1,0,2
+Inst Salud Carlos III,1,0,17
+Inst SINCHI,1,0,169
+Inst Super Agron Chott Meriem,1,1,4
+Inst Super Tecn,1,34,83
+Inst Sylvo Pastoral,1,6,32
+Inst Technol & Life Sci,1,0,2
+Inst Tecnol & Estudios Super Monterrey,1,0,1
+Inst Tecnol Costa Rica,1,0,9
+Inst Tecnol El Salto,1,0,15
+Inst Tecnol Santo Domingo,1,1,13
+Inst Teknol Bandung,1,0,7
+Inst Teknol Sumatera,1,0,7
+Inst Terr Ecosyst,1,0,46
+Inst Trop Biodivers & Forestry,1,0,10
+Inst Univ,1,0,3
+Inst Venezolano Invest Cient IVIC,1,0,9
+Int Ctr Bamboo & Rattan,1,0,2
+Int Ctr Diarrheal Dis Res,1,0,51
+Int Ctr Environm Monitoring CIMA Res Fdn,1,0,31
+Int Inst Appl Syst Anal IIASA,1,0,25
+Int Inst Trop Agr,1,6,31
+Int Islam Univ,1,0,0
+Int Islamic Univ,1,0,84
+Int Islamic Univ Malaysia,1,0,8
+Int Management Inst IWMI,1,0,24
+Int Pk GmbH,1,0,3
+Int Potato Ctr,1,1,16
+Int Res & Dev Ctr Livestock Sub Humid Areas CIRDE,1,1,9
+Int Soc Infect Dis ISID,1,0,4
+Int Sustainable Seafood Fdn,1,0,15
+Int Union Conservat Nat IUCN,1,0,4
+Int Water Management Inst IWMI,1,0,30
+INTA EEA Bariloche,1,4,47
+Integrated Agr Dev Co Santa Catarina,1,0,2
+Integrated Serv Dev Aquaculture & Fisheries ISDA I,1,0,3
+Interamer Convent Protect & Conservat Sea Turtles,1,2,10
+Interamer Trop Tuna Commiss IATTC,1,0,11
+Intercultural Mayan Univ Quintana Roo,1,0,0
+InterDev,1,0,5
+Interdisciplinary Ctr Marine & Environm Res CIIMA,1,0,31
+Interdisciplinary Res Grp Sechium Edule Mex GISeM,1,0,0
+Interface Fisheries Consulting Ltd,1,0,3
+Interprofess Dairy Lab Catalonia ALLIC,1,3,17
+INVEMAR,1,0,2
+Ion Ionescu Brad Univ Life Sci,1,0,13
+Ionian Univ,1,0,1
+Iowa State Univ Sci & Technol,1,16,73
+IPAM,1,0,374
+IPB Univ Bogor,1,0,29
+IPEE RAS,1,0,36
+IPICYT,1,0,21
+IPLA SpA,1,0,20
+IPMA Portuguese Inst Sea & Atmosphere,1,0,6
+IPN,1,0,33
+IPSL,1,0,9
+IREC CSIC UCLM,1,1,32
+Irish Ctr High End Comp ICHEC,1,0,4
+Irkutsk Natl Res Tech Univ,1,0,17
+Irstea,1,0,13
+IRSTEA EABX,1,0,16
+Irstea UR EMGR,1,6,19
+IRTA,1,0,35
+Isfahan Univ Med Sci,1,2,6
+Islamic Azad Univ Tehran,1,3,4
+ISMAI Inst Super Maia ISMAI,1,6,31
+ISMAR CNR,1,5,54
+ISPA,1,0,0
+ISPRA,1,1,27
+ISPRA BIO Dept,1,4,29
+ISPRA Inst Environm Protect & Res,1,0,50
+ISPRA Ist Super Protez & Ric Ambientale,1,0,11
+Israel Oceanog & Limnol Res,1,0,46
+Ist Geosci & Georisorse Consiglio Nazl Ric IGG CNR,1,0,10
+Ist Nazl Oceanog & Geofis Sperimentale,1,0,10
+Ist Sci & Tecnol Informaz A Faedo Consiglio Nazl R,1,0,10
+Ist Sci & Tecnol Informaz Alessandro Faedo CNR,1,0,14
+Ist Superiore Protezi & Ric Ambientale ISPRA,1,2,26
+Ist Zooprofilatt Sperimentale Abruzzo & Molis G C,1,3,20
+Ist Zooprofilatt Sperimentale Lazio & Toscana M Al,1,0,6
+Ist Zooprofilatt Sperimentale Venezie IZSVe,1,0,5
+Istanbul Ticaret Univ,1,0,2
+Istanbul Univ Cerrahpasa,1,0,0
+Itaipu Binacl,1,2,24
+Italian Lynx Project,1,2,9
+Italian Minist Foreign Affairs,1,1,27
+Italian Natl Antarctic Museum,1,0,2
+Italian Natl Inst Environm Protect & Res ISPRA,1,0,29
+Italian WorkersCompensat Author INAIL,1,0,5
+IUCN Cat Specialist Grp,1,0,4
+IUCN Joint SSC,1,0,38
+IUCN Species Survival Commiss Indonesia Species Sp,1,0,0
+IUCN Species Survival Commiss Pigeon & Dove Specia,1,0,1
+IUCN SSC Amphibian Specialist Grp,1,0,5
+IUCN SSC Bear Specialist Grp,1,0,7
+IUCN SSC Conservat Planning Specialist Grp CPSG B,1,0,4
+IUCN SSC Deer Specialist Grp,1,0,8
+IUCN WCPA Connect Conservat Specialist Grp,1,0,22
+IUSS Ist Univ Superiori Pavia,1,0,29
+Ivan Franko Univ Lviv,1,15,97
+Iwate Univ,1,0,5
+IWMI,1,0,67
+Iwokrama Int Programme Rainforest Conservat,1,0,169
+Jacksonville Univ,1,0,1
+Jacobs Univ Bremen,1,18,46
+Jadavpur Univ,1,0,8
+Jagannath Univ,1,0,5
+Jagiellonian Univ Med Coll,1,0,1
+Jaguar Conservat Fund,1,29,113
+Jaguares Limite,1,0,0
+Jahangirnagar Univ,1,0,33
+James Cook Univ Townsville,1,0,10
+James Madison Univ,1,0,16
+Jammu & Kashmir Forest Dept,1,0,1
+Jan Evangelista Purkyne Univ Usti nad Labem,1,0,7
+Jan Kochanowski Univ,1,0,8
+Jane Goodall Inst,1,0,16
+Japan Fisheries Res & Educ Agcy,1,0,16
+Japan Meteorol Corp,1,0,3
+Japan Wildlife Res Center,1,1,7
+Jardim Bot Recife,1,0,12
+Jardin Bot Missouri,1,0,169
+JCO Bioprod,1,0,1
+JEAI IRD UMNG CHARISMA,1,0,19
+Jeil Tree Gen Hosp,1,0,4
+Jeonju Univ,1,0,0
+Jharkhand State Forest Dept,1,0,21
+JHT Inc,1,9,28
+Jiangnan Univ,1,0,2
+Jiangsu Ctr Collaborat Innovat,1,0,2
+Jiangsu Inst Parasit Dis,1,0,2
+Jiangsu Ocean Univ,1,0,3
+Jiangsu Open Univ,1,0,6
+Jiangsu Open Univ City Vocat Coll Jiangsu,1,2,17
+Jiangsu Qinghao Landscape Hort Co Ltd,1,0,2
+Jiangsu Univ Sci & Technol,1,0,18
+Jiangxi Acad Sci,1,0,13
+Jiangxi Inst Land Space Survey & Planning,1,0,0
+Jiangxi Univ Chinese Med,1,0,19
+Jilin Prov Joint Key Lab Changbai Mt Wetland & Ec,1,0,49
+Jilin Univ,1,0,9
+Jiwaji Univ,1,0,2
+JNCC Support Co,1,40,176
+Johns Hopkins Bloomberg Sch Publ Hlth,1,1,6
+Johns Hopkins Univ,1,8,56
+Johnson Mirmiran & Thompson,1,4,19
+Join Vietnam Russia Trop Sci & Technol Res Ctr,1,0,4
+Joint Ctr Global Change Studies,1,0,8
+Joint Directorate Mordovia State Nat Reserve & Na,1,0,2
+Jordan BirdWatch,1,0,1
+Jouf Univ,1,0,10
+Jozef Stefan Inst,1,2,31
+JUSTSEA Fdn,1,2,10
+Kadoorie Farm & Bot Garden,1,0,4
+Kadoorie Farm & Bot Garden Corp,1,0,27
+Kadyrov Chechen State Univ,1,0,1
+Kagawa Univ,1,1,7
+Kagoshima Univ,1,0,0
+Kalamalka Forestry Ctr,1,0,14
+Kaltim Lestari Utama,1,0,2
+Kaminando Habitat Connect Initiat,1,0,8
+Kamuzu Univ Hlth Sci,1,0,5
+Kanakkassery House,1,0,1
+Kanari 1,1,0,0
+Kangaroo Isl Nat Resources Management Board,1,0,1
+Kanha Tiger Reserve,1,0,4
+Kansai Res Grp Odonatol,1,0,6
+Kansai Wildlife Assoc,1,0,17
+Kanti Childrens Hosp Maharajgunj,1,0,55
+Kanyirninpa Jukurrpa,1,6,41
+Karadeniz Teknikal Univ,1,0,1
+Karen Wildlife Conservat Initiat,1,0,9
+Karnataka Forest Dept,1,0,0
+Karolinska Inst,1,0,13
+Karuk Dept Nat Resources,1,0,16
+Kastamonu Reg Directorate Forestry,1,0,24
+Kawthoolei Forestry Dept,1,0,9
+Kazakh Res Inst Plant Protect & Quarantine,1,0,2
+Kazimierz Wielki Univ Bydgoszcz,1,0,13
+KEI,1,10,25
+Keio Univ,1,1,18
+Kenneth Anderson Nat Soc,1,1,8
+Kent State Univ,1,0,5
+Kentucky Dept Educ,1,0,6
+Kentucky Dept Fish & Wildlife Resources,1,0,2
+Kenya Agr & Livestock Res Org,1,2,11
+Kenya Forestry Res Inst KEFRI,1,7,21
+Kenya Tsetse & Trypanosomiasis Eradicat Council KE,1,0,4
+Kerala Univ Fisheries & Ocean Sci,1,0,3
+Kerala Univ Fisheries & Ocean Studies,1,0,0
+Kerala Vet & Anim Sci Univ,1,2,6
+KeralaBirder,1,0,25
+Kermanshah Azad Univ,1,0,79
+Kew Madagascar Conservat Ctr,1,0,4
+Key Lab Breeding Biotechnol & Sustainable Aquacult,1,0,5
+Key Lab Coupled Proc & Effects Nat Resources Eleme,1,0,2
+Key Lab Environm Evolut & Ecol Construct Hebei Pr,1,22,107
+Key Lab Extreme Environm Microbial Resources & Eng,1,0,1
+Key Lab Grassland Resources & Ecol,1,0,0
+Key Lab Marine Ecol Monitoring & Restorat Technol,1,0,6
+Key Lab Meteorol & Ecol Environm Hebei Prov,1,0,8
+Key Lab Natl Forestry & Grassland Adm,1,0,6
+Key Lab Remote Sensing & Geog Informat Syst GIS Ap,1,0,1
+Key Lab State Forest & Grassland Adm Wildlife Evid,1,0,8
+Key Lab Subtrop Forest Ecol Hunan Prov,1,0,39
+Key Lab Wildlife Dis & Biosecur Management Heilon,1,0,30
+Key Lab Wildlife Dis & Biosecur Management Heilong,1,0,6
+Khallikote Univ,1,0,8
+Khao Nam Phu Nat & Wildlife Educ Ctr,1,0,3
+Khazar Univ,1,0,0
+Khesar Gyalpo Univ Med Sci Bhutan,1,0,24
+Khorasan e Razavi Prov Off,1,0,28
+Khorramshahr Univ Marine Sci & Technol,1,0,4
+Khovd State Univ,1,3,21
+Khwaja Fareed Univ Engn & Informat Technol,1,0,0
+Kiekari Bird Observ,1,0,0
+KIIT Deemed be Univ,1,0,3
+Kilimanjaro Christian Med Univ Coll,1,0,31
+Killer Whales Australia,1,0,4
+Kimyo Int Univ Tashkent,1,0,1
+King Abdullah Univ Sci & Technol KAUST,1,0,0
+King Juan Carlos Univ,1,0,6
+King Saud Univ Med City,1,6,11
+Kingston Univ London,1,0,221
+Kirstenbosch Natl Bot Gardens,1,13,62
+KIT,1,0,169
+Kobe Univ,1,2,19
+Kohat Univ Sci & Technol,1,0,5
+Kohgiluyeh Boyer Ahmad Agr & Nat Resources Res & E,1,0,8
+Kolsai Kolderi Natl Pk,1,0,6
+Konrad Lorenz Inst Ethol,1,2,27
+Korea Aerosp Res Inst,1,0,0
+Korea Arboreta & Gardens Inst,1,0,1
+Korea Environm Inst,1,0,7
+Korea Inst Geosci & Mineral Resources KIGAM,1,0,111
+Korea Inst Wildlife Ecol,1,0,17
+Korea Maritime & Ocean Univ,1,0,18
+Korea Natl Pk Res Inst,1,0,6
+Korea Natl Pk Serv,1,0,0
+Korea Polar Res Inst,1,0,11
+Kosin Univ,1,10,36
+Kruger Natl Pk,1,0,2
+KSCSTE Malabar Bot Garden & Inst Plant Sci,1,0,9
+Kuban State Agr Univ,1,0,3
+Kun Shan Univ,1,0,5
+Kunming Univ Sci & Technol,1,0,8
+Kunsan Natl Univ,1,0,4
+Kurirska Pot 27,1,0,17
+Kushiro City Museum,1,2,10
+Kutsaga Res Stn,1,1,10
+Kuwait Inst Sci Res,1,0,3
+KwaZulu Natal Dept Agr & Rural Dev,1,0,2
+La Maison Riviere,1,0,1
+La Salle Univ,1,0,3
+Lab Cent Saude Publ Bahia LACEN BA,1,0,24
+Lab Cogitamus,1,0,9
+Lab Etud Geophys & Oceanog Spatiales LEGOS,1,0,1
+Lab Int Cambio Global,1,0,18
+Lab Nacl Conahcyt Sobre Biol Cambio Climat,1,0,4
+Lab Natl Sante,1,0,24
+Lab Robot & Syst Engn & Sci LARSyS,1,1,46
+Laboklin GmbH & Co KG,1,0,72
+Ladoke Akintola Univ Technol,1,0,1
+Lafayette Coll,1,0,1
+Lago Vico Nat Reserve Protected Areas Network Lat,1,0,8
+Lagos State Univ,1,0,0
+Lahore Dev Author,1,0,84
+Lahore Sch Econ LSE,1,0,2
+Lahore Univ Management Sci LUMS,1,0,2
+Laikipia Wildlife Forum,1,0,15
+Lancaster Environm Ctr,1,10,46
+Landesforstanstalt Mecklenburg Vorpommern,1,0,4
+Landmark Fisheries Res,1,0,3
+Langan,1,0,0
+Langfang Normal Univ,1,0,1
+Laoshan Lab,1,0,26
+Lasbela Univ Agr,1,0,4
+Latizal SL,1,0,3
+Latvian Ornithol Soc,1,0,5
+Laval Univ,1,1,13
+Lawrence Berkeley Natl Lab,1,1,26
+Lawrence Univ,1,0,22
+Lead City Univ,1,0,26
+Leatherback Project,1,2,10
+Lebanon Reforestat Initiat,1,6,14
+Lehigh Univ,1,7,64
+Leibniz Ctr Agr & Landscape Res ZALF,1,0,1
+Leibniz Ctr Trop Marine Res ZMT,1,0,23
+Leibniz Inst Balt Sea Res Warnemuende,1,2,37
+Leibniz Inst Balt Sea Res Warnemunde IOW,1,0,0
+Leibniz Inst Baltic Sea Res,1,0,8
+Leibniz Inst Gewasserokol & Binnenfischerei IGB,1,0,11
+Leibniz Inst Plant Genet & Crop Plant Res IPK,1,0,1
+Leibniz Inst Prevent Res & Epidemiol BIPS,1,0,43
+Leibniz Zentrum Agrarlandschaftsforsch,1,6,71
+Lembaga JAWI Indonesia,1,0,1
+Lemur Conservat Fdn,1,2,27
+Leo Fdn,1,0,6
+Leshan Normal Univ,1,0,6
+Leuphana Univ Luneburg,1,0,42
+Lewis Katz Sch Med,1,9,28
+Liangshan Acad Forestry & Grassland,1,0,2
+Liaoning Inst Forest Management,1,0,8
+Liaoning Normal Univ,1,0,6
+Liaoning Panjin Wetland Ecosyst Natl Observat & Re,1,0,40
+Liaoning Prov Key Lab Soil Eros & Ecol Restorat,1,0,40
+Liaoning Shenyang Urban Ecosyst Natl Observat Res,1,0,8
+Liaoning Shuangtai Estuary Wetland Ecosyst Res Stn,1,0,40
+Libyan Author Sci Res,1,0,5
+Licungo Univ,1,0,61
+Lijiang Laojun Mt Biodivers Conservat Ctr,1,3,13
+Lincoln Pk Zoo,1,2,6
+Lingnan Univ,1,1,13
+Linkoping Univ,1,0,1
+Linnaeus Univ Ctr Ecol & Evolut Microbial Model S,1,0,4
+Lintao Cty Agr Technol Extens Ctr,1,0,0
+Lisbon Univ,1,0,3
+Lishui Univ,1,0,54
+Liziping Giant Pandas Ecol & Conservat Observat &,1,0,14
+Lobosonda Madeira Whale Watching,1,0,26
+Locust & Rodent Control Headquarters Xinjiang,1,0,33
+Locust & Rodent Control Headquarters Xinjiang Uygu,1,0,6
+LOEWE Ctr Translat Biodivers Genom,1,0,9
+LOEWE Ctr Translat Biodivers Genom LOEWE TBG,1,0,7
+Loma Linda Univ,1,0,8
+London Ctr Neglected Trop Dis Res,1,0,3
+Longxi Cty Agr Technol Extens Ctr,1,0,0
+Los Angeles Pierce Coll,1,0,4
+Los Angeles Zoo & Bot Garden,1,0,6
+Louis Bolk Inst,1,2,15
+Louisiana Tech Univ,1,0,3
+LPO Aquitaine,1,95,413
+LPO France Fonderies Royales,1,0,0
+Lucian Blaga Univ Sibiu,1,0,10
+Lueyang Cty Tradit Chinese Med Ind Dev Serv Ctr,1,0,9
+Lundbeck Fdn,1,0,2
+Luohe Acad Agr Sci,1,0,5
+LUP,1,0,3
+Lupane State Univ,1,0,0
+LUPUS German Inst Wolf Monitoring & Res,1,0,18
+Lutfi Queder St,1,1,3
+Lutou Natl Stn Sci Observat & Res Forest Ecosyst,1,0,39
+Lynker Technol,1,5,22
+M Kozybayev North Kazakhstan Univ,1,0,1
+Maale Yosef Reg Council,1,0,7
+Macedonian Museum Nat Hist,1,1,22
+Macha Res Trust,1,0,12
+Madagascar Fauna & Flora Grp,1,2,27
+Madagascar Hlth & Environm Res MAHERY,1,0,12
+Madagasikara Voakajy,1,0,3
+Madhya Pradesh State Forest Res Inst,1,0,4
+Madhya Pradesh Tiger Fdn Soc,1,0,6
+Madibbo Adama Univ Technol,1,0,26
+Madrone Audubon Soc,1,0,59
+Madurai Kamaraj Univ,1,5,18
+Mae Fah Luang Univ,1,0,1
+MAFF,1,0,123
+Maharshi Dayanand Saraswati Univ,1,0,2
+Mahasarakham Univ,1,0,2
+Mahatma Gandhi Univ,1,1,5
+Maize Univ Agr Sci,1,0,0
+Majan Univ Coll,1,0,2
+Majmaah Univ,1,0,0
+Makeni Savanna Project,1,2,17
+Makunda Christian Hosp,1,0,10
+Malawi Liverpool Wellcome Programme,1,0,5
+Malaysian Conservat Alliance Tigers MYCAT Secreta,1,27,66
+Malaysian Nat Soc,1,0,4
+Malaysian Nat Soc Kuching Branch,1,0,4
+Malta Coll Arts Sci & Technol MCAST,1,0,1
+Mammal Soc,1,0,44
+Mammoth Site,1,0,2
+Management Bur Zhaoqing Jilongding Municipal Nat R,1,0,9
+Management Comm Plateau Characterist Modern Agr De,1,0,0
+Manclovice 3,1,0,4
+Manejo Forestal Tierras Trop Bolivia,1,0,169
+Manipal Acad Higher Educ MAHE,1,0,7
+Manipur Univ,1,0,0
+Manisa Celal Bayar Univ,1,0,46
+Manta Marine Pvt Ltd,1,0,7
+Manzhouli Int Travel Hlth Care Ctr,1,0,0
+Maqsut Narikbayev Univ,1,0,1
+Mar Azul Uruguayo,1,0,0
+Mar Rojo 1051,1,1,3
+Marche Polytech Univ,1,4,29
+Marian Univ,1,0,16
+Maricopa Cty Environm Serv Vector Control Div,1,0,13
+Marine & Freshwater Res Inst,1,0,58
+Marine Conservat Cambodia,1,0,2
+Marine Fisheries Res Inst Zhejiang,1,0,6
+Marine Fishery Inst Zhejiang Prov,1,0,11
+Marine Mammal Res,1,2,7
+Marine Res Inst,1,3,99
+Marine Scotland,1,0,50
+Marine Scotland Sci,1,4,36
+Marmara Univ,1,0,13
+Marquette Univ,1,1,5
+Martin Luther Univ Halle Wittenberg MLU,1,0,19
+Marwadi Univ,1,0,4
+Marwell Wildlife,1,13,44
+Maseno Univ,1,2,11
+Massachusetts Div Fisheries & Wildlife,1,0,2
+Mater Nat,1,4,54
+Mater Nat Inst Estudos Ambientais,1,0,2
+Material,1,0,4
+Mato Grosso State Univ,1,0,15
+Maui Invas Species Comm,1,1,8
+Maui Nui Seabird Recovery Project,1,0,0
+Max Planck Inst Anim Behav,1,0,6
+Max Planck Inst Evolutionary Anthropol,1,3,38
+Max Planck Inst Geoanthropol Jena,1,3,14
+Max Planck Inst Meteorol,1,7,61
+Maykop State Technol Univ,1,0,0
+Mayo Clin,1,0,23
+McDonald Data Sci LLC,1,0,2
+McGinley & Associates Inc,1,0,25
+McGuire Ctr Lepidoptera & Biodivers,1,0,18
+MED Inst,1,0,3
+Med Univ Silesia,1,0,4
+Medike Nat Reserve,1,1,6
+Meerut Inst Engn & Technol,1,6,17
+Meijiang Dist Environm Monitoring Stn,1,3,20
+Meise Bot Garden,1,0,2
+Mekelle Environm & Forest Res Ctr,1,9,34
+Mendel Univ Brno MENDELU,1,0,6
+MEP,1,2,7
+MeRiS Mediterraneo Ric & Sviluppo,1,0,4
+Metastring Fdn,1,0,3
+Metropolitan Autonomous Univ,1,0,25
+MH Kholodny Inst Bot,1,5,25
+Miami Dade Mosquito Control Div,1,0,11
+Mianyang Teachers Coll,1,0,3
+Michigan Dept Nat Resources,1,0,12
+Michigan Wildlife Conservancy,1,0,1
+Michoacan Univ San Nicolas de Hidalgo,1,4,22
+Microsoft Res Computat Sci Lab,1,40,176
+Middle East Tech Univ,1,0,13
+Middle Gulf Thailand Marine & Coastal Resources R,1,1,17
+Middle Tennessee State Univ,1,0,7
+Middlesex Univ,1,0,1
+Miguel Hernandez Univ UMH,1,0,6
+Milan Univ,1,0,27
+Milisaps Coll,1,2,21
+Millionshchikov Grozny State Oil Tech Univ,1,0,1
+Milokopi Biodivers Lab,1,0,11
+Milvus Grp,1,6,14
+Minist Agr & Food Secur,1,0,123
+Minist Agr & Forests,1,0,24
+Minist Agr & Rural Affair,1,0,6
+Minist Agr Jahad,1,0,8
+Minist Agr Peoples Republ China,1,18,59
+Minist Agr Tunisia,1,0,7
+Minist Ambiente,1,2,10
+Minist Ambiente & Desarrollo Sustentable Nacion,1,0,2
+Minist Ambiente Agua & Trans Ecol,1,0,5
+Minist Ciencia Tecnol & Innovac Minciencia,1,0,5
+Minist Ecol & Nat Resources Azerbaijan,1,0,13
+Minist Educ Key,1,0,13
+Minist Emergency Management,1,0,4
+Minist Environm & Nat Resources,1,0,22
+Minist Environm & Wildlife Resources,1,5,25
+Minist Environm Dev Durable & Transit Ecol MEDDTE,1,0,9
+Minist Environm Environm,1,0,8
+Minist Environm Japan,1,3,20
+Minist Environm Protect,1,0,6
+Minist Finance,1,0,29
+Minist Fisheries & Livestock,1,0,13
+Minist Forestry,1,0,0
+Minist Forestry & Wildlife,1,0,9
+Minist Forests Land Nat Resources Operat & Rural,1,1,3
+Minist Hlth & Child Welf,1,4,29
+Minist Hlth & Populat,1,0,1
+Minist Hlth Community Dev Gender Elderly & Childr,1,4,25
+Minist Hlth Malaysia,1,0,16
+Minist Ind Forest Environm & Tourism,1,2,13
+Minist Infrastruct & Environm,1,10,37
+Minist Interior,1,0,1
+Minist Lands & Nat Resources,1,2,17
+Minist Lands Fisheries Water & Rural Dev,1,0,7
+Minist Mahaweli Dev & Environm,1,0,20
+Minist Municipal Affairs & Agr,1,1,4
+Minist Nat Resources & Environm Conservat,1,0,3
+Minist Nat Resources China,1,0,25
+Minist Primary & Secondary Educ,1,0,12
+Minist Primary Ind Manatu Ahu Matua,1,0,19
+Minist Ressources Nat & Faune,1,4,44
+Minist S & T Govt India,1,0,2
+Minist Salud Nac,1,10,49
+Minist Salud Prov Corrientes,1,0,4
+Minist Salud Provincia Cordoba,1,9,43
+Minist Saude Brasil,1,0,34
+Minist Sci & Educ Republ Azerbaijan,1,0,0
+Minist Sci & Higher Educ Republ Kazakhstan,1,0,0
+Minist Water Resource,1,0,5
+Minist Water Resources Peoples Republ China,1,0,3
+Ministerio Ciencia Tecnol & Medio Ambiente,1,1,2
+Minnesota Dept Nat Resources MN DNR,1,7,88
+Minnesota Zoo,1,0,16
+Minor Cereal Crops Lab Hebei Prov,1,6,27
+Minzu Univ China,1,132,324
+Mirpur Univ Sci & Technol,1,2,4
+Mississippi Dept Wildlife Fisheries & Pk,1,15,71
+Mississippi Forestry Assoc,1,15,71
+MIT,1,6,34
+Mitchell Ecol Res Serv LLC,1,0,16
+Miyajimanuma Waterbirds & Wetland Ctr,1,2,10
+Miyazaki Univ,1,0,10
+Mizoram Univ,1,0,0
+MJP Rohilkhand Univ Bareilly,1,0,43
+MME BirdLife Hungary,1,6,14
+MNS Univ Agr Multan,1,0,0
+Modibbo Adama Univ,1,0,2
+MOE,1,0,4
+Mohamed Bin Zayed Raptor Conservat Fund,1,1,8
+Mohamed Cher Messaadia Univ,1,0,3
+Mohammed V Univ,1,0,1
+Mohammed VI Polytech Univ Benguerir,1,0,1
+Mohammed VI Polytech Univ UM6P,1,2,6
+Mol Ecol Lab,1,16,101
+Moldova State Univ,1,0,1
+Mongol State Educ Univ,1,0,7
+Mongolian Acad Sci MAS,1,0,4
+Mongolian Univ Life Sci,1,0,0
+Montana Dept Nat Resources & Conservat,1,0,6
+Montana Fish Wildlife & Pk,1,0,2
+Montclair State Univ,1,0,12
+Montpellier SupAgro,1,0,7
+Montreal Space Life,1,0,13
+Morehouse Sch Med,1,0,5
+Morton Arboretum,1,0,6
+Moscow Lomonosov State Univ,1,0,2
+Moscow State Univ,1,0,1
+Moss Landing Marine Labs,1,0,38
+Moulay Ismail Univ,1,4,39
+Mouloud Mammeri Univ Tizi Ouzou,1,0,0
+MPS Ecol,1,0,0
+MSD Anim Hlth,1,0,27
+Mugla Sitki Kocman Univ,1,0,19
+Mukand Lal Natl Coll,1,0,3
+Mulacova Hosp,1,0,4
+Municipal Santa Barbara Oeste,1,0,3
+Muraviovka Pk Sustainable Land Use,1,0,36
+MUSE Museo Sci,1,0,2
+Musee Homme Paris,1,0,2
+Museo Belle Sci,1,0,17
+Museo Biodivers Peru,1,0,2
+Museo Ecol,1,0,1
+Museo Ecuatoriano Ciencias Nat,1,0,10
+Museo Hist Nat Tomas Romay,1,3,9
+Museo La Plata,1,1,55
+Museo Nacl Hist Nat Prof Eugenio De Jesus Marcano,1,0,0
+Museo Patagon Ciencias Nat,1,3,27
+Museo Reg Sci Nat,1,2,27
+Museo Storia Nat Maremma,1,0,47
+Museo Zool Alfonso L Herrera,1,0,99
+Museu Ciencias Nat,1,0,14
+Museum Cantonal Sci Nat,1,0,31
+Museum Hist Nat Rochelle,1,0,2
+Museum Koenig,1,0,1
+Museum Nat & Human Act Hyogo,1,2,19
+Museum Nat & Human Activ,1,2,24
+Museum Natl Hist Nat Paris,1,0,169
+Museum Natur & Tech,1,0,17
+Museum Victoria,1,0,15
+Museum West Bohemia,1,0,4
+Museums Victoria,1,0,4
+Myst Aquarium,1,0,34
+Mzuzu Univ,1,0,7
+N Dakota State Univ,1,2,13
+Nagaland Univ,1,0,1
+Nagoya Univ,1,0,5
+Nahdlatul Ulama Univ UNU Purwokerto,1,0,1
+Nai Conservat,1,5,41
+Nakdonggang Natl Inst Biol Resources,1,0,5
+Nal Engn Res Ctr Floriculture,1,0,47
+Namibia Univ Sci & Technol,1,0,6
+Nanao Cty Lantian Gardens Virescence Co Ltd,1,0,7
+Nanchong Key Lab Individualized Drug Therapy,1,0,4
+Nanjing Forest Univ,1,2,7
+Nanjing Inst Environm Sci,1,2,17
+Nanjing Police Univ,1,0,2
+Nanjing Univ Informat Sci & Technol,1,1,4
+Nanning Arboretum,1,0,2
+Nanning Normal Univ,1,0,3
+Nanning Zoo,1,6,32
+Nansen Environm Res Ctr India,1,0,3
+NASA Ctr Space Res,1,0,10
+NASA Goddard Space Flight Ctr,1,0,9
+Nash Community Coll,1,6,34
+Nat & Cultura Int NCI,1,0,9
+Nat & Forest Res Inst,1,0,0
+Nat & Nomads,1,0,6
+Nat Conservancy Mexico,1,0,28
+Nat Conservancy MN ND SD Chapter,1,0,7
+Nat Conservancy Nevada,1,0,17
+Nat Conservat Agcy Czech Republ,1,0,4
+Nat Conservat Ctr DKM,1,0,19
+Nat Conservat Egypt,1,0,19
+Nat Conservat Sect,1,0,19
+Nat Environm Ctr,1,80,229
+Nat Environm Div,1,0,1
+Nat Explorat & Educ Team,1,0,5
+Nat Fdn,1,0,0
+Nat Hazards & Landscape BFW,1,0,13
+Nat Heritage NGO Republ Armenia,1,0,4
+Nat Hist Div,1,0,12
+Nat Hist Museum Alcide DOrbignyi,1,2,9
+Nat Hist Museum Frankfurt,1,4,23
+Nat Hist Museum Fribourg,1,0,6
+Nat Hist Museum Guangxi,1,6,32
+Nat Hist Museum Noel Kempff Mercado,1,2,9
+Nat Hist Museum Zimbabwe,1,8,16
+Nat Kenya East Africa Nat Hist Soc EANHS,1,0,22
+Nat Power,1,0,8
+Nat Punt,1,4,39
+Nat Recovery Co Ltd,1,0,6
+Nat Res,1,6,28
+Nat Resource Management Programmes,1,3,15
+Nat Resource Solut Inc,1,1,2
+Nat Resources & Watershed Management Org,1,8,19
+Nat Resources Canada Canadian Forest Serv,1,0,4
+Nat Resources Conservat Serv,1,3,22
+Nat Resources Def Council,1,4,16
+Nat Resources Inst,1,0,2
+Nat Resources Univ,1,6,12
+Nat Sci Inst Iceland,1,0,1
+Nat Sci Soc,1,2,13
+Nat Soc Singapore,1,0,11
+Nationalpk Zentrum Molln,1,0,9
+Natl Acad Sci,1,0,12
+Natl Acad Sci Armenia,1,0,4
+Natl Acad Sci Belarus,1,8,79
+Natl Acad Sci Kyrgyz Republ,1,0,25
+Natl Agr & Forestry Res Inst,1,0,29
+Natl Agr Res Ctr Western Reg,1,0,16
+Natl Agrotech Extens & Serv Ctr,1,0,18
+Natl Author Remote Sensing & Space Sci NARSS,1,0,3
+Natl Autonomous Univ Huanta,1,0,3
+Natl Autonomous Univ Mexico State,1,0,10
+Natl Biodivers Ctr,1,0,6
+Natl Bot Res Inst NBRI,1,0,0
+Natl Bur Fish Genet Resources,1,0,6
+Natl Bur Plant Genet Resources,1,0,1
+Natl Council Air & Stream Improvement Inc,1,2,14
+Natl Council Sci & Technol Res CONICET,1,0,2
+Natl Ctr Biodivers Studies,1,0,1
+Natl Ctr Biol Sci,1,0,3
+Natl Ctr Biotechnol,1,0,3
+Natl Ctr Coastal Ocean Sci,1,1,14
+Natl Ctr Dis Control,1,0,35
+Natl Ctr Dis Control & Publ Hlth,1,0,3
+Natl Ctr Ecol Anal & Synth NCEAS,1,3,76
+Natl Ctr Ecol Anal & Synthesis,1,56,283
+Natl Ctr Int Res Trop Dis,1,0,10
+Natl Ctr Med Intelligence,1,10,36
+Natl Ctr Res & Dev Fisheries & Aquaculture CNRDPA,1,0,3
+Natl Distant Water Fisheries Engn Res Ctr,1,0,16
+Natl Earth Syst Sci Data Ctr,1,0,33
+Natl Energy Res & Dev Ctr Nonfood Biomass,1,0,8
+Natl Engn Lab Appl Technol Forestry & Ecol South C,1,0,39
+Natl Engn Lab Resource Dev Endangered Chinese Crud,1,0,9
+Natl Environm Engn Res Insan,1,5,24
+Natl Environm Engn Res Inst,1,5,24
+Natl Fisheries Univ,1,0,16
+Natl Foxtail Millet Improvement Ctr,1,6,27
+Natl Geog Soc,1,1,34
+Natl Geospatial Intelligence Agcy,1,0,91
+Natl Great Rivers Res & Educ Ctr,1,0,2
+Natl Hlth Commiss Peoples Republ China,1,0,16
+Natl Ilan Univ,1,1,13
+Natl Inst Adv Ind Sci & Technol,1,1,11
+Natl Inst Adv Studies,1,4,16
+Natl Inst Adv Studies NIAS,1,0,0
+Natl Inst Agr & Vet Res INIAV,1,0,1
+Natl Inst Agr Res,1,0,1
+Natl Inst Amazonian Res INPA,1,0,13
+Natl Inst Atlantic Forest,1,0,1
+Natl Inst Biol,1,0,42
+Natl Inst Biol Resources,1,0,17
+Natl Inst Biol Resources NIBR,1,1,4
+Natl Inst Fisheries Sci,1,0,18
+Natl Inst Food & Drug Control,1,0,27
+Natl Inst Forest Sci NIFOS,1,0,29
+Natl Inst Forestry Agr & Livestock Res,1,0,18
+Natl Inst Hlth Doutor Ricardo Jorge,1,0,13
+Natl Inst Hlth Dr Ricardo Jorge,1,0,13
+Natl Inst Invas Species Sci,1,66,182
+Natl Inst Med Res,1,0,24
+Natl Inst Publ Hlth & Environm,1,0,11
+Natl Inst Publ Hlth & Environm RIVM,1,0,5
+Natl Inst Space Res,1,0,18
+Natl Inst Technol Manipur,1,0,54
+Natl Inter Univ Consortium Marine Sci CoNISMa,1,0,0
+Natl Interuniv Consortium Marine Sci,1,3,23
+Natl Interuniv Consortium Marine Sci CoNISMa,1,0,2
+Natl Lab Marine Sci & Technol,1,0,3
+Natl Land Survey Finland,1,0,1
+Natl Long Term Sci Res Base Comprehens Control,1,0,3
+Natl Marine Biodivers Inst Korea,1,0,1
+Natl Marine Environm Monitoring Ctr,1,0,18
+Natl Museums Liverpool,1,0,0
+Natl Nat Hist Museum China,1,0,1
+Natl Network Resilient Communities Rede Nacl Comun,1,0,0
+Natl Off Agr Council ONCA,1,0,1
+Natl Parks & Wildlife Serv NPWS,1,0,4
+Natl Pintung Univ Sci & Technol,1,4,26
+Natl Pk & Wildlife Serv,1,0,0
+Natl Pk Black Forest,1,5,28
+Natl Pk Board,1,0,10
+Natl Pk Waltung Bayer Wald,1,6,71
+Natl Remote Sensing Ctr,1,22,54
+Natl Res & Dev Agcy,1,0,8
+Natl Res & Dev Agcy Kawashima,1,0,8
+Natl Res Council CNR ISMAR,1,0,1
+Natl Res Council CNR ISP,1,0,1
+Natl Res Council Italy CNR,1,0,7
+Natl Res Council Italy CNR IRSA,1,1,25
+Natl Res Fdn,1,0,2
+Natl Res Inst Sci & Technol Environm & Agr,1,22,108
+Natl Res Tomsk State Univ,1,2,30
+Natl Res Univ,1,0,1
+Natl Satellite Ocean Applicat Serv,1,0,13
+Natl Sch Forest Engineers,1,4,39
+Natl Sch Forest Engn,1,1,9
+Natl Sci Ctr Particularly Dangerous Infect,1,0,6
+Natl Socioenvironm Synth Ctr,1,0,55
+Natl Sun Yat Sen Univ,1,0,1
+Natl Taras Schevchenko Univ Kiev,1,22,63
+Natl Trop Bot Garden,1,6,31
+Natl Tsing Hua Univ,1,0,161
+Natl Univ Autonomous Mexico,1,0,25
+Natl Univ Forestry,1,0,0
+Natl Univ Hosp Ctr Hubert K Maga,1,0,0
+Natl Univ Ireland,1,25,105
+Natl Univ Ireland Galway,1,0,23
+Natl Univ La Plata,1,0,7
+Natl Univ Laos,1,0,17
+Natl Univ Malaysia,1,1,9
+Natl Univ Mongolia,1,0,5
+Natl Univ Mongolia NUM,1,0,4
+Natl Univ Sci & Technol NUST,1,0,3
+Natl Wild Plant Germplasm Resource Ctr,1,0,5
+Natl Wildlife Res Ctr,1,1,20
+Natl Zool Garden Bojnice,1,0,9
+NATURA Soc Conservat Nat & Culture,1,1,4
+Naturalia AC,1,0,15
+NatureScot,1,0,24
+Naturschutzbund Deutschland e V,1,0,1
+Navy Environm & Prevent Med Unit FIVE,1,0,22
+Nazi BONI Univ,1,1,4
+Neal Analyt,1,0,49
+Neal Jardin Bot,1,0,32
+Neanderthal Museum,1,0,7
+Near Samata High Sch,1,0,0
+Nebraska Game & Pk Commiss,1,0,1
+NEFAG Zrt,1,0,8
+Negaunee Inst Plant Conservat Sci & Act,1,0,1
+Nelson Mandela African Inst Sci & Technol,1,9,28
+Nepal Geog Soc,1,0,3
+Nepal Hlth Res Council,1,0,3
+Nepal Open Univ,1,0,3
+Nepal Zool Soc,1,0,3
+Nepalese Ornithol Union NOU,1,1,8
+Netherlands CGN,1,5,22
+Netherlands Expertise Ctr Exot Species NEC E,1,0,10
+Netherlands Food & Consumer Prod Safety Author NV,1,0,23
+Netherlands Food & Consumer Prod Safety Author NVW,1,0,11
+Netherlands Inst Fisheries Res IMARES,1,1,31
+Nevada Dept Wildlife,1,2,52
+Nevsehir Haci Bektas Veli Univ,1,0,0
+New Coll Florida,1,0,21
+New England Aquarium,1,1,31
+New England Fishery Management Council,1,1,14
+New Hampshire Dept Informat Technol,1,0,0
+New Hampshire Fish & Game Dept,1,0,0
+New Jersey Dept Environm Protect,1,1,20
+New Jersey State Museum,1,0,2
+New Partnership Africas Dev NEPAD Agcy,1,4,9
+New S Wales Dept Environm & Climate Change,1,767,2429
+New South Wales Dept Primary Ind & Reg Dev,1,0,4
+New South Wales Govt,1,0,7
+New South Wales Natl Pk & Wildlife Serv,1,1,5
+New York Consortium Evolutionary Primatol,1,4,21
+New York Genome Ctr,1,0,10
+New York State Dept Environm Conservat,1,0,11
+New York State Museum & Sci Serv,1,0,3
+New York Univ,1,0,2
+New Zealand Inst Plant & Food Res,1,0,5
+NGO Riparia,1,0,7
+Ngorongoro Conservat Area Author,1,0,1
+NIAID,1,0,40
+Niche Environm & Heritage,1,2,44
+Nigde O H Univ,1,0,0
+Ningxia Med Univ,1,0,12
+NL Biodivers & Soc Res Grp,1,0,11
+Nonprofit Org,1,2,10
+North Carolina Wildlife Resources Commiss,1,0,24
+North Cent Climate Sci Ctr,1,0,17
+North China Univ Sci & Technol,1,0,44
+North China Univ Water Resources & Elect Power,1,0,7
+North Eastern Reg Inst Sci & Technol NERIST,1,0,11
+North Khorasan Univ Med Sci,1,1,4
+North Minzu Univ,1,0,8
+North Orissa Univ,1,0,8
+North Pacific Marine Sci Org PICES,1,1,23
+North Sichuan Med Coll,1,0,4
+Northeast Climate Adaptat Sci Ctr,1,0,0
+Northern Forestry Ctr,1,0,29
+Northern Gulf Inst,1,1,13
+Northern Inst Appl Climate Sci,1,2,17
+Northern Rangelands Trust,1,0,15
+Northwest Agr & Forestry Univ,1,0,18
+Northwest Atlantic Fisheries Ctr,1,4,18
+Northwest Inst Plateau Biol,1,0,1
+Northwest Normal Univ,1,0,68
+Northwest Potato Res Consortium,1,0,19
+Northwestern Band Shoshone Nation,1,0,0
+Norwegian Biodivers Informat Ctr,1,0,3
+Norwegian Genet Resource Ctr,1,0,39
+Norwegian Inst Bioecon Res NIBIO,1,0,2
+Norwegian Inst Water Res,1,0,39
+Norwegian Inst Water Res NIVA,1,0,10
+Nottingham Trent Univ,1,0,2
+Nova Scotia Community Coll Ivany Campus,1,0,3
+Nova Scotia Dept Fisheries & Aquaculture,1,0,3
+Nova Scotia Dept Lands & Forestry,1,0,11
+Nowgong Girls Coll,1,0,3
+NRSC,1,0,0
+NSW Dept Ind Lands & Forestry,1,2,44
+NSW Off Environm & Heritage,1,0,16
+Nucleo Faunistico,1,1,27
+Nucleo Invest & Desenvolvimento Saude NIDes,1,0,13
+Nyirmihalydi Petofi Sandor Primary Sch,1,0,5
+NYU,1,0,0
+O2 Marine,1,0,12
+Observ Abeilles,1,0,12
+Observ Astron Prof Manuel de Barros,1,0,23
+Observ Mammiferes Matins Archipel Guadeloupeen,1,0,28
+Observat & Res Stn Bohai Strait Ecocorridor,1,0,3
+Observat & Res Stn Isl & Coastal Ecosyst Western,1,0,13
+Observat & Res Stn Wetland Ecosyst Beibu Gulf,1,0,13
+Obuda Univ,1,0,14
+Occidental Coll,1,0,1
+Ocean Observ Madeira OOM,1,0,26
+Ocean Wise,1,0,0
+Oceana Europe,1,1,14
+Oceanog Res Inst,1,0,3
+Oceanomare Delphis Onlus,1,4,29
+Oceans Blueprint,1,0,8
+Oceanswell,1,0,7
+Ochsner Med Ctr,1,0,3
+October Univ Modern Sci & Arts,1,0,2
+October Univ Modern Sci & Arts MSA Univ,1,0,8
+Odessa II Mechnikov Natl Univ,1,0,3
+OFB French Biodivers Agcy,1,0,9
+Off Field Director & Chief Conservator Forest,1,0,0
+Off Insectes & Leur Environm Opie,1,0,2
+Off Management Locusts & Rats,1,0,71
+Off Maunakea Management,1,2,6
+Off Natl Museum Nat Hist & Genet Resources,1,0,3
+Off State Veterinarian,1,0,23
+OIKOSTAT,1,0,1
+Oil Palm Res Inst,1,0,1
+Okala,1,0,2
+Okayama Univ Sci,1,0,6
+Oklahoma Fishery Res Lab,1,0,1
+Ol Pejeta Conservancy,1,1,8
+Olofson Environm Inc,1,0,12
+Onca Fdn Estudio Divers,1,0,1
+ONCFS Direct Etud & Rech,1,0,4
+One Ocean Fdn,1,0,1
+ONG Ranita Darwin,1,0,16
+Oniris,1,0,27
+Ontario Minist Nat Resources & Forestry,1,0,9
+Ontario Tech Univ,1,0,4
+Open Univ,1,4,25
+OpenGeoHub,1,0,43
+OpenGeoHub Fdn,1,0,3
+Operat Cetaces,1,14,74
+Orange Agr Inst,1,5,48
+Orange Cty Water Dist,1,0,12
+Orangutan Trop Peatland Project,1,0,1035
+Oranmore Co,1,0,5
+Orca Res & Conservat Australia,1,0,4
+Ordu Univ,1,0,6
+Oregon Dept Forestry,1,6,58
+Oregon State Off,1,1,18
+Oregon State Univ Cascades,1,1,7
+Org Econ Cooperat & Dev,1,0,10
+Org Naciones Unidas Alimentac & Agr Argentina,1,0,15
+Oriole Global Hlth,1,0,3
+Ornithol Soc Nase Ptice,1,0,4
+Oromia Agr Res Inst,1,0,3
+Osprey Insights,1,3,25
+Oswaldo Cruz Fdn FIOCRUZ,1,0,0
+Otago Reg Council,1,0,22
+OU Rewild,1,0,9
+Oviedo Univ,1,0,29
+Pacific Biol Stn,1,5,21
+Pacific Community,1,6,27
+Pacific Whale Fdn,1,0,3
+Pacific Wildlife Res Ctr,1,2,26
+Padjadjaran State Univ,1,0,0
+Pakistan Forest Inst,1,0,31
+Palacky Univ,1,0,5
+Palacky Univ UP,1,0,0
+Panacetacea,1,0,38
+Pandem & Disaster Preparedness Ctr,1,0,11
+Pant Inst Himalayan Environm,1,1,6
+Papua New Guinea Univ Technol,1,6,8
+Paraiba Fed Univ,1,0,1
+Paraiba State Univ,1,0,1
+Parasitus Ex EV,1,0,72
+Parc Natl Pyrenees,1,0,17
+Parcela 1,1,0,4
+Parco Nazl Majella,1,0,56
+Paris Diderot,1,0,17
+Parque Nacl Galapagos,1,2,10
+Parques Nacl Nat Colombia,1,0,28
+Pars Plateau Zoologists Grp,1,1,5
+Pars Wildlife Guardians Fdn,1,0,0
+Parul Univ,1,0,7
+Pasteur Inst,1,0,8
+Pasteur Inst Iran,1,1,12
+Pasteur Inst Tunis,1,0,87
+Pastoralisme Conseil,1,0,13
+Paule Valery Univ,1,0,3
+PBL Netherlands Environm Assessment Agcy,1,11,51
+Pedag & Technol Univ Colombia,1,0,19
+Peddie Sch,1,0,7
+Penn State Earth & Environm Syst Inst,1,3,9
+Peoples Govt Qinghai Prov & Beijing Normal Univ,1,0,1
+Peoria Zoo,1,0,4
+Pepperdine Univ,1,0,14
+Pepperell Res & Consulting Pty Ltd,1,5,58
+Peruvian Ctr Cetacean Res,1,0,38
+Pesquisador Inst Pesquisas Estudos Florestais,1,0,13
+Pesquisadora Embrapa Florestas,1,0,13
+Petru Poni Inst Macromol Chem,1,1,10
+Pharos Univ,1,0,10
+Philippine Coconut Author,1,0,10
+Phoenix Zoo,1,0,12
+Phuket Marine Biol Res Ctr,1,1,17
+Piaui Fed Univ,1,0,1
+Piedmont Coll,1,0,16
+Pilot Plant Microbiol Ind Proc & Biotechnol PROIM,1,0,7
+Pingdingshan Univ,1,0,23
+Pingliang City Plant Protect Ctr,1,0,6
+Pinglongshan Forest Ctr,1,0,1
+Pir Mehar Ali Shah Arid Agr Univ,1,0,2
+Pir Mehr Ali Shah Arid Agr Univ,1,0,1
+PJTSAU,1,0,0
+Pk Australia,1,0,1
+Pk Management Ctr,1,0,159
+Planetary Hlth Res Ctr,1,0,3
+Planning Res Ctr Xiongan New Area,1,0,4
+Plant Protect & Quarantine Stn Baoding,1,0,1
+Plant Protect & Quarantine Stn Hebei Prov,1,6,27
+Plant Protect & Quarantine Stn Henan Prov,1,6,27
+Plant Protect & Quarantine Stn Jiangsu Prov,1,0,1
+Plant Protect & Quarantine Stn Nanjing City,1,0,1
+Plant Protect & Quarantine Stn Shanxi,1,6,27
+Plant Protect & Quarantine Stn Tianjin City,1,6,27
+Plant Protect & Quarantine Stn Xingtai City,1,6,27
+Plant Protect & Quarantine Stn Yunnan Prov,1,0,22
+Plant Protect & Regulatory Serv Directorate P O,1,2,2
+Plant Protect Stn Anhui Prov,1,6,27
+Plant Protect Stn Beijing City,1,6,27
+Plant Protect Stn Jiangsu Prov,1,6,27
+Plant Protect Stn Shandong Prov,1,6,27
+Plant Res Directorate,1,0,1
+Plant Resources Ctr,1,6,31
+Plecotus Estudos Ambientais Unipessoal Lda,1,4,43
+Plot 28 Sri Sai Nagar Colony,1,4,6
+PLUSPRETOL,1,0,169
+POB 1077,1,0,11
+POB 32207,1,1,4
+POCH Ambiental SA,1,3,19
+Point Loma Nazarene Univ,1,0,1
+Pokhara Bird Soc,1,0,5
+Pokhara Univ,1,0,0
+Polar Res Inst China,1,0,20
+Politecn Milan,1,0,6
+Politecn Porto,1,0,3
+Polytech Bari,1,0,3
+Polytech Inst Viana Castelo,1,0,4
+Polytech Namibia,1,0,41
+Polytech Univ,1,0,3
+Polytech Univ Marche,1,0,23
+Pontifical Univ Catholic Chile,1,3,14
+Pontificia Univ Catol Rio Grande do Sul PUCRS,1,0,1
+Pontificia Univ Catolica Ecuador Quito,1,1,10
+Pontificia Univ Catolica Minas Gerais,1,0,2
+Pontificia Univ Catolica Minas Gerais PUC Minas,1,0,5
+Pontificia Univ Catolica Valparaiso,1,7,35
+Port Stephens Fisheries Inst,1,0,4
+Portalegre Polytech Univ,1,0,4
+Portland State Univ,1,4,28
+Portuguese Inst Sea & Atmosphere,1,1,13
+Portuguese Inst Sea & Atmosphere IPMA IP,1,0,15
+Postentry Quarantine Stn Trop Plant,1,0,3
+Postharvest Technol Res & Dev Grp,1,0,0
+Potsdam Univ,1,0,32
+Power China Kunming Engn Corp Ltd,1,0,7
+POWERCHINA Chengdu Engn Corp Ltd,1,0,0
+Powerchina Northwest Engn Corp Ltd,1,0,4
+Poyang Lake Yangtze Finless Porpoise Conservat Bas,1,0,7
+Prairie View A&M Univ,1,0,4
+PRALES,1,3,34
+Predictia Intelligent Data Solut,1,6,36
+Predio Bot & Ecol Embrapa Recursos Genet & Biotec,1,0,169
+Prefecture Peloponnese,1,0,15
+Presidency Univ,1,0,3
+Prevent & Control Exot Pests,1,0,21
+Prim8 Software,1,0,9
+Princess Norah Bint Abdulrahman Univ,1,0,4
+Princess Nourah Bint Abdurrahman Univ,1,0,1
+Principia Coll,1,0,2
+PRINS Engn,1,0,2
+Private Tech Univ Loja,1,0,1
+ProCAT Colombia Int,1,5,41
+ProDelphinus,1,2,10
+Progetto Lince Italia,1,0,9
+Project Mecistops,1,0,2
+Projeto Pato Mergulhao Chapada Veadeiros,1,0,4
+ProMetheus Inst Politecn Viana do Castelo,1,0,4
+Protect Turtle Ecol Ctr Training Outreach & Res I,1,0,8
+Prov Engn Technol Res Ctr Biol Vector Control,1,0,34
+ProvEye,1,0,20
+Provita,1,0,5
+Proyecto Conservac Aguas & Tierras ProCAT Colombi,1,0,12
+Proyecto Conservac Paraba Barba Azul,1,0,8
+PSL Res Univ,1,0,17
+PSL Univ,1,0,16
+Publ Body Bonaire,1,0,11
+Publ Hlth Entomologists LLC,1,0,9
+Publ Res Ctr Gabriel Lippmann,1,9,92
+Pueblo Viejo Dominicana Corp,1,6,26
+Pukou Agr Technol Extens Ctr Nanjing City,1,0,1
+Punjab Agr Univ,1,6,17
+Punjab Wildlife & Pk Dept,1,0,84
+Purdue Univ Lib,1,8,27
+Purple Martin Conservat Assoc,1,1,9
+Pusan Natl Univ,1,0,18
+Puslit Biologi LIPI,1,0,1035
+Puyan St Community Hlth Serv Ctr Binjiang Dist,1,0,4
+Pwani Univ,1,0,2
+Pyrenean Inst Ecol,1,12,51
+Pyrenean Inst Ecol IPE CSIC,1,1,8
+QBiot Grp,1,0,14
+Qilian Mt Natl Pk,1,0,0
+Qilianshan Natl Pk Adm Bur Zhangye Branch,1,0,17
+Qilin Dist Livestock Improvement Stn,1,0,4
+Qingdao Harwars Biol Grp Ltd Co,1,0,0
+Qinghai Acad Agr & Forestry Sci,1,0,2
+Qinghai Acad Anim Sci & Vet Med,1,0,13
+Qinghai Forest Seedling Stn,1,0,2
+Qinghai Prov Inst Cultural Rel & Archaeol,1,0,1
+Qinghai Prov Key Lab Adapt Management Alpine Grass,1,0,13
+Qinghai Prov Key Lab Anim Ecol Genom,1,0,31
+Qinghai Prov Key Lab Crop Mol Breeding,1,0,6
+Qinghai Prov Makehe Forestry Bur,1,0,6
+Qinghai Prov Peoples Host,1,0,3
+Qinghai Traff Construct Management Co Ltd,1,0,1
+Qinghai Transportat Construct Management Co LTD,1,0,3
+Qinzhou Univ,1,3,20
+Qomolangma Natl Nat Reserve Adm,1,20,69
+Quaid I Azam Univ Islamabad,1,0,1
+Quartier Adm Chellah,1,1,9
+Queen Mary Univ London,1,1,60
+Queensland Cyber Infrastruct Fdn QCIF,1,0,4
+Queensland Museum,1,0,2
+Queensland Pk & Wildlife,1,2,22
+Queensland Pk & Wildlife Serv & Partnerships,1,0,2
+Quetzal Educ Res,1,0,1
+Qufu Normal Univ,1,0,21
+Quinta Cholda,1,0,12
+Quinta Prados,1,1,2
+Qujing Normal Univ,1,0,4
+QwaQwa Campus,1,0,9
+R&D RTE,1,0,0
+Radford Univ,1,6,17
+Rajarata Univ Sri Lanka,1,2,4
+Ramboll,1,0,3
+Ramnagar Coll,1,0,7
+Raptor Res & Conservat Working Grp Turkiye,1,0,0
+RaptorLab,1,0,0
+Rare Charitable Res Reserve,1,2,14
+Rashtrasant Tukadoji Maharaj Nagpur Univ,1,0,0
+Raven Environm Serv Inc,1,0,5
+RAVON,1,0,11
+RCESD,1,2,19
+Red CultIVA CYTED,1,0,19
+Red Estudios Mol Avanzados Inst Ecol AC,1,0,4
+Red Hemisfer Reservas Aves Playeras,1,0,14
+Reef Ecol Pty Ltd,1,0,0
+Reforestadora Integral Antioquia,1,0,9
+Reg Agcy Dev Res Technol & Innovat ARDITI,1,0,19
+Reg Directorate Natl Agcy Water & Forests Tangier,1,0,5
+Reg Lazio Lago Vico Nat Reserve,1,0,1
+Reg Off Amer,1,3,21
+Reg Remote Sensing Ctr Cent,1,1,7
+Reg Res Inst Plan Plus,1,0,5
+Regugene Co Ltd,1,0,0
+Renmin Univ China,1,0,1
+Reparto Carabinieri Biodiversita,1,0,17
+Republ Turkey Food Agr & Livestock Minist,1,0,9
+Republ Turkiye Minist Agr & Forestry,1,0,5
+Res & Dev Ctr RDC,1,0,9
+Res & Innovat Agcy Indonesia,1,0,0
+Res Ctr Agr & Environm Sci & Technol Azores CITA,1,2,13
+Res Ctr Appl Bot,1,0,13
+Res Ctr Biosystemat & Evolut,1,0,13
+Res Ctr Ecol & Ethnobiol,1,0,13
+Res Ctr Ecol Restorat & Control Water Level Fluctu,1,0,78
+Res Ctr Environm & Sustainable Dev,1,0,10
+Res Ctr Geol Resources,1,0,13
+Res Ctr Limnol & Water Resources,1,0,0
+Res Ctr Nat & Appl Sci,1,0,12
+Res Dept Gulelle Bot Garden,1,0,10
+Res Inst Agr & Life Sci,1,10,25
+Res Inst Forests & Rangelands,1,5,13
+Res Inst Xishuangbanna Natl Nat Reserve,1,0,14
+Res Inst Zabol,1,0,5
+Reserva Nat Urbana Quilque Lil,1,0,30
+Rewilding Apennines,1,0,3
+Rhein Freidrich Wilhelms Univ Bonn,1,2,42
+Rhine Waal Univ Appl Sci,1,0,12
+RIKEN,1,0,79
+Risk Sci Int,1,0,9
+River Res,1,1,4
+Riverside Business Ctr,1,0,8
+Romanian Acad,1,0,8
+Romblon State Univ,1,0,10
+Room 10-401,1,0,12
+Roschenhoehe 8,1,0,12
+Roskilde Univ,1,11,167
+Rothamsted Res,1,3,14
+Rowan Univ,1,0,21
+Roy Hill Iron Ore Pty Ltd,1,0,18
+Royal Agr Univ,1,0,6
+Royal Bot Garden & Domain Trust,1,5,22
+Royal Enclave,1,23,62
+Royal Global Univ,1,2,12
+Royal Govt Bhutan,1,0,14
+Royal Holloway Univ London,1,0,4
+Royal Netherlands Inst Sea Res NIOZ,1,10,37
+Royal Soc Protect Birds RSPB,1,0,2
+Royal Tasmanian Bot Gardens,1,0,28
+Royal Univ Bhutan,1,0,19
+Royal Zool Soc Antwerp,1,0,9
+Royal Zool Soc Scotland RZSS,1,2,23
+RPS Grp,1,2,10
+RSPB Ctr Conservat Sci,1,2,31
+RSS Remote Sensing Solut Gmbh,1,0,28
+RTE,1,0,11
+Ruaha Carnivore Project,1,2,60
+Rudjer Boskovic Inst,1,1,25
+Rue Bruyere,1,0,2
+Ruhr Univ Bochum,1,0,0
+Rural Dev Adm,1,0,6
+Rushan Forestry Dev Ctr,1,0,3
+Rushan Inspect & Testing Ctr,1,0,3
+Russian State Agr Univ,1,1,11
+Rutgers SUNY,1,0,22
+Rutgers Univ Newark,1,0,1
+Ryerson Univ,1,2,15
+S China Inst Endangered Anim,1,14,56
+S Seifullin Kazakh Agro Tech Res Univ,1,0,3
+S Seifullin Kazakh Agro Tech Univ,1,0,1
+Sabah Forest Dept,1,1,21
+Sabaragamuwa Univ,1,0,2
+SAEON,1,0,13
+SAEON Ndlovu Node,1,0,7
+Sakhalin Energy Investment Co LTD,1,0,36
+Salem Coll,1,0,10
+Salhi Ahmed Univ Ctr Naama,1,0,5
+Salisbury Univ,1,0,2
+Salzburg Univ,1,0,11
+Samara Univ,1,0,7
+Samarkand State Med Univ,1,0,1
+San Diego Nat Hist Museum,1,0,0
+San Diego Zoo Inst Conservat Res,1,0,2
+San Valentin,1,1,1
+Sanidad Agr Econex S L,1,0,3
+Santa Clara Univ,1,0,26
+Santa Fe Inst,1,0,32
+Sante Fe Coll,1,0,7
+Saratov State Agr Univ,1,0,3
+Sardar Bhagwan Singh Univ,1,1,2
+SARDI Aquat Sci,1,0,23
+Sari Agr Sci,1,6,12
+Saskatchewan Minist Environm,1,0,15
+Sault St Marie Tribe Chippewa Indians,1,0,0
+SAVE Brasil,1,5,41
+Saveetha Inst Med & Tech Sci,1,0,8
+Saveetha Univ,1,0,3
+Sch Biotechnol,1,0,8
+Schistosomiasis Control Stn Junshan Dist,1,0,1
+Sci & Technol Res Council Turkiye TUBITAK,1,0,3
+Sci Res Inst Technol Organ & Inorgan Chem & Biote,1,0,3
+Sciensano Belgian Inst Hlth,1,0,24
+Scion,1,4,32
+SciTech Environm Consulting,1,0,16
+Scottish Assoc Marine Sci,1,0,1
+Scottish Assoc Marine Sci SAMS,1,0,3
+SCP,1,0,17
+Scripps Inst Oceanog,1,0,11
+SE Ecol Sci Ctr,1,3,24
+SEA ME Sardinia Assoc Sci Educ & Act Marine Enviro,1,0,1
+Seascape Analyt Ltd,1,0,22
+Seascape Consultants Ltd,1,1,9
+Secretaria Educ Publ,1,0,1
+Secretaria Estado Saude Distrito Fed,1,0,22
+Secretaria Estadual Educ Parana,1,0,3
+Secretaria Meio Ambiente Sustentabilidade & Fernan,1,0,2
+Secretaria Pesca Prov Chubut,1,0,15
+Secretaria Reg Agr & Desenvolvimento Rural,1,0,10
+Secretaria Salud Mexico,1,0,19
+Secretaria Saude Estado Mato Grosso,1,0,22
+Secretaria Saude Estado Rio Grande do Sul,1,0,49
+Secretaria Saude Municipio Santa Barbara dOeste,1,0,8
+Secretariat Pacific Commun,1,0,20
+Secretary Hlth,1,0,3
+Sede Reg Oran Univ Nacl Salta,1,0,45
+SEDUC MT,1,0,10
+Sekota Dryland Agr Res Ctr,1,0,5
+SELC Soc Coop,1,0,4
+Semillas Papalotla SA CV,1,0,6
+Semperfloris,1,22,108
+Senckenberg Biodivers & Climate Res Ctr SBIK F,1,0,4
+Senckenberg Deutsch Entomol Inst SDEI,1,76,366
+Senckenberg German Entomol Inst Muncheberg,1,0,18
+Senckenberg Inst,1,51,187
+Senckenberg Meer,1,7,61
+Senckenberg Museum Nat Hist,1,0,19
+Senckenberg Museum Nat Hist Gorlitz,1,0,2
+SEO BirdLife Marine Programme,1,0,12
+Seowon Univ,1,0,28
+Septima,1,0,5
+Serv Biodiversidad EIRL,1,0,169
+Serv Florestal Brasileiro,1,0,2
+Serv Medio Ambiente,1,0,7
+Serv Rech Dev,1,0,20
+Serv Vida Silvestre CIEF Ctr Invest & Expt Forest,1,0,2
+Severtsov Ecol & Evolut Inst,1,14,84
+Severtsov Inst Ecol & Evolut,1,0,1
+Severtsov Inst Ecol & Evolut RAS,1,0,4
+Sewanee Univ South,1,0,14
+Shaanxi Acad Sci,1,4,32
+Shaanxi Fruit Ind Grp Co Ltd,1,0,2
+Shaanxi Hanzhong Crested Ibis Natl Nat Reserve,1,0,14
+Shaanxi Inst Geol Survey,1,0,0
+Shaanxi Xirui Grp Co Ltd,1,0,0
+Shaheed Benazir Bhutto Univ Sheringal,1,0,39
+Shallow Marine Surveys Grp,1,0,9
+Shams Univ,1,0,26
+Shandong Acad Med Sci,1,0,33
+Shandong Agr & Engn Univ,1,0,8
+Shandong Ctr Dis Control & Prevent,1,10,53
+Shandong First Med Univ,1,0,33
+Shandong Fisheries Dev & Resources Conservat Ctr,1,0,1
+Shandong Jianzhu Univ,1,0,78
+Shandong Key Lab Coastal Environm Proc,1,0,27
+Shandong Marine Resource & Environm Res Inst,1,0,3
+Shandong Mengyin State Owned Forest Farm,1,0,8
+Shandong Preparatory,1,0,3
+Shandong Prov Ctr Forest & Grass Germplasm Resourc,1,0,2
+Shandong Univ Technol,1,0,2
+Shanghai Int Airport Co Ltd,1,0,6
+Shanghai Survey & Design Inst Co Ltd,1,0,3
+Shanghai Univ,1,0,4
+Shanghai Univ Finance & Econ,1,0,0
+Shangluo Univ,1,0,1
+Shangri La Potatso Natl Pk Bita Lake Plateau Wetla,1,0,0
+Shanshui Conservat Ctr,1,2,9
+Shanwei Middle Sch,1,0,15
+Shanxi Inst Energy,1,0,2
+Shanxi Yuncheng Vocat & Tech Coll Agr,1,0,2
+Shaoxing Univ,1,0,8
+Shengnongjia Natl Pk Adm,1,0,7
+Shenyang Univ,1,0,0
+Shenzhen & Chinese Acad Sci,1,0,4
+Shenzhen Adm Market Regulat,1,2,7
+Shenzhen BKD Co LTD,1,0,8
+Shenzhen Mangrove Wetlands Conservat Fdn,1,0,2
+Sher E Bangla Agr Univ,1,0,6
+Sherbrooke Univ,1,0,87
+SHI Sez Umbria Marche,1,0,1
+Shiv Nadar Univ,1,0,7
+Shivaji Univ,1,0,6
+Shivapuri Nagarjun Natl Pk,1,0,5
+Shizuoka Univ,1,0,0
+Shoals Marine Lab,1,0,4
+Shohadaye Hoveizeh Univ Technol,1,0,19
+Sichuan Acad Forest,1,1,53
+Sichuan Acad Forestry,1,0,1
+Sichuan Forestry & Grassland Survey & Planning Ins,1,0,2
+Sichuan Hort Crop Technol Extens Stn,1,0,4
+Sichuan Int Studies Univ,1,0,35
+Sichuan Prov Agrometeorol Ctr,1,0,110
+Sichuan Sci & Technol Exchange Ctr,1,0,4
+Sichuan Stn Wildlife Survey & Management,1,0,6
+Sichuan Univ Sci & Engn,1,0,3
+Sichuan Univ Sci Engn,1,0,3
+Sicily Marine Ctr,1,0,2
+Siedlce Univ Nat Sci & Humanities,1,0,2
+Signal Innovat Grp Inc,1,0,28
+Sikkim State Council Sci & Technol,1,3,28
+Siksha O Anusandhan Deemed be Univ,1,0,3
+Silesian Museum,1,0,3
+Silesian Univ,1,0,11
+Silvio O Conte Natl Fish & Wildlife Refuge,1,0,0
+Simon Gonzalez 7830 C,1,0,0
+Simula Res Lab,1,0,25
+Singapore Bot Gardens,1,0,0
+Singhadurbar,1,6,31
+Sino Danish Ctr Educ & Res,1,7,45
+Sino Danish Ctr Educ & Res SDC,1,0,13
+Sinochem Agr Holdings Co Ltd,1,0,9
+Sinovac Biotech Ltd,1,0,5
+SINTEF,1,0,39
+Siskiyou Cty Dept Agr,1,2,9
+Sistema Nacl Areas Conservac,1,2,10
+SIU,1,0,34
+SKUAST Kashmir,1,0,1
+Slovak Univ Technol Bratislava,1,0,19
+Slovenia Forest Serv,1,0,9
+Slovenian Acad Sci & Arts,1,0,21
+Slovenian Forestry Inst,1,0,13
+Small Cat Advocacy & Res,1,0,3
+Smarkand State Univ Sharof Rashidov,1,0,1
+Smith Coll,1,3,46
+Smithsonian Natl Zoo,1,8,52
+Smithsonian Natl Zoo & Conservat Biol Inst,1,0,1
+Snow & Landscape Res WSL,1,6,34
+Snow Leopard Conservancy,1,23,115
+Snow Leopard Conservancy India Trust,1,0,0
+So Cross Univ,1,1,29
+So Illinois Univ,1,0,15
+Soc Bird & Nat Protect,1,0,1
+Soc Cabana Zool,1,0,1
+Soc Chilena Socioecol & Etnoecol SOSOET,1,0,4
+Soc Conservacao Aves Brasil,1,0,4
+Soc Conserving Planet & Life Srinagar Garhwal,1,5,24
+Soc Cooperat Trifolium Srl,1,0,1
+Soc Portuguesa Estudo Aves,1,59,258
+Soc Portuguesa Vida Selvagem,1,0,3
+Soc Preservat Herpetol Div,1,0,38
+Soc Study & Recovery Almerias Biodivers SERBAL,1,0,40
+Sofia Univ,1,1,3
+Songliao Water Resources Commiss,1,0,9
+Sonoma State Univ,1,0,59
+SOS Amazonia Assoc,1,0,0
+SOS Biodivers NGO,1,0,0
+South African Environm Observat Network,1,2,10
+South African Environm Observat Network SAEON Ndl,1,2,22
+South African Natl Space Agcy,1,4,9
+South Atlantic Environm Res Inst,1,0,9
+South Australia Res & Dev Inst Aquat Sci,1,0,92
+South Australia State Herbarium,1,0,92
+South Carolina Sea Grant Consortium,1,1,29
+South Cent Minzu Univ,1,0,0
+South China Natl Bot Garden,1,0,3
+South China Univ Technol,1,0,10
+South India Ctr Wildlife Inst India,1,0,1
+Southeast Missouri State Univ,1,0,2
+Southeastern Grasslands Inst,1,0,6
+Southeastern Louisiana Univ,1,0,7
+Southern African Ctr Infect Dis Surveillance,1,0,24
+Southern African Sci Serv Ctr Climate Change & Ad,1,4,9
+Southern African Wildlife Coll,1,0,2
+Southern African Wildlife Coll Hoedspruit,1,0,2
+Southern Arizona Buffelgrass Coordinat Ctr,1,3,26
+Southern Cross Univ,1,0,7
+Southern Gulf NRM,1,0,13
+Southern Illinois Univ Carbondale,1,0,706
+Southern Inst Ecol,1,3,3
+Southern Marine Sci & Engn Guangdong Lab,1,0,8
+Southern Sci Ctr RAS,1,0,4
+Southwest Anatolia Forest Res Inst,1,0,25
+Southwest Forest Univ,1,0,22
+Southwest Petr Univ,1,0,7
+Southwest Univ Sci & Technol,1,0,1
+Southwestern Oklahoma State Univ,1,14,76
+SOVON,1,0,31
+Sovon Dutch Ctr Field Ornithol,1,1,10
+Space Sci & Geospatial Inst,1,0,15
+Spanish Inst Oceanog IEO CSIC,1,0,1
+Spanish Natl Res Council,1,0,4
+Spatial Informat Grp,1,0,13
+SPECIES,1,0,8
+Species Recovery Trust,1,0,4
+Species Survival Commiss,1,0,13
+Spelman Coll,1,1,7
+SPYGEN,1,0,18
+Sri Lanka Country Off,1,0,2
+Sri Lanka Forestry Inst,1,0,29
+SROPU Stn Romana Osservaz & Protez Uccelli,1,0,2
+St Barbara Cty Fire Safe Council,1,0,5
+St Catherine Univ,1,0,13
+St Cloud State Univ,1,2,11
+St Francis Univ,1,6,22
+St Johns Univ,1,0,32
+St Marys Coll,1,1,17
+St Petersburg State Polytech Univ,1,0,7
+St Petersburg State Univ,1,1,53
+St Thomas Coll,1,0,1
+Staatl Museum Nat Kunde Karlsruhe,1,0,3
+Staatl Museum Nat Kunde Stuttgart,1,0,91
+Stanislaw Stasz High Sch Rzepin,1,0,3
+Stantec Consulting Ltd,1,9,77
+State Dept Hlth Espirito Santo,1,0,1
+State Grid Chongqing Elect Power Co,1,0,35
+State Herbarium South Australia,1,11,167
+State Inst Donetsk Bot Garden,1,0,3
+State Key Lab Ecol Pest Control Fujian & Taiwan Cr,1,0,1
+State Key Lab Pathogen & Biosecur,1,0,21
+State Key Lab Qual Ensurance & Sustainable Use Dao,1,0,2
+State Key Lab Soil & Water Conservat & Desertifica,1,0,1
+State Univ Maringa UEM,1,0,1
+State Univ Mato Grosso Do Sul UEMS,1,0,1
+State Univ New York Buffalo State,1,1,11
+State Univ Paraiba,1,0,0
+State Univ Santa Catarina UDESC,1,0,1
+State Univ Santa Cruz UESC,1,0,1
+State Univ Semuliki,1,0,2
+STATS4D,1,0,8
+Stazione Zool Anton Dohrn,1,0,34
+Stiftung Neanderthal Museum,1,0,1
+STIIMA CNR,1,0,6
+Stn Romana Osservaz & Protez Uccelli,1,2,15
+Stn Zool Anton Dohm,1,0,46
+Strathmore Univ,1,0,1
+Studio Naturalist Hyla Snc,1,0,37
+Studio Pteryx,1,0,2
+Subsecretaria Pesca & Acuicultura,1,2,10
+Suez Univ,1,0,5
+Suffolk Cty Dept Hlth Serv,1,0,3
+Suichang Cty Bur Agr & Rural Affairs,1,0,2
+Suichang Cty Ecd Forestry Dev Ctr,1,0,2
+Suisun Resource Conservat Dist,1,0,12
+Sukhothai Thammathirat Open Univ,1,0,1
+Sul Ross State Univ,1,0,23
+Sultane Slimane Univ,1,0,1
+Sumava Natl Pk Adm,1,0,9
+Sun Yat Sen Univ Shenzhen,1,0,3
+Sunchon Natl Univ,1,0,8
+SUNY Albany,1,0,3
+SUNY Coll Fredonia,1,0,6
+SUNY Coll Geneseo,1,0,1
+SUNY Upstate Med Univ,1,88,268
+Superintendencia Controle Endemias SUCEN,1,0,8
+Suqian Water Conservancy Bureaut,1,0,2
+Suranaree Univ Technol,1,0,18
+SuRDept,1,3,14
+Susquehannock Wildlife Soc,1,0,32
+Sustainable Afforestat Assoc,1,1,10
+Suzano SA,1,0,8
+Suzhou Acad Agr Sci,1,7,36
+Suzhou Ctr Dis Control & Prevent,1,0,6
+Suzhou Ind Pk Gardens,1,31,87
+Suzhou Inst Pomol Sci,1,0,3
+Suzhou New Dist Ctr Dis Control & Prevent,1,0,2
+Suzhou Polytech Inst Agr,1,0,3
+Swansea Univ,1,0,15
+Swarthmore Coll,1,0,13
+Swiss Fed Inst Forest,1,0,18
+Swiss Fed Inst Forest Snow & Landscape Res,1,2,3
+Swiss Fed Res Inst,1,0,2
+Swiss Fed Res Inst Forest Snow & Landscape Res WS,1,0,13
+Sydney Inst Agr,1,0,7
+Sylva Fdn,1,10,46
+SYu Witte Moscow Univ,1,0,0
+Szent Istvan Univ,1,6,14
+Szkola Glowna Gospodarstwa Wiejskiego,1,1,6
+Taibah Univ,1,0,19
+Taif Univ,1,2,14
+Taipei City Govt,1,3,25
+Taisei Corp,1,3,24
+Taiwan Endem Species Res Inst,1,1,18
+Tallinn Univ Technol,1,0,16
+Tamilnadu Trust,1,0,0
+Tandy Ctr Ocean Forecasting,1,0,16
+Tanglin Int Ctr,1,0,4
+Tanzania Forest Serv TFS Agcy,1,9,28
+Tanzania Vet Lab Agcy,1,2,11
+Tanzania Wildlife Res Inst,1,0,1
+Tanzania Wildlife Res Inst TAWIRI,1,0,1
+Taraba State Univ,1,0,26
+Tarbiat Modares Univ TMU,1,0,0
+Tarim Univ,1,26,68
+Tarrant Cty Publ Hlth Dept,1,0,2
+Tarsal Claw Ind LLC,1,0,9
+TARUKARI,1,0,9
+Tasmanian Land Conservancy,1,0,2
+Tata Inst Fundamental Res,1,0,1
+Tavolara PuntaCoda Cavallo,1,0,10
+Tay Bac Univ,1,0,0
+Te Papa Atawhai,1,0,0
+Te Papa Atawhai Sci & Policy,1,3,18
+Team Biosphere Reserve,1,0,0
+Tech & Vocat Univ,1,0,7
+Tech Ctr Anim Plant & Food Inspect & Quarantine Sh,1,0,1
+Tech Univ Madrid,1,18,108
+Technol Ctr Taiyuan Customs,1,0,21
+Technol Educ Inst Crete,1,2,130
+Technol Grad Univ,1,0,16
+Technol Inst Thessaly,1,0,17
+Teknol Sains & Bisnis Muhammadiyah Selayar,1,0,0
+TENNESSEE NAT HERITAGE PROGRAM,1,0,6
+Tennessee Wildlife Resources Agcy,1,0,7
+TERI Sch Adv Studies,1,0,8
+Terra Brasilis Inst,1,0,4
+TerrAdapt,1,3,25
+Tetra Tech Inc,1,1,13
+Texas A&M AgriLife,1,2,17
+Texas A&M AgriLife Res Ctr Dallas,1,0,1
+Texas A&M Nat Resources Inst,1,0,14
+Texas A&M Univ Texarkana,1,0,2
+Texas Marine Mammal Stranding Network,1,0,2
+Texas Nat Hist Collect,1,4,47
+Texas Sea Grant,1,0,0
+Texas State Guard,1,0,77
+Texas Tech Univ Museum,1,1,10
+Thai Nguyen Univ Agr & Forestry,1,0,27
+Tham Pla Namtok Pha Suea Natl Pk,1,0,1
+The Wilds,1,0,30
+THERION Res Grp,1,2,9
+Think Nat Inc,1,0,2
+Tholanur Univ Calicut,1,0,2
+Thompson Rivers Univ,1,0,8
+Thousand Isl Natl Pk,1,0,11
+Three Gorges Corp,1,0,7
+Thuenen Inst World Forestry,1,1,13
+Thunen Inst Int Forestry & Forest Econ,1,1,21
+Tianjin Univ,1,0,3
+Tianjing Beidagang Wetland Conservat Ctr,1,0,5
+Tiaret Univ,1,0,2
+Tibet Agr & Anim Husb Coll,1,0,2
+Tibet Autonomous Reg Res Inst Forestry Inventory &,1,0,1
+Tibet Ecol Safety Monitor Network,1,0,43
+Tick Borne Dis Program,1,0,9
+Tidewater Community Coll,1,1,50
+Tigray Agr Res Inst TARI,1,0,1
+Tigray Inst Policy Studies,1,0,8
+Tilad Environm Consultat & Vet Med,1,0,4
+Tissemesilt Univ,1,0,5
+Tissemsilt Univ,1,0,2
+TNAU,1,0,0
+Toi Ohomai Inst Technol,1,11,34
+ToledoZoo,1,0,1
+Tomsk State Univ,1,0,2
+Tonglu Ecol Environm Monitoring Stn Hangzhou,1,0,0
+Tor Vergata Univ Rome,1,0,46
+Toyohashi Museum Nat Hist,1,0,12
+Toyohashi Univ Technol,1,0,2
+TPWD Port,1,0,3
+tRackIT Syst GmbH,1,0,3
+Trinity Valley Community Coll,1,2,6
+Trop Divers Sect,1,0,11
+Trop Forest Res Inst,1,2,8
+Trop Pesticide Res Inst,1,0,31
+Trop Rainforest Conservat & Res Ctr TRCRC,1,0,29
+Tropenbos Int,1,0,169
+Tsuyazaki Seaside Nat Sch,1,0,5
+Tulang Bawang Univ,1,2,8
+Tunis El Manar Univ,1,0,2
+Tunisian Vet Res Inst,1,0,7
+Turner Inst Ecoagr,1,0,1
+Turtle Isl Restorat Network,1,0,19
+Tyndall Ctr Climate Change Res,1,13,115
+Tyumen State Univ,1,0,2
+UAA Alaska Nat Heritage Program,1,2,11
+UAF Cooperat Extens Serv,1,2,11
+UAF Cooperat Extens Serv Tanana Dist,1,2,11
+UAM Iztapalapa,1,0,28
+UANL,1,0,1
+UBA CONICET,1,0,0
+UBO,1,0,27
+UCLM,1,0,53
+UCM,1,0,4
+UCOST,1,0,9
+UCOST Manaskhand Sci Ctr,1,0,0
+UENR,1,0,67
+UFAC Univ Fed Acre,1,1,2
+Ufficio Caccia & Pesca,1,2,9
+Ufficio Faunist,1,2,9
+UFG,1,12,31
+UFZ,1,0,8
+Uganda Wildlife Author,1,0,17
+UIB,1,0,13
+UJED,1,0,0
+UK Ctr Ecol & Hydrol,1,0,7
+UK Hlth Secur Agcy,1,0,1
+UK Hlth Secur Agcy UKHSA,1,0,2
+Ukrainian Entomol Soc,1,0,0
+Ukrainian Natl Forestry Univ,1,15,97
+Ukrainian Natl Univ Forest Technol,1,8,79
+UKRI Ctr Ecol & Hydrol,1,11,74
+Ulangab Inst Agr & Forestry Sci,1,0,6
+ULB,1,0,19
+Ulster Univ,1,2,21
+Umaru Musa Yaradua Univ,1,0,26
+Umea Univ Hosp,1,0,26
+UMR 7204 MNHN CNRS UPMC,1,0,31
+UMR AMAP,1,0,33
+UMR ASTRE,1,0,8
+UMR CBGP INRA IRD Cirad Montpellier SupAgro,1,4,38
+UMSS,1,0,169
+UN,1,0,29
+UNC CONAE,1,0,4
+UnderwaterBio Cartog UBICA srl,1,0,10
+UNDP AICS,1,0,1
+UNDP India,1,0,5
+UNE,1,0,60
+UNED,1,0,8
+UNEMAT Campus Nova Xavantina,1,2,9
+UNEP GRID Geneva,1,0,14
+UNEP World Conservat Monitoring Ctr,1,0,32
+UNESCO Chair Land Sea Biodivers & Sustainabil Atl,1,0,5
+UNESCO Global Geopk,1,0,0
+UNESP FCA,1,0,8
+Unidad Posgrad,1,0,315
+Unidos Guacamayas AC,1,0,39
+UniMail,1,0,30
+UNIMONTES,1,0,1
+United Nat Children S Fund UNICEF,1,0,23
+United Nation Dev Program,1,0,18
+United Nations Environm Programme World Conservat,1,19,230
+United Nations FAO,1,6,29
+United States Fish & Wildlife Serv,1,0,1
+United States Naval Med Res Unit EURAFCENT,1,0,4
+Univ 11 Groningen,1,0,1
+Univ 8 May 1945,1,2,8
+Univ Abdelhafid Boussouf,1,2,8
+Univ Abdelmalek Essaadi,1,6,32
+Univ Abomey Calavi Benin,1,0,16
+Univ AbomeyCalavi,1,0,28
+Univ Acores Rua Capitao Joao Avila,1,0,10
+Univ Adigrat,1,0,2
+Univ Agr,1,0,0
+Univ Agr Faisalabad,1,0,0
+Univ Agr Ketou,1,10,26
+Univ Agr Sci Bangalore,1,0,46
+Univ Agr Sci Raichur,1,0,17
+Univ Agraria Molina,1,0,120
+Univ Akureyri,1,1,6
+Univ Alassane Ouattara,1,0,1
+Univ Alcala de Henares,1,4,43
+Univ Alcalao,1,0,7
+Univ Alexandria,1,0,4
+Univ Allahabad,1,0,3
+Univ Alliance Ruhr,1,0,1
+Univ Andina Nestor Caceres Velasquez,1,3,9
+Univ Appl Sci & Arts Western Switzerland,1,0,1
+Univ Appl Sci & Arts Western Switzerland HES SO,1,0,19
+Univ Appl Sci & Technol UAST,1,2,3
+Univ Appl Sci Bingen,1,1,16
+Univ Appl Sci Hall Larenstein,1,0,38
+Univ Appl Sci Trier,1,0,39
+Univ Appl Sci van Hall Larenstein,1,4,42
+Univ Appl Sci Weihenstephan Triesdorf,1,1,15
+Univ Ardakan,1,0,1
+Univ Arkansas Ft Smith,1,4,13
+Univ Arkansas Little Rock,1,0,5
+Univ Athens,1,2,12
+Univ Auckland Waipapa Taumata Rau,1,0,13
+Univ Augsburg,1,0,17
+Univ Autonoma Baja Calif,1,0,12
+Univ Autonoma Baja California,1,0,28
+Univ Autonoma Beni Jose Ballivian,1,0,169
+Univ Autonoma Chile,1,0,0
+Univ Autonoma Ciudad Juarez,1,0,4
+Univ Autonoma Estado Mex,1,0,3
+Univ Autonoma Gabriel Rene Moreno,1,0,169
+Univ Autonoma Gabriel Rene Moreno Santa Cruz,1,0,169
+Univ Autonoma Guerrero,1,0,25
+Univ Autonoma Metropolitana Unidad Iztapalapa,1,0,0
+Univ Autonoma Queretaro,1,0,0
+Univ Autonoma Santo Domingo,1,0,0
+Univ Autonoma Tlaxcala,1,0,2
+Univ Autonomous Barcelona,1,0,22
+Univ Avignon,1,0,12
+Univ Avignon & Pays de Vaucluse,1,1,16
+Univ Avignon & Pays Vaucluse,1,16,54
+Univ Azores CCMMG,1,2,13
+Univ Babes Bolyai,1,0,42
+Univ Balear Isl UIB,1,1,6
+Univ Balearic Isl,1,2,16
+Univ Balochistan,1,1,6
+Univ Baltistan,1,0,0
+Univ Basque Country PiE UPV EHU,1,0,18
+Univ Basque Country UPV EHU,1,0,18
+Univ Basrah,1,0,0
+Univ Batna,1,0,1
+Univ Beira Interior,1,0,10
+Univ Bejaia,1,0,1
+Univ Bielefeld,1,1,50
+Univ Bielsko Biala,1,0,4
+Univ Bienestar Benito Juarez Garcia,1,0,1
+Univ Bienestar Benito Juarez Garcia Aldama,1,0,0
+Univ Bourgogne,1,7,32
+Univ Bourgogne FrancheComte,1,1,6
+Univ Buea,1,0,6
+Univ Ca Foscari,1,0,4
+Univ Ca Foscari Venezia,1,14,206
+Univ Cadi Ayyad,1,6,32
+Univ Calif Napa,1,1,3
+Univ Calif San Bernardino,1,0,1
+Univ Calif San Francisco,1,0,7
+Univ Camerino,1,0,124
+Univ Carabobo,1,0,9
+Univ Castilla La Mancha UCLM,1,6,43
+Univ Catolica Maule,1,0,47
+Univ Cent Lancashire,1,0,3
+Univ Cent Venezuela Caracas,1,0,3
+Univ Cheikh Anta Diop Dakar,1,0,9
+Univ Ciencias & Artes Chiapas,1,0,19
+Univ Cient Sur,1,2,10
+Univ Coimbra,1,0,4
+Univ Colima,1,0,4
+Univ Colorado Denver,1,0,1
+Univ Colorado Museum,1,7,50
+Univ Complutense,1,0,158
+Univ Comunitaria Regiao Chapeco,1,0,17
+Univ Concordia,1,0,0
+Univ Continental,1,0,2
+Univ Cooperat Colombia,1,0,3
+Univ Craiova,1,0,4
+Univ Ctr Svalbard UNIS,1,6,138
+Univ Daniel Ouezzin Coulibaly,1,0,12
+Univ Dayton,1,0,0
+Univ Denver,1,4,43
+Univ Diffa,1,0,23
+Univ Dusseldorf,1,8,33
+Univ EAFIT,1,0,10
+Univ Energy & Nat Resources,1,0,37
+Univ Environm & Sustainable Dev UESD,1,0,43
+Univ Estado Mato Grosso UNEMAT,1,9,25
+Univ Estado Minas Gerais,1,0,9
+Univ Estadual Centro Oeste,1,0,1
+Univ Estadual de Goias,1,6,22
+Univ Estadual Feira de Santana,1,1,9
+Univ Estadual Londrina UEL,1,0,0
+Univ Estadual Maranhao,1,0,1
+Univ Estadual Maranhao UEMA,1,0,2
+Univ Estadual Maringa UEM,1,0,0
+Univ Estadual Mato Grosso do Sul,1,0,0
+Univ Estadual Mato Grosso UEMS,1,0,0
+Univ Estadual Montes Claros UNIMONTES,1,9,25
+Univ Estadual Norte Fluminense,1,0,169
+Univ Estadual Oeste Parana,1,0,7
+Univ Estadual Paraiba,1,0,8
+Univ Estadual Ponta Grossa,1,0,18
+Univ Estadual Santa Cruz UESC,1,0,45
+Univ Estadual Sudoeste Bahia,1,0,0
+Univ Etat Haiti,1,1,6
+Univ Evangel Afrique UEA,1,0,44
+Univ Extremo Catarinense,1,0,0
+Univ Extremo Sul Catarinense,1,1,7
+Univ Fed,1,0,6
+Univ Fed ABC UFABC,1,0,2
+Univ Fed Alfenas,1,2,22
+Univ Fed Amapa,1,23,60
+Univ Fed Amapa UNIFAP,1,0,0
+Univ Fed Bahia UFBA,1,3,27
+Univ Fed Campina Grande,1,0,1
+Univ Fed Dos Vales Do Jequitinhonha & Mucuri,1,0,1
+Univ Fed Espirito Santo Bairro Litoraneo,1,0,9
+Univ Fed Espirito Santo UFES,1,0,5
+Univ Fed Estado Rio de Janeiro,1,2,15
+Univ Fed Estado Rio de Janeiro UNIRIO,1,0,29
+Univ Fed Goias Goiania,1,0,15
+Univ Fed Integracao Latino Amer UNILA,1,0,5
+Univ Fed Itajuba,1,0,3
+Univ Fed Lavras UFLA,1,0,9
+Univ Fed Maranhao,1,0,1
+Univ Fed Mato Grosso do Sul,1,0,4
+Univ Fed Mato Grosso UFMT,1,0,5
+Univ Fed Minas Gerais UFMG,1,0,29
+Univ Fed Oeste Bahia,1,0,0
+Univ Fed Oeste Para,1,0,169
+Univ Fed Oeste UFOPA,1,0,0
+Univ Fed Para UFPA,1,2,77
+Univ Fed Paraiba UFPB,1,0,13
+Univ Fed Paran UFPR,1,0,5
+Univ Fed Pernambuco UFPE,1,0,45
+Univ Fed Rio Grande do Sul UFRGS,1,0,9
+Univ Fed Rio Grande FURG,1,0,13
+Univ Fed Rual Pernambuco,1,0,1
+Univ Fed Rural Pernambuco UFRPE,1,0,4
+Univ Fed Rural Rio de Janeiro,1,0,0
+Univ Fed Santa Maria UFSM,1,0,5
+Univ Fed Sao Paulo UNIFES,1,1,25
+Univ Fed Sergipe UFS,1,0,8
+Univ Fed Sul Bahia,1,1,9
+Univ Fed Sul Da Bahia,1,0,5
+Univ Fed Tecnol Parana UTFPR,1,0,0
+Univ Fed Uberlandia UFU,1,0,9
+Univ Fed Vale do Jequitinhonha & Mucuri,1,0,8
+Univ Fed Vale do Sao Francisco UNIVASF,1,0,4
+Univ Fed Vales Jequitinhonha E Mucuri,1,0,0
+Univ Federico II Napoli,1,25,95
+Univ FEEVALE,1,0,43
+Univ Fribourg,1,0,6
+Univ Ft Hare,1,0,4
+Univ G dAnnunzio,1,0,1
+Univ Gabes,1,0,2
+Univ Galway,1,0,1
+Univ Garmian,1,0,6
+Univ Gaston Berger,1,0,9
+Univ Geosci Wuhan,1,0,4
+Univ Gezira,1,8,18
+Univ Gibraltar,1,1,25
+Univ Giessen,1,1,46
+Univ Granada Junta de Andalucia,1,0,22
+Univ Greenwich,1,0,83
+Univ Guam,1,0,1
+Univ Gujrat,1,0,139
+Univ Haifa,1,9,46
+Univ Hail,1,2,14
+Univ Halle Wittenberg,1,0,65
+Univ Havana,1,1,2
+Univ Hosp Ctr,1,0,19
+Univ Hradec Kralove,1,0,12
+Univ Huanuco,1,0,0
+Univ Hull,1,1,8
+Univ Hyogo,1,1,13
+Univ Ibn Tofail,1,0,1
+Univ Ibn Zohr,1,0,1
+Univ ICESI,1,0,5
+Univ Illes Balears,1,1,6
+Univ Illinois: Urbana Champaign,1,0,23
+Univ Inner Mongolia Autonomous Reg,1,0,0
+Univ Innsbruck,1,12,36
+Univ Int Menendez Pelayo,1,3,64
+Univ Interamer,1,0,0
+Univ Intercultural Estado Mexico,1,0,14
+Univ Internac SEK UISEK,1,0,2
+Univ Ioannina,1,1,22
+Univ Islamabad,1,0,4
+Univ Jena,1,15,45
+Univ Juarez Estado Durango UJED,1,0,0
+Univ Jyvaskyla,1,0,14
+Univ Kaiserslautern,1,0,12
+Univ Kebangsaan Malaysi,1,0,9
+Univ Kerala,1,0,11
+Univ Kinshasa,1,0,2
+Univ Kota,1,0,2
+Univ Kotli Azad Jammu & Kashmir,1,0,1
+Univ KwaZulu Natal Westville,1,0,27
+Univ La Frontera,1,0,0
+Univ La Habana La Habana,1,1,6
+Univ La Reunion,1,14,74
+Univ La Serena,1,0,4
+Univ Ladakh,1,2,13
+Univ Laica Eloy Alfaro Manabi,1,5,41
+Univ LAquila,1,0,17
+Univ Larbi Ben Mhidi,1,2,8
+Univ las Amer,1,0,97
+Univ Ledea Bernard OUEDRAOGO,1,0,4
+Univ Liege Gembloux Agro Bio Tech,1,3,71
+Univ Liege ULiege,1,0,27
+Univ Life Sci,1,0,27
+Univ Limoges,1,0,2
+Univ Limpopo,1,0,4
+Univ Lincoln,1,0,12
+Univ Llanos,1,0,3
+Univ Lome,1,0,6
+Univ Lome Togo,1,0,23
+Univ London,1,0,2
+Univ Luneburg,1,4,22
+Univ Luterana Brasil,1,0,112
+Univ Madras,1,0,2
+Univ Mannouba,1,6,38
+Univ Mar,1,0,0
+Univ Maribor,1,1,12
+Univ Massachusetts Boston,1,23,115
+Univ Mato Grosso State,1,1,6
+Univ Mayor San Simon,1,2,24
+Univ Mazandaran,1,0,13
+Univ Med Greifswald,1,0,2
+Univ Metropolitana Ciencias Educac,1,0,13
+Univ Miami Coral,1,0,169
+Univ Michoacan San Nicolas Hidalgo,1,0,2
+Univ Miguel Hernandez Elche,1,0,2
+Univ Mil Nueva Granada,1,0,19
+Univ Minnesota Duluth,1,3,22
+Univ Mississippi,1,2,12
+Univ Missouri St Louis,1,0,2
+Univ Mohamed Boudiaf,1,2,8
+Univ Moncton,1,0,20
+Univ Moron,1,0,0
+Univ Museum Bergen,1,2,12
+Univ Nacionalde Colombia Sede Medellin,1,0,2
+Univ Nacl Agraria La Molina,1,65,183
+Univ Nacl Amazonia Peruana,1,0,169
+Univ Nacl Autonoma Mexco,1,0,2
+Univ Nacl Chilecito,1,0,2
+Univ Nacl Colombia Sede Amazonia,1,0,169
+Univ Nacl Colombia Sede Palmira,1,0,0
+Univ Nacl Colombia UNAL,1,0,1
+Univ Nacl Cordoba CONICET,1,0,4
+Univ Nacl Cordoba UNC,1,0,1
+Univ Nacl Ctr Peru,1,0,2
+Univ Nacl Ctr Prov Buenos Aires,1,1,55
+Univ Nacl Expt Guayana,1,0,169
+Univ Nacl Heredia,1,0,9
+Univ Nacl Loja,1,1,21
+Univ Nacl Lujan UNLu Lujan,1,0,2
+Univ Nacl Misiones UNaM,1,4,18
+Univ Nacl Noroeste Prov Buenos Aires UNNOBA,1,4,18
+Univ Nacl Patagonia,1,0,0
+Univ Nacl Patagonia Austral UNPA,1,0,2
+Univ Nacl Rio Cuarto,1,1,14
+Univ Nacl San Luis UNSL,1,0,9
+Univ Nacl Santiago Estero UNSE,1,0,2
+Univ Nacl Sur San Juan,1,0,5
+Univ Nacl Toribio Rodriguez Mendoza,1,0,4
+Univ Nacl Tucuman UNT,1,0,5
+Univ Naples Suor Orsola Benincasa,1,0,5
+Univ Natl Jujuy,1,2,10
+Univ Natl Sci Technol Ingn Math,1,0,3
+Univ Navarra,1,0,24
+Univ Nebraska Lincoln,1,6,39
+Univ New Orleans,1,0,1
+Univ Newcastle Tyne,1,2,27
+Univ Nis,1,0,7
+Univ No Iowa,1,0,54
+Univ North Carolina Chapel Hill,1,0,6
+Univ North Carolina Charlotte,1,0,5
+Univ North Carolina Greensboro,1,9,67
+Univ North Dakota,1,1,7
+Univ Northern Iowa,1,0,1
+Univ Nottingham Malaysia Campus,1,0,29
+Univ Nottinghamshire,1,0,27
+Univ Nouvelle Caledonie,1,0,98
+Univ Nova Gorica,1,0,21
+Univ Nove Julho,1,0,38
+Univ Novi Sad,1,0,1
+Univ Oran 1 Ahmed Ben Bella,1,0,10
+Univ Osnabrueck,1,0,2
+Univ Oum El Bouaghi,1,0,2
+Univ Pablo Olavide,1,0,1
+Univ Padjadjaran,1,0,0
+Univ Pais Vasco UPV EHU,1,0,26
+Univ Palangka Raya,1,0,106
+Univ Panama,1,0,0
+Univ Paris 04,1,0,17
+Univ Paris 05,1,0,2
+Univ Paris 06,1,2,19
+Univ Paris Cite,1,0,19
+Univ Paris Diderot,1,0,17
+Univ Paris Saclay,1,0,35
+Univ Passau,1,0,0
+Univ Passo Fundo,1,0,7
+Univ Pau & Pays Adour,1,0,13
+Univ Paul Sabatier Toulouse III,1,1,16
+Univ Pedag Expt Libertador Caracas,1,0,3
+Univ Pedagag & Tecnol Colombia,1,1,11
+Univ Peloponnese,1,0,17
+Univ Penn,1,104,263
+Univ People,1,0,0
+Univ Pernambuco,1,2,25
+Univ Perpignan,1,2,47
+Univ Perpignan Via Domitia UPVD,1,0,1
+Univ Petr & Energy Studies,1,0,8
+Univ Philippines Diliman,1,6,31
+Univ Philippines Los Banos UPLB,1,0,0
+Univ Philippines Manila,1,0,5
+Univ Politecn Madrid UPM,1,0,1
+Univ Politecn Marche,1,0,10
+Univ Politecn Puebla,1,0,14
+Univ Politecn Salesiana,1,0,8
+Univ Politecn Valencia UPV,1,0,6
+Univ Prov Sudoeste,1,0,15
+Univ Prov Sudoeste UPSO,1,0,0
+Univ Publ Navarra,1,0,2
+Univ Publ Serv,1,0,14
+Univ Pune,1,22,54
+Univ Qom,1,0,1
+Univ Quebec Rimouski,1,0,13
+Univ Quindio Armenia,1,0,4
+Univ Quintana Roo,1,0,28
+Univ Rafael Landivar,1,0,2
+Univ Rajasthan,1,0,3
+Univ Redlands,1,1,7
+Univ Reg Blumenau,1,1,9
+Univ Relizane,1,0,0
+Univ Rio de Janeiro State UERJ,1,0,0
+Univ Roma Tre,1,5,22
+Univ Rovira & Virgili URV,1,0,8
+Univ Rzeszow,1,0,12
+Univ S Alabama,1,0,2
+Univ Salford,1,0,13
+Univ Salvador UNIFACS,1,0,24
+Univ San Ignacio Loyola,1,0,38
+Univ San Sebastian,1,14,62
+Univ Santander,1,0,15
+Univ Santiago Chile,1,0,10
+Univ Santo Amaro,1,0,5
+Univ Sao Paulo FSP USP,1,0,8
+Univ Sargodha,1,0,17
+Univ Sarh,1,1,2
+Univ Savoie,1,21,126
+Univ Savoie Mont Blanc,1,0,2
+Univ Sch Adv Studies Pavia,1,0,20
+Univ Sci & Technol,1,0,18
+Univ Sci Ho Chi Minh City,1,0,52
+Univ Senghor,1,0,2
+Univ Sfax,1,0,67
+Univ Sharjah,1,0,33
+Univ Sherbrooke,1,0,2
+Univ Sistan & Baluchestan,1,0,5
+Univ So Denmark,1,23,96
+Univ So Maine,1,2,99
+Univ So Mississippi,1,5,58
+Univ So Queensland,1,0,117
+Univ Sopron,1,0,31
+Univ South China,1,0,1
+Univ South Eastern Norway,1,3,87
+Univ Southern Calif,1,0,60
+Univ Southern Mindanao,1,0,0
+Univ Split,1,3,23
+Univ Sri Jayewardenepura,1,0,4
+Univ St Tomas,1,0,4
+Univ Studi Insubria,1,3,29
+Univ Sucre,1,1,11
+Univ Sumatera Utara,1,0,1
+Univ Surcolombiana,1,0,32
+Univ Swaziland,1,0,44
+Univ Teaching Hosp,1,0,12
+Univ Tebessa,1,0,2
+Univ Technol,1,0,3
+Univ Tecn Machala,1,0,5
+Univ Tecnol Andes,1,4,9
+Univ Tecnol Fed Parana,1,0,8
+Univ Tecnol Indoamer Machala & Sabanilla,1,3,64
+Univ Tecnol Valle Toluca,1,0,15
+Univ Teknol MARA UiTM,1,0,1
+Univ Tennessee Martin,1,0,7
+Univ Texas,1,0,16
+Univ Texas Med Branch,1,0,45
+Univ Thomas Sankara,1,0,2
+Univ Tizi Ouzou,1,0,1
+Univ Toledo,1,1,11
+Univ Tolima,1,0,3
+Univ Toulouse 3,1,3,30
+Univ Toulouse 3 Paul Sabatier,1,0,7
+Univ Toulouse III Paul Sabatier,1,0,0
+Univ Toulouse Midi Pyrenees,1,0,12
+Univ Toyama,1,0,0
+Univ Trans Disciplinary Hlth Sci & Technol TDU,1,0,23
+Univ Trent,1,1,11
+Univ Trunojoyo Madura,1,2,21
+Univ Tunis El Manar,1,3,20
+Univ Udine,1,0,2
+Univ UMSA,1,0,169
+Univ Vale Rio dos Sinos UNISINOS,1,0,9
+Univ Valladolid S,1,0,24
+Univ Valle Puebla,1,0,0
+Univ Venice Ca Foscari,1,2,9
+Univ Vet Med,1,0,34
+Univ Vet Med Hannover,1,0,27
+Univ Virgin Isl,1,0,221
+Univ W Indies,1,0,18
+Univ West Florid,1,0,25
+Univ West Indies,1,20,51
+Univ Western Ontario,1,0,7
+Univ Wisconsin Madison Arboretum,1,0,4
+Univ Yaounde I,1,18,115
+Univ Zambia,1,0,12
+Univ Zielona Gora,1,2,10
+UNJu,1,0,0
+UNLP,1,0,14
+UNMDP,1,10,43
+UNNE,1,0,14
+UNRC,1,0,0
+UNSW,1,31,115
+UO,1,3,74
+UOS Bologna,1,5,54
+UPLB,1,0,0
+Upper Basin Environm Serv Div,1,0,0
+Upper Columbia Basin Network,1,2,52
+Upper Galilee Reg Council,1,0,7
+UPR Prod Fruitiere,1,0,123
+Urban Management Bur,1,0,159
+Urban Unit,1,0,2
+URCPIE Pays de la Loire,1,12,51
+US Army Corps Engn,1,19,157
+US Army Med Directorate Armed Forces Res Inst Med,1,0,14
+US Ctr Dis Control & Prevent,1,0,14
+US Dept Agr Forest Serv,1,0,8
+US Dept Agr USDA Forest Serv,1,0,5
+US Dept Def,1,3,27
+US Dept HHS,1,0,18
+US Dept Interior,1,16,60
+US EPA,1,0,1
+US Fish & Wildlife Serv Kenai Natl Wildlife Refug,1,2,11
+US Forest Serv Forest Hlth Protect,1,2,52
+US Forest Serv Reg 10 Forest Hlth Protect,1,2,11
+US Geol Survey Sci,1,3,11
+US Naval Med Res Unit EURAFCENT,1,0,1
+USA Corps Engn,1,6,34
+USACE Engn Res & Dev Ctr ERDC,1,4,24
+USAID Bangladesh,1,0,8
+USAid Fews Net,1,0,7
+USAID Vectorlink Project Nigeria,1,0,26
+Usak Univ,1,0,5
+USDA APHIS CPHST,1,4,21
+USDA APHIS CPHST PERAL,1,4,21
+USDA APHIS PIM,1,4,21
+USDA APHIS PPQ S&T,1,1,12
+USDA ARS US Dept Agr Agr Res Serv,1,0,15
+USDA Forest Serv Rocky Mt Res Stn,1,8,47
+USFQ,1,0,169
+USGS Forest & Rangeland Ecosyst Sci Ctr,1,11,35
+USGS Great Lakes Sci Ctr,1,0,11
+Utah Museum Nat Hist,1,2,16
+Utah Valley Univ,1,0,9
+UTN,1,3,22
+Uttar Banga Krishi Viswavidyalaya,1,0,8
+Uttar Pradesh Forest Dept,1,0,15
+Uttarakhand State Biodivers Board,1,0,5
+Uva Wellassa Univ,1,26,127
+UWC Atlantic Coll,1,0,0
+Valdosta State Univ,1,2,15
+Vale Rio Sinos Univ,1,0,4
+Vale Taquari Univ UNIVATES,1,2,13
+Valgrande Soc Cooperat Studi Opere & Serv Ambient,1,2,9
+Valle State Univ,1,0,43
+Vanderbilt Univ,1,0,1
+Vassar Coll,1,0,5
+VAST,1,0,0
+Venezuelan Inst Sci Res IVIC,1,0,3
+Vermont Ctr Ecostudies,1,0,13
+Vermont Dept Fish & Wildlife,1,0,0
+Vestmarkavegen 1672,1,30,87
+Vet Pest Genom Ctr,1,0,77
+Vet Res Inst,1,0,1
+Vhembe Biosphere Reserve,1,2,15
+Via Cuostile 3,1,0,5
+Via Monte Fascia 9,1,0,1
+Viceconsejeria Medio Ambiente,1,0,16
+Victoria Dept Environm & Primary Ind,1,9,25
+Vida Silvestre Coatl AC,1,0,21
+Vidyasagar Univ,1,0,1
+Vietnam Adm Forestry,1,2,3
+Vietnam Forestry Univ,1,7,13
+Vietnam Natl Museum Nat,1,5,27
+Vietnam Natl Univ Forestry Dong Nai,1,0,4
+Vietnamese Acad Agr Sci,1,0,29
+Vietnamese Acad Sci & Technol,1,0,4
+Vietnamese Acad Social Sci,1,0,2
+Vigil NatureWorks LLC,1,0,6
+Vigo Univ,1,0,29
+Villanova Univ,1,0,9
+Ville Agde,1,0,4
+Virginia Tech Univ,1,21,59
+Vis Wild Ltd.,1,2,24
+VIT AP Univ,1,0,4
+Vlaamse Vereniging Entomol,1,3,11
+Vlinderstichting Dutch Butterfly Conservat,1,0,43
+Voyageurs Natl Pk,1,4,43
+Vrije Univ Brussel VUB,1,0,14
+Vrije Univ Brussels,1,0,1
+Vulture Conservat Breeding Ctr,1,0,1
+WA Feral Cat Working Grp,1,0,18
+Wageningen Environm Res,1,2,130
+Wageningen Univ & Res WUR,1,0,1
+Wagga Wagga Agr Inst,1,5,48
+Waikato Univ,1,1,14
+Waldrappteam Conservat & Res,1,0,4
+Walter Reed Biosystemat Unit,1,0,12
+Wannan Med Coll,1,0,4
+Warsaw Univ Life Sci,1,0,22
+WASCAL Competence Ctr,1,0,2
+Washington State Dept Hlth,1,1,2
+Washington Univ St Louis,1,0,9
+Wassercluster Lunz Biolog Stn,1,4,16
+WasserClusterLunz Biol Stn GmbH,1,0,22
+Water & Forests Dept,1,4,39
+Water & Land Resource Ctr,1,0,45
+Waterfront Vitalizat & Environm Res Fdn,1,1,28
+Wayamba Univ Sri Lanka,1,0,1
+Weber State Univ,1,3,12
+WeForest Org,1,0,2
+Weifang Med Univ,1,0,6
+Weifang Univ,1,0,9
+Wellesley Coll,1,6,72
+Wellington Fish & Game Council,1,1,4
+Wenshan Miaoxiang Notoginseng Technol Co Ltd,1,0,105
+West African Sci Ctr Climate Change & Adapted Lan,1,18,111
+West Bengal State Council Tech Educ,1,0,8
+West Japan Engn Consultants Inc,1,0,0
+West Univ Timisoara,1,0,8
+West Virginia Farm Serv Agcy,1,2,9
+Western Assoc Fish & Wildlife Agencies,1,0,16
+Western Australian Biodivers Sci Inst,1,0,10
+Western Australian Dept Pk & Wildlife,1,2,26
+Western Carolina Univ,1,6,34
+Western Ecosyst Technol Inc,1,2,14
+Western Ghats Hornbill Fdn,1,0,1
+Western Parana State Univ UNIOESTE,1,0,1
+Western Pomeranian Univ Technol Szczecin,1,0,2
+Western Univ,1,0,5
+Western Washington Univ,1,6,58
+Westfal Wilhelms Univ Munster,1,0,22
+Westlake Conservat Off,1,0,19
+Wet Trop Management Author,1,0,39
+Whalesound Ltd,1,0,0
+WHO Collaborating Ctr Arbovirus & Hemorrhag Fever,1,0,2
+WHO Collaborating Ctr Res & Control Opisthorchias,1,5,25
+Wild Bird Soc Hualien,1,0,2
+Wildlife Conservat & Management Bur,1,0,1
+Wildlife Conservat Network,1,0,106
+Wildlife Conservat Soc Albertine Rift Program,1,0,33
+Wildlife Conservat Soc Asia Program,1,0,106
+Wildlife Conservat Soc Guatemala,1,0,2
+Wildlife Conservat Soc Lao PDR Program,1,0,3
+Wildlife Conservat Soc Malaysia Program,1,0,1035
+Wildlife Conservat Soc Myanmar Program,1,0,3
+Wildlife Consulting,1,0,37
+Wildlife Consultor,1,2,19
+Wildlife Inst India WII Chandrabani,1,0,0
+Wildlife Protect & Rehabil Ctr,1,0,15
+Wildlife Restorat Partnerships,1,0,6
+Wildlife Serv,1,5,15
+Wildlife Trust India,1,0,3
+Wildscope,1,0,12
+Wilkes Univ,1,0,14
+William & Mary,1,0,0
+Williams Coll Mystic Seaport,1,1,23
+Woiiega Univ,1,0,5
+Wolaita Sodo Univ,1,0,10
+Wolkite Univ,1,0,4
+Wollega Univ,1,0,1
+Wollo Univ,1,0,62
+Wolong Natl Nat Reserve Adm,1,0,12
+Women Univ Azad Jammu & Kashmir,1,4,11
+Woodwell Climate Res Ctr,1,0,14
+World Agroforestry Ctr Philippines,1,31,106
+World Agroforestry ICRAF,1,0,1
+World Biodivers Assoc Onlus,1,0,2
+World Conservat Monitoring Ctr,1,40,176
+World Hlth Org,1,0,2
+World Hlth Org Collaborating Ctr Trop Dis,1,0,16
+World Land Trust US,1,0,122
+World Pheasants Assoc Pakistan,1,0,3
+World Resource Inst India,1,21,56
+World Resources Inst India,1,0,1
+World Wide Fund Nat India WWF India,1,0,1
+World Wildlife Fund Nat Thailand,1,2,24
+World Wildlife Fund Nepal,1,0,24
+WRA Environm Inc,1,0,3
+WRA Inc,1,0,12
+WSB Univ,1,0,4
+Wufeng Magnolia Technol Dev Co Ltd,1,0,14
+Wuhan Britain China Sch,1,0,4
+Wuyi Univ,1,0,11
+WWF Australia,1,0,9
+WWF Chieti Pescara,1,0,1
+WWF Indonesia,1,0,106
+WWF Indonesia Forest & Wildlife Directorate,1,0,1
+WWF Nepal,1,0,1
+WWF SA,1,0,19
+WWF US,1,0,106
+Wyoming Game & Fish Dept,1,0,1
+Xarxa Conservacio Nat XCN,1,0,22
+Xiamen Humanity Hosp,1,0,4
+Xian Bot Garden,1,0,4
+Xian Univ Sci & Technol,1,0,2
+Xiangtan Univ,1,0,3
+Xining Surveying & Mapping Inst,1,0,2
+Xinjiang,1,8,97
+Xinjiang Acad Anim Sci,1,2,11
+Xinjiang Acad Surveying & Mapping,1,0,2
+Xinjiang Inst Ecol & Geog,1,0,21
+Xinjiang Key Lab Oasis Ecol,1,0,36
+Xinjiang Med Univ,1,0,7
+Xinjiang Normal Univ,1,0,1
+Xinjiang Off Locust Control & Rodent Eradicat Comm,1,0,36
+Xinjiang Prod & Construct Corps,1,0,0
+Xinyang Acad Agr Sci,1,0,5
+Xishuangbanna Asian Elephant Conservat & Managemen,1,0,14
+Xizang Cheezheng Xizang Med Co Ltd,1,0,2
+Xizang Univ,1,0,2
+Yahoo Labs,1,1757,5479
+Yale NUS Coll,1,0,0
+Yale Sch Environm,1,0,0
+Yale Sch Publ Hlth,1,2,11
+Yamashina Inst Ornithol,1,0,36
+Yancheng Teachers Univ,1,0,10
+Yancheng Wetland Ecosyst Res Stn Jiangsu Prov,1,0,1
+Yangzhou Urban Forest Ecosyst Natl Res Stn,1,0,6
+Yayasan Birdpacker Indonesia,1,0,1
+Yayasan Konservasi RASI Rare Aquat Species Indone,1,0,32
+Yellow River Inst Hydraul Res,1,0,18
+Yerevan State Univ,1,0,24
+Yibin Forestry & Bamboo Ind Res Inst,1,0,2
+Yining Customs Tech Ctr,1,0,2
+Yobe State Univ,1,0,26
+Yokohama Natl Univ,1,0,3
+Yongsan Army Garrison,1,0,91
+Yorkshire Wildlife Trust,1,0,20
+Yukon Dept Environm,1,1,14
+Yulong Xueshan Prov Nat Reserve,1,0,7
+Yunnan Baima Snow Mt Natl Nat Reserve Management B,1,0,3
+Yunnan Climate Ctr,1,0,22
+Yunnan Coll Tourism Vocat,1,0,2
+Yunnan Gen Adm Forestry Seeds & Seedlings,1,0,3
+Yunnan Huanglianshan Natl Nat Reserve Management &,1,0,2
+Yunnan Inst Endem Dis Control & Prevent,1,0,19
+Yunnan Inst Forest Inventory & Planning,1,0,2
+Yunnan Jicheng Landscape Technol Co Ltd,1,0,3
+Yunnan Key Lab Breeding & Utilizat Resource Insect,1,0,2
+Yunnan Key Lab Conservat Trop Rainforests & Asian,1,0,5
+Yunnan Prov Key Lab Nat Focal Dis Prevent & Contro,1,0,19
+Yunnan TASLY Notoginseng Pharmaceut Co Ltd,1,0,105
+Yunnan Univ Finance & Econ,1,0,7
+Yunxiao Cty Forestry Bur,1,0,0
+Yushu Prefecture Comprehens Vocat & Tech Sch,1,0,1
+Yuzuncu Yil Univ,1,0,0
+Zabol Univ,1,1,5
+Zahedan Univ Med Sci,1,1,4
+Zaluzi 31,1,0,4
+Zaozhuang Univ,1,0,4
+Zarmed Univ,1,0,1
+Zeleni Prsten Publ Inst Zagreb Cty,1,0,2
+ZENITH Team,1,0,5
+Zh Zhyembaev Kazakh Sci Res Inst Plant Protect &,1,0,1
+Zhanjiang Univ Sci & Technol,1,0,2
+Zhejiang Agr & Forestry Univ,1,0,1
+Zhejiang Business Technol Inst,1,0,3
+Zhejiang Forestry Technol Promot Adm,1,0,31
+Zhejiang Key Lab Exploitat & Preservat Coastal Bio,1,0,4
+Zhejiang Mariculture Res Inst,1,0,4
+Zhejiang Univ Finance & Econ,1,0,8
+Zhejiang Univ Technol,1,0,3
+Zhejiang Univ Water Resources & Elect Power,1,0,7
+Zhenping Cty Agr Sci & Technol Res Inst,1,0,20
+Zhongkai Univ Agr & Engn,1,0,1
+Zigong Bur Meteorol,1,0,72
+Zimbabwe Natl Geospatial & Space Agcy,1,0,1
+ZIN RAS,1,0,36
+Zirichiltaggi Sardinia Wildlife Conservat NGO,1,0,91
+Zool Forsch Mus Alexander Koenig,1,0,33
+Zool Forsch Museum Alexander Koenig ZFMK,1,0,3
+Zool Forschungsmuseum Alexander Koenig,1,0,2
+Zool Forschungsmuseum Alexander Koenig ZFMK,1,0,11
+Zool Fotsch Musem Alexander Koenig,1,2,42
+Zool Museum,1,5,60
+Zool Museum Amsterdam,1,0,2
+Zool Res Museum Alexander Koenig ZMFK,1,2,21
+Zool Soc London Thailand,1,0,0
+Zool Staatssammlung Munchen ZSM SNSB,1,2,27
+Zoos Victoria,1,11,42
+Zurich Univ Appl Sci ZHAW,1,0,3

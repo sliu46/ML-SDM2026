@@ -122,7 +122,7 @@ Output : ``` Figures/3.9.2.png ```
 
 This figure illustrates the temporal evolution of 20 representative author keywords from 2006 to 2025. Bubble size represents the annual occurrence frequency of each keyword, while bubble color indicates the publication year.
 
-### R-Figures/Appendix_1.pdf: Country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) in ML-SDM research
+### R-Figures/Appendix_1.pdf: Country-level distribution of SCP and MCP in ML-SDM research
 
 Input :
 

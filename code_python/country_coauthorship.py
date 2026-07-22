@@ -1,3 +1,38 @@
+# =====================================================
+# Generate Country-level Co-authorship Matrix
+#
+# Description:
+# This script extracts country information from Web of
+# Science Core Collection records and constructs a
+# country-level collaboration matrix.
+#
+# Each paper contributes one collaboration link between
+# all countries involved in the publication. The resulting
+# matrix represents international co-authorship frequency
+# among countries.
+#
+# Input:
+#   data/WoS_raw_records/V06-25(5224).txt
+#
+# Output:
+#   data/Processed/
+#   └── country_coauthorship_FINAL.csv
+#
+# Workflow:
+#   1. Read WoS plain-text records.
+#   2. Split records according to the ER field.
+#   3. Extract author affiliation information from C1.
+#   4. Standardize country names using manual rules
+#      and pycountry matching.
+#   5. Remove invalid country entries caused by
+#      postal codes or incomplete affiliations.
+#   6. Identify countries involved in each publication.
+#   7. Calculate pairwise country collaboration frequency.
+#   8. Convert the collaboration network into a matrix.
+#   9. Export the country co-authorship matrix.
+#
+# =====================================================
+
 import re
 import pandas as pd
 import pycountry
@@ -7,7 +42,7 @@ from collections import defaultdict
 # =========================
 # 1. 读取 WoS txt 文件
 # =========================
-file_path = r"F:\PythonItem\bib\FirstRevire6.29\SearchWords\DataSplit\06-25(5224).txt"
+file_path = r"data/WoS_raw_records/V06-25(5224).txt"
 
 with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
     text = f.read()
@@ -85,7 +120,7 @@ def extract_countries(c1_text):
         if len(parts) > 1:
             candidate = parts[-1].strip()
 
-            # ❌ 过滤邮编/州
+            # 过滤邮编/州
             if any(char.isdigit() for char in candidate):
                 continue
 
@@ -142,6 +177,6 @@ for c in df.columns:
 output_path = r"country_coauthorship_FINAL.csv"
 df.to_csv(output_path, encoding="utf-8-sig")
 
-print("✅ 国家合作矩阵构建完成！")
+print("国家合作矩阵构建完成！")
 print("国家数量：", len(df.columns))
 print("输出路径：", output_path)

@@ -37,7 +37,16 @@ install.packages(c(
   "ggrepel",
   "viridis",
   "RColorBrewer",
-  "scales"
+  "scales",
+  "readxl",
+  "readr",
+  "sf",
+  "rnaturalearth",
+  "dplyr",
+  "ggplot2",
+  "cartogram",
+  "countrycode",
+  "RColorBrewer"
 ))
 ```
 

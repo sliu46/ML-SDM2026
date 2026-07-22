@@ -122,13 +122,13 @@ This figure illustrates the temporal evolution of 20 representative author keywo
 
 Input :
 
-data/Processed/
+    data/Processed/
+    
+    └── Most_Relevant_Countries.csv
 
-└── Most_Relevant_Countries.csv
+Run : ```r source("code/R/MCP_SCP.R") ```
 
-Run : source("code/R/MCP_SCP.R")
-
-Output : Figures/Appendix_1.png
+Output : ```r Figures/Appendix_1.png ```
 
 This figure illustrates the country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) among the top 20 countries in ML-SDM research. The stacked bars represent publication contributions from domestic and international collaborations.
 

@@ -1,0 +1,70 @@
+label,replace by
+bioclim,bioclimatic variables
+bio-clim,bioclimatic variables
+bio climatic,bioclimatic variables
+bioclimatic variable,bioclimatic variables
+bioclimatic variables,bioclimatic variables
+bioclimatic factor,bioclimatic factors
+bioclimatic factors,bioclimatic factors
+bioclimatic envelope,bioclimatic envelope model
+bioclimatic envelope model,bioclimatic envelope model
+bioclimatic envelope models,bioclimatic envelope model
+bio-climatic envelope model,bioclimatic envelope model
+bioclimatic modeling,bioclimatic modeling
+bioclimatic modelling,bioclimatic modeling
+species distribution model,sdm
+species distribution models,sdm
+species distribution modeling,sdm
+species distribution modelling,sdm
+ecological niche model,sdm
+ecological niche modeling,sdm
+ecological niche modelling,sdm
+niche model,sdm
+distribution models,sdm
+distribution modeling,sdm
+distribution modelling,sdm
+maxent,maxent
+maximum entropy model,maxent
+<sc>maxent</sc>,maxent
+maximum entropy,maxent
+biomod,biomod2
+biomod2,biomod2
+biomod2 ensemble model,biomod2
+ann,artificial neural networks
+artificial neural network,artificial neural networks
+artificial neural networks,artificial neural networks
+artificial neuronal network,artificial neural networks
+auc,area under the curve
+area under curve,area under the curve
+auc curve,area under the curve
+auc values,area under the curve
+area under the curve (auc),area under the curve
+biodiverstiy,biodiversity
+biodiversity hotspot,biodiversity hotspots
+biodiversity hotspots,biodiversity hotspots
+biodiversity conservation,biodiversity conservation
+biodiversity loss,biodiversity loss
+biological invasion,biological invasions
+biological invasions,biological invasions
+bioinvasion,biological invasions
+alien species,biological invasions
+invasive species,biological invasions
+biocontrol,biological control
+biological control,biological control
+biosecurity,biosecurity
+bio-security,biosecurity
+biogeography,biogeography
+biogeographic distribution,biogeography
+biogeographical distribution,biogeography
+machine learning,machine learning
+deep learning,deep learning
+remote sensing,remote sensing
+GIS,gis
+arcgis,gis
+maxent model, maxent
+ecological niche models,sdm
+ecological niche modelling,sdm
+ecological niche modeling,sdm
+ecological niche model,sdm
+suitable habitat,sdm
+habitat suitability,sdm

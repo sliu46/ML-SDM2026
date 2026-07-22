@@ -41,12 +41,29 @@ install.packages(c(
 ))
 ```
 
-### R-Figures/3.1.pdf
-Input ： data/Processed/yearlyOutput.csv
+### R-Figures/3.1.pdf：Temporal evolution of ML-SDM research from 2006 to 2025.
+Input ： 
+
+data/Processed/
+└── yearlyOutput.xlsx
 
 Run : source("code/R/Figure2_temporal_trend.R")
 
 Output : Figures/3.1.png
 
 This figure illustrates the annual publication output, Total Global Citation Score (TGCS), and Total Local Citation Score (TLCS) from 2006 to 2025.
+
+### R-Figures/3.2.1.pdf：lobal distribution of publications and international collaboration networks in ML-SDM research
+Input : 
+
+data/Processed/
+├── country_coauthorship_FINAL.csv
+└── Most_Relevant_Countries.csv
+
+Run : source("code/R/international.R")
+
+Output : Figures/3.2.1.png
+
+
+
 

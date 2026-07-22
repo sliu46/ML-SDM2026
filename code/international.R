@@ -1,6 +1,5 @@
 # =====================================================
-# Figure 3.2.1. Global distribution of publications and
-# international collaboration networks in ML-SDM research
+# Figure 3： Global distribution of publications and international collaboration networks in ML-SDM research
 #
 # Description:
 # This script generates a global cartogram showing the

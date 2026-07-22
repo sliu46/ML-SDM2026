@@ -25,3 +25,28 @@ R and Python scripts
 
 figures/
 Generated figures
+
+## Reproducing the figures
+### Requirements
+
+Install the required R packages before running the scripts.
+
+```r
+install.packages(c(
+  "tidyverse",
+  "ggrepel",
+  "viridis",
+  "RColorBrewer",
+  "scales"
+))
+```
+
+### R-Figures/3.1.pdf
+Input ： data/Processed/yearlyOutput.csv
+
+Run : source("code/R/Figure2_temporal_trend.R")
+
+Output : Figures/3.1.png
+
+This figure illustrates the annual publication output, Total Global Citation Score (TGCS), and Total Local Citation Score (TLCS) from 2006 to 2025.
+

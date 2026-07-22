@@ -45,6 +45,7 @@ install.packages(c(
 Input ： 
 
 data/Processed/
+
 └── yearlyOutput.xlsx
 
 Run : source("code/R/Figure2_temporal_trend.R")
@@ -57,13 +58,55 @@ This figure illustrates the annual publication output, Total Global Citation Sco
 Input : 
 
 data/Processed/
+
 ├── country_coauthorship_FINAL.csv
+
 └── Most_Relevant_Countries.csv
 
 Run : source("code/R/international.R")
 
 Output : Figures/3.2.1.png
 
+### R-Figures/3.5.1.pdf: Top 10 Authors’ Publication Timeline Chart.
+
+Input :
+
+data/Processed/
+
+└── Author_Prod_over_Time_bibliometrix.xlsx
+
+Run : source("code/R/Author_production_overtime.R")
+
+Output : Figures/3.5.1.png
+
+This figure illustrates the annual publication activity of the top 10 most productive authors from 2006 to 2025. Bubble size represents the number of articles published in each year, and bubble color indicates the total citation count.
+
+### R-Figures/3.5.2.pdf: Impact assessment of the top 20 authors based on TLCS and TGCS.
+
+Input :
+
+data/Processed/
+
+└── Author_TGCS.csv
+
+Run : source("code/R/Author_tgcs_tlcs.R")
+
+Output : Figures/3.5.2.png
+
+This figure illustrates the citation impact of the top 20 authors in ML-SDM research. Bubble size represents the number of publications, while bubble color indicates the composite impact index calculated from standardized TLCS and TGCS values.
+
+### R-Figures/3.9.2.pdf: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025.
+Input :
+
+data/Processed/
+
+└── keyword_year_merged.csv
+
+Run : source("code/R/keywordsLife.R")
+
+Output : Figures/3.9.2.png
+
+This figure illustrates the temporal evolution of 20 representative author keywords from 2006 to 2025. Bubble size represents the annual occurrence frequency of each keyword, while bubble color indicates the publication year.
 
 
 

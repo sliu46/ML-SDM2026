@@ -132,7 +132,7 @@ Output : ``` Figures/Appendix_1.png ```
 
 This figure illustrates the country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) among the top 20 countries in ML-SDM research. The stacked bars represent publication contributions from domestic and international collaborations.
 
-### R-Figures/3.6.1.pdf R-Figures/3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals.
+### R-Figures/3.6.1.pdf & R-Figures/3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals.
 
 Input :
 

@@ -1,6 +1,28 @@
 # =====================================================
-# Author impact analysis based on TLCS and TGCS
-# TLCS-TGCS bubble plot
+# Figure 5. Impact assessment of the top 20 authors
+# based on TLCS and TGCS
+#
+# Description:
+# This script generates a bubble plot showing the
+# citation impact of the top 20 authors in ML-SDM
+# research. Bubble size represents the number of
+# publications, while bubble color indicates the
+# composite impact index calculated from
+# standardized TLCS and TGCS values.
+#
+# Input:
+#   data/Processed/Author_TGCS.csv
+#
+# Output:
+#   Figures/3.5.2.png
+#
+# Workflow:
+#   1. Read the author citation dataset.
+#   2. Rename publication and citation variables.
+#   3. Calculate the composite impact index: Impact = Z(TLCS)+Z(TGCS).
+#   4. Rank authors and select the top 20.
+#   5. Generate the TLCS–TGCS bubble plot.
+#   6. Export the figure.
 # =====================================================
 
 
@@ -20,9 +42,8 @@ library(viridis)
 # ============================
 
 tgcs <- read_csv(
-  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/HistCite/Author_TGCS.csv"
+  "data/Processed/Author_TGCS.csv"
 )
-
 
 # ============================
 # 3. 数据整理
@@ -38,7 +59,6 @@ author_data <- tgcs %>%
     TGCS = GCS
   )
 
-
 # ============================
 # 4. 综合影响力指数
 # Impact = Z(TLCS)+Z(TGCS)
@@ -48,20 +68,10 @@ author_rank <- author_data %>%
   mutate(
     
     TLCS_Z = as.numeric(scale(TLCS)),
-    
     TGCS_Z = as.numeric(scale(TGCS))
     
   ) %>%
-  
-  mutate(
-    
-    Impact = TLCS_Z + TGCS_Z
-    
-  ) %>%
-  
-  arrange(desc(Impact))
-
-
+  mutate(Impact = TLCS_Z + TGCS_Z) %>%arrange(desc(Impact))
 
 # ============================
 # 5. 选择Top20作者
@@ -70,27 +80,12 @@ author_rank <- author_data %>%
 top20 <- author_rank %>%
   slice_head(n=20)
 
-
 # 输出Top20结果
-
 write_csv(
   top20,
   "Author_TLCS_TGCS_Top20.csv"
 )
-
-
-print(
-  top20 %>%
-    select(
-      Author,
-      NP,
-      TLCS,
-      TGCS,
-      Impact
-    )
-)
-
-
+print(top20 %>%select(Author,NP,TLCS,TGCS,Impact))
 
 # ============================
 # 6. 设置标签作者
@@ -101,15 +96,9 @@ label_data <- top20 %>%
   arrange(desc(Impact)) %>%
   slice(1:10)
 
-
-
 # ============================
 # 7. 绘制气泡图
 # ============================
-
-# =====================================================
-# 绘制双指标气泡图（全部作者标注）
-# =====================================================
 
 p <- ggplot(
   top20,
@@ -121,13 +110,10 @@ p <- ggplot(
   )
 )+
   
-  
   # 气泡透明度调整
   geom_point(
     alpha = 0.55
   )+
-  
-  
   
   # 全部作者标注
   geom_text_repel(
@@ -146,9 +132,7 @@ p <- ggplot(
     # 防止文字压点
     force = 2
   )+
-  
-  
-  
+
   # TGCS轴
   scale_x_log10(
     breaks=c(
@@ -160,8 +144,6 @@ p <- ggplot(
     ),
     labels=scales::comma
   )+
-  
-  
   
   # TLCS轴
   scale_y_log10(
@@ -175,10 +157,7 @@ p <- ggplot(
     labels=scales::comma
   )+
   
-  
-  
   # 气泡大小
-  # 气泡大小（真实发文量）
   scale_size_continuous(
     name="Publications",
     range=c(3,11),
@@ -191,15 +170,11 @@ p <- ggplot(
     )
   )+
   
-  
-  
-  # viridis颜色
+  # viridis
   scale_color_viridis_c(
     option="viridis",
     name="Impact index"
   )+
-  
-  
   
   # 范围
   coord_cartesian(
@@ -207,14 +182,10 @@ p <- ggplot(
     ylim=c(500,6500)
   )+
   
-  
-  
   labs(
     x="TGCS (Global Citation Score)",
     y="TLCS (Local Citation Score)"
   )+
-  
-  
   
   theme_bw(
     base_size = 15
@@ -236,7 +207,6 @@ p <- ggplot(
     )
   )+
   
-  
   theme(
     
     panel.grid.major = element_line(
@@ -252,8 +222,6 @@ p <- ggplot(
       color="black",
       linewidth=0.8
     ),
-    
-    
     # 图例设置
     legend.position="right",
     
@@ -265,7 +233,6 @@ p <- ggplot(
     
     legend.key.width = unit(0.5,"cm"),
     
-    
     # 不要给右侧留太大空间
     plot.margin = margin(
       t=20,
@@ -273,8 +240,6 @@ p <- ggplot(
       b=20,
       l=20
     ),
-    
-    
     axis.title =
       element_text(
         face="bold",
@@ -300,8 +265,6 @@ p <- ggplot(
       )
     
   )
-
-
 p
 
 p <- p +
@@ -316,7 +279,6 @@ p <- p +
       )
     ),
     
-    
     color = guide_colorbar(
       title="Impact index",
       title.position="top",
@@ -329,31 +291,10 @@ p <- p +
 # =====================================================
 # 8. 高清保存
 # =====================================================
-
-
 # 保存路径
-
 out_path <- 
-  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/HistCite/Author_TLCS_TGCS_bubble"
-
-
-
-# TIFF（论文推荐）
-
-ggsave(
-  paste0(out_path,".tiff"),
-  plot=p,
-  width=9,
-  height=6,
-  units="in",
-  dpi=600,
-  compression="lzw"
-)
-
-
-
-# PNG备用
-
+  "Figures/3.5.2.png"
+# PNG
 ggsave(
   paste0(out_path,".png"),
   plot=p,

@@ -1,7 +1,28 @@
-############################################################
-# Keyword Life Cycle Analysis
-# SDM research 2006-2025
-############################################################
+# =====================================================
+# Figure 10. Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025.
+#
+# Description:
+# This script generates the life cycle evolution of
+# 20 representative author keywords in ML-SDM research.
+# Bubble size represents the annual occurrence frequency
+# of each keyword, while bubble color indicates the
+# publication year.
+#
+# Input:
+#   data/Processed/keyword_year_merged.csv
+#
+# Output:
+#   Figures/3.9.2.png
+#
+# Workflow:
+#   1. Read the keyword occurrence dataset.
+#   2. Select the 20 representative author keywords.
+#   3. Transform the dataset into a long format.
+#   4. Remove records with zero annual occurrences.
+#   5. Rank keywords according to their total occurrence frequency.
+#   6. Generate the keyword life cycle bubble chart.
+#   7. Export the figure.
+# =====================================================
 
 library(tidyverse)
 library(viridis)
@@ -10,7 +31,7 @@ library(viridis)
 # 读取数据
 #===============================
 
-file_path <- "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/R/keyword/keyword_year_merged.csv"
+file_path <- "data/Processed/keyword_year_merged.csv"
 
 df <- read.csv(
   file_path,
@@ -208,7 +229,7 @@ print(p)
 #===============================
 
 ggsave(
-  "SDM_keyword_life_cycle.png",
+  "Figures/3.9.2.png",
   p,
   width = 14,
   height = 8,

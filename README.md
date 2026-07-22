@@ -67,7 +67,7 @@ This figure illustrates the annual publication output, Total Global Citation Sco
 ### R-Figures/3.2.1.pdf：lobal distribution of publications and international collaboration networks in ML-SDM research
 Input : 
 
-data/Processed/
+    data/Processed/
 
     ├── country_coauthorship_FINAL.csv
     
@@ -136,7 +136,7 @@ This figure illustrates the country-level distribution of single-country publica
 
 Input :
 
-data/Processed/WoS_raw_records/V06-25(5224).txt
+``` data/Processed/WoS_raw_records/V06-25(5224).txt ```
 
 Run :
 ```r

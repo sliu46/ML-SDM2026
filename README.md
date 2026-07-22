@@ -281,8 +281,6 @@ Settings:
     
     Visualization: Overlay Visualization
 
-Output :
-
-    Figures/3.9.3.png
+Output : ``` Figures/3.9.3.png ```
 
 This figure visualizes the co-word network of keywords in DL-SDM research. Nodes represent keywords, node size indicates occurrence frequency, links represent keyword co-occurrence relationships, and node colors indicate the average publication year of associated studies. The overlay visualization highlights the temporal evolution of research topics from earlier studies to recent developments in DL-SDM.

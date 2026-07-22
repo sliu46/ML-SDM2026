@@ -253,7 +253,7 @@ Settings:
     
     Visualization: Overlay Visualization
 
-Output : ``` Figures/3.9.png ```
+Output : ``` Figures/3.9.1.png ```
 
 This figure visualizes the co-occurrence network of author keywords in ML-SDM research. Nodes represent keywords, node size indicates keyword occurrence frequency, links represent co-occurrence relationships, and node colors represent the average publication year of keywords. The thesaurus file (sameWord.txt) was applied to merge synonymous terms and improve keyword consistency before network construction.
 
@@ -283,6 +283,6 @@ Settings:
 
 Output :
 
-    Figures/3.11.png
+    Figures/3.9.3.png
 
 This figure visualizes the co-word network of keywords in DL-SDM research. Nodes represent keywords, node size indicates occurrence frequency, links represent keyword co-occurrence relationships, and node colors indicate the average publication year of associated studies. The overlay visualization highlights the temporal evolution of research topics from earlier studies to recent developments in DL-SDM.

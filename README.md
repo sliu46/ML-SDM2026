@@ -28,7 +28,15 @@ Search strategy:
 
 Web of Science records：``` data/WoS_raw_records/ 06-10.txt... ```
 
+### Processed datasets
 
+The processed datasets were generated from the Web of Science Core Collection records using Bibliometrix, HistCite, VOSviewer, and customized Python/R scripts. Each dataset was prepared for specific bibliometric analyses and figure generation.
+
+#### Author_Prod_over_Time_bibliometrix.xlsx
+
+Used for generating: Figures/3.5.2.png
+
+This dataset contains annual publication records of authors and was exported from the Biblioshiny interface of the Bibliometrix R package. It was used to analyze temporal publication productivity of the most productive authors.
 
 ## Repository structure
 

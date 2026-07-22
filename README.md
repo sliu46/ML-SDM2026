@@ -35,10 +35,10 @@ The processed datasets were generated from the Web of Science Core Collection re
 #### Dataset were exported from the HistCite Pro (version 2.1)
 
 - `yearlyOutput.xlsx`  
-  Used for generating: `Figures/3.1.png`
+  Used for generating: Figures/3.1.png
 
 - `Author_TGCS.csv`  
-  Used for generating: `Figures/3.5.2.png`
+  Used for generating: Figures/3.5.2.pn
 
 - `Institution_Res.csv`  
   Used for generating: Table 3: Top ten institutions by publications, TLCS, and TGCS
@@ -50,21 +50,26 @@ The processed datasets were generated from the Web of Science Core Collection re
 
 #### Dataset were exported from the Biblioshiny interface of the Bibliometrix R package (version 5.2.1)
 
-(1) Most_Relevant_Countries.csv ``` Used for generating: Figures/3.2.1.png and Figures/A.12.png ```
+- `Most_Relevant_Countries.csv`  
+  Used for generating: Figures/3.2.1.png and Figures/A.12.png
 
-(2) Author_Prod_over_Time_bibliometrix.xlsx ``` Used for generating: Figures/3.5.2.png ```
+- `Author_Prod_over_Time_bibliometrix.xlsx`  
+  Used for generating: Figures/3.5.2.png
 
-(3) paperMessage.xlsx ```Used as the main input dataset for keyword_year_merged.csv ```
+- `paperMessage.xlsx`  
+  Used as the main input dataset for keyword_year_merged.csv
 
 #### Dataset were generated using Python scripts (version 3.10)
 
-(1) country_coauthorship_FINAL.csv ``` Used for generating: Figures/3.2.1.png ```
+- `country_coauthorship_FINAL.csv`
+ Used for generating: Figures/3.2.1.png
 
         Input: data/WoS_raw_records/V06-25(5224).txt       
         
         Run : source("code_python/country_coauthorship.py")
 
-(2) keyword_year_merged.csv ``` Used for generating: Figures/3.9.2.png ```
+- `keyword_year_merged.csv `
+ Used for generating: Figures/3.9.2.png
 
         Input: data/Processed/paperMassage.xlsx      
         

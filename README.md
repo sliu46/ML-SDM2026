@@ -45,6 +45,7 @@ install.packages(c(
 Input ： 
 
 data/Processed/
+
 └── yearlyOutput.xlsx
 
 Run : source("code/R/Figure2_temporal_trend.R")
@@ -57,7 +58,9 @@ This figure illustrates the annual publication output, Total Global Citation Sco
 Input : 
 
 data/Processed/
+
 ├── country_coauthorship_FINAL.csv
+
 └── Most_Relevant_Countries.csv
 
 Run : source("code/R/international.R")
@@ -69,6 +72,7 @@ Output : Figures/3.2.1.png
 Input :
 
 data/Processed/
+
 └── Author_Prod_over_Time_bibliometrix.xlsx
 
 Run : source("code/R/Author_production_overtime.R")
@@ -82,6 +86,7 @@ This figure illustrates the annual publication activity of the top 10 most produ
 Input :
 
 data/Processed/
+
 └── Author_TGCS.csv
 
 Run : source("code/R/Author_tgcs_tlcs.R")
@@ -94,6 +99,7 @@ This figure illustrates the citation impact of the top 20 authors in ML-SDM rese
 Input :
 
 data/Processed/
+
 └── keyword_year_merged.csv
 
 Run : source("code/R/keywordsLife.R")

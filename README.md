@@ -3,6 +3,17 @@ This repository contains datasets and scripts for reproducing the analyses and f
 
 "Evolution of machine learning-based species distribution models: technological development, research trends, and future challenges"
 
+[![R](https://img.shields.io/badge/R-4.4+-276DC3)](https://www.r-project.org/)
+[![RStudio](https://img.shields.io/badge/RStudio-2026.01.0-blue)](https://posit.co/download/rstudio-desktop/)
+[![Python](https://img.shields.io/badge/python-3.10%20%7C%203.11-blue)](https://www.python.org/)
+[![Bibliometrix](https://img.shields.io/badge/Bibliometrix-5.2.1-green)](https://www.bibliometrix.org/)
+[![VOSviewer](https://img.shields.io/badge/VOSviewer-1.6.20-success)](https://www.vosviewer.com/)
+[![HistCite](https://img.shields.io/badge/HistCite-2.1-yellow)](https://www.histcite.com/)
+
+## Abstract
+Species distribution models (SDM) have become important tools for biodiversity assessment, ecological prediction, and conservation planning. Recent advances in machine learning have greatly expanded the capability of SDM to analyze complex ecological data. However, the overall development trajectory, knowledge structure, and methodological implications of machine learning-based SDM (ML-SDM) remain insufficiently synthesized. This study provides a comprehensive review of ML-SDM research from 2006 to 2025 by integrating bibliometric analysis with methodology. Using 5,224 articles retrieved from the Web of Science Core Collection, we combined general bibliometric statistics, collaboration analysis, co-citation analysis, bibliographic coupling, temporal keyword evolution, and qualitative synthesis to investigate research trends, methodological development, knowledge accumulation, and future challenges. The results reveal that ML-SDM has undergone a progressive technological evolution rather than a simple transition from traditional machine learning to deep learning. Early studies established the methodological foundation through MaxEnt, Random Forest, and other machine learning algorithms, followed by advances in model evaluation, uncertainty assessment, and ecological applicability. Recent developments increasingly emphasize deep learning, ensemble modelling, remote sensing, and multi-source environmental data, reflecting an expansion from improving predictive accuracy toward modelling increasingly complex ecological information. The development and global dissemination of ML-SDM have been jointly driven by ecological demands, technological advances, expanding environmental data resources, and international collaboration. Co-citation and bibliographic coupling analyses further demonstrate that methodological innovation has accumulated through successive solutions to key modelling challenges rather than through the emergence of individual algorithms. Although SDM based on deep learning substantially expands the capability of ML-SDM for analysing high-dimensional and spatially structured ecological data, it remains a correlative modelling framework and does not replace traditional machine learning approaches. Challenges related to ecological interpretation, uncertainty assessment, spatial transferability, and model transparency continue to limit its practical application.
+
+
 ## Dataset
 
 Literature data were retrieved from Web of Science Core Collection.
@@ -26,7 +37,7 @@ R and Python scripts
 figures/
 Generated figures
 
-## Reproducing the figures by R(version 5.2.1)
+## Reproducing the figures by RStudio (version 2026.01.0)
 ### Requirements
 
 Install the required R packages before running the scripts.
@@ -51,7 +62,7 @@ install.packages(c(
 ))
 ```
 
-### R-Figures/3.1.pdf：Temporal evolution of ML-SDM research from 2006 to 2025.
+### R-Figures/3.1.pdf：Temporal evolution of ML-SDM research from 2006 to 2025
 Input ： 
 
     data/Processed/
@@ -77,7 +88,7 @@ Run : ``` source("code/R/international.R") ```
 
 Output : ``` Figures/3.2.1.png ```
 
-### R-Figures/3.5.1.pdf: Top 10 Authors’ Publication Timeline Chart.
+### R-Figures/3.5.1.pdf: Top 10 Authors’ Publication Timeline Chart
 
 Input :
 
@@ -91,7 +102,7 @@ Output : ``` Figures/3.5.1.png ```
 
 This figure illustrates the annual publication activity of the top 10 most productive authors from 2006 to 2025. Bubble size represents the number of articles published in each year, and bubble color indicates the total citation count.
 
-### R-Figures/3.5.2.pdf: Impact assessment of the top 20 authors based on TLCS and TGCS.
+### R-Figures/3.5.2.pdf: Impact assessment of the top 20 authors based on TLCS and TGCS
 
 Input :
 
@@ -105,7 +116,7 @@ Output : ``` Figures/3.5.2.png ```
 
 This figure illustrates the citation impact of the top 20 authors in ML-SDM research. Bubble size represents the number of publications, while bubble color indicates the composite impact index calculated from standardized TLCS and TGCS values.
 
-### R-Figures/3.9.2.pdf: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025.
+### R-Figures/3.9.2.pdf: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025
 Input :
 
     data/Processed/
@@ -118,7 +129,7 @@ Output : ``` Figures/3.9.2.png ```
 
 This figure illustrates the temporal evolution of 20 representative author keywords from 2006 to 2025. Bubble size represents the annual occurrence frequency of each keyword, while bubble color indicates the publication year.
 
-### R-Figures/Appendix_1.pdf: Country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) in ML-SDM research.
+### R-Figures/Appendix_1.pdf: Country-level distribution of SCP and MCP in ML-SDM research
 
 Input :
 
@@ -132,7 +143,7 @@ Output : ``` Figures/Appendix_1.png ```
 
 This figure illustrates the country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) among the top 20 countries in ML-SDM research. The stacked bars represent publication contributions from domestic and international collaborations.
 
-### R-Figures/3.6.1.pdf R-Figures/3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals.
+### R-Figures/3.6.1.pdf & R-Figures/3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals
 
 Input :
 
@@ -169,9 +180,9 @@ Output: Figures/3.6.2.png
 
 This figure illustrates the relationships among countries, authors, institutions, and journals in ML-SDM research using three-field plots generated by the Biblioshiny interface of the Bibliometrix package.
 
-## Reproducing the figures by R(version 5.2.1)
+## Reproducing the figures by VoSViewer (version 1.6.20)
 
-### VOSviewer-Figure/3.7.pdf: Co-citation network of cited references generated using VoSViewer.
+### VOSviewer-Figure/3.7.pdf: Co-citation network of cited references generated using VoSViewer
 
 Input :
 
@@ -197,7 +208,7 @@ Output : ``` Figures/3.7.png ```
 
 This figure visualizes the co-citation network of cited references in ML-SDM research. Nodes represent cited references, node size indicates citation frequency, link thickness represents co-citation strength, and node colors denote clusters identified automatically by the VoSViewer clustering algorithm.
 
-### VOSviewer-Figure/3.8.pdf: Bibliographical coupling network using VoSViewer.
+### VOSviewer-Figure/3.8.pdf: Bibliographical coupling network using VoSViewer
 
 Input :
 
@@ -223,7 +234,7 @@ Output: ``` Figures/3.8.png ```
 
 This figure visualizes the bibliographic coupling network of publications in ML-SDM research. Nodes represent individual publications, node size is proportional to total link strength, links indicate bibliographic coupling relationships, and node colors represent the average publication year in the overlay visualization.
 
-### VOSviewer-Figure/3.9.1.pdf: Co-word network of author keywords visualized using VoSViewer.
+### VOSviewer-Figure/3.9.1.pdf: Co-word network of author keywords visualized using VoSViewer
 
 Input :
 

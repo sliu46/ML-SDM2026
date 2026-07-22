@@ -75,6 +75,7 @@ The processed datasets were generated from the Web of Science Core Collection re
         
         Run : source("code_python/keyword_year.py")
 
+----------------------------------------------------------------------------------------
 
 ## Reproducing the figures by RStudio (version 2026.01.0)
 ### Requirements
@@ -101,7 +102,7 @@ install.packages(c(
 ))
 ```
 
-### (1) R-Figures/3.1.pdf：Temporal evolution of ML-SDM research from 2006 to 2025
+#### (1) 3.1.pdf：Temporal evolution of ML-SDM research from 2006 to 2025
 Input ： 
 
     data/Processed/
@@ -114,7 +115,7 @@ Output : ``` Figures/3.1.png ```
 
 This figure illustrates the annual publication output, Total Global Citation Score (TGCS), and Total Local Citation Score (TLCS) from 2006 to 2025.
 
-### (2) R-Figures/3.2.1.pdf：lobal distribution of publications and international collaboration networks in ML-SDM research
+#### (2) 3.2.1.pdf：lobal distribution of publications and international collaboration networks in ML-SDM research
 Input : 
 
     data/Processed/
@@ -127,7 +128,7 @@ Run : ``` source("code/R/international.R") ```
 
 Output : ``` Figures/3.2.1.png ```
 
-### (3) R-Figures/3.5.1.pdf: Top 10 Authors’ Publication Timeline Chart
+#### (3) 3.5.1.pdf: Top 10 Authors’ Publication Timeline Chart
 
 Input :
 
@@ -141,7 +142,7 @@ Output : ``` Figures/3.5.1.png ```
 
 This figure illustrates the annual publication activity of the top 10 most productive authors from 2006 to 2025. Bubble size represents the number of articles published in each year, and bubble color indicates the total citation count.
 
-### (4) R-Figures/3.5.2.pdf: Impact assessment of the top 20 authors based on TLCS and TGCS
+#### (4) 3.5.2.pdf: Impact assessment of the top 20 authors based on TLCS and TGCS
 
 Input :
 
@@ -155,7 +156,7 @@ Output : ``` Figures/3.5.2.png ```
 
 This figure illustrates the citation impact of the top 20 authors in ML-SDM research. Bubble size represents the number of publications, while bubble color indicates the composite impact index calculated from standardized TLCS and TGCS values.
 
-### (5) R-Figures/3.9.2.pdf: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025
+#### (5) 3.9.2.pdf: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025
 Input :
 
     data/Processed/
@@ -168,7 +169,7 @@ Output : ``` Figures/3.9.2.png ```
 
 This figure illustrates the temporal evolution of 20 representative author keywords from 2006 to 2025. Bubble size represents the annual occurrence frequency of each keyword, while bubble color indicates the publication year.
 
-### (6) R-Figures/Appendix_1.pdf: Country-level distribution of SCP and MCP in ML-SDM research
+#### (6) Appendix_1.pdf: Country-level distribution of SCP and MCP in ML-SDM research
 
 Input :
 
@@ -182,7 +183,7 @@ Output : ``` Figures/Appendix_1.png ```
 
 This figure illustrates the country-level distribution of single-country publications (SCP) and multiple-country publications (MCP) among the top 20 countries in ML-SDM research. The stacked bars represent publication contributions from domestic and international collaborations.
 
-### (7) R-Figures/3.6.1.pdf & R-Figures/3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals
+#### (7) 3.6.1.pdf & 3.6.2.pdf: Three-field collaboration plots of countries, authors, institutions, and journals
 
 Input :
 
@@ -221,7 +222,7 @@ This figure illustrates the relationships among countries, authors, institutions
 
 ## Reproducing the figures by VoSViewer (version 1.6.20)
 
-### (1) VOSviewer-Figure/3.7.pdf: Co-citation network of cited references generated using VoSViewer
+#### (1) 3.7.pdf: Co-citation network of cited references generated using VoSViewer
 
 Input :
 
@@ -247,7 +248,7 @@ Output : ``` Figures/3.7.png ```
 
 This figure visualizes the co-citation network of cited references in ML-SDM research. Nodes represent cited references, node size indicates citation frequency, link thickness represents co-citation strength, and node colors denote clusters identified automatically by the VoSViewer clustering algorithm.
 
-### (2) VOSviewer-Figure/3.8.pdf: Bibliographical coupling network using VoSViewer
+#### (2) 3.8.pdf: Bibliographical coupling network using VoSViewer
 
 Input :
 
@@ -273,7 +274,7 @@ Output: ``` Figures/3.8.png ```
 
 This figure visualizes the bibliographic coupling network of publications in ML-SDM research. Nodes represent individual publications, node size is proportional to total link strength, links indicate bibliographic coupling relationships, and node colors represent the average publication year in the overlay visualization.
 
-### (3) VOSviewer-Figure/3.9.1.pdf: Co-word network of author keywords visualized using VoSViewer
+#### (3) 3.9.1.pdf: Co-word network of author keywords visualized using VoSViewer
 
 Input :
 
@@ -307,7 +308,7 @@ Output : ``` Figures/3.9.1.png ```
 
 This figure visualizes the co-occurrence network of author keywords in ML-SDM research. Nodes represent keywords, node size indicates keyword occurrence frequency, links represent co-occurrence relationships, and node colors represent the average publication year of keywords. The thesaurus file (sameWord.txt) was applied to merge synonymous terms and improve keyword consistency before network construction.
 
-### (4) VOSviewer-Figure/3.9.3.pdf: Co-word network of keywords in DL-SDM research
+#### (4) Figure/3.9.3.pdf: Co-word network of keywords in DL-SDM research
 
 Input :
 

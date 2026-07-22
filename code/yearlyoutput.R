@@ -1,5 +1,5 @@
 # =====================================================
-# Figure 3.1. Temporal evolution of ML-SDM research
+# Figure 2： Temporal evolution of ML-SDM research
 # from 2006 to 2025
 #
 # Description:

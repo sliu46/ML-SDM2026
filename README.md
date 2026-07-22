@@ -34,13 +34,13 @@ The processed datasets were generated from the Web of Science Core Collection re
 
 #### Dataset were exported from the HistCite Pro (version 2.1)
 
-(1) yearlyOutput.xlsx ``` Used for generating: Figures/3.1.png ``` 
+  (1) yearlyOutput.xlsx ``` Used for generating: Figures/3.1.png ``` 
 
-(2) Author_TGCS.csv ``` Used for generating Figures/3.5.2.png ```
+  (2) Author_TGCS.csv ``` Used for generating Figures/3.5.2.png ```
 
-(3) Institution_Res.csv ``` Used for generating: Table 3: Top ten institutions by publications, TLCS, and TGCS ``` 
+  (3) Institution_Res.csv ``` Used for generating: Table 3: Top ten institutions by publications, TLCS, and TGCS ``` 
 
-(4) Journal_TGCS.csv ``` Used for generating: Table 4: Top Twenty Journals by TGCS ```
+  (4) Journal_TGCS.csv ``` Used for generating: Table 4: Top Twenty Journals by TGCS ```
 
 #### Dataset were exported from the Biblioshiny interface of the Bibliometrix R package (version 5.2.1)
 

@@ -19,7 +19,7 @@ Species distribution models (SDM) have become important tools for biodiversity a
 
 The overall workflow of this study is shown below.
 
-![Workflow of ML-SDM bibliometric analysis](Figures/Figure1.pdf)
+![Workflow of ML-SDM bibliometric analysis](Figures/Figure1.jpg)
 
 -------------------------------------------------------------------------------------------
 

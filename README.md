@@ -392,13 +392,27 @@ Settings:
 
     Type of analysis: Co-occurrence
     
-    Unit of analysis: Author Keywords
+    Unit of analysis: All Keywords
     
     Counting method: Full counting
+
+    Thesaurus file: data/WoS_raw_records/sameWord.txt 
+
+    Original number of author keywords: 486
     
     Minimum number of occurrences of a keyword: 2
+
+    Number of keywords meeting the threshold: 76
+
+    Selection: 76 most relevant keywords
     
     Visualization: Overlay Visualization
+
+Reproducibility files:
+
+    VOSviewer\author keyword\DL-SDM_map.txt
+    
+    VOSviewer\author keyword\DL-SDM_link.txt
 
 Output : ``` Figures/3.9.3.png ```
 

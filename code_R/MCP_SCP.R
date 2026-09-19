@@ -39,7 +39,7 @@ library(tidyverse)
 # 2. 读取数据
 # =========================
 df <- read.csv(
-  "data/Processed/Most_Relevant_Countries.csv",
+  "data1/Processed/Most_Relevant_Countries.csv",
   skip = 1
   )
 # 查看列名（确保结构）

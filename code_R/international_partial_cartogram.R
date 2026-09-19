@@ -9,13 +9,13 @@ library(cartogram)
 library(countrycode)
 library(scales)
 
-source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
+source("code_R/journal_style.R")
 
 # =========================
 # 2. 读取矩阵
 # =========================
 mat <- read.csv(
-  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/country_coauthorship_FINAL.csv",
+  "data/processed/country_coauthorship_FINAL.csv",
   row.names = 1,
   check.names = FALSE
 )

@@ -14,7 +14,7 @@ library(ggrepel)
 library(RColorBrewer)
 library(viridis)
 
-source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
+source("code_R/journal_style.R")
 
 
 # --------------------------
@@ -22,7 +22,7 @@ source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
 # --------------------------
 
 data <- read.csv(
-  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/HistCite/yearlyOutput.csv",
+  "data/processed/yearlyOutput.csv",
   header = TRUE
 )
 

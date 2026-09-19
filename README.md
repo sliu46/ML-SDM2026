@@ -264,11 +264,11 @@ Settings:
 
     Visualization: Network visualization
 
-    Each node represents a cited reference, and node size indicates the citation count of the reference. Links represent co-citation relationships, with stronger links indicating more frequent co-citation. Node colors represent clusters identified from the co-citation structure.​ The revised network uses a minimum citation threshold of 50 rather than the threshold of 30 used in the previous version. After applying the threshold, 401 cited references remained eligible, and the 300 references with the highest total link strength were retained for visualization.
+Each node represents a cited reference, and node size indicates the citation count of the reference. Links represent co-citation relationships, with stronger links indicating more frequent co-citation. Node colors represent clusters identified from the co-citation structure.​ The revised network uses a minimum citation threshold of 50 rather than the threshold of 30 used in the previous version. After applying the threshold, 401 cited references remained eligible, and the 300 references with the highest total link strength were retained for visualization.
 
 Reproducibility files: 
-    '''ML-SDM2026\VOSviewer\cocitation\map_300(1).txt
-    ML-SDM2026\VOSviewer\cocitation\link_300(1).txt'''
+    ML-SDM2026\VOSviewer\cocitation\map_300(1).txt
+    ML-SDM2026\VOSviewer\cocitation\link_300(1).txt
 These files can be loaded directly into VOSviewer to reproduce the network structure and visualization.
 
 Output : ``` Figures/3.7.png ```

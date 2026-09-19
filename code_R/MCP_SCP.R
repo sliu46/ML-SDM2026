@@ -1,35 +1,3 @@
-# =====================================================
-# Figure A.12. Country-level distribution of SCP and MCP
-# publications in ML-SDM research
-#
-# Description:
-# This script generates a stacked bar chart showing the
-# distribution of single-country publications (SCP) and
-# multiple-country publications (MCP) among the top 20
-# countries in ML-SDM research.
-#
-# Countries are ranked according to total publication
-# output (SCP + MCP). SCP represents publications
-# produced by authors from the same country, while MCP
-# represents publications involving international
-# collaboration.
-#
-# Input:
-#   data/Processed/Most_Relevant_Countries.csv
-#
-# Output: Figures/Appendix_1.png
-#
-# Workflow:
-#   1. Load required R packages.
-#   2. Read country-level bibliometric statistics.
-#   3. Extract country, SCP, MCP, and publication counts.
-#   4. Calculate total publications (SCP + MCP).
-#   5. Select the top 20 countries according to total output.
-#   6. Reshape SCP and MCP data into long format.
-#   7. Generate a stacked horizontal bar chart.
-#   8. Export the final figure.
-#
-# =====================================================
 # =========================
 # 1. 加载包
 # =========================
@@ -39,7 +7,7 @@ library(tidyverse)
 # 2. 读取数据
 # =========================
 df <- read.csv(
-  "data1/Processed/Most_Relevant_Countries.csv",
+  "data/Processed/Most_Relevant_Countries.csv",
   skip = 1
   )
 # 查看列名（确保结构）

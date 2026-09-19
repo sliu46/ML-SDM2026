@@ -6,13 +6,13 @@
 library(tidyverse)
 library(viridis)
 
-source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
+source("code_R/journal_style.R")
 
 #===============================
 # 读取数据
 #===============================
 
-file_path <- "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/R/keyword/keyword_year_merged.csv"
+file_path <- "data/processed/keyword_year_merged.csv"
 
 df <- read.csv(
   file_path,

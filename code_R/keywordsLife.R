@@ -1,37 +1,18 @@
-# =====================================================
-# Figure 10. Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025.
-#
-# Description:
-# This script generates the life cycle evolution of
-# 20 representative author keywords in ML-SDM research.
-# Bubble size represents the annual occurrence frequency
-# of each keyword, while bubble color indicates the
-# publication year.
-#
-# Input:
-#   data/Processed/keyword_year_merged.csv
-#
-# Output:
-#   Figures/3.9.2.png
-#
-# Workflow:
-#   1. Read the keyword occurrence dataset.
-#   2. Select the 20 representative author keywords.
-#   3. Transform the dataset into a long format.
-#   4. Remove records with zero annual occurrences.
-#   5. Rank keywords according to their total occurrence frequency.
-#   6. Generate the keyword life cycle bubble chart.
-#   7. Export the figure.
-# =====================================================
+############################################################
+# Keyword Life Cycle Analysis
+# SDM research 2006-2025
+############################################################
 
 library(tidyverse)
 library(viridis)
+
+source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
 
 #===============================
 # 读取数据
 #===============================
 
-file_path <- "data/Processed/keyword_year_merged.csv"
+file_path <- "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/R/keyword/keyword_year_merged.csv"
 
 df <- read.csv(
   file_path,
@@ -77,7 +58,7 @@ life_data <- df %>%
 
 life_long <- life_data %>%
   pivot_longer(
-    cols = -Keyword,
+    cols = matches("^[0-9]{4}$"),
     names_to = "Year",
     values_to = "Frequency"
   )
@@ -146,8 +127,8 @@ p <- ggplot(
   
   ## 点大小（真实频率）
   scale_size_continuous(
-    range = c(1.5, 10),
-    breaks = c(1,10,20,50,100,200,300),
+    range = c(1.5, 8),
+    breaks = c(1,10,50,100,300),
     limits = c(1, max_freq),
     name = "Annual frequency"
   ) +
@@ -166,11 +147,28 @@ p <- ggplot(
   
   labs(
     x = "Publication year",
-    y = NULL,
-    title = "Life cycle evolution of major keywords in SDM research (2006–2025)"
+    y = NULL
+  ) +
+  guides(
+    fill = guide_colorbar(
+      title.position = "top",
+      title.hjust = 0,
+      direction = "vertical",
+      barwidth = unit(3, "mm"),
+      barheight = unit(22, "mm"),
+      order = 1
+    ),
+    size = guide_legend(
+      title.position = "top",
+      title.hjust = 0,
+      direction = "vertical",
+      ncol = 1,
+      byrow = TRUE,
+      order = 2
+    )
   ) +
   
-  theme_bw(base_size = 12) +
+  journal_theme() +
   
   theme(
     
@@ -185,53 +183,57 @@ p <- ggplot(
     
     axis.text.y =
       element_text(
-        size = 13,
+        size = 9,
         colour = "black"
       ),
     
     axis.text.x =
       element_text(
-        size = 13,
+        size = 9,
         colour = "black"
       ),
     
     axis.title.x =
       element_text(
-        size = 16,
-        face = "bold"
+        size = 10,
+        face = "plain"
       ),
     
     plot.title =
       element_text(
         hjust = 0.5,
-        size = 20,
+        size = 11,
         face = "bold"
       ),
     
     legend.position = "right",
+    legend.direction = "vertical",
+    legend.box = "vertical",
+    legend.box.just = "left",
+    legend.box.spacing = unit(1, "mm"),
+    legend.spacing.y = unit(1, "mm"),
+    legend.key.width = unit(5, "mm"),
+    legend.key.height = unit(4.5, "mm"),
     
     legend.title =
       element_text(
-        size = 14,
-        face = "bold"
+        size = 8,
+        face = "plain"
       ),
     
     legend.text =
       element_text(
-        size = 12
+        size = 7
       )
   )
 
-print(p)
+if (interactive()) print(p)
 
 #===============================
 # 保存
 #===============================
 
-ggsave(
-  "Figures/3.9.2.png",
-  p,
-  width = 14,
-  height = 8,
-  dpi = 600
+save_journal_figure(
+  plot = p,
+  filename_stem = "SDM_keyword_life_cycle"
 )

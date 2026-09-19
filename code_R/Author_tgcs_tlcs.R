@@ -1,28 +1,6 @@
 # =====================================================
-# Figure 5. Impact assessment of the top 20 authors
-# based on TLCS and TGCS
-#
-# Description:
-# This script generates a bubble plot showing the
-# citation impact of the top 20 authors in ML-SDM
-# research. Bubble size represents the number of
-# publications, while bubble color indicates the
-# composite impact index calculated from
-# standardized TLCS and TGCS values.
-#
-# Input:
-#   data/Processed/Author_TGCS.csv
-#
-# Output:
-#   Figures/3.5.2.png
-#
-# Workflow:
-#   1. Read the author citation dataset.
-#   2. Rename publication and citation variables.
-#   3. Calculate the composite impact index: Impact = Z(TLCS)+Z(TGCS).
-#   4. Rank authors and select the top 20.
-#   5. Generate the TLCS–TGCS bubble plot.
-#   6. Export the figure.
+# Author citation analysis based on TLCS and TGCS
+# TLCS-TGCS bubble plot
 # =====================================================
 
 
@@ -36,14 +14,17 @@ library(ggrepel)
 library(scales)
 library(viridis)
 
+source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
+
 
 # ============================
 # 2. 读取HistCite作者数据
 # ============================
 
 tgcs <- read_csv(
-  "data/Processed/Author_TGCS.csv"
+  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/HistCite/Author_TGCS.csv"
 )
+
 
 # ============================
 # 3. 数据整理
@@ -59,42 +40,86 @@ author_data <- tgcs %>%
     TGCS = GCS
   )
 
+
 # ============================
-# 4. 综合影响力指数
-# Impact = Z(TLCS)+Z(TGCS)
+# 4. 选择同时进入
+# TGCS Top20 和 TLCS Top20 的作者
 # ============================
 
-author_rank <- author_data %>%
-  mutate(
-    
-    TLCS_Z = as.numeric(scale(TLCS)),
-    TGCS_Z = as.numeric(scale(TGCS))
-    
+
+# TGCS Top20
+top20_tgcs <- author_data %>%
+  arrange(desc(TGCS)) %>%
+  slice_head(n = 20)
+
+
+# TLCS Top20
+top20_tlcs <- author_data %>%
+  arrange(desc(TLCS)) %>%
+  slice_head(n = 20)
+
+
+# ============================
+# 5. 获取两个Top20的交集
+# 并按照TGCS从高到低排列
+# ============================
+
+top20 <- author_data %>%
+  filter(
+    Author %in% top20_tgcs$Author &
+      Author %in% top20_tlcs$Author
   ) %>%
-  mutate(Impact = TLCS_Z + TGCS_Z) %>%arrange(desc(Impact))
+  arrange(desc(TGCS)) %>%
+  mutate(
+    Order = row_number()
+  )
+
 
 # ============================
-# 5. 选择Top20作者
+# 6. 输出筛选结果
 # ============================
 
-top20 <- author_rank %>%
-  slice_head(n=20)
 
-# 输出Top20结果
+# 创建保存目录
+output_dir <- "F:/PythonItem/bib/Second8.30/image"
+
+dir.create(
+  output_dir,
+  recursive = TRUE,
+  showWarnings = FALSE
+)
+
+
+# 保存作者数据表
 write_csv(
   top20,
-  "Author_TLCS_TGCS_Top20.csv"
+  file.path(
+    output_dir,
+    "Author_TLCS_TGCS_intersection.csv"
+  )
 )
-print(top20 %>%select(Author,NP,TLCS,TGCS,Impact))
 
-# ============================
-# 6. 设置标签作者
-# 只显示Impact最高10位
-# ============================
 
-label_data <- top20 %>%
-  arrange(desc(Impact)) %>%
-  slice(1:10)
+# 在控制台显示结果
+print(
+  top20 %>%
+    select(
+      Order,
+      Author,
+      NP,
+      TLCS,
+      TGCS
+    )
+)
+
+
+# 查看最终筛选出的作者数量
+cat(
+  "\nNumber of authors included:",
+  nrow(top20),
+  "\n"
+)
+
 
 # ============================
 # 7. 绘制气泡图
@@ -105,201 +130,261 @@ p <- ggplot(
   aes(
     x = TGCS,
     y = TLCS,
-    size = NP,
-    color = Impact
+    size = NP
   )
-)+
+) +
   
-  # 气泡透明度调整
-  geom_point(
-    alpha = 0.55
-  )+
-  
-  # 全部作者标注
-  geom_text_repel(
-    aes(label = Author),
-    size = 3.8,
-    max.overlaps = Inf,
-    
-    # 标签距离
-    box.padding = 0.6,
-    point.padding = 0.35,
-    
-    # 引线
-    segment.color = "grey70",
-    segment.size = 0.3,
-    
-    # 防止文字压点
-    force = 2
-  )+
+  # ============================
+# 气泡
+# ============================
 
-  # TGCS轴
-  scale_x_log10(
-    breaks=c(
-      2000,
-      3000,
-      5000,
-      10000,
-      20000
-    ),
-    labels=scales::comma
-  )+
+geom_point(
+  alpha = 0.65,
+  color = "#21908C"
+) +
   
-  # TLCS轴
-  scale_y_log10(
-    breaks=c(
-      500,
-      1000,
-      2000,
-      3000,
-      5000
-    ),
-    labels=scales::comma
-  )+
+  # ============================
+# 作者标签
+# ============================
+
+geom_text_repel(
+  aes(label = Author),
   
-  # 气泡大小
-  scale_size_continuous(
-    name="Publications",
-    range=c(3,11),
-    breaks=c(5,10,20,40),
-    labels=c(
-      "5",
-      "10",
-      "20",
-      "40"
-    )
-  )+
+  size = 3.6,
+  family = journal_font_family,
+  color = "black",
   
-  # viridis
-  scale_color_viridis_c(
-    option="viridis",
-    name="Impact index"
-  )+
+  max.overlaps = Inf,
   
-  # 范围
-  coord_cartesian(
-    xlim=c(2000,25000),
-    ylim=c(500,6500)
-  )+
+  # 标签距离
+  box.padding = 0.7,
+  point.padding = 0.4,
   
-  labs(
-    x="TGCS (Global Citation Score)",
-    y="TLCS (Local Citation Score)"
-  )+
+  # 引线
+  segment.color = "grey70",
+  segment.size = 0.35,
   
-  theme_bw(
-    base_size = 15
-  )+
-  theme(
-    
-    panel.grid.major = element_line(
-      color="grey85",
-      linewidth=0.4
-    ),
-    
-    panel.grid.minor = element_blank(),
-    
-    panel.border = element_blank(),
-    
-    axis.line = element_line(
-      color="black",
-      linewidth=0.8
-    )
-  )+
+  # 防止文字压点
+  force = 2.2
+) +
   
-  theme(
-    
-    panel.grid.major = element_line(
-      color="grey85",
-      linewidth=0.4
-    ),
-    
-    panel.grid.minor = element_blank(),
-    
-    panel.border = element_blank(),
-    
-    axis.line = element_line(
-      color="black",
-      linewidth=0.8
-    ),
-    # 图例设置
-    legend.position="right",
-    
-    legend.box.spacing = unit(0.3,"cm"),
-    
-    legend.spacing.y = unit(0.3,"cm"),
-    
-    legend.key.height = unit(0.8,"cm"),
-    
-    legend.key.width = unit(0.5,"cm"),
-    
-    # 不要给右侧留太大空间
-    plot.margin = margin(
-      t=20,
-      r=40,
-      b=20,
-      l=20
-    ),
-    axis.title =
-      element_text(
-        face="bold",
-        size=16
-      ),
-    
-    axis.text =
-      element_text(
-        color="black",
-        size=14
-      ),
-    
-    
-    legend.title =
-      element_text(
-        face="bold",
-        size=14
-      ),
-    
-    legend.text =
-      element_text(
-        size=12
-      )
-    
+  # ============================
+# TGCS轴
+# ============================
+
+scale_x_log10(
+  
+  breaks = c(
+    2000,
+    3000,
+    5000,
+    10000,
+    20000
+  ),
+  
+  labels = scales::comma
+) +
+  
+  # ============================
+# TLCS轴
+# ============================
+
+scale_y_log10(
+  
+  breaks = c(
+    500,
+    1000,
+    2000,
+    3000,
+    5000
+  ),
+  
+  labels = scales::comma
+) +
+  
+  # ============================
+# 气泡大小
+# ============================
+
+scale_size_continuous(
+  
+  name = "Publications",
+  
+  range = c(3.5, 11),
+  limits = c(1, 40),
+  
+  breaks = c(
+    5,
+    10,
+    20,
+    30,
+    40
+  ),
+  
+  labels = c(
+    "5",
+    "10",
+    "20",
+    "30",
+    "40"
   )
-p
+) +
+  
+# ============================
+# 图形显示范围
+# ============================
+
+coord_cartesian(
+  
+  xlim = c(
+    2000,
+    25000
+  ),
+  
+  ylim = c(
+    500,
+    6500
+  )
+) +
+  
+  # ============================
+# 坐标轴标题
+# ============================
+
+labs(
+  
+  x = "TGCS",
+  
+  y = "TLCS"
+) +
+  
+  # ============================
+# 基础主题
+# ============================
+
+journal_theme() +
+  
+  theme(
+    
+    # 主网格线
+    panel.grid.major = element_line(
+      color = "grey85",
+      linewidth = 0.5
+    ),
+    
+    # 删除次网格线
+    panel.grid.minor = element_blank(),
+    
+    # 删除外框
+    panel.border = element_blank(),
+    
+    # 坐标轴线
+    axis.line = element_line(
+      color = "black",
+      linewidth = 0.9
+    ),
+    
+    # ============================
+    # 图例位置
+    # ============================
+    
+    legend.position = "right",
+    
+    legend.box.spacing = unit(1, "mm"),
+    
+    legend.spacing.y = unit(1, "mm"),
+    
+    legend.key.height = unit(6, "mm"),
+    
+    legend.key.width = unit(5, "mm"),
+    legend.margin = margin(0, 0, 0, 0, unit = "mm"),
+    
+    # ============================
+    # 图边距
+    # ============================
+    
+    plot.margin = margin(
+      t = 4,
+      r = 4,
+      b = 4,
+      l = 4,
+      unit = "mm"
+    ),
+    
+    # ============================
+    # 坐标轴标题字体
+    # ============================
+    
+    axis.title = element_text(
+      face = "plain",
+      size = 10
+    ),
+    
+    # ============================
+    # 坐标轴刻度字体
+    # ============================
+    
+    axis.text = element_text(
+      color = "black",
+      size = 9
+    ),
+    
+    # ============================
+    # 图例标题字体
+    # ============================
+    
+    legend.title = element_text(
+      face = "plain",
+      size = 8
+    ),
+    
+    # ============================
+    # 图例文字字体
+    # ============================
+    
+    legend.text = element_text(
+      size = 7
+    )
+  )
+
+
+# ============================
+# 8. 图例设置
+# ============================
 
 p <- p +
   guides(
     
     size = guide_legend(
-      title="Publications",
-      title.position="top",
-      keyheight=unit(0.5,"cm"),
-      override.aes=list(
-        alpha=0.7
+      
+      title = "Publications",
+      
+      title.position = "top",
+      
+      keyheight = unit(
+        5,
+        "mm"
+      ),
+      
+      override.aes = list(
+        alpha = 0.7
       )
-    ),
-    
-    color = guide_colorbar(
-      title="Impact index",
-      title.position="top",
-      barheight=unit(2.8,"cm"),
-      barwidth=unit(0.35,"cm")
     )
-    
   )
 
-# =====================================================
-# 8. 高清保存
-# =====================================================
-# 保存路径
-out_path <- 
-  "Figures/3.5.2.png"
-# PNG
-ggsave(
-  paste0(out_path,".png"),
-  plot=p,
-  width=9,
-  height=6,
-  units="in",
-  dpi=600
+
+# ============================
+# 9. 显示图片
+# ============================
+
+if (interactive()) print(p)
+
+
+# ============================
+# 10. 高清保存
+# ============================
+
+save_journal_figure(
+  plot = p,
+  filename_stem = "Author_TLCS_TGCS_bubble"
 )

@@ -1,38 +1,8 @@
-# =====================================================
-# Figure 2： Temporal evolution of ML-SDM research
-# from 2006 to 2025
-#
-# Description:
-# This script generates a temporal bubble plot showing
-# the annual development of ML-SDM research from 2006
-# to 2025.
-#
-# The x-axis represents publication year.
-# The y-axis represents Total Global Citation Score
-# (TGCS).
-# Bubble size indicates annual publication output,
-# and bubble color represents Total Local Citation
-# Score (TLCS).
-#
-# Input:
-#   data/Processed/yearlyOutput.csv
-#
-# Output:
-#   Figures/3.1.png
-#
-# Workflow:
-#   1. Load required R packages for data processing
-#      and visualization.
-#   2. Read annual bibliometric statistics.
-#   3. Standardize variables including publication
-#      year, annual records, TLCS, and TGCS.
-#   4. Generate the bubble temporal evolution plot.
-#   5. Map annual publication output to bubble size
-#      and TLCS values to bubble color.
-#   6. Add TGCS temporal trend line and year labels.
-#   7. Export the final figure.
-#
-# =====================================================
+# ==========================================================
+# Bubble temporal evolution plot
+# ML-SDM bibliometric analysis
+# ==========================================================
+
 
 # --------------------------
 # 1. 加载包
@@ -44,23 +14,38 @@ library(ggrepel)
 library(RColorBrewer)
 library(viridis)
 
+source("F:/PythonItem/bib/Second8.30/image/code/journal_style.R")
+
+
 # --------------------------
 # 2. 读取数据
 # --------------------------
+
 data <- read.csv(
-  "data/Processed/yearlyOutput.csv",
+  "F:/PythonItem/bib/FirstRevire6.29/SearchWords/DataSplit/HistCite/yearlyOutput.csv",
   header = TRUE
 )
+
 
 # 查看数据
 head(data)
 
+
 # 确保变量名称
 colnames(data)
+
+# 应包含:
+# Year
+# Records
+# TLCS
+# TGCS
+
+
 
 # --------------------------
 # 3. 数据处理
 # --------------------------
+
 data <- data %>%
   mutate(
     Year = as.numeric(Publication.Year),
@@ -69,19 +54,21 @@ data <- data %>%
     TGCS = as.numeric(GCS)
   )
 
+
 # ==========================
 # 3. 绘图
 # ==========================
+
 
 p <- ggplot(
   data,
   aes(
     x = Year,
     y = TGCS,
-    size = Records,
     color = TLCS
   )
 ) +
+  
   
   geom_line(
     aes(group=1),
@@ -103,28 +90,43 @@ p <- ggplot(
   
   # 气泡
   geom_point(
+    aes(size = Records),
     alpha=0.75,
     stroke=0.8
   ) +
   
+  
+  
   # 年份标签
   geom_text_repel(
     aes(label=Year),
-    size=4,
+    size=3.2,
+    family=journal_font_family,
     fontface="bold",
     max.overlaps=30,
     box.padding=0.35,
     point.padding=0.2
   ) +
   
+  
+  
+  # 气泡大小
+  #scale_size_continuous(
+  #  name="Annual publications",
+  #  range=c(4,20),
+  #  breaks=c(200,400,600,800)
+  #) +
   scale_size_area(
     name="Annual publications",
-    max_size=18,
-    breaks=c(50,100,200,400,600,800)
+    max_size=12,
+    limits=c(0, max(data$Records, na.rm=TRUE)),
+    breaks=c(50,100,200,400,600)
   )+
   
-# ======================
-# viridis 
+  
+  
+  # ======================
+# viridis 配色
 # ======================
 
 scale_color_viridis(
@@ -133,10 +135,14 @@ scale_color_viridis(
   name="TLCS"
 ) +
   
+  
+  
   scale_x_continuous(
-    breaks=data$Year,
+    breaks=seq(min(data$Year), max(data$Year), by=2),
     expand=c(0.03,0.03)
   ) +
+  
+  
   
   scale_y_continuous(
     breaks = seq(0, 17500, by = 2500),
@@ -144,68 +150,111 @@ scale_color_viridis(
     expand = expansion(mult = c(0.05,0.05))
   ) +
   
+  
+  
   labs(
     x="Publication year",
-    y="Total Global Citation Score (TGCS)",
-    subtitle=
-      "The size of the bubbles represents the annual publications; the color changes indicate TLCS;
-the dotted line reflects TGCS."
+    y="Total Global Citation Score (TGCS)"
+  ) +
+  guides(
+    color = guide_colorbar(
+      title.position = "top",
+      title.hjust = 0.5,
+      direction = "horizontal",
+      barwidth = unit(30, "mm"),
+      barheight = unit(2.5, "mm"),
+      order = 1
+    ),
+    size = guide_legend(
+      title.position = "top",
+      title.hjust = 0.5,
+      direction = "horizontal",
+      nrow = 1,
+      byrow = TRUE,
+      keywidth = unit(11, "mm"),
+      keyheight = unit(11, "mm"),
+      override.aes = list(
+        color = "grey40",
+        alpha = 0.75
+      ),
+      order = 2
+    )
   ) +
   
-  theme_classic(
-    base_size=16
+  
+  
+  journal_theme(
+    theme_classic(
+      base_size = journal_base_size,
+      base_family = journal_font_family
+    )
   ) +
+  
   
   theme(
     
     plot.title =
       element_text(
-        size=20,
+        size=11,
         face="bold"
       ),
+    
     
     plot.subtitle =
       element_text(
-        size=14
+        size=9
       ),
+    
     
     axis.title =
       element_text(
-        size=16,
-        face="bold"
+        size=10,
+        face="plain"
       ),
+    
     
     axis.text =
       element_text(
-        size=14,
+        size=9,
         color="black"
       ),
     
+    
     legend.title =
       element_text(
-        size=14,
-        face="bold"
+        size=8,
+        face="plain"
       ),
     
     legend.text =
       element_text(
-        size=12,
+        size=7,
       ),
     
-    legend.position="right"
+    
+    legend.position="bottom",
+    legend.direction="horizontal",
+    legend.box="horizontal",
+    legend.box.just="center",
+    legend.box.spacing=unit(1, "mm"),
+    legend.spacing.x=unit(1, "mm"),
+    legend.key.width=unit(6, "mm"),
+    legend.key.height=unit(3, "mm"),
+    legend.margin=margin(0, 0, 0, 0, unit="mm")
     
   )
+
+
 
 # ==========================
 # 4. 输出
 # ==========================
-ggsave(
-  "Figures/3.1.png",
-  p,
-  width=14,
-  height=8,
-  dpi=600
+
+
+save_journal_figure(
+  plot = p,
+  filename_stem = "ML_SDM_temporal_bubble"
 )
 
 
-p
+if (interactive()) print(p)

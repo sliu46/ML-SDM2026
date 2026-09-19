@@ -268,15 +268,13 @@ Each node represents a cited reference, and node size indicates the citation cou
 
 Reproducibility files: 
 
-    ML-SDM2026\VOSviewer\cocitation\map_300(1).txt
+    VOSviewer\cocitation\map_300(1).txt
     
-    ML-SDM2026\VOSviewer\cocitation\link_300(1).txt
+    VOSviewer\cocitation\link_300(1).txt
     
 These files can be loaded directly into VOSviewer to reproduce the network structure and visualization.
 
 Output : ``` Figures/3.7.png ```
-
-This figure visualizes the co-citation network of cited references in ML-SDM research. Nodes represent cited references, node size indicates citation frequency, link thickness represents co-citation strength, and node colors denote clusters identified automatically by the VoSViewer clustering algorithm.
 
 #### (2) 3.8.png: Bibliographical coupling network using VoSViewer
 
@@ -284,25 +282,54 @@ Input :
 
     data/WoS_raw_records/V06-25(5224).txt
 
+DL-oriented search strategy:​
+    
+    ("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*")
+    AND ("deep learning" OR "Convolutional Neural Network" OR "Graph Neural Network" OR "Multilayer Perceptron" OR "Transformer")
+
 Settings:
 
-    Type of analysis: Bibliographic Coupling
+    Type of analysis: Bibliographic coupling
 
     Unit of analysis: Documents
 
     Counting method: Full counting
 
-    Minimum number of citations of a document: 50
+    Minimum citation-count threshold: None
 
-    Number of documents meeting the threshold: 610
+    Initial eligible publications: 5,224
 
-    Selection: Top 500 documents
+    Core-document selection:
+    300 documents with the highest total link strength
 
-    Visualization: Overlay Visualization
+    Additional DL-related subset:
+    61 articles identified using the predefined DL-oriented search strategy
+
+    Final focused network:
+    361 publications
+
+    Normalization/layout: LinLog/modularity
+
+    Clustering algorithm: VOSviewer clustering algorithm
+
+    Resolution parameter: 1.00
+
+    Minimum cluster size: 1
+
+    Visualization: Overlay visualization
+
+    Overlay variable: Publication year
+
+The revised bibliographic coupling network does not apply a minimum citation-count threshold. All 5,224 publications were initially eligible. The 300 documents with the highest total link strength were retained to represent the strongly connected core of the overall ML-SDM literature. All 61 DL-related articles identified using the predefined DL-oriented search strategy were additionally retained to ensure representation of recent DL-SDM research. The final focused network therefore contains 361 publications.​
+Each node represents a publication. Node size indicates citation count, links represent bibliographic coupling relationships based on shared references, and node color represents publication year, ranging from earlier publications in blue to more recent publications in yellow.
+
+Reproducibility files:
+
+    VOSviewer\bibliographic coupling\map.txt
+    
+    VOSviewer\bibliographic coupling\link.txt
 
 Output: ``` Figures/3.8.png ```
-
-This figure visualizes the bibliographic coupling network of publications in ML-SDM research. Nodes represent individual publications, node size is proportional to total link strength, links indicate bibliographic coupling relationships, and node colors represent the average publication year in the overlay visualization.
 
 #### (3) 3.9.1.png: Co-word network of author keywords visualized using VoSViewer
 
@@ -318,21 +345,33 @@ Search strategy:
 
 Settings:
 
-    Type of analysis: Co-occurrence
+    Type of analysis: Co-occurrence 
     
-    Unit of analysis: Author Keywords
+    Unit of analysis: Author keywords 
     
-    Counting method: Full counting
+    Counting method: Full counting 
     
-    Thesaurus file:  data/WoS_raw_records/sameWord.txt
+    Thesaurus file: data/WoS_raw_records/sameWord.txt 
     
-    Minimum number of occurrences of a keyword: 5
+    Original number of author keywords: 11,273 
     
-    Number of keywords meeting the threshold: 643
+    Minimum number of occurrences of a keyword: 5 
     
-    Selection: 500 most relevant keywords
+    Number of keywords meeting the threshold: 643 
     
-    Visualization: Overlay Visualization
+    Selection: 500 most relevant keywords 
+    
+    Visualization: Overlay visualization 
+    
+    Overlay variable: Average publication year
+
+The co-word network was constructed from author keywords assigned to the 5,224 publications. After keyword standardization, only keywords occurring at least five times were retained. Of the 11,273 original author keywords, 643 met this threshold, and the 500 most relevant keywords were displayed to improve network readability. Each node represents an author keyword, and node size is proportional to occurrence frequency. Links indicate keyword co-occurrence within the same publication. Node color represents the average publication year of the keyword, ranging from blue for earlier studies to yellow for more recent studies.
+
+Reproducibility files:
+
+    VOSviewer\author keyword\ML-SDM_map.txt
+    
+    VOSviewer\author keyword\ML-SDM_link.txt
 
 Output : ``` Figures/3.9.1.png ```
 

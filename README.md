@@ -55,7 +55,8 @@ The processed datasets were generated from the Web of Science Core Collection re
 - `Journal_TGCS.csv`  
   Used for generating: Table 4: Top Twenty Journals by TGCS
   
-
+- `Table5_annual_top5_raw_TGCS_TLCS_candidates.xlsx`  
+  Used to document the year-stratified candidate identification procedure for Table 5. For each publication year, the five studies with the highest TGCS and the five studies with the highest TLCS were identified separately. Studies appearing in both annual top-five lists were prioritized. If fewer than five studies overlapped, the remaining candidates were selected alternately from the TGCS and TLCS rankings until five unique studies were retained. The workbook contains the annual rankings, citation values, candidate-selection basis, and detailed selection rules. TGCS and TLCS were used only for reproducible candidate identification and not as direct measures of research quality or methodological importance.
 
 #### Dataset were exported from the Biblioshiny interface of the Bibliometrix R package (version 5.2.1)
 
@@ -151,7 +152,7 @@ Output : ``` Figures/3.5.1.png ```
 
 This figure illustrates the annual publication activity of the top 10 most productive authors from 2006 to 2025. Bubble size represents the number of articles published in each year, and bubble color indicates the total citation count.
 
-#### (4) 3.5.2.png: Impact assessment of the top 20 authors based on TLCS and TGCS
+#### (4) 3.5.2.png:  Citation profiles of authors ranked in the top 20 by both TGCS and TLCS
 
 Input :
 
@@ -163,7 +164,7 @@ Run : ``` source("code/R/Author_tgcs_tlcs.R") ```
 
 Output : ``` Figures/3.5.2.png ```
 
-This figure illustrates the citation impact of the top 20 authors in ML-SDM research. Bubble size represents the number of publications, while bubble color indicates the composite impact index calculated from standardized TLCS and TGCS values.
+This figure presents the citation profiles of authors who ranked simultaneously among the top 20 authors by TGCS and the top 20 authors by TLCS. TGCS is shown on the x-axis, TLCS is shown on the y-axis, and bubble size represents the number of publications. TGCS and TLCS are presented as separate descriptive measures of citation activity and scholarly visibility. No composite citation-impact index was calculated, and these indicators should not be interpreted as direct measures of research quality or methodological importance.
 
 #### (5) 3.9.2.png: Life cycle evolution of major keywords in ML-SDM research from 2006 to 2025
 Input :

@@ -13,7 +13,7 @@ This repository contains datasets and scripts for reproducing the analyses and f
 ------------------------------------------------------------------------------
 
 ## Abstract
-Species distribution models (SDM) have become important tools for biodiversity assessment, ecological prediction, and conservation planning. Recent advances in machine learning have greatly expanded the capability of SDM to analyze complex ecological data. However, the overall development trajectory, knowledge structure, and methodological implications of machine learning-based SDM (ML-SDM) remain insufficiently synthesized. This study provides a comprehensive review of ML-SDM research from 2006 to 2025 by integrating bibliometric analysis with methodology. Using 5,224 articles retrieved from the Web of Science Core Collection, we combined general bibliometric statistics, collaboration analysis, co-citation analysis, bibliographic coupling, temporal keyword evolution, and qualitative synthesis to investigate research trends, methodological development, knowledge accumulation, and future challenges. The results reveal that ML-SDM has undergone a progressive technological evolution rather than a simple transition from traditional machine learning to deep learning. Early studies established the methodological foundation through MaxEnt, Random Forest, and other machine learning algorithms, followed by advances in model evaluation, uncertainty assessment, and ecological applicability. Recent developments increasingly emphasize deep learning, ensemble modelling, remote sensing, and multi-source environmental data, reflecting an expansion from improving predictive accuracy toward modelling increasingly complex ecological information. The development and global dissemination of ML-SDM have been jointly driven by ecological demands, technological advances, expanding environmental data resources, and international collaboration. Co-citation and bibliographic coupling analyses further demonstrate that methodological innovation has accumulated through successive solutions to key modelling challenges rather than through the emergence of individual algorithms. Although SDM based on deep learning substantially expands the capability of ML-SDM for analysing high-dimensional and spatially structured ecological data, it remains a correlative modelling framework and does not replace traditional machine learning approaches. Challenges related to ecological interpretation, uncertainty assessment, spatial transferability, and model transparency continue to limit its practical application.
+Species distribution models (SDM) have become important tools for biodiversity assessment, ecological prediction, and conservation planning. Recent advances in machine learning (ML) have greatly expanded the capability of SDM to analyze complex ecological data. However, the overall development trajectory, knowledge structure, and methodological implications of machine learning-based SDM (ML-SDM) remain insufficiently synthesized. This study provides a comprehensive review of ML-SDM research from 2006 to 2025 by integrating bibliometric analysis with methodological synthesis. Using 5,224 articles retrieved from the Web of Science Core Collection, we combined general bibliometric statistics, collaboration analysis, co-citation analysis, bibliographic coupling, temporal keyword evolution, and qualitative synthesis to investigate research trends, methodological development, knowledge accumulation, and future challenges. The results reveal that ML-SDM has undergone a methodological evolution rather than a simple transition from traditional ML to deep learning (DL). Early studies established the methodological foundation through MaxEnt, Random Forest, and other ML algorithms, followed by advances in model evaluation, uncertainty assessment, and ecological applicability. Recent developments increasingly emphasize DL, ensemble modelling, remote sensing, and multi-source environmental data, reflecting an expansion from improving predictive accuracy toward modelling increasingly complex ecological information. The observed development and global dissemination patterns of ML-SDM are associated with broader ecological demands, technological advances, expanding environmental data resources, and increasing international collaboration, which may have provided enabling conditions for methodological innovation and knowledge exchange. Co-citation and bibliographic coupling analyses further suggest that methodological development has progressed through successive efforts to address key modelling challenges. Although DL-SDM expands the capacity of ML-SDM to analyse high-dimensional and spatially structured ecological data, it remains primarily a correlative modelling framework and does not replace traditional ML approaches. Challenges related to ecological interpretation, uncertainty assessment, spatial transferability, and model transparency continue to limit its practical application.
 
 ## Workflow
 
@@ -392,13 +392,27 @@ Settings:
 
     Type of analysis: Co-occurrence
     
-    Unit of analysis: Author Keywords
+    Unit of analysis: All Keywords
     
     Counting method: Full counting
+
+    Thesaurus file: data/WoS_raw_records/sameWord.txt 
+
+    Original number of author keywords: 486
     
     Minimum number of occurrences of a keyword: 2
+
+    Number of keywords meeting the threshold: 76
+
+    Selection: 76 most relevant keywords
     
     Visualization: Overlay Visualization
+
+Reproducibility files:
+
+    VOSviewer\author keyword\DL-SDM_map.txt
+    
+    VOSviewer\author keyword\DL-SDM_link.txt
 
 Output : ``` Figures/3.9.3.png ```
 

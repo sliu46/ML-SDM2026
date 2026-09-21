@@ -55,12 +55,19 @@
 \usepackage{natbib}
 \usepackage{lineno}
 \usepackage{subcaption}
-\usepackage{pdflscape} 
+\usepackage{lscape}
 \usepackage{rotating}
 \usepackage{longtable}
 \usepackage{booktabs}
-
 \usepackage{microtype}
+
+\usepackage{xltabular}
+
+\newcolumntype{Y}[1]{%
+  >{\raggedright\arraybackslash
+  \hsize=#1\hsize
+  \linewidth=\hsize}X%
+}
 % paragraph formatting
 \setlength{\emergencystretch}{2em}
 \hyphenpenalty=5000
@@ -177,7 +184,7 @@
 \begin{abstract}
 %% Text of abstract
 
-Species distribution models (SDM) have become important tools for biodiversity assessment, ecological prediction, and conservation planning. Recent advances in machine learning(ML) have greatly expanded the capability of SDM to analyze complex ecological data. However, the overall development trajectory, knowledge structure, and methodological implications of machine learning-based SDM (ML-SDM) remain insufficiently synthesized. This study provides a comprehensive review of ML-SDM research from 2006 to 2025 by integrating bibliometric analysis with methodology. Using 5,224 articles retrieved from the Web of Science Core Collection, we combined general bibliometric statistics, collaboration analysis, co-citation analysis, bibliographic coupling, temporal keyword evolution, and qualitative synthesis to investigate research trends, methodological development, knowledge accumulation, and future challenges. The results reveal that ML-SDM has undergone a progressive technological evolution rather than a simple transition from traditional ML to deep learning (DL). Early studies established the methodological foundation through MaxEnt, Random Forest, and other ML algorithms, followed by advances in model evaluation, uncertainty assessment, and ecological applicability. Recent developments increasingly emphasize DL, ensemble modelling, remote sensing, and multi-source environmental data, reflecting an expansion from improving predictive accuracy toward modelling increasingly complex ecological information. The development and global dissemination of ML-SDM have been jointly driven by ecological demands, technological advances, expanding environmental data resources, and international collaboration. Co-citation and bibliographic coupling analyses further demonstrate that methodological innovation has accumulated through successive solutions to key modelling challenges rather than through the emergence of individual algorithms. Although SDM based on DL substantially expands the capability of ML-SDM for analysing high-dimensional and spatially structured ecological data, it remains a correlative modelling framework and does not replace traditional ML approaches. Challenges related to ecological interpretation, uncertainty assessment, spatial transferability, and model transparency continue to limit its practical application.
+Species distribution models (SDM) have become important tools for biodiversity assessment, ecological prediction, and conservation planning. Recent advances in machine learning (ML) have greatly expanded the capability of SDM to analyze complex ecological data. However, the overall development trajectory, knowledge structure, and methodological implications of machine learning-based SDM (ML-SDM) remain insufficiently synthesized. This study provides a comprehensive review of ML-SDM research from 2006 to 2025 by integrating bibliometric analysis with methodological synthesis. Using 5,224 articles retrieved from the Web of Science Core Collection, we combined general bibliometric statistics, collaboration analysis, co-citation analysis, bibliographic coupling, temporal keyword evolution, and qualitative synthesis to investigate research trends, methodological development, knowledge accumulation, and future challenges. The results reveal that ML-SDM has undergone a methodological evolution rather than a simple transition from traditional ML to deep learning (DL). Early studies established the methodological foundation through MaxEnt, Random Forest, and other ML algorithms, followed by advances in model evaluation, uncertainty assessment, and ecological applicability. Recent developments increasingly emphasize DL, ensemble modelling, remote sensing, and multi-source environmental data, reflecting an expansion from improving predictive accuracy toward modelling increasingly complex ecological information. The observed development and global dissemination patterns of ML-SDM are associated with broader ecological demands, technological advances, expanding environmental data resources, and increasing international collaboration, which may have provided enabling conditions for methodological innovation and knowledge exchange. Co-citation and bibliographic coupling analyses further suggest that methodological development has progressed through successive efforts to address key modelling challenges. Although DL-SDM expands the capacity of ML-SDM to analyse high-dimensional and spatially structured ecological data, it remains primarily a correlative modelling framework and does not replace traditional ML approaches. Challenges related to ecological interpretation, uncertainty assessment, spatial transferability, and model transparency continue to limit its practical application.
 
 
 
@@ -222,9 +229,9 @@ With technological development, intensified human activities, and land-use chang
 
 Along with increasing biodiversity conservation demands and global environmental governance initiatives, species distribution model (SDM) have become increasingly important tools for biodiversity assessment, habitat evaluation, and conservation decision-making \citep{elith2009species}. SDM is a modeling approach used to estimate the potential distribution of target species based on species occurrence data, environmental variables, and their relationships \citep{xu2015development,franklin2013species}. The methodological evolution of SDM has been primarily driven by advances in ecological theory, statistical modeling, geographic information science (GIS), computational techniques, and the increasing availability of environmental data, while biodiversity policies have mainly promoted their application in conservation assessment and decision-making \citep{austin2007species, guisan2005predicting}. Therefore, reviewing the evolution process of its technology is of great significance for understanding the development logic of SDM.
 
-The maturation of GIS and advances in spatial analysis during the 1990s provided important technical foundations for spatial ecological research and environmental modelling \citep{goodchild1992geographical}. Meanwhile, statistical modelling approaches, particularly generalized linear model (GLM), became widely adopted for relating species distributions to environmental variables and contributed to the development of early SDM frameworks \citep{guisan2000predictive}. Subsequently, advances in remote sensing and big data technologies have promoted the application of large-scale environmental datasets in ecological research since the early 21st century \citep{chen2022remote}. Since the 2010s, advances in high-resolution remote sensing data, graphics processing unit (GPU)-based parallel computing, and deep learning (DL) have substantially enhanced the computational capacity for complex spatial modelling \citep{owens2008gpu,zhu2017deep}. Since 2020, the development of GeoAI and advanced DL approaches has further accelerated the evolution of data-driven spatial analysis methods\citep{janowicz2020geoai,reichstein2019deep}.
+The maturation of GIS and advances in spatial analysis during the 1990s provided important technical foundations for spatial ecological research and environmental modelling \citep{goodchild1992geographical}. Meanwhile, statistical modelling approaches, particularly generalized linear model (GLM), became widely adopted for relating species distributions to environmental variables and contributed to the development of early SDM frameworks \citep{guisan2000predictive}. Subsequently, advances in remote sensing and big data technologies have promoted the application of large-scale environmental datasets in ecological research since the early 21st century \citep{chen2022remote}. Since the 2010s, advances in high-resolution remote sensing data, graphics processing unit (GPU)-based parallel computing, and deep learning (DL) have substantially enhanced the computational capacity for complex spatial modelling \citep{owens2008gpu,zhu2017deep}. Since 2020, the development of geospatial artificial intelligence and advanced DL approaches has further accelerated the evolution of data-driven spatial analysis methods\citep{janowicz2020geoai,reichstein2019deep}.
 
-Therefore, SDM can be broadly classified into three major methodological categories: (1) Statistical model–based SDM mainly rely on methods such as GLM and GAM to characterize the relationships between species distributions and environmental variables. (2) SDM based on traditional ML (TML-SDM) represented by random forest and MaxEnt emphasize nonlinear modeling capabilities and improved predictive performance. (3) SDM based on DL (DL-SDM), such as convolutional neural networks (CNN) and deep neural networks (DNN), enable automatic feature extraction and high-dimensional data processing, improving the ability to capture complex nonlinear relationships and spatial patterns from large and heterogeneous ecological datasets \citep{guisan2000predictive,elith2006novel,robinson2018correcting}. Given that the development and application of statistical model-based SDM have been extensively reviewed in previous studies, this study focuses specifically on machine learning (ML)-based SDM (ML-SDM), including traditional ML and DL approaches, to investigate their technological evolution and research trends \citep{elith2009species, guisan2000predictive} (Table \ref{tab:sdm_models}). Among these categories, DL-SDM refers to a specific class of ML-SDM that applies DL methodologies to species distribution modelling. Following the definition of DL, DL-SDM employ modular ML architectures that learn both decision functions and features for species distribution prediction in a layer-wise fashion. The key distinction of DL-SDM from TML-SDM lies in the use of multi-layer learning architectures that enable simultaneous learning of features and decision functions through a layer-wise process \citep{kellenberger2026performance, lecun2015deep}.
+Therefore, SDM can be broadly classified into three major methodological categories: (1) Statistical model–based SDM mainly rely on methods such as GLM and generalized additive model to characterize the relationships between species distributions and environmental variables. (2) SDM based on traditional ML (TML-SDM) represented by random forest and MaxEnt emphasize nonlinear modeling capabilities and improved predictive performance. (3) SDM based on DL (DL-SDM), such as convolutional neural networks (CNN) and deep neural networks (DNN), enable automatic feature extraction and high-dimensional data processing, improving the ability to capture complex nonlinear relationships and spatial patterns from large and heterogeneous ecological datasets \citep{guisan2000predictive,elith2006novel,robinson2018correcting}. Given that the development and application of statistical model-based SDM have been extensively reviewed in previous studies, this study focuses specifically on machine learning (ML)-based SDM (ML-SDM), including traditional ML and DL approaches, to investigate their technological evolution and research trends \citep{elith2009species, guisan2000predictive} (Table \ref{tab:sdm_models}). Among these categories, DL-SDM refers to a specific class of ML-SDM that applies DL methodologies to species distribution modelling. Following the definition of DL, DL-SDM employ modular ML architectures that learn both decision functions and features for species distribution prediction in a layer-wise fashion. The key distinction of DL-SDM from TML-SDM lies in the use of multi-layer learning architectures that enable simultaneous learning of features and decision functions through a layer-wise process \citep{kellenberger2026performance, lecun2015deep}.
 
 For SDM that heavily relies on multi-source data, algorithmic methods, and computing technologies, a single disciplinary perspective is no longer sufficient to comprehensively grasp the technical development trajectory \citep{guisan2005predicting}. Therefore, a scientific bibliometric analysis based on literature data provides a data-driven research approach for systematically identifying research hotspots, technological evolution paths, and changes in knowledge structures \citep{li2022scientometric,chen2017science}. Moreover, previous studies have attempted to systematically synthesize the development of SDM. For instance, \cite{pecchi2019species} starting from the practical needs of forest management, explored datasets of species occurrence, climate and soil prediction variables, modeling algorithms, evaluation methods, and widely used software in SDM. \cite{vasconcelos2024advances} adopted a mixed review to summarize the most commonly used modeling methods in SDM, the trends of international cooperation, and technological trends. \cite{kroth2025habitat} focused on large aquatic plants in lakes and systematically evaluated the application characteristics of SDM in aquatic ecosystems. \cite{tumer2026two} reviewed SDM applied in forest ecosystems against the backdrop of climate change.
 
@@ -232,7 +239,7 @@ Most of these existing reviews focus on specific ecosystems, application scenari
 
 \begin{table}[htbp]
 \centering
-\caption{Representative modelling approaches illustrating the methodological transition from statistical model-based SDM to ML-SDM. Statistical models are included for historical context, while the present study focuses on ML-SDM, including traditional ML and DL approaches during 2006–2025. The listed studies represent influential SDM applications of each modelling approach, selected according to their relatively high TGCS or their historical importance as early implementations of these methods.}
+\caption{Representative modelling approaches illustrating the methodological transition from statistical model-based SDM to ML-SDM. Statistical models are included for historical context, while the present study focuses on traditional machine-learning and deep-learning approaches within ML-SDM. The listed methods are examples rather than an exhaustive classification of SDM approaches.}
 \label{tab:sdm_models}
 \resizebox{0.95\textwidth}{!}{
 \begin{tabular}{>{\centering\arraybackslash}p{0.3\textwidth}>{\centering\arraybackslash}p{0.3\textwidth}>{\centering\arraybackslash}p{0.3\textwidth}}
@@ -242,7 +249,7 @@ Most of these existing reviews focus on specific ecosystems, application scenari
 
 Generalized Linear Model \citep{austin1990measurement} & Maximum Entropy \citep{phillips2006maximum} & Transformer\citep{chen2024mitree}  \\
 
-Generalized Additive Model \citep{leathwick2006comparative} & Random Forest \citep{cutler2007random} & Convolutional Neural Networks \citep{zhang2020three} \\
+Generalized Additive Model \citep{leathwick2006comparative} & Random Forest \citep{cutler2007random} & Convolutional Neural Networks \citep{deneu2021convolutional} \\
 
 Logistic Regression Model \citep{franklin1998predicting} & Boosted Regression Trees \citep{elith2008working} & Deep Neural Network \citep{brun2024multispecies} \\
 
@@ -272,7 +279,7 @@ Autoregressive Model \citep{augustin1996autologistic} & Support Vector Machine \
 1. How have methodological approaches and research themes in ML-SDM evolved over time, and what major transitions characterize this development? 
 & Temporal co-word analysis \\
 
-2. What publication characteristics, major contributors, and ecological, technological, and collaborative factors have shaped the emergence, development, and global dissemination of ML-SDM?
+2. What publication characteristics, major contributors, and potential ecological, technological, and collaborative conditions are associated with the emergence, development, and global dissemination of ML-SDM?
 & General statistics, collaboration analysis, qualitative synthesis \\
 
 3. How has the methodological knowledge base of ML-SDM evolved over the past two decades? 
@@ -282,7 +289,7 @@ Autoregressive Model \citep{augustin1996autologistic} & Support Vector Machine \
 & Co-word evolution, representative studies, qualitative synthesis \\
 
 5. How does DL-SDM expand the modelling capability of traditional ML-SDM?
-& Co-word evolution, Representative studies, Qualitative synthesis \\
+& Co-word evolution, representative studies, qualitative synthesis \\
 
 6. What challenges limit the ecological reliability and practical application of DL-SDM?
 & Qualitative synthesis \\
@@ -294,31 +301,32 @@ Autoregressive Model \citep{augustin1996autologistic} & Support Vector Machine \
 
 \section{Materials and methods}
 
-This paper employs VOSviewer (version 1.6.20), HistCite Pro (version 2.1), RStudio (version 2026.01.0), and the Bibliometrix R package (version 5.2.1) with its Biblioshiny interface for bibliometric analysis and visualization. VOSviewer is used to construct and visualize keyword co-occurrence networks, co-citation networks, and bibliographic coupling networks. It provides effective visualization and interpretation of large-scale bibliometric networks structures and visualizing temporal information \citep{van2010software,van2014visualizing}. HistCite Pro is mainly used to calculate citation metrics such as Total Local Citation Score (TLCS) and Total Global Citation Score (TGCS), facilitating the identification of highly influential papers and research entities \citep{garfield2002algorithmic}. RStudio serves as the development environment for executing customized R scripts, which are used for the generation of customized bibliometric figures, including publication trends, collaboration networks, author productivity, and keyword evolution. The Bibliometrix R package and its Biblioshiny interface are used for bibliometric statistical analysis and for generating three-field plots and other descriptive bibliometric visualizations \citep{aria2017bibliometrix}. The workflow of this study is shown in Figure \ref{fig_mom0}.
+This paper employs VOSviewer (version 1.6.20), HistCite Pro (version 2.1), RStudio (version 2026.01.0), and the Bibliometrix R package (version 5.2.1) with its Biblioshiny interface for bibliometric analysis and visualization. VOSviewer is used to construct and visualize keyword co-occurrence networks, co-citation networks, and bibliographic coupling networks. It provides effective visualization and interpretation of large-scale bibliometric networks structures and visualizing temporal information \citep{van2010software,van2014visualizing}. HistCite Pro is mainly used to calculate citation metrics such as Total Local Citation Score (TLCS) and Total Global Citation Score (TGCS), facilitating the identification of highly cited publications and the characterization of citation patterns across research entities \citep{garfield2002algorithmic}. RStudio serves as the development environment for executing customized R scripts, which are used for the generation of customized bibliometric figures, including publication trends, collaboration networks, author productivity, and keyword evolution. The Bibliometrix R package and its Biblioshiny interface are used for bibliometric statistical analysis and for generating three-field plots and other descriptive bibliometric visualizations \citep{aria2017bibliometrix}. The workflow of this study is shown in Figure \ref{fig_mom0}.
 
 
 %%\begin{comment}
 \begin{figure}[htbp]
 	\centering 
-	\includegraphics[width=1\textwidth]{picture(updata)/1.pdf}	
-	\caption{Workflow of literature retrieval and bibliometric analysis} 
+	\includegraphics[width=1\textwidth]{picture(updata)/Figure1.pdf}	
+	\caption{Research framework illustrating the analytical workflow and potential enabling conditions associated with ML-SDM evolution.} 
 	\label{fig_mom0}%
 \end{figure}
 %%\end{comment}
 
 \subsection{Data collection}
 
-Web of science core collection (WOS) database is widely employed in bibliometric analysis research and can effectively reflect the development trends and knowledge structure of international academic research \citep{chen2017science,mongeon2016journal}.
+Web of Science Core Collection (WoS) is widely employed in bibliometric research and provides standardized bibliographic and citation information \citep{chen2017science,mongeon2016journal}. Previous cross-disciplinary comparisons have shown that the proportion of highly cited documents missing from Web of Science is substantially lower in the natural, life, and health sciences than in the social sciences and humanities \citep{martin2018coverage}. Therefore, WoS was selected as the bibliographic data source in this study to ensure consistency in bibliographic metadata and citation relationships.
 
-The search strategy for this article is: TS = ("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*") AND ("machine learning" OR "MaxEnt" OR "Random Forest" OR "deep learning" OR "Convolutional Neural Network" OR "Graph Neural Network" OR "Multilayer Perceptron" OR "Transformer"). Based on the above search strategy, 5788 relevant documents were retrieved and used to form the initial dataset. Since review papers often cite a large number of publications, they may cause unnecessary interference in the analysis. In addition, conference papers are generally considered less formal than journal articles. Therefore, we chose the type of research literature as Article and excluded other types. The time span covered 2006 to 2025. A total of 564 irrelevant papers were further excluded, leaving 5224 publications.
+The search strategy for this article is: TS = ("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*") AND ("machine learning" OR "MaxEnt" OR "Random Forest" OR "deep learning" OR "Convolutional Neural Network" OR "Graph Neural Network" OR "Multilayer Perceptron" OR "Transformer"). Based on the above search strategy, 5,788 documents were retrieved and used to form the initial dataset. Review papers were excluded because they mainly synthesize previously published studies and may differ from original research articles in citation characteristics. Conference papers were also excluded because their indexing and publication standards may vary across research fields. Therefore, only articles were retained for the bibliometric analysis. The time span covered 2006 to 2025. The year 2006 was selected as the starting year because sustained publication activity related to ML-SDM became evident from this period under the adopted search strategy. After applying the document type and publication year filters in WoS, 564 records were excluded, leaving 5,224 publications for the final analysis. No additional manual screening or duplicate-removal procedure was conducted.
+
 
 \subsection{Data analysis}
 
 After literature screening, a bibliometric framework was constructed to analyze the development and evolution of SDM. 
 
-(1) Research landscape and development drivers.
+(1) Research landscape and potential enabling conditions.
 
-A bibliometric analysis was conducted to characterize the overall research landscape and identify the major drivers underlying the development of ML-SDM. Annual publication output, citation trends, and the contributions of countries, institutions, authors, and journals were analyzed to evaluate research productivity and academic influence. Collaboration relationships among countries, authors, institutions, and journals were further examined to reveal global knowledge production and dissemination networks. These quantitative results were subsequently integrated with keyword evolution and qualitative synthesis to interpret the ecological, technological, and collaborative factors driving the emergence and global dissemination of ML-SDM.
+A bibliometric analysis was conducted to characterize the overall research landscape and identify potential ecological, technological, and collaborative conditions associated with the development of ML-SDM. Annual publication output, citation trends, and the contributions of countries, institutions, authors, and journals were analyzed to characterize research productivity, citation patterns, and participation in ML-SDM research. Collaboration relationships among countries, authors, institutions, and journals were further examined to reveal global knowledge production and dissemination networks. These quantitative results were subsequently integrated with keyword evolution and qualitative synthesis to interpret ecological, technological, and collaborative conditions potentially associated with the emergence and global dissemination of ML-SDM.
 
 (2) Methodological evolution and knowledge accumulation
 
@@ -336,7 +344,7 @@ Numerical indexes are first introduced to help readers understand key concepts i
 
 \subsubsection{Numerical indexes}
 
-For the majority of scholars, the impact factor (IF) is a well-known metric for measuring the influence of academic journals. It is a journal-level metric calculated from the average number of citations received by articles published in the journal during a specific period \citep{garfield2006history}. However, IF may be influenced by disciplinary differences, journal scope, and citation practices, and therefore cannot fully represent the scientific contribution of individual papers or research fields. TLCS and TGCS provide complementary citation-based measures for evaluating the influence of publications within and beyond a defined literature dataset \citep{mongeon2016journal,moed2005citation}. TLCS is the abbreviation for Local Citation Score, which describes the citation count obtained by a research article from the current data collection. TGCS is the abbreviation for Global Citation Score, referring to the number of times an article is cited from the entire data set \citep{garfield2009science}. In this study, the local data collection was obtained by searching the WOS for data that met specific search criteria. TGCS was used to reflect the overall influence of the papers across all disciplines, while TLCS depicted the citation situation within the SDM research field. Compared to a single citation metric, the combination of TGCS and TLCS can provide complementary information regarding the differences in the cross-disciplinary dissemination and internal recognition of research results \citep{fan2023data}.
+For the majority of scholars, the impact factor (IF) is a well-known metric for measuring the citation impact of academic journals. It is a journal-level metric calculated from the average number of citations received by articles published in a journal during a specific period \citep{garfield2006history}. However, IF may be influenced by disciplinary differences, journal scope, and citation practices and therefore should not be used as a direct measure of the scientific quality of individual papers or researchers. Citation-based indicators were used in this study to describe citation patterns within the analyzed literature and in the broader scientific literature \citep{mongeon2016journal,moed2005citation}. The TLCS represents the number of times a publication is cited by other publications within the literature collection analyzed in this study, whereas the TGCS represents the total number of citations received by a publication in the broader WoS database \citep{garfield2009science, fan2023data}. Accordingly, TLCS reflects citation frequency within the analyzed ML-SDM literature, whereas TGCS reflects broader citation visibility in the WoS database. Because citation counts accumulate over time, raw TLCS and TGCS values are strongly influenced by publication age. Earlier publications generally have longer citation windows and therefore more opportunities to accumulate citations than recently published studies. Consequently, direct comparisons of raw citation totals across publication years should be interpreted with caution. In this study, TLCS and TGCS are therefore treated as descriptive indicators of citation activity and scholarly visibility rather than direct measures of research quality or methodological importance. Citation frequency may provide indirect evidence of the extent to which a publication has been recognized, discussed, or used by subsequent research, but citation-based indicators alone cannot capture all dimensions of research quality or methodological contribution \citep{aksnes2019citations,hicks2015bibliometrie}. Accordingly, these indicators were used primarily to describe citation activity and scholarly visibility, while the methodological significance of representative studies was evaluated separately through qualitative examination of their substantive contributions.
 
 \subsubsection{Network-based methods}
 
@@ -346,7 +354,20 @@ The nodes and links in the co-citation network are the cited documents and the c
 
 Bibliographic coupling analysis takes the paper itself as the node. When two papers share common references, this indicates similarities in their methodological or intellectual foundations. As bibliographic coupling relationships are formed at publication, this method is particularly suitable for revealing current research structures and recent trends \citep{chen2017science,kessler1963bibliographic}.
 
-Keyword co-occurrence analysis is a thematic analysis method that focuses on the keywords of a paper as the research object. When two keywords appear in the same paper, it is considered that there is a co-occurrence relationship between them. The keyword co-occurrence network reflects the relationships among research topics and the distribution of research hotspots. It is an effective method for revealing the thematic structure and evolution of a research field. The research focus and its trend over time can be identified by analyzing the co-occurrence relationships of keywords \citep{aria2017bibliometrix}.
+Keyword co-occurrence analysis is a thematic analysis method that focuses on the keywords of a paper as the research object. When two keywords appear in the same paper, it is considered that there is a co-occurrence relationship between them. The keyword co-occurrence network reflects the relationships among research topics and the distribution of research hotspots. It is an effective method for revealing the thematic structure and evolution of a research field. The research focus and its trend over time can be identified by analyzing the co-occurrence relationships of keywords \citep{aria2017bibliometrix}. Before network construction, synonymous and variant keyword forms were standardized using a VOSviewer thesaurus file. The complete keyword-mapping file is available in the associated GitHub repository to support reproducibility.
+
+\subsubsection{Selection and methodological coding of representative studies and modelling approaches}
+
+Representative methodological studies were identified using a year-stratified, two-stage procedure that combined bibliometric candidate identification with independent content-based assessment \citep{zupic2015bibliometric, donthu2021conduct, linnenluecke2020conducting}. The procedure was designed to reduce the influence of differences in citation accumulation among publication years and to provide continuous coverage of methodological development during 2006-2025.
+
+(1) Candidate studies were identified separately for each publication year. Publications were ranked according to TGCS and TLCS. Studies appearing within the top five for both indicators in the same year were retained as candidates for methodological assessment. TGCS and TLCS were used only for candidate identification within each annual stratum. They were not treated as direct measures of research quality, methodological importance, or scientific contribution. The complete candidate set, together with publication year, TGCS, and TLCS, is provided in the associated data repository.
+
+(2) All candidate studies were independently assessed by two reviewers using predefined methodological eligibility criteria. A study was considered eligible when it made an explicit contribution to at least one aspect of ML-SDM methodology. Eligible contributions included: introduction or adaptation of a modelling framework; model calibration, complexity control, or parameter optimization; treatment of sampling bias, background data, or pseudo-absence selection; model evaluation, threshold selection, spatial validation, or transferability assessment; uncertainty assessment; representation or integration of spatial, remote-sensing, or other complex environmental data; and joint or multispecies modelling. Studies that only applied an established modelling approach to a specific species, taxonomic group, or geographic region were excluded when they did not provide substantive methodological development or evaluation. One representative methodological study was retained from each annual candidate set to ensure continuous temporal coverage across 2006--2025. The final selection was based on the clarity and relevance of the methodological contribution rather than citation rank alone. This annual selection was intended to represent methodological development over time rather than to identify the single most important study in each year.
+
+For each retained study, information was extracted using a standardized coding framework. Three items were recorded: modelling approach and data representation, methodological issue addressed, and principal methodological contribution. The two reviewers conducted the assessment and coding independently. Disagreements were resolved through discussion and consensus.
+
+Meanwhile, representative modelling approaches were synthesized from the selected methodological studies and additional methodological or comparative literature. Approaches were included when they represented distinct learning mechanisms or data-representation strategies and when their model-specific capabilities and constraints were sufficiently characterized in the literature. Closely related variants were grouped when they shared similar learning principles, whereas application-specific implementations were not considered independent methodological categories. Limitations common to most correlative SDMs were excluded from model-specific comparisons.
+
 
 \section{Results}
 
@@ -356,45 +377,46 @@ Keyword co-occurrence analysis is a thematic analysis method that focuses on the
 \begin{figure*}[htbp]
 	\centering 
 	\includegraphics[width=0.9\textwidth]{picture(updata)/3.1.pdf}	
-	\caption{Temporal evolution of ML-SDM research from 2006 to 2025. The figure illustrates the annual development of ML-SDM research in terms of publication output and citation impact. The x-axis represents publication year, whereas the y-axis indicates the TGCS, reflecting the cumulative number of citations received by publications from each year. The grey dashed line depicts the temporal trend of TGCS across the study period. Each bubble represents one publication year, with bubble area proportional to the annual number of publications, larger bubbles indicate higher research productivity in that year. Bubble color represents the TLCS, with the viridis color gradient indicating increasing TLCS values from dark purple to yellow, where brighter colors correspond to greater citation influence within the ML-SDM research field. The labels adjacent to bubbles indicate publication years. This visualization highlights temporal changes in research productivity, citation impact, and the evolving development trajectory of ML-SDM research. The divergence between increasing publication output and relatively lower TGCS and TLCS values in recent years reflects the shorter citation accumulation period of newly published studies.} 
+	\caption{Temporal evolution of ML-SDM research from 2006 to 2025. The figure illustrates annual changes in ML-SDM research in terms of publication output and accumulated citation patterns. The x-axis represents publication year, whereas the y-axis indicates TGCS, reflecting the cumulative number of citations received by publications from each year. The grey dashed line depicts the temporal variation in TGCS across the study period. Each bubble represents one publication year, with bubble area proportional to the annual number of publications; larger bubbles indicate higher publication output in that year. Bubble color represents TLCS, with the viridis color gradient indicating increasing accumulated TLCS values from dark purple to yellow. The labels adjacent to the bubbles indicate publication years. This visualization summarizes temporal changes in publication output and accumulated citation patterns in ML-SDM research. The divergence between increasing publication output and relatively lower TGCS and TLCS values in recent years reflects the shorter citation accumulation period of newly published studies.} 
 	\label{fig_mom1}%
 \end{figure*}
 %%\end{comment}
 
-Annual publication output provides an important indicator of research activity, whereas citation-based metrics reflect the academic influence of a research field\citep{donthu2021conduct}. In this subsection, we analyzed the annual publication trends and temporal variations in TLCS and TGCS to characterize the development dynamics and research impact of ML-SDM (Figure \ref{fig_mom1}). The annual number of publications represents the number of SDM-related records indexed in the WoS database each year. TLCS and TGCS were used to evaluate citation influence within the research field and across the broader scientific community, respectively.
+Annual publication output provides an indicator of research activity, whereas citation-based metrics describe patterns of citation accumulation and scholarly visibility \citep{donthu2021conduct}. In this subsection, we analyzed annual publication trends and temporal variations in TLCS and TGCS to characterize publication dynamics and citation accumulation patterns in ML-SDM research (Figure \ref{fig_mom1}). The annual number of publications represents the number of SDM-related records indexed in the WoS database each year. TLCS and TGCS were used to describe citation frequency within the analyzed ML-SDM literature and broader citation visibility in the Web of Science database, respectively.
 
 The results showed that the annual publication output in the ML-SDM research field increased continuously from 2006 to 2025. The number of publications increased from 5 papers in 2006 to 821 papers in 2025, indicating a rapid expansion of research activity. During 2006–2010, the publication output remained relatively low, increasing gradually from 5 to 63 papers. After 2011, the annual number of publications continued to increase and exceeded 100 papers for the first time in 2011. The publication output further increased, reaching 222 papers in 2016 and 294 papers in 2019. After 2020, the research output entered a period of rapid growth, with annual publications increasing from 387 papers in 2020 to 821 papers in 2025. The highest publication output during the study period was recorded in 2025 (Figure \ref{fig_mom1},Appendix \ref{tab:3.1pro}).
 
-Although the number of publications reflects research output, it does not directly represent the academic impact of publications. The influence of research outcomes can be evaluated using TLCS and TGCS. Particularly, TGCS values are generally higher than TLCS values because TGCS considers citations from all publications indexed in the database, while TLCS only includes citations among publications within the research field.
+Although publication counts describe research output, citation counts provide a different perspective on the extent to which publications have been cited within and beyond the analyzed literature. TGCS values were generally higher than TLCS values because TGCS includes citations recorded in the broader WoS database, whereas TLCS only includes citations originating from publications within the analyzed ML-SDM dataset. Because both indicators accumulate over time, differences among publication years should be interpreted in light of their unequal citation windows.
 
-Compared with the continuous increase in publication output, TGCS showed considerable fluctuations during the study period. The highest TGCS value was observed in 2006 (16,902 citations), followed by a decline to 3,951 citations in 2008. From 2009 to 2011, TGCS gradually recovered and reached 13,138 citations in 2011. It increased again in 2014, reaching another high value of 14,594 citations. After 2015, TGCS showed a moderate recovery, increasing from 6,511 citations in 2015 to more than 11,000 citations during 2020–2021. However, TGCS declined continuously after 2021 and decreased to 1,674 citations in 2025. TLCS also showed considerable variations across different years. The highest TLCS value was observed in 2006 (4,233 citations), followed by a gradual decline during 2007–2010. TLCS increased again in 2011, reaching 3,295 citations, and reached a second peak in 2014 (2,483 citations). After 2015, TLCS generally showed a decreasing trend, declining from 1,453 citations in 2016 to 31 citations in 2025. The changes in bubble colors further indicate that earlier publications generally had higher local citation impacts, while recent publications showed relatively lower TLCS values (Figure \ref{fig_mom1}). 
+Compared with the continuous increase in publication output, TGCS showed considerable fluctuations during the study period. The highest TGCS value was observed in 2006 (16,902 citations), followed by a decline to 3,951 citations in 2008. From 2009 to 2011, TGCS increased to 13,138 citations in 2011 and reached another high value of 14,594 citations in 2014. After 2015, TGCS increased from 6,511 citations in 2015 to more than 11,000 citations during 2020–2021, before declining to 1,674 citations in 2025. TLCS also varied substantially across years. The highest TLCS value was observed in 2006 (4,233 citations), followed by lower values during 2007–2010. TLCS increased again in 2011 to 3,295 citations and reached 2,483 citations in 2014. After 2015, accumulated TLCS values were generally lower, decreasing from 1,453 citations in 2016 to 31 citations in 2025. Earlier publication years generally accumulated higher TLCS values, whereas recent publication years showed lower accumulated citation totals, partly reflecting their shorter citation windows (Figure \ref{fig_mom1}).
 
-By comparing the temporal variations of TGCS and TLCS, three periods with simultaneous increases in both citation indicators were identified during the study period. The first and most prominent peak occurred in 2006, when TGCS and TLCS reached their highest values (16,902 and 4,233 citations, respectively). Subsequently, both indicators showed synchronous increases in 2011 and 2014. In 2011, TGCS and TLCS reached 13,138 and 3,295 citations. In 2014, they reached 14,594 and 2,483 citations. In addition, a notable increase in TGCS was observed around 2021, although the corresponding TLCS value remained relatively low. This indicates that publications during this period received considerable attention from the broader scientific community, but their citation influence within the ML-SDM field was relatively limited.
+By comparing the temporal variations of TGCS and TLCS, several publication years with relatively high accumulated citation totals were identified. The most prominent values occurred in 2006, when TGCS and TLCS reached 16,902 and 4,233 citations, respectively. Relatively high values were also observed in 2011 and 2014, with TGCS/TLCS values of 13,138/3,295 and 14,594/2,483, respectively. In addition, TGCS increased notably around 2021, whereas the corresponding accumulated TLCS remained lower than those of earlier peak years. Given the shorter citation window of publications from this period, this difference should not be interpreted as evidence of lower importance or weaker recognition within the ML-SDM field.
 
-A further review of highly cited publications associated with these peak periods revealed that several representative studies contributed substantially to citation accumulation during these stages. During the major peaks in 2006, 2011, and 2014, representative publications included "Maximum entropy modeling of species geographic distributions" \citep{phillips2006maximum}, which received 14,211 TGCS and 3,443 TLCS in 2006; "A statistical explanation of MaxEnt for ecologists" \citep{elith2011statistical}, which received 5,479 TGCS and 1,759 TLCS in 2011; and “ENMeval: An R package for conducting spatially independent evaluations and estimating optimal model complexity for MAXENT ecological niche models” \citep{muscarella2014enm}, which received 1,832 TGCS and 618 TLCS, as well as “Spatial filtering to reduce sampling bias can improve the performance of ecological niche models” \citep{boria2014spatial}, which received 1,190 TGCS and 354 TLCS in 2014. These papers showed high citation performance and were closely associated with the major citation peaks observed in ML-SDM research. In addition, studies such as “ENMeval 2.0: Redesigned for customizable and reproducible modelling of species’ niches and distributions” \citep{kass2021enmeval}, which received 639 TGCS and 188 TLCS, and “ENMTools 1.0: an R package for comparative ecological biogeography” \citep{warren2021enmtools}, which received 366 TGCS and 76 TLCS, contributed to the increase in citation impact around 2021. These studies received considerable attention from both the broader scientific community and the ML-SDM research field.
+A further review of highly cited publications associated with these peak years showed that a small number of studies contributed substantially to the total citations accumulated by papers published in those years. In 2006, “Maximum entropy modeling of species geographic distributions” \citep{phillips2006maximum} received 14,211 TGCS and 3,443 TLCS, accounting for a large proportion of the citation totals accumulated by publications from that year. In 2011, “A statistical explanation of MaxEnt for ecologists” \citep{elith2011statistical} received 5,479 TGCS and 1,759 TLCS and similarly contributed substantially to the relatively high citation totals observed for that publication year. In 2014, “ENMeval: An R package for conducting spatially independent evaluations and estimating optimal model complexity for MAXENT ecological niche models” \citep{muscarella2014enm} received 1,832 TGCS and 618 TLCS, while “Spatial filtering to reduce sampling bias can improve the performance of ecological niche models” \citep{boria2014spatial} received 1,190 TGCS and 354 TLCS. These highly cited studies were associated with major methodological developments in ML-SDM, including MaxEnt modelling, statistical interpretation, model evaluation, parameter optimization, and sampling-bias correction. A similar pattern was observed around 2021. “ENMeval 2.0: Redesigned for customizable and reproducible modelling of species’ niches and distributions” \citep{kass2021enmeval} received 639 TGCS and 188 TLCS, while “ENMTools 1.0: an R package for comparative ecological biogeography” \citep{warren2021enmtools} received 366 TGCS and 76 TLCS. Together, these studies contributed to the relatively high accumulated citation totals observed for publications from this period. Overall, the citation peaks were therefore strongly influenced by a limited number of highly cited studies, several of which addressed methodological developments in ML-SDM.
 
 \subsection{Main countries}
 
 %%\begin{comment}
 \begin{figure*}[htbp]
 	\centering 
-	\includegraphics[width=0.9\textwidth]{picture(updata)/3.2.1.pdf}	
-	\caption{Global distribution of publications and international collaboration networks in ML-SDM research. Countries are displayed using a continuous cartogram, where country areas are resized according to publication counts. The color gradient represents the number of publications per country (viridis color scale; square-root transformed), with brighter colors indicating higher research output. Red curved edges represent international co-authorship relationships extracted from the country collaboration matrix. Only collaboration links with a strength >5 were retained, and edge width indicates collaboration strength, with thicker lines representing more frequent collaborations. The network was generated by standardizing country information to ISO3 codes and integrating bibliographic collaboration data with global spatial boundaries.} 
+	\includegraphics[width=1\textwidth]{picture(updata)/3.2.pdf}	
+	\caption{Global distribution of publications and international collaboration networks in ML-SDM research. Countries are displayed using a moderated contiguous cartogram. Target country areas were calculated by weighted geometric interpolation between the original projected-area shares and publication-output shares, using a transformation strength of $\lambda = 0.10$, and country polygons were subsequently transformed using the \texttt{cartogram\_cont()} function in the R \texttt{cartogram} package. This partial transformation allows publication output to influence country area while approximately preserving geographic adjacency and country recognizability. The colour gradient represents the number of publications per country using a square-root-transformed viridis scale, with brighter colours indicating higher publication output. Red curved edges represent international co-authorship relationships extracted from the country collaboration matrix. Only collaboration links with a strength greater than 20 are displayed, and thicker lines indicate stronger collaboration. Network positions were recalculated from the transformed country geometries so that the collaboration links and country polygons use the same spatial framework.} 
 	\label{fig_mom2}%
 \end{figure*}
+
 %%\end{comment}
 
 Country-level publication patterns were analyzed based on author affiliations using the full counting method. A country was included in the analysis when it appeared in the affiliation information of at least one author. The results showed clear differences in publication output among countries in ML-SDM research. The United States and China were the two most productive countries, with 895 and 845 publications, respectively. They were followed by Brazil (257 publications), India (241 publications), Australia (226 publications), the United Kingdom (190 publications), and Mexico (184 publications). Other countries, including Iran, Germany, Spain, Italy, and Canada, also showed considerable research participation, although their publication outputs were lower than those of the leading countries (Figure \ref{fig_mom2}, Appendix \ref{fig_3.2.2pro}).
 
-The SCP-MCP analysis further revealed differences in domestic and international collaboration patterns among countries. The United States and China showed high numbers of both single-country publications (SCP) and multiple-country publications (MCP), indicating strong domestic research foundations and extensive international collaboration in ML-SDM research. The United States had the highest number of internationally collaborative publications, highlighting its important role in the global ML-SDM collaboration network. China also showed a high level of international collaboration, although a larger proportion of its publications were single-country publications, suggesting that domestic collaboration remained an important contribution pathway. In comparison, countries such as Australia, the United Kingdom, Canada, and Germany had lower overall publication outputs but higher proportions of MCP publications, indicating their strong participation in international collaboration networks (Appendix \ref{fig_3.2.2pro}).
+The SCP-MCP analysis further revealed differences in domestic and international collaboration patterns among countries. The United States and China showed high numbers of both single-country publications (SCP) and multiple-country publications (MCP), reflecting high levels of domestic publication output and international collaboration involvement in ML-SDM research. The United States had the highest number of internationally collaborative publications, indicating its central position within the observed global ML-SDM collaboration network. China also showed a high level of international collaboration, although a larger proportion of its publications were single-country publications, suggesting that domestic publications represented an important component of its ML-SDM research output. In comparison, countries such as Australia, the United Kingdom, Canada, and Germany had lower overall publication outputs but higher proportions of MCP publications, indicating their strong participation in international collaboration networks (Appendix \ref{fig_3.2.2pro}).
 
-The international collaboration network showed that ML-SDM research has developed into a highly interconnected global research field. Extensive collaboration links were observed among the major contributing countries, with particularly strong connections among the United States, China, European countries, and Australia. These patterns indicate that the development of ML-SDM is supported not only by national research activities but also by cross-regional scientific collaboration (Figure \ref{fig_mom2}). It should be noted that differences in publication output mainly reflect the level of participation and visibility of countries in ML-SDM research rather than direct differences in national research capacity or efficiency.
+The international collaboration network showed that ML-SDM research has developed into a highly interconnected global research field. Extensive collaboration links were observed among the major contributing countries, with particularly strong connections among the United States, China, European countries, and Australia. These patterns indicate that ML-SDM research involves both national research activities and extensive cross-regional scientific collaboration (Figure \ref{fig_mom2}). It should be noted that publication output primarily reflects differences in research participation, publication activity, and visibility within the ML-SDM literature, rather than directly representing national research capacity, methodological quality, or research efficiency.
 
 \subsection{Active institutions}
 
 \begin{table}[htbp]
 \centering
-\caption{Top ten institutions by different indicators. Recs represents the number of publications, TLCS represents the total local citation score, and TGCS represents the total global citation score. Institutional information was extracted and standardized based on HistCite analysis. Each publication was assigned to all institutions listed in the affiliations of its co-authors.}
+\caption{Top ten institutions ranked by publication output, TLCS, and TGCS. Recs represents the number of publications associated with each institution, TLCS represents the accumulated local citation score within the analyzed ML-SDM literature, and TGCS represents the accumulated global citation score recorded in the WoS database. Institutional information was extracted using HistCite. Full counting was applied; therefore, publications involving multiple institutions were counted once for each affiliated institution.}
 
 \begin{subtable}{\textwidth}
 \centering
@@ -475,19 +497,19 @@ Stanford Univ & 15 & 1762 & 5729\\
 \label{tab:institutions}
 \end{table}
 
-Each institution plays a significant role in analyzing global trends in the academic field. Based on HistCite analysis, institutional information was extracted from author affiliations, and a total of 6079 institutions were identified from the 5224 publications. The institutional contribution was evaluated using three indicators: publications, TLCS, and TGCS. The top ten institutions ranked by these indicators are presented in Table \ref{tab:institutions}.
+Based on HistCite analysis, institutional information was extracted from author affiliations, and a total of 6079 institutions were identified from the 5224 publications. Institutional publication and citation patterns were characterized using three indicators: publications, TLCS, and TGCS. The top ten institutions ranked by these indicators are presented in Table \ref{tab:institutions}.
 
-Regarding publication productivity, the top ten institutions contributed 869 publications, accounting for 16.6\% of the total literature analyzed in this study. The Chinese Academy of Sciences ranked first with 304 publications, followed by the National Autonomous University of Mexico with 96 publications and the University of Florida with 76 publications. Other highly productive institutions included Beijing Forestry University with 67 publications, the US Geological Survey with 65 publications, the University of Kansas with 59 publications, the US Forest Service with 53 publications, CSIC and Nanjing Forestry University, each with 51 publications, and Colorado State University with 47 publications (Table \ref{tab:institutions1}).
+Regarding publication productivity, the Chinese Academy of Sciences ranked first with 304 publications, followed by the National Autonomous University of Mexico with 96 publications and the University of Florida with 76 publications. Other highly productive institutions included Beijing Forestry University with 67 publications, the US Geological Survey with 65 publications, the University of Kansas with 59 publications, the US Forest Service with 53 publications, CSIC and Nanjing Forestry University, each with 51 publications, and Colorado State University with 47 publications (Table \ref{tab:institutions1}).
 
-From the perspective of TLCS, institutional influence showed a different pattern from publication output. AT\&T Labs Research ranked first with a TLCS of 6,650 despite publishing only five papers, followed by the American Museum of Natural History with a TLCS of 5,969 and CUNY City College with a TLCS of 4,729. Other institutions with high local citation impact included Princeton University with a TLCS of 4,301, the University of Melbourne with 3,551, SUNY Stony Brook with 2,523, the University of Kansas with 2,179, the Western Australian Department of Environment and Conservation with 1,831, Stanford University with 1,762, and Yahoo Labs with 1,757 (Table \ref{tab:institutions2}).
+From the perspective of TLCS, institutional citation patterns differed from those based on publication output. AT\&T Labs Research ranked first with a TLCS of 6,650 despite publishing only five papers, followed by the American Museum of Natural History with a TLCS of 5,969 and CUNY City College with a TLCS of 4,729. Other institutions with relatively high TLCS values included Princeton University with 4,301, the University of Melbourne with 3,551, SUNY Stony Brook with 2,523, the University of Kansas with 2,179, the Western Australian Department of Environment and Conservation with 1,831, Stanford University with 1,762, and Yahoo Labs with 1,757 (Table \ref{tab:institutions2}).
 
-The TGCS ranking was generally consistent with the TLCS ranking. AT\&T Labs Research achieved the highest TGCS of 24,615, followed by the American Museum of Natural History with 22,358 and CUNY City College with 18,064. Princeton University recorded a TGCS of 17,255, followed by the University of Melbourne with 14,111, the University of Kansas with 9,941, SUNY Stony Brook with 8,293, the Chinese Academy of Sciences with 7,096, the Western Australian Department of Environment and Conservation with 5,813, and Stanford University with 5,729 (Table \ref{tab:institutions3}).
+The TGCS ranking was generally consistent with the TLCS ranking. AT\&T Labs Research recorded the highest TGCS of 24,615, followed by the American Museum of Natural History with 22,358 and CUNY City College with 18,064. Princeton University recorded a TGCS of 17,255, followed by the University of Melbourne with 14,111, the University of Kansas with 9,941, SUNY Stony Brook with 8,293, the Chinese Academy of Sciences with 7,096, the Western Australian Department of Environment and Conservation with 5,813, and Stanford University with 5,729 (Table \ref{tab:institutions3}).
 
 \subsection{Active journals}
 
 \begin{table}[!htbp]
 \centering
-\caption{Top Twenty Journals by TGCS. The ranking based on TGCS shows high consistency with those based on publication count and TLCS. TGCS was selected as the ranking criterion because it provides a comprehensive evaluation of global citation impact while capturing journals with both high productivity and academic influence.}
+\caption{Top twenty journals ranked by TGCS. Recs denotes the number of ML-SDM publications, while TLCS and TGCS denote the accumulated local and global citation scores, respectively. Journals were ranked by TGCS to summarize the distribution of ML-SDM publications across journals with relatively high broader citation visibility; Recs and TLCS are provided as complementary descriptive information.}
 \resizebox{\textwidth}{!}{
 \label{tab:top20_journals}
 \begin{tabular}{lccc lccc}
@@ -521,66 +543,93 @@ JOURNAL OF APPLIED ECOLOGY & 30 & 252 & 1961 \\
 }
 \end{table}
 
-Journals are generally regarded as channels for research results and academic activities \citep{hu2019global}. Table \ref{tab:top20_journals} presents the top twenty journals ranked by TGCS in the field of ML-SDM research. Overall, publications related to ML-SDM are mainly distributed among leading journals in ecology, biogeography, biodiversity conservation, and environmental sciences. According to the TGCS ranking, Ecological Modelling exhibited the highest global influence, publishing 96 papers and achieving a TGCS of 21,008 together with a TLCS of 4,866, indicating that this journal has contributed substantially to both research productivity and citation impact. Diversity and Distributions ranked among the most productive journals, with 132 publications, a TGCS of 16,569, and a TLCS of 4,053, demonstrating its important role in species distribution and biodiversity-related research.
+Journals are generally regarded as important channels for disseminating research findings and academic activities \citep{hu2019global}. Table \ref{tab:top20_journals} presents the top twenty journals ranked by TGCS in ML-SDM research. Overall, ML-SDM publications are mainly distributed among journals in ecology, biogeography, biodiversity conservation, and environmental sciences. According to the TGCS ranking, Ecological Modelling had the highest accumulated TGCS, with 96 publications, a TGCS of 21,008, and a TLCS of 4,866, showing both substantial publication output and high citation visibility. Diversity and Distributions also showed relatively high publication and citation counts, with 132 publications, a TGCS of 16,569, and a TLCS of 4,053.
 
-From the perspective of publication output, several journals showed high productivity, including Ecology and Evolution, which published 220 papers, PLOS ONE, which published 159 papers, and Global Ecology and Conservation, which published 108 papers. These multidisciplinary ecological journals have provided important publication platforms for ML-SDM research. However, publication volume was not always consistent with citation impact. Some journals achieved substantial academic influence despite relatively fewer publications. For example, Global Change Biology published only 43 papers but received 3,740 citations, indicating that studies published in this journal often focus on emerging topics such as species distribution prediction under climate change scenarios and have attracted considerable global attention. Similarly, Biological Conservation and Ecography also demonstrated high citation impacts, highlighting their important roles in biodiversity conservation, biogeography, and ecological modelling research (Table \ref{tab:top20_journals}).
+From the perspective of publication output, several journals showed high productivity, including Ecology and Evolution, which published 220 papers, PLOS ONE, which published 159 papers, and Global Ecology and Conservation, which published 108 papers. These multidisciplinary ecological journals represented major publication channels for ML-SDM research. However, publication volume was not always consistent with accumulated citation counts. Some journals showed relatively high citation visibility despite having fewer ML-SDM publications. For example, Global Change Biology published 43 papers but accumulated a TGCS of 3,740. Similarly, Biological Conservation and Ecography also showed relatively high accumulated TGCS values in relation to their publication volumes (Table \ref{tab:top20_journals}).
 
-Overall, the TGCS ranking indicates that ML-SDM research is not limited to highly productive journals but is also supported by high-impact journals with strong methodological innovation and ecological influence. These journals have played a key role in advancing ML approaches, ecological prediction models, and biodiversity conservation applications.
+Overall, the journal distribution indicates that ML-SDM research has been disseminated through journals with different publication and citation profiles. Some journals are characterized by high publication output, whereas others have fewer publications but relatively high accumulated citation counts. These patterns reflect the broad dissemination of ML-SDM research across ecology, biogeography, biodiversity conservation, and environmental science journals.
 
+\subsection{Author publication and citation patterns}
 
-\subsection{Important authors}
-
-\begin{figure*}
-	\centering 
-	\includegraphics[width=0.9\textwidth]{picture(updata)/3.5.1.pdf}	
-	\caption{Top 10 Authors' Publication Timeline Chart.
-    The top 10 authors were selected based on their total number of publications during the study period (2006–2025). Each bubble represents an author's publication activity in a specific year, with the bubble size indicating the number of articles published by the author in that year (N. Articles). Bubble color represents the total citation count of publications associated with the author in that year (Total citations). Lines connecting bubbles indicate the temporal continuity of each author's research output. Larger and brighter-colored bubbles indicate years with higher publication productivity and greater citation impact.} 
-	\label{fig_mom4}%
-\end{figure*}
-
+%%\begin{comment}
 \begin{figure*}[htbp]
-	\centering 
-	\includegraphics[width=0.9\textwidth]{picture(updata)/3.5.2.pdf}	
-	\caption{Impact assessment of the top 20 authors in ML-SDM research based on local and global citation performance.
-    The top 20 authors were selected according to a composite impact index calculated as the sum of standardized TLCS and TGCS. Each bubble represents an author, with the x-axis and y-axis showing TGCS and TLCS values, respectively, on logarithmic scales. Bubble size indicates the number of publications contributed by each author, whereas bubble color represents the composite impact index, with warmer colors indicating higher overall citation impact. Authors with higher positions along both axes exhibit stronger influence within the ML-SDM research field and in the broader scientific community.} 
-	\label{fig_mom5}%
+    \centering
+
+    % (a)
+    \begin{subfigure}{\textwidth}
+        \centering
+        \includegraphics[
+            width=0.9\textwidth,
+            trim=20 10 10 10,
+            clip
+        ]{picture(updata)/3.5.1.pdf}
+        \caption{}
+        \label{fig_mom4}
+    \end{subfigure}
+
+    \vspace{0cm}
+
+    % (b)
+    \begin{subfigure}{\textwidth}
+        \centering
+        \includegraphics[
+            width=0.8\textwidth,
+            trim=10 10 10 10,
+            clip
+        ]{picture(updata)/3.5.2(2).pdf}
+        \caption{}
+        \label{fig_mom5}
+    \end{subfigure}
+
+    \vspace{0cm}
+
+    \caption{
+    Author publication and citation patterns in ML-SDM research.
+    \textbf{(a)} Publication timeline of the top 10 authors selected based on
+    their total number of publications during 2006--2025. Each bubble represents an author's publication activity in a specific year, with the bubble size indicating the number of articles published by the author in that year (N. Articles). Bubble color represents the total citation count of publications associated with the author in that year (Total citations). Lines connecting bubbles indicate the temporal continuity of each author's research output. Larger bubbles indicate higher annual publication output, whereas brighter colors indicate higher accumulated citation counts for the publications associated with each author in that year.
+    \textbf{(b)} Author-level publication and citation patterns. Authors included in the figure were those simultaneously ranked among the top 20 by TGCS and the top 20 by TLCS. Each bubble represents an author, with the x-axis and y-axis showing accumulated TGCS and TLCS, respectively, on logarithmic scales. Bubble size represents the number of publications associated with each author.
+    }
+    \label{fig:author_analysis}
 \end{figure*}
+%%\end{comment}
 
-Core author analysis is an important method in bibliometric research for identifying the dominant forces of research and academic influence. Researchers entering this field can quickly identify research hotspots by examining the publications of leading authors \citep{xie2020data}. Among the 5224 articles analyzed in this paper, a total of 20677 authors participated in the research.
+Author-level bibliometric analysis provides a descriptive view of research participation, publication activity, and citation patterns within a scientific field \citep{xie2020data}. Among the 5,224 articles analyzed in this study, a total of 20,677 authors were identified.
 
-The publication timeline of the top 10 productive authors showed distinct differences in research activity patterns during 2006–2025. Peterson AT had the longest research duration and the highest publication output among the selected authors, with publications recorded from 2007 to 2025 and a total of 38 articles. His research activity was relatively continuous throughout the study period, with several publication peaks observed in 2014, 2017, 2019, and 2021. Rödder D ranked second in productivity with 29 publications, showing active contributions mainly after 2009. Kumar S also maintained continuous publication activity after 2010, with several highly productive years between 2014 and 2021. Several authors showed a recent increase in publication activity. Liu Y had limited publications before 2020 but showed a rapid increase during 2021–2025, with the largest annual outputs occurring in the last five years. In contrast, some early influential authors, such as Peterson AT and Rödder D, showed longer-term contributions across multiple research stages. Overall, the publication timeline indicated a transition from contributions by a small number of early pioneers to broader participation by researchers in recent years (Figures \ref{fig_mom4}).
+The publication timeline of the top 10 productive authors showed distinct differences in research activity patterns during 2006–2025. Peterson AT had the longest research duration and the highest publication output among the selected authors, with publications recorded from 2007 to 2025 and a total of 38 articles. His research activity was relatively continuous throughout the study period, with several publication peaks observed in 2014, 2017, 2019, and 2021. Rödder D ranked second in productivity with 29 publications, showing active contributions mainly after 2009. Kumar S also maintained continuous publication activity after 2010, with several highly productive years between 2014 and 2021. Several authors showed a recent increase in publication activity. Liu Y had limited publications before 2020 but showed a rapid increase during 2021–2025, with the largest annual outputs occurring in the last five years. In contrast, some authors active during the earlier stages, such as Peterson AT and Rödder D, maintained publication activity across a longer portion of the study period. Overall, the publication timeline shows that ML-SDM research expanded from a relatively small group of repeatedly active authors in the earlier period to broader author participation in recent years (Figures \ref{fig_mom4}).
 
-The citation impact analysis based on TGCS and TLCS further revealed differences among highly productive authors. Phillips SJ exhibited the highest citation performance, reaching 22,269 TGCS and 6,004 TLCS. Anderson RP ranked second with 19,037 TGCS and 5,011 TLCS. Schapire RE and Elith J also showed strong citation influence, with TGCS values of approximately 13,000 and 11,500, respectively. These authors occupied the upper-right region of the citation impact plot, indicating both high global recognition and strong influence within the ML-SDM research community. Peterson AT showed a different pattern from the most highly cited authors. He had the largest publication volume among the top authors, with 38 publications, and achieved high citation performance with 8,715 TGCS and 1,987 TLCS. This indicates sustained research productivity and long-term academic influence. Other authors, including Dudík M, Graham CH, Yates CJ, and Hijmans RJ, also showed considerable citation impact, with TGCS values ranging from approximately 5,500 to 8,000. Their positions in the middle and upper regions of the plot demonstrate their important contributions to ML-SDM methodology and ecological applications (Figures \ref{fig_mom5}).
+The analysis of TGCS and TLCS showed differences in accumulated citation patterns among the selected authors. Phillips SJ had the highest citation totals, with 22,269 TGCS and 6,004 TLCS, followed by Anderson RP with 19,037 TGCS and 5,011 TLCS. Schapire RE and Elith J also showed relatively high accumulated citation counts, with TGCS values of approximately 13,000 and 11,500, respectively. These authors were positioned toward the upper-right region of the plot, reflecting relatively high values of both TGCS and TLCS. Peterson AT showed a different publication–citation pattern, with the largest publication output among the selected authors (38 publications), together with 8,715 TGCS and 1,987 TLCS. Other authors, including Dudík M, Graham CH, Yates CJ, and Hijmans RJ, also showed relatively high accumulated citation counts, with TGCS values ranging from approximately 5,500 to 8,000 (Figures \ref{fig_mom5}).
 
 
 \subsection{The interconnection structure of multi-level research subjects}
 
+%%\begin{comment}
 \begin{figure*}
     \centering
     \begin{subfigure}{0.9\textwidth}
         \centering
         \includegraphics[width=\linewidth]{picture(updata)/3.6.1.pdf}
-        \caption{Country–author–institution collaboration network}
+        \caption{Country–author–institution relationships}
         \label{fig_mom7}
     \end{subfigure}
     \hfill
     \begin{subfigure}{0.9\textwidth}
         \centering
         \includegraphics[width=\linewidth]{picture(updata)/3.6.2.pdf}
-        \caption{Country-author-journal collaboration network}
+        \caption{Country–author–journal relationships}
         \label{fig_mom8}
     \end{subfigure}
-    \caption{Three-field plots illustrating the relationships among countries, authors, affiliations, and sources in ML-SDM research. The plots were generated using the Biblioshiny interface of the Bibliometrix R package. The three-field analysis was performed by selecting the top 10 items for each field based on their occurrence frequencies, including authors, countries, affiliations, and sources. The first plot represents the relationships among author countries (AU\_CO), authors (AU), and institutional affiliations (AU\_UN), while the second plot shows the relationships among author countries (AU\_CO), authors (AU), and publication sources (SO). Each rectangle represents an individual entity within a field, and its height is proportional to the occurrence frequency of that entity. The connecting flows indicate relationships between adjacent fields, with wider flows representing stronger associations. This filtering highlights the most relevant collaboration and knowledge dissemination patterns among countries, researchers, institutions, and journals.}
+    \caption{Three-field plots illustrating the relationships among countries, authors, affiliations, and sources in ML-SDM research. The plots were generated using the Biblioshiny interface of the Bibliometrix R package. The three-field analysis was performed using up to the top 10 items in each field based on their occurrence frequencies, including authors, countries, affiliations, and sources. The first plot represents the relationships among author countries (AU\_CO), authors (AU), and institutional affiliations (AU\_UN), while the second plot shows the relationships among author countries (AU\_CO), authors (AU), and publication sources (SO). Each rectangle represents an individual entity within a field, and its height is proportional to the occurrence frequency of that entity. The connecting flows indicate relationships between adjacent fields, with wider flows representing stronger associations. This filtering highlights the most relevant collaboration and knowledge dissemination patterns among countries, researchers, institutions, and journals.}
     \label{fig_mom_7&8}
 \end{figure*}
+%%\end{comment}
 
 The three-field analysis revealed the main relationships among countries, authors, affiliations, and publication sources in ML-SDM research. In the country–author–affiliation plot, the United States showed the strongest contribution and was connected with the largest number of productive authors and institutions. Peterson AT was the most prominent author associated with the United States, followed by da Silva RS, Kumar S, and Rödder D. These authors showed broad links with multiple countries and institutions, indicating their central roles in international research collaboration (Figures \ref{fig_mom_7&8}).
 
 In figure \ref{fig_mom7}, the Chinese Academy of Sciences, United States Department of the Interior, United States Department of Agriculture, Universidad Nacional Autónoma de México, and Centre National de la Recherche Scientifique were among the important affiliations linked with core authors. The connections between countries, authors, and institutions showed that ML-SDM research involved extensive international participation, with strong contributions from North America, Europe, South America, and Asia.
 
-Figure \ref{fig_mom8} showed the main pathways of knowledge dissemination through scientific journals. Authors from the United States, Germany, China, and Brazil contributed substantially to publications in major journals. Ecological Informatics, Ecology and Evolution, Scientific Reports, PLOS ONE, Ecological Modelling, Journal of Biogeography, Global Ecology and Conservation, Diversity and Distributions, and Biological Conservation were the main publication sources connected with core authors. Among them, Ecological Informatics and Ecology and Evolution showed frequent links with multiple influential authors, indicating their important roles in publishing ML-SDM-related studies.
+Figure \ref{fig_mom8} illustrated the relationships between core authors and major publication sources in ML-SDM research. Authors from the United States, Germany, China, and Brazil contributed substantially to publications in major journals. Ecological Informatics, Ecology and Evolution, Scientific Reports, PLOS ONE, Ecological Modelling, Journal of Biogeography, Global Ecology and Conservation, Diversity and Distributions, and Biological Conservation were the main publication sources connected with core authors. Among them, Ecological Informatics and Ecology and Evolution showed frequent links with multiple influential authors, indicating their frequent associations with ML-SDM-related publications.
 
-Overall, the three-field analysis demonstrated that ML-SDM research was characterized by strong international collaboration and diverse publication channels. A small group of highly connected authors served as important links between countries, institutions, and journals, forming the main knowledge production and dissemination network in this field.
+Overall, the three-field analysis revealed that ML-SDM research exhibited extensive international collaboration patterns and diverse publication channels. A small group of highly connected authors occupied central positions connecting countries, institutions, and journals within the observed bibliometric network, highlighting their prominent visibility in ML-SDM research.
 
 
 \subsection{Co-citation network}
@@ -589,21 +638,22 @@ Overall, the three-field analysis demonstrated that ML-SDM research was characte
 \begin{figure*}[htbp]
 	\centering 
 	\includegraphics[width=0.9\textwidth]{picture(updata)/3.7.pdf}	
-	\caption{Co-citation network of cited references generated using VOSviewer.
-     A minimum citation threshold of 30 citations per cited reference was applied. Of the 183,519 cited references, 732 met this criterion, and the 500 references with the strongest link strength were visualized. Each node represents a cited reference, with larger nodes indicating higher citation counts. Links represent co-citation relationships between references; thicker links and shorter distances indicate stronger co-citation strength. Colors denote clusters identified automatically by the VOSviewer clustering algorithm, representing different knowledge bases or research themes. References enclosed by black boxes were selected as representative publications for further discussion in the manuscript because their relatively large node sizes indicate high co-citation frequencies and central positions within the knowledge network.} 
+	\caption{
+     Co-citation network of cited references generated using VOSviewer. 
+     A minimum citation threshold of 50 citations per cited reference was applied to improve network readability. Of the 183,519 cited references, 401 met this criterion, and the 300 references with the highest total link strength were retained for visualization. Full counting was applied. The co-citation network was normalized using the association-strength method. Clusters were identified using the VOSviewer clustering algorithm with a resolution parameter of 1.00 and a minimum cluster size of 1. Each node represents a cited reference, with larger nodes indicating higher citation counts. Links represent co-citation relationships, with greater link strength indicating more frequent co-citation; shorter distances generally indicate closer relationships within the network. Colors denote the clusters identified from the co-citation structure. These clusters are treated as interconnected structural groupings rather than mutually exclusive research themes. References enclosed by black boxes were selected for further discussion based on their prominence in the network and their relevance for illustrating methodological contributions within each cluster; their selection does not represent a ranking of research quality or methodological importance.} 
 	\label{fig_mom9}%
 \end{figure*}
 %%\end{comment}
 
 Figure \ref{fig_mom9} illustrates the co-citation network of highly cited references in ML-SDM research, which is organized into four major clusters. Although the clusters are interconnected rather than completely separated, each is centered on a group of frequently co-cited studies that together represent different components of the methodological knowledge base underlying ML-SDM.
 
-The red cluster forms the core of the network and is dominated by "Maximum entropy modeling of species geographic distributions" \citep{phillips2006maximum}, "Very high resolution interpolated climate surfaces for global land areas" \citep{hijmans2005very}, and "A statistical explanation of MaxEnt for ecologists"\citep{elith2011statistical}. These references established the methodological foundation of MaxEnt-based species distribution modeling. \cite{phillips2006maximum} introduced the MaxEnt algorithm for presence-only data, \cite{hijmans2005very} developed the WorldClim global climate database that has become the standard environmental dataset for SDM, and \cite{elith2011statistical} provided a comprehensive explanation of the statistical framework, parameterization, and interpretation of MaxEnt. Their strong co-citation relationships indicate that these studies collectively constitute the principal methodological basis of ML-SDM.
+The red cluster is mainly associated with methodological issues involved in model specification and practical implementation, including model evaluation, sampling and background selection, model complexity, parameter settings, and environmental predictors. \cite{elith2009species} reviewed the ecological and methodological basis of SDMs and discussed issues related to model selection, evaluation, and prediction across space and time, while \cite{allouche2006assessing} introduced the True Skill Statistic as an alternative measure for evaluating presence absence predictions. \cite{phillips2009sample} examined the effects of sample-selection bias and background sampling in presence-only modelling, whereas \cite{warren2011ecological} and \cite{merow2013practical} addressed model complexity, regularization, input data, and parameter settings in MaxEnt. \cite{fick2017worldclim} provided the WorldClim 2 high-resolution global climate surfaces that can serve as environmental predictors in species distribution modelling. The cluster represents methodological considerations associated with model formulation, calibration, evaluation, and environmental data preparation.
 
-Adjacent to this core, the green cluster is primarily associated with methodological refinement and practical implementation of MaxEnt. Representative references include "Sample selection bias and presence‐only distribution models: implications for background and pseudo‐absence data" \citep{phillips2009sample}, "A practical guide to MaxEnt for modeling species' distributions: what it does, and why inputs and settings matter" \citep{merow2013practical}, "Ecological niche modeling in Maxent: the importance of model complexity and the performance of model selection criteria" \citep{warren2011ecological}, and "WorldClim 2: new 1‐km spatial resolution climate surfaces for global land areas" \citep{fick2017worldclim}. These studies addressed sampling bias correction, parameter optimization, model complexity, and the release of the WorldClim 2 dataset, respectively. The dense links between the green and red clusters suggest that the continued development of MaxEnt has relied not only on algorithmic advances but also on improvements in environmental datasets and modeling strategies.
+The green cluster contains frequently co-cited references related to comparative modelling frameworks, ensemble prediction, and evaluation of alternative modelling approaches.These references reflect methodological comparisons among different modelling strategies rather than a specific algorithmic trajectory.  Representative studies include "A review of methods for the assessment of prediction errors in conservation presence/absence models" \citep{fielding1997review}, "Random forests" \citep{breiman2001random}, "Novel methods improve prediction of species' distributions from occurrence data" \citep{elith2006novel}, and "Ensemble forecasting of species distributions" \citep{araujo2007ensemble}. \cite{fielding1997review} reviewed methods for assessing prediction errors in presence-absence models, including measures based on classification performance and receiver operating characteristic (ROC) analysis. \cite{breiman2001random} introduced Random Forest as an ensemble of randomized decision trees with internal procedures for error estimation and variable-importance assessment. \cite{elith2006novel} compared a broad range of modelling methods for predicting species distributions from occurrence data and evaluated their predictions using independent presence--absence data. \cite{araujo2007ensemble} examined variation among alternative species-distribution forecasts and discussed the use of multiple models within an ensemble forecasting framework. Taken together, these studies reflect the use and comparison of different predictive approaches, together with methods for evaluating variation in model performance and predictions.
 
-A different group of foundational references is gathered in the yellow cluster, which includes "Species distribution models: ecological explanation and prediction across space and time" \citep{elith2009species}, "Assessing the accuracy of species distribution models: prevalence, kappa and the true skill statistic (TSS)" \citep{allouche2006assessing}, "Ensemble forecasting of species distributions" \citep{araujo2007ensemble}, and "Random forests" \citep{breiman2001random}. Rather than focusing on a single modeling approach, these studies contributed to broader methodological developments in species distribution modeling. They introduced widely adopted machine-learning algorithms such as Random Forest, proposed robust evaluation metrics including the True Skill Statistic, developed ensemble forecasting approaches, and examined model transferability across novel environmental conditions. Together, these references provide the methodological framework for model evaluation and machine-learning applications in ML-SDM.
+The blue cluster is centred on core references related to MaxEnt species distribution prediction, together with studies addressing statistical interpretation, limited occurrence data, and prediction assessment. \cite{phillips2006maximum} introduced MaxEnt as an approach for predicting species geographic distributions from presence-only records, and \cite{elith2011statistical} later clarified its statistical basis and the roles of features, regularization, and background data. \cite{pearson2007predicting} examined species-distribution prediction when only small numbers of occurrence records were available, providing an empirical assessment of modelling under limited-data conditions. \cite{swets1988measuring} originating from the broader field of diagnostic assessment, described receiver operating characteristic analysis for evaluating discriminatory accuracy, an approach subsequently used widely in ecological model evaluation. Their co-citation indicates that MaxEnt-related modelling studies were closely connected with statistical interpretation, occurrence-data limitations, and predictive evaluation within the ML-SDM knowledge base.
 
-A distinct feature of the blue cluster is that its nodes are smaller and more dispersed than those in the other clusters, without forming a compact co-citation community. This pattern can be explained by the nature of its representative references. "Measuring the accuracy of diagnostic systems" \citep{swets1988measuring}established the theoretical foundation of ROC analysis and the AUC metric for model evaluation. "Predicting the impacts of climate change on the distribution of species: are bioclimate envelope models useful?" \citep{pearson2003predicting} provided a critical assessment of bioclimate envelope models and highlighted the challenges of predicting species distributions under climate change. "SDM toolbox: a python‐based GIS toolkit for landscape genetic, biogeographic and species distribution model analyses" \citep{brown2014sdm} developed SDMtoolbox to support data processing, model evaluation, and spatial analyses. Rather than forming a dedicated methodological framework, these studies provide general evaluation methods, analytical tools, and technical support that are applicable across multiple SDM approaches. Consequently, they are co-cited with references from different clusters, including MaxEnt and machine-learning-related studies, resulting in a dispersed distribution and relatively smaller node sizes within the network.
+The yellow cluster contains references that primarily support environmental niche modelling through climatic data resources and analytical procedures for model evaluation and niche comparison. \cite{hijmans2005very} developed high-resolution interpolated climate surfaces for global land areas, providing spatially explicit climatic variables for ecological and biogeographic analyses. Model evaluation was examined by \cite{peterson2008rethinking}, who discussed limitations of conventional ROC and area-under-the-curve (AUC) applications in ecological niche modelling and proposed a partial ROC approach for evaluating model predictions. Other references in this cluster concern quantitative comparisons among environmental niches. \cite{warren2008environmental} developed methods for measuring niche overlap and testing niche equivalency and similarity under different null hypotheses, while \cite{warren2010enmtools} introduced ENMTools to facilitate quantitative comparisons of environmental niche models and associated randomization tests. These references thus relate less to the introduction of a particular predictive algorithm and more to the data and analytical procedures used to evaluate and compare environmental niche models.
 
 
 \subsection{Bibliographical coupling network}
@@ -611,21 +661,20 @@ A distinct feature of the blue cluster is that its nodes are smaller and more di
 %%\begin{comment}
 \begin{figure}
 	\centering 
-	\includegraphics[width=0.9\textwidth]{picture(updata)/3.8.pdf}	
-	\caption{Bibliographical coupling network using VOSviewer.
-    Documents with at least 50 citations were included in the analysis. Of the 5,224 records retrieved, 610 satisfied this criterion, and the 500 documents with the highest total link strength were retained for visualization. In the bibliographic coupling network, two documents are connected when they cite common references, reflecting the similarity of their knowledge bases. Each node represents an individual publication, and node size is proportional to its total link strength, indicating the overall strength of bibliographic coupling with other publications. Links represent bibliographic coupling relationships, with thicker links indicating stronger coupling strength. Unlike the co-citation network, node colors represent the average publication year of each document, ranging from earlier purple to more recent yellow. Publications outlined with red rectangles were selected as representative studies by considering node size and representation across different publication periods, thereby highlighting key studies underpinning the knowledge base and research evolution of ML-SDM.} 
+	\includegraphics[width=1\textwidth]{picture(updata)/3.8.pdf}	
+    \caption{Bibliographic coupling network of ML-SDM publications generated using VOSviewer.
+    The 300 documents with the highest total link strength were first identified from the full corpus of 5,224 publications without imposing a minimum citation-count threshold. These documents were combined with all 61 DL-related articles identified using the predefined DL-oriented search strategy, yielding a focused set of 361 publications for bibliographic coupling analysis. Full counting was applied. The network was normalized using the LinLog/modularity method. Clustering was performed using the VOSviewer clustering algorithm with a resolution parameter of 1.00 and a minimum cluster size of 1. Each node represents a publication, with larger nodes indicating higher citation counts. Links represent bibliographic coupling relationships between publications, with greater link strength indicating a larger overlap in cited references; shorter distances generally indicate stronger normalized bibliographic relatedness. Node colors represent publication year, ranging from earlier publications in blue to more recent publications in yellow. Publications enclosed by black boxes were selected for discussion in the text to illustrate representative methodological developments across the established ML-SDM literature and the more recent DL-SDM literature.}
 	\label{fig_mom10}%
 \end{figure}
 %%\end{comment}
 
-Since citations typically stabilize about three years after publication and co-citation networks are generally older, this leads to gaps in identifying recent research trends \citep{boyack2010co}. Therefore, bibliographic coupling analysis was used to address this gap. A minimum citation threshold of 50 citations was selected to balance representativeness and network interpretability. Importantly, this threshold retained influential publications across the entire study period, ensuring that highly cited recent studies were also included in the bibliographic coupling network. The representative studies highlighted in the network indicate that the development of ML-SDM can be broadly divided into three successive stages (Figure \ref{fig_mom10}).
+Bibliographic coupling analysis was used to examine the shared reference structure among ML-SDM source publications and to characterize more recent research connections \citep{zupic2015bibliometric, donthu2021conduct}. No minimum citation threshold was imposed, because raw citation-based filtering may disproportionately exclude recently published studies with shorter citation accumulation periods. From the full corpus of 5,224 publications, the 300 documents with the highest total link strength were retained to represent the strongly connected backbone of the overall ML-SDM literature. Total link strength measures the summed strength of an item’s links with all other items in the network and is commonly used in VOSviewer to characterize network connectivity \citep{boyack2010co}. To ensure that recent DL-SDM studies were not lost during this network-based reduction, all DL-related articles identified using the predefined search: ("Species Distribution Model*" OR "Ecological Niche Model*" OR "Habitat Suitability Model*") AND ("deep learning" OR "Convolutional Neural Network" OR "Graph Neural Network" OR "Multilayer Perceptron" OR "Transformer") were additionally retained. This search identified 61 DL-related articles. The final focused dataset therefore comprised 361 publications, consisting of the 300 documents with the highest total link strength from the overall corpus and all 61 predefined DL-related articles \citep{jarneving2007bibliographic,klavans2011global}. (Figure \ref{fig_mom10}).
 
+Among the earlier representative studies highlighted in the network, \cite{kramer2013importance} and \cite{muscarella2014enm} focused on methodological issues in MaxEnt-based species distribution modelling. \cite{kramer2013importance}, in The importance of correcting for sampling bias in MaxEnt species distribution models, compared spatial filtering and background manipulation for reducing sampling bias in presence-only data. The study showed that accounting for uneven sampling effort can reduce omission and commission errors. \cite{muscarella2014enm} introduced the framework, which supports spatially independent data partitioning, tuning of MaxEnt settings, and model evaluation using multiple criteria. Both studies are well connected within the focused bibliographic coupling network, indicating substantial overlap in cited methodological literature with other ML-SDM publications.
 
-The earliest studies are mainly distributed on the left side of the network and are represented by "Maximum entropy modeling of species geographic distributions" \citep{phillips2006maximum} and "Predicting species distributions from small numbers of occurrence records: a test case using cryptic geckos in Madagascar" \citep{pearson2007predicting}. \cite{phillips2006maximum} introduced the MaxEnt model and established a practical framework for presence-only species distribution modelling. \cite{pearson2007predicting} demonstrated that MaxEnt remained effective with limited occurrence records, which greatly expanded its application to rare and poorly sampled species. Their large node sizes and strong coupling strength show that these studies remain the primary methodological foundation for later ML-SDM research.
+Representative studies published between 2018 and 2020 focused on predictor selection, collinearity, model evaluation, and comparisons among modelling approaches. \cite{de2018evaluating} used virtual species simulations to examine the effects of predictor collinearity on SDM performance. The results showed that collinearity can reduce model efficiency and increase uncertainty, although its effects differed among modelling algorithms. \cite{fourcade2018paintings} examined environmental predictor selection and commonly used evaluation statistics. The study showed that high AUC or true skill statistic values do not necessarily indicate biologically realistic predictions. \cite{feng2019collinearity} further distinguished predictor collinearity from collinearity shifts and environmental novelty. The latter two factors reduced MaxEnt performance during model transfer. \cite{kaky2020comparison} compared ensemble modelling with MaxEnt and found comparable predictive performance in the examined conservation case. These studies are well connected within the focused network, indicating substantial overlap in the references used to address model reliability and evaluation.
 
-The central part of the network is dominated by methodological studies published between 2011 and 2014. \cite{elith2011statistical} provided a statistical interpretation of MaxEnt and improved its theoretical foundation. \cite{barbet2012selecting} systematically evaluated pseudo-absence generation strategies across different modelling algorithms. \cite{kramer2013importance} proposed practical approaches for correcting sampling bias, while \cite{muscarella2014enm} introduced the ENMeval framework for parameter tuning and spatially independent model evaluation. These studies share many methodological references and therefore occupy the most strongly connected region of the network. Their contributions established standardized modelling workflows that became widely adopted throughout the ML-SDM community.
-
-Recent publications appear mainly in the green and yellow regions of the network. \cite{cobos2019kuenm} developed the kuenm package and promoted reproducible modelling workflows. \cite{santini2021assessing} emphasized uncertainty assessment in SDM predictions. \cite{valavi2022predictive} established a benchmark framework for evaluating presence-only models. \cite{wang2024species} further highlighted the continued relevance of MaxEnt-based species distribution modelling in conservation applications by identifying potential habitats and biodiversity hotspots through the integration of species occurrence data and environmental variables. \cite{dyderski2025shifts} extended ML-SDM to large-scale ecological forecasting under future climate scenarios and highlighted the integration of modern learning frameworks with established modelling practices. Although these studies introduced new computational techniques, they remain strongly coupled with earlier methodological literature. This pattern indicates that recent developments, including DL-SDM, extend the existing knowledge base rather than forming an independent methodological foundation.
+More recent representative studies addressed model reliability, benchmarking, and deep-learning-based SDMs. \cite{santini2021assessing} evaluated the reliability of species distribution projections under climate-change scenarios. The study examined the effects of modelling choices and violations of modelling assumptions using virtual species. \cite{valavi2022predictive} compared 21 approaches for presence-only SDMs and provided reproducible code for model benchmarking. In parallel, \cite{deneu2021convolutional} applied convolutional neural networks to capture the spatial structure of environmental data in species distribution modelling. \cite{zbinden2024selection} examined the selection of pseudo-absences in deep-learning-based SDMs and evaluated the effects of class imbalance and geographic bias. These recent studies remain connected to the broader ML-SDM literature through shared references. Their positions in the network indicate overlap in cited knowledge bases rather than a separate methodological.
 
 
 \subsection{Co-words network}
@@ -671,331 +720,337 @@ Compared with the broader ML-SDM network, the DL-SDM network showed a stronger r
 
 \section{Discussion}
 
-\subsection{Research landscape and development drivers}
+\subsection{Research landscape and potential enabling conditions}
 
-The rapid expansion of ML-SDM during the past two decades reflects more than an increase in publication output. It represents the combined effects of ecological demand, data availability, and advances in computational technology \citep{elith2009species,guisan2005predicting}. Growing concerns about climate change, biodiversity loss, biological invasions, and ecosystem conservation have created an increasing need for accurate and scalable species distribution prediction \citep{pacifici2017species,hooper2012global}. Traditional statistical models may have limited flexibility in representing complex nonlinear relationships and high-dimensional environmental variables. Therefore, ML became an attractive solution for improving predictive performance \citep{pichler2023machine}. The availability of ecological data also changed substantially during this period. Open biodiversity databases such as GBIF and global environmental datasets such as WorldClim provided large volumes of standardized occurrence records and climate variables \citep{telenius2011biodiversity,fick2017worldclim}. At the same time, advances in remote sensing products provided richer environmental information across multiple spatial scales \citep{wulder2004high}. These developments improved both the quantity and quality of training data and enabled ML-SDM to expand from regional case studies to large-scale biodiversity assessments \citep{reichstein2019deep}. Rapid advances in computing further accelerated this transition. GPU computing, together with open-source frameworks such as TensorFlow and PyTorch, greatly reduced the cost of developing and applying complex ML models \citep{owens2008gpu,abadi2016tensorflow,paszke2019pytorch}. Widely used SDM tools, including MaxEnt, ENMeval, and biomod2, also improved model accessibility, reproducibility, and methodological standardization\citep{phillips2006maximum, kass2021enmeval, thuiller2009biomod}. These resources lowered the technical barrier for ecological researchers and promoted the broad adoption of ML approaches. Therefore, the observed growth of ML-SDM should not be interpreted simply as increasing research activity. Instead, it reflects the maturation of ecological data infrastructure, computational resources, and methodological innovation. Together, these factors established the foundation for the subsequent integration of DL and more advanced ecological prediction frameworks.
+The rapid expansion of ML-SDM during the past two decades coincided with broader changes in ecological demands, data availability, and computational technology \citep{elith2009species,guisan2005predicting}. Growing concerns about climate change, biodiversity loss, biological invasions, and ecosystem conservation have highlighted the need for accurate and scalable species distribution prediction \citep{pacifici2017species,hooper2012global}. Traditional statistical models may have limited flexibility in representing complex nonlinear relationships and high-dimensional environmental variables. Therefore, ML approaches have been increasingly explored in SDM research due to their ability to represent complex relationships and improve predictive performance \citep{pichler2023machine}. The availability of ecological data also changed substantially during this period. Open biodiversity databases such as global biodiversity information facility and global environmental datasets such as WorldClim provided large volumes of standardized occurrence records and climate variables \citep{telenius2011biodiversity,fick2017worldclim}. At the same time, advances in remote sensing products provided richer environmental information across multiple spatial scales \citep{wulder2004high}. These developments expanded the availability of environmental predictors and coincided with the application of ML-SDM from regional case studies toward broader biodiversity assessments \citep{reichstein2019deep}. Advances in computing infrastructure also provided additional support for the application of increasingly complex ML models. GPU computing, together with open-source frameworks such as TensorFlow and PyTorch, reduced the technical barriers associated with developing and applying complex ML models \citep{owens2008gpu,abadi2016tensorflow,paszke2019pytorch}. Widely used SDM tools, including MaxEnt, ENMeval, and biomod2, also improved model accessibility, reproducibility, and methodological standardization\citep{phillips2006maximum, kass2021enmeval, thuiller2009biomod}. These resources reduced technical barriers for ecological researchers and may have facilitated the broader application of ML approaches. Therefore, the observed growth of ML-SDM should not be interpreted simply as increasing research activity. Instead, it reflects the concurrent development of ecological data infrastructure, computational resources, and methodological innovation. Together, these factors may have provided enabling conditions for the subsequent exploration of DL and more advanced ecological prediction frameworks.
 
-The international collaboration network reflects more than publication activity. It illustrates how ML-SDM methodologies spread across the global research community. The United States, China, and several European countries occupy central positions in the collaboration network, indicating that methodological development is supported by extensive international cooperation rather than by isolated national efforts. Researchers from different regions jointly develop algorithms, validate models under diverse ecological conditions, and expand ML approaches from regional case studies to global biodiversity applications. International collaboration is particularly important for ML-SDM because species distribution modelling depends on environmental gradients, biodiversity databases, and climate datasets that extend beyond national boundaries. Shared occurrence records, standardized environmental variables, and open modelling frameworks allow new methods to be evaluated across different ecosystems and geographical regions. The collaboration network therefore represents not only scientific partnerships but also the global diffusion, validation, and refinement of ML-SDM methodologies. 
+The international collaboration network reflects more than publication activity. It provides a bibliometric representation of international research connections associated with the dissemination of ML-SDM research. The United States, China, and several European countries occupy central positions in the collaboration network, indicating that methodological development is supported by extensive international cooperation rather than by isolated national efforts. Researchers from different regions jointly develop algorithms, validate models under diverse ecological conditions, and expand ML approaches from regional case studies to global biodiversity applications. International collaboration is particularly important for ML-SDM because species distribution modelling depends on environmental gradients, biodiversity databases, and climate datasets that extend beyond national boundaries. Shared occurrence records, standardized environmental variables, and open modelling frameworks allow new methods to be evaluated across different ecosystems and geographical regions. The collaboration network therefore represents scientific partnerships and the global diffusion of ML-SDM methodologies. These networks may provide opportunities for methodological comparison and evaluation across regions, but actual validation requires empirical assessments using independent datasets, spatial cross-validation, and uncertainty analysis. 
 
-Growing ecological challenges have also promoted the international adoption of ML-SDM. Climate change, land-use change, biological invasions, and biodiversity conservation affect ecosystems worldwide, but environmental conditions differ greatly among regions. For instance, The United States spans multiple climate zones, and frequent natural disturbances such as droughts, wildfires, and extreme storms have led to long-term dynamic changes in species distributions.\citep{turner2010disturbance}. China has witnessed continuous changes in land use, with such changes accelerating significantly after the 1990s. Along with the rapid urbanization and industrialization process, natural habitats have been affected to varying degrees \citep{liu1999framework,liu2010spatial}. These differences require ML models to be evaluated and adapted under diverse ecological settings. International collaboration improves methodological exchange and supports model validation across multiple ecosystems, leading to better robustness and spatial transferability. In the same time, African and South American countries have relatively limited research output, but their unique arid and semi-arid ecosystems support many endemic species adapted to extreme environments  \citep{myers2000biodiversity}. For instance, arid ecosystems in the Sahara–Sahel region and the Namib Desert have evolved under long-term climatic change and severe water scarcity. This has resulted in highly specialized species assemblages and unique ecological processes \citep{le1997climate,henschel2008ecophysiology}. The highly endemic biodiversity pattern formed in the Atacama Desert, Caatinga Arid Forest and the Andes and Patagonia regions of South America under the combined effect of extreme arid conditions, complex terrain and significant climate gradients \citep{azua2012life,leal2005changing}. These areas not only have significant ecological research value, but also play a crucial role at the global scale in maintaining the integrity of ecosystems and protecting biodiversity \citep{myers2000biodiversity,ceballos2015accelerated}. Their biodiversity hotspots provide valuable opportunities for testing model generalization and expanding the global applicability of ML-SDM. Continued data sharing and international collaboration will therefore remain essential for future methodological development.
+Growing ecological challenges have also promoted the international adoption of ML-SDM. Climate change, land-use change, biological invasions, and biodiversity conservation affect ecosystems worldwide, but environmental conditions differ greatly among regions. For instance, The United States spans multiple climate zones, and frequent natural disturbances such as droughts, wildfires, and extreme storms have led to long-term dynamic changes in species distributions.\citep{turner2010disturbance}. China has witnessed continuous changes in land use, with such changes accelerating significantly after the 1990s. Along with the rapid urbanization and industrialization process, natural habitats have been affected to varying degrees \citep{liu1999framework,liu2010spatial}. These differences require ML models to be evaluated and adapted under diverse ecological settings. International collaboration may facilitate methodological exchange, data sharing, and dissemination of modelling practices across regions. However, the bibliometric patterns observed here do not directly demonstrate that collaboration improves model robustness, calibration, or spatial transferability. Actual improvements in transferability require independent spatial validation, evaluation under novel environmental conditions, and explicit assessment of uncertainty. In the same time, African and South American countries have relatively limited research output, but their unique arid and semi-arid ecosystems support many endemic species adapted to extreme environments  \citep{myers2000biodiversity}. For instance, arid ecosystems in the Sahara–Sahel region and the Namib Desert have evolved under long-term climatic change and severe water scarcity. This has resulted in highly specialized species assemblages and unique ecological processes \citep{le1997climate,henschel2008ecophysiology}. The highly endemic biodiversity pattern formed in the Atacama Desert, Caatinga Arid Forest and the Andes and Patagonia regions of South America under the combined effect of extreme arid conditions, complex terrain and significant climate gradients \citep{azua2012life,leal2005changing}. These areas not only have significant ecological research value, but also play a crucial role at the global scale in maintaining the integrity of ecosystems and protecting biodiversity \citep{myers2000biodiversity,ceballos2015accelerated}. Their biodiversity hotspots provide valuable opportunities for testing model generalization and expanding the global applicability of ML-SDM. Continued data sharing and international collaboration will therefore remain essential for future methodological development.
 
-Research institutions serve as important centres of methodological innovation in ML-SDM, extending beyond their role as contributors to publication output \citep{wuchty2007increasing}. They contribute to algorithm development, model evaluation, and interdisciplinary collaboration. The differences between publication productivity and citation impact suggest that institutional influence is shaped not only by the number of publications but also by methodological contributions, research quality, and academic connectivity. A relatively small number of leading research groups may therefore act as key drivers of ML-SDM advancement before newly developed approaches are adopted by broader scientific communities. Collaboration among institutions further facilitates methodological standardization and knowledge exchange. The increasing availability of open datasets, shared computational platforms, and reproducible workflows enables ML-SDM models to be evaluated across diverse ecological regions. Such collaborative practices improve model robustness, enhance understanding of spatial transferability, and facilitate the transition of ML-SDM from methodological development toward practical applications in biodiversity assessment and conservation.
+Research institutions serve as important centres of methodological innovation in ML-SDM, extending beyond their role as contributors to publication output \citep{wuchty2007increasing}. They contribute to algorithm development, model evaluation, and interdisciplinary collaboration. The differences between publication output and accumulated citation counts indicate that these two indicators capture different aspects of institutional bibliometric activity. Some institutions are characterized by high publication output, whereas others accumulate relatively high citation counts from a smaller number of publications. Collaboration among institutions may provide opportunities for methodological exchange, data sharing, and comparative evaluation across regions. The increasing availability of open datasets, shared computational platforms, and reproducible workflows enables ML-SDM models to be evaluated across diverse ecological regions. Such collaborative practices may provide opportunities to improve model robustness, support the assessment of spatial transferability, and facilitate the broader application of ML-SDM approaches in biodiversity assessment and conservation studies.
 
-Scientific journals are important channels for methodological dissemination rather than simple publication outlets. The concentration of ML-SDM studies in ecology, biogeography, and ecological modelling journals indicates that the field has developed a stable knowledge dissemination system. Journals such as Methods in Ecology and Evolution and Ecological Modelling mainly publish methodological advances, while Ecological Informatics and Ecology and Evolution emphasize ecological applications in biodiversity conservation, environmental prediction, and ecosystem management. This publication pattern reflects the gradual transition from algorithm development to ecological decision support. High-impact journals also promote methodological standardization through model evaluation, data sharing, and reproducible research. These mechanisms accelerate the diffusion and validation of new ML-SDM approaches across the international research community.
+Scientific journals are important channels for methodological dissemination rather than simple publication outlets. The concentration of ML-SDM studies in ecology, biogeography, and ecological modelling journals indicates that the field has developed a stable knowledge dissemination system. Journals such as Methods in Ecology and Evolution and Ecological Modelling mainly publish methodological advances, while Ecological Informatics and Ecology and Evolution emphasize ecological applications in biodiversity conservation, environmental prediction, and ecosystem management. This publication pattern reflects the gradual transition from algorithm development to ecological decision support. Scientific journals also facilitate methodological dissemination through model evaluation, data sharing, and reproducible research. These mechanisms may accelerate the diffusion and validation of new ML-SDM approaches across the international research community.
 
-Author analysis reveals that scientific influence in ML-SDM is shaped primarily by methodological contributions and long-term knowledge dissemination rather than publication productivity alone. Although a small number of researchers contributed a large proportion of highly cited publications, their influence was mainly derived from introducing fundamental modelling frameworks, improving predictive algorithms, and establishing evaluation approaches that subsequently became widely adopted. This pattern highlights the importance of methodological innovation as a major driver of technological advancement in ML-SDM. For example, Phillips SJ ranked highest in citation performance, with 22,269 TGCS and 6,004 TLCS, although his contribution was mainly represented by a small number of highly cited publications in the dataset. His representative study published in Ecological Modelling, "Maximum entropy modeling of species geographic distributions" \citep{phillips2006maximum}, in 2006 received 14,211 global citations and 3,443 local citations, demonstrating the strong influence of the MaxEnt approach on species distribution modelling. Elith J also showed high citation impact, with the 2011 study in Diversity and Distributions, "A statistical explanation of MaxEnt for ecologists" \citep{elith2011statistical}, receiving 5,479 global citations and 1,759 local citations. These highly cited methodological studies contributed substantially to the development of ML-SDM. In contrast, authors with higher publication productivity generally showed a more continuous accumulation of citations. Peterson AT produced 38 publications and obtained 8,715 TGCS, reflecting sustained contributions throughout the development of ML-SDM. Therefore, highly cited methodological contributions and long-term research productivity represent two complementary patterns of academic influence in this field.
+Author-level analysis revealed different patterns of publication activity and citation accumulation in ML-SDM research. Some authors were associated with a relatively small number of publications but high accumulated TGCS and TLCS values, whereas others showed higher and more sustained publication output. It should be noted that citation accumulation is strongly influenced by publication age, as earlier studies generally have longer periods to accumulate citations. Therefore, differences in TGCS and TLCS among authors are interpreted as differences in citation accumulation patterns and bibliometric visibility rather than direct indicators of research quality or methodological importance. For example, Phillips SJ accumulated 22,269 TGCS and 6,004 TLCS, with a substantial proportion of these citations associated with a small number of publications in the dataset. His 2006 study published in Ecological Modelling, “Maximum entropy modeling of species geographic distributions” \citep{phillips2006maximum}, received 14,211 TGCS and 3,443 TLCS. This study made an important methodological contribution by introducing and applying the MaxEnt framework to presence-only species distribution modelling, and it subsequently accumulated substantial citations within and beyond the ML-SDM literature. Similarly, Elith J accumulated high citation counts, and the 2011 study “A statistical explanation of MaxEnt for ecologists” \citep{elith2011statistical} contributed to the methodological interpretation of ML-SDM by providing a statistical explanation of MaxEnt and clarifying its modelling framework. This publication also accumulated substantial citations across the scientific literature. In contrast, Peterson AT contributed 38 publications and accumulated 8,715 TGCS, representing a different pattern characterized by sustained publication activity over a longer period. Therefore, concentrated citation accumulation among some publications and sustained long-term publication activity represent two distinct author-level patterns in this field.
 
-The country, institution, author, and journal networks together reveal a relatively stable knowledge production pathway in ML-SDM. New methodologies are usually proposed by a small number of leading research groups. Research institutions then refine these methods through model development and validation. High-impact journals disseminate the results to the wider ecological community, while international collaboration supports testing across different ecosystems and geographical regions. These methods are eventually adopted in biodiversity conservation, climate change assessment, invasive species management, and ecological restoration. Therefore, the multi-level research network represents more than a publication landscape. It illustrates the complete pathway from methodological innovation to global dissemination and ecological application. The technological evolution of ML-SDM depends not only on advances in ML algorithms but also on international collaboration, open data resources, and a mature knowledge dissemination system.
+The country, institution, author, and journal networks together reveal a relatively stable bibliometric structure of ML-SDM research. The observed concentration of highly connected authors and institutions suggests that methodological contributions are associated with a relatively limited number of active research groups. These institutions showed substantial contributions to ML-SDM publications and collaborative activities. Scientific journals provided important publication venues for ML-SDM-related studies, while international collaboration patterns indicate contributions from researchers across diverse ecosystems and geographical regions. ML-SDM approaches have been widely applied to biodiversity conservation, climate-change assessment, biological invasions, species recovery, and conservation planning \citep{guisan2005predicting, elith2009species, franklin2013species}. Therefore, the multi-level research network provides insights into the organization and evolution of ML-SDM-related knowledge production rather than representing a direct causal pathway \citep{chen2017science, zupic2015bibliometric, donthu2021conduct}. It reflects interconnected patterns among methodological development, research collaboration, publication activities, and ecological applications represented in the literature. The observed evolution of ML-SDM coincides with advances in ML algorithms, increasing availability of environmental data resources, international collaboration, and expanded knowledge dissemination channels, which may have provided enabling conditions for continued methodological development \citep{telenius2011biodiversity, fick2017worldclim, reichstein2019deep}.
 
 \subsection{Methodological evolution and knowledge accumulation}
 
-The co-citation analyzes and Tables \ref{tab:method_milestones}, \ref{tab:model_comparison} indicate that the knowledge base of ML-SDM was not established by a single algorithm. Instead, it developed through a series of methodological solutions to fundamental problems in species distribution prediction.
+The co-citation analysis and bibliographic coupling analysis provide complementary perspectives on the knowledge structure and recent methodological development of ML-SDM. Figure \ref{fig_mom9} identifies the intellectual foundations formed by frequently co-cited studies, highlighting the establishment of major modelling frameworks and evaluation concepts. In contrast, Figure \ref{fig_mom10} reveals recent research connections among publications sharing common references, thereby indicating the major methodological concerns addressed by contemporary ML-SDM studies. Together with Tables \ref{tab:method_milestones} and \ref{tab:model_comparison}, these analyses suggest that ML-SDM development involves continuous refinement of model formulation, evaluation strategies, and data representation rather than replacement of one algorithm by another.
 
-First, the theoretical foundation of ML-SDM lies in quantifying species–environment relationships rather than simply improving prediction accuracy. Modern SDMs are associated with both Grinnellian and Hutchinsonian niche concepts: the former emphasizes the influence of environmental conditions on species geographic distributions, whereas the latter describes species niches within multidimensional environmental spaces\citep{grinnell1917niche,hutchinson1957cold}. In practice, ML-SDM approaches mainly operate within the Hutchinsonian framework by modelling species–environment relationships using multidimensional environmental predictors. Because most ML-SDM approaches are calibrated using observed occurrence records, their predictions mainly represent statistical associations related to the realized niche rather than direct estimates of the fundamental niche. Therefore, ML-SDM remains primarily a correlative modelling framework that aims to identify stable relationships between species occurrences and environmental conditions.
+First, the theoretical foundation of ML-SDM lies in quantifying species–environment relationships rather than simply improving prediction accuracy. Modern SDMs are associated with both Grinnellian and Hutchinsonian niche concepts: the former emphasizes the influence of environmental conditions on species geographic distributions, whereas the latter describes species niches within multidimensional environmental spaces\citep{grinnell1917niche,hutchinson1957cold}. In practice, most ML-SDM approaches are generally formulated within the Hutchinsonian niche framework by modelling species–environment relationships using multidimensional environmental predictors. Because most ML-SDM approaches are calibrated using observed occurrence records, their predictions mainly represent statistical associations related to the realized niche rather than direct estimates of the fundamental niche. Therefore, ML-SDM remains primarily a correlative modelling framework that aims to identify stable relationships between species occurrences and environmental conditions.
 
-Early methodological developments focused on addressing the challenges of presence-only data. \cite{phillips2006maximum} established MaxEnt as a cornerstone of ML-SDM by introducing maximum entropy modelling with regularization to control model complexity. Later studies demonstrated the importance of transferability, sample size, background selection, and model evaluation. \cite{pearson2007predicting} highlighted spatial transferability as an essential criterion for SDM evaluation, while \cite{elith2011statistical} provided a statistical interpretation of MaxEnt by clarifying the roles of regularization, features, and background selection. These studies shifted ML-SDM from simple prediction toward more rigorous model construction and ecological interpretation.
+Early methodological contributions summarized in Table \ref{tab:method_milestones} mainly addressed the challenges associated with presence-only data and model evaluation. \cite{phillips2006maximum} established MaxEnt as a cornerstone of ML-SDM by introducing maximum entropy modelling with regularization to control model complexity. Later studies demonstrated the importance of transferability, sample size, background selection, and model evaluation. \cite{pearson2007predicting} highlighted spatial transferability as an essential criterion for SDM evaluation, while \cite{elith2011statistical} provided a statistical interpretation of MaxEnt by clarifying the roles of regularization, features, and background selection. These studies shifted ML-SDM from simple prediction toward more rigorous model construction and ecological interpretation.
 
-Second, algorithmic development forms the technical core of the ML-SDM knowledge system. MaxEnt has remained highly influential because it performs well with presence-only data, small sample sizes, and limited computational resources. However, it also has limitations, including sensitivity to sampling bias, uncertainty during environmental extrapolation, and limited capacity to represent complex spatial structures (Table \ref{tab:model_comparison}).
+Second, the representative approaches summarized in Table \ref{tab:model_comparison} demonstrate how different algorithmic frameworks provide alternative solutions for representing species–environment relationships. MaxEnt represents a widely adopted presence-background modelling framework because it provides a flexible framework for modelling presence-background data and controlling model complexity through regularization. However, its predictions are sensitive to feature-class and regularization settings, and inappropriate parameterization may lead to overly complex or simple models. In addition, MaxEnt outputs primarily represent relative environmental suitability or relative occurrence, while their interpretation as absolute occurrence probabilities requires additional assumptions (Table \ref{tab:model_comparison}).
 
-Random Forest enhances the ability to fit nonlinear relationships by integrating multiple decision trees. It demonstrates strong capabilities in variable interaction, small sample prediction, and spatial migration. A study in 2017 further utilized independent tracking data to validate the generalization ability of Random Forest in rare species prediction \citep{mi2017choose}. However, Random Forest still relies on structured environmental variables, making it difficult to directly express spatial neighborhood relationships, and the model's interpretability is limited. Subsequently, Ensemble Species Models integrate models such as MaxEnt, GLM, and GBM to reduce the uncertainty caused by single model selection and improve the prediction stability of rare species and in small sample situations \citep{guo2019predicting}. This indicates that the development of ML-SDM is not a simple replacement of algorithms, but rather a search for more reliable prediction frameworks under different ecological data conditions.
+Random Forest provides a different modelling strategy by capturing nonlinear relationships and predictor interactions through ensembles of decision trees \citep{cutler2007random}. Bootstrap sampling enables out-of-bag observations to be used for internal prediction-error estimation. However, conventional variable-importance measures can be biased toward predictors with particular characteristics, and correlations among environmental variables can distort permutation-based importance estimates (Table \ref{tab:model_comparison}). \cite{mi2017choose} further compared Random Forest with other SDM approaches under small-sample and undersampled conditions and evaluated its predictions using independent tracking data. Boosted Regression Trees provide another tree-based strategy by sequentially adding trees that focus on prediction errors from previous iterations. This allows flexible representation of nonlinear responses and predictor interactions, but model performance depends on coordinated tuning of learning rate, tree complexity, and the number of trees \citep{elith2008working}. Ensemble modelling represents a complementary development rather than an independent replacement of individual algorithms. By combining predictions from multiple models or from models fitted to different predictor subsets, ensemble approaches can reduce dependence on a single model specification and provide a way to examine variation among alternative predictions \citep{araujo2007ensemble,breiner2015overcoming}. All aforementioned developments indicate that the evolution of ML-SDM involves the adaptation of modelling strategies to different ecological data conditions rather than a simple replacement of algorithms.
 
-Third, model evaluation and uncertainty analysis have become central components of the ML-SDM knowledge framework. Early studies mainly focused on improving predictive performance, whereas later research recognized that high predictive accuracy does not necessarily indicate reliable ecological inference. Sampling bias, spatial autocorrelation, variable collinearity, and model complexity can strongly influence model outcomes. \cite{boria2014spatial} demonstrated that spatial filtering can reduce sampling bias, while ENMeval-based studies improved parameter optimization and spatially independent evaluation of MaxEnt models \citep{muscarella2014enm,kass2021enmeval}. These advances indicate a transition from optimizing prediction scores toward improving model reliability, reproducibility, and ecological validity.
+Third, model evaluation and uncertainty analysis have become central components of the ML-SDM knowledge framework (Table \ref{tab:method_milestones}, Figures \ref{fig_mom9} and \ref{fig_mom10}). Early studies mainly focused on improving predictive performance, whereas later research recognized that high predictive accuracy does not necessarily indicate reliable ecological inference. Sampling bias, spatial autocorrelation, variable collinearity, and model complexity can strongly influence model outcomes. These limitations indicate that improving predictive accuracy alone is insufficient. For example, spatial filtering and environmentally independent validation can reduce overly optimistic performance estimates caused by sampling bias and spatial autocorrelation. Similarly, extrapolation assessments are necessary when models are applied beyond the environmental conditions represented in calibration data. Related studies further showed that background selection, pseudo-absence design, predictor collinearity, and environmental novelty can affect model calibration and transferred predictions \citep{phillips2009sample,barbet2012selecting,de2018evaluating,feng2019collinearity}. \cite{boria2014spatial} demonstrated that spatial filtering can reduce sampling bias, while ENMeval-based studies improved parameter optimization and spatially independent evaluation of MaxEnt models \citep{muscarella2014enm,kass2021enmeval}. These advances indicate an expansion from predictive performance alone toward greater attention to model reliability, reproducibility, spatial validation, and transferability.
 
-Recent DL approaches have further expanded the methodological boundary of ML-SDM. CNN-based SDM, Deep-SDM, and graph neural network (GNN)-SDM extend traditional modelling by incorporating spatial tensors, remote sensing time series, and landscape graph structures \citep{deneu2021convolutional,estopinan2022deep,wu2025gnn}. CNN-based models can capture spatial environmental patterns, whereas GNN-based approaches provide new opportunities to represent landscape connectivity. However, DL models remain mainly correlative when trained with occurrence and environmental data. Their improved predictive performance does not automatically indicate better representation of ecological mechanisms. In addition, increased model complexity introduces challenges related to interpretability, uncertainty assessment, and data requirements.
+Recent DL approaches introduce additional mechanisms for representing complex and spatially structured environmental information. However, their increased complexity does not necessarily indicate improved ecological understanding, because model interpretation, uncertainty quantification, and data requirements remain important limitations. As summarized in Table \ref{tab:model_comparison}, CNN, Vision Transformer, and Graph Neural Network (GNN)-based approaches differ mainly in how they encode spatial and relational information. CNN-based, Vision Transformer-based, and GNN-based approaches introduce different mechanisms for representing spatial and complex environmental information. CNN-based models can learn spatial patterns from environmental tensors and remote-sensing imagery, Vision Transformers use self-attention to model relationships among image patches, and GNN-based approaches represent relational information among landscape units through graph structures \citep{deneu2021convolutional,estopinan2022deep,hu2025introduction,wu2025gnn}. However, DL models remain mainly correlative when trained with occurrence and environmental data. Their improved predictive performance does not automatically indicate better representation of ecological mechanisms. In addition, increased model complexity introduces challenges related to interpretability, uncertainty assessment, and data requirements.
 
-Overall, the knowledge foundation of ML-SDM has evolved from developing predictive algorithms toward achieving reliable ecological inference. MaxEnt and Random Forest established the basis of nonlinear species distribution prediction, ensemble approaches improved model robustness, and DL expanded the capacity to integrate high-dimensional and spatially structured data. This progression reflects a shift from algorithm-oriented modelling toward ecology-driven prediction frameworks.
+Overall, the methodological landscape of ML-SDM can be understood as an interconnected framework involving model formulation, algorithmic strategies, evaluation procedures, spatial validation, and uncertainty assessment. The co-citation network (Figure \ref{fig_mom9}) reveals the shared intellectual foundations underlying these components, whereas the bibliographic coupling network (Figure \ref{fig_mom10}) highlights recent research fronts and methodological concerns addressed by contemporary studies. Table \ref{tab:method_milestones} provides representative publications illustrating major methodological contributions, while Table \ref{tab:model_comparison} summarizes the distinct capabilities and limitations of representative ML-SDM approaches. Together, these analyses indicate that ML-SDM development reflects a progressive broadening of methodological attention from model construction and prediction toward reliability assessment, spatial generalization, uncertainty quantification, and ecological interpretation. Rather than representing a simple replacement of one algorithm by another, methodological advances in ML-SDM involve the interaction between ecological objectives, data characteristics, modelling approaches, and evaluation frameworks.
 
+
+%%\begin{comment}
+\begingroup
 \footnotesize
 \renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{4pt}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\LTcapwidth}{\textwidth}
 
-\begin{longtable}{p{5cm}p{5cm}p{5.6cm}}
+\begin{xltabular}{\textwidth}{
+@{}
+Y{0.70}
+Y{1.10}
+Y{0.80}
+Y{1.40}
+@{}
+}
 
-\caption{Representative methodological  in the development of ML-SDM. The 20 representative studies were selected using a combination of bibliometric and content-based criteria. For each publication year from 2006 to 2025, papers with relatively high TGCS were first identified as candidate studies. These candidates were then manually evaluated according to their scientific contribution. Preference was given to studies that made explicit methodological contributions to ML species distribution modelling, including algorithm development, methodological improvement, model evaluation, parameter optimization, uncertainty analysis, and framework innovation. Studies primarily reporting ecological applications of existing models without methodological advances were not included.}
-
+\caption{Representative methodological studies in the development of ML-SDM.
+            One study was retained for each year from 2006 to 2025 using the year-stratified selection and methodological coding procedure described in Section 2.3.3. The selected studies illustrate methodological development over time and are not intended as a ranking of research quality or methodological importance.}
 \label{tab:method_milestones}\\
 
 \toprule
 \textbf{Study} &
-\textbf{Model} &
-\textbf{Data} \\
+\textbf{Modelling approach and data representation} &
+\textbf{Methodological issue addressed} &
+\textbf{Principal methodological contribution} \\
 \midrule
 \endfirsthead
 
-\caption[]{Representative methodological milestones in the development of ML-SDM (continued).}\\
+\caption[]{Representative methodological studies in the development of ML-SDM (continued).}\\
 
 \toprule
 \textbf{Study} &
-\textbf{Model} &
-\textbf{Data} \\
+\textbf{Modelling approach and data representation} &
+\textbf{Methodological issue addressed} &
+\textbf{Principal methodological contribution} \\
 \midrule
 \endhead
 
 \midrule
-\multicolumn{3}{r}{Continued on next page}\\
+\multicolumn{4}{r}{Continued on next page}\\
 \endfoot
 
 \bottomrule
 \endlastfoot
 
-\citep{phillips2006maximum} &
-MaxEnt &
-Presence-only occurrence data + environmental rasters \\
+\citet{phillips2006maximum} &
+MaxEnt; presence-only occurrence records and environmental rasters &
+Presence-only modelling &
+Introduced a regularized maximum-entropy framework for estimating species distributions from presence-only occurrence records. \\
 
-\citep{townsend2007transferability} &
-MaxEnt, GARP &
-Presence-only occurrence data + climate and topographic variables \\
+\citep{cutler2007random} &
+Random Forest; ecological classification data &
+Tree-based ecological prediction &
+Evaluated Random Forest as a nonlinear classification and variable-selection method in ecological applications \\
 
 \citep{wisz2008effects} &
-Multiple SDMs &
-Occurrence data + presence/absence data + environmental variables \\
+Multiple SDMs; occurrence and independent presence–absence data &
+Sample-size sensitivity &
+Compared the response of multiple modelling algorithms to reductions in occurrence sample size \\
 
 \citep{phillips2009sample} &
-MaxEnt, GLM, GAM, BRT, MARS &
-Presence-only occurrence data + background data + environmental variables \\
+Presence-background models &
+Sampling bias and background selection &
+Evaluated background-sampling strategies for reducing the effects of sample-selection bias in presence-only models \\
 
 \citep{elith2010art} &
-MaxEnt, GLM, GAM, BRT &
-Occurrence data + climate and mechanistic variables \\
+Multiple correlative SDMs; climate and mechanistic information &
+Extrapolation and range shifts &
+Evaluated extrapolation behaviour and strategies for modelling species undergoing range shifts \\
 
 \citep{elith2011statistical} &
-MaxEnt &
-Occurrence data + raster and vector environmental data \\
+MaxEnt; occurrence and environmental data &
+Statistical interpretation &
+Clarified the statistical basis, assumptions and implementation of MaxEnt for ecologists \\
 
-\citep{sobek2012potential} &
-MaxEnt, GARP &
-Presence-only occurrence data + climate variables \\
+\citep{barbet2012selecting} &
+Multiple SDMs; presence and pseudo-absence data &
+Pseudo-absence selection &
+Systematically evaluated how pseudo-absence number and selection strategy affect the performance of different SDM algorithms \\
 
 \citep{shcheglovitova2013estimating} &
-MaxEnt &
-Presence-only occurrence data + environmental variables \\
+MaxEnt; small occurrence datasets &
+Model-complexity tuning &
+Developed a jackknife procedure for selecting feature classes and regularization settings with very small samples \\
 
-\citep{boria2014spatial} &
-MaxEnt &
-Occurrence data + bioclimatic variables \\
+\citep{muscarella2014enm} &
+MaxEnt/ENMeval; spatially partitioned occurrence data &
+Model tuning and evaluation &
+Introduced a reproducible framework for spatial evaluation and model-complexity selection in MaxEnt \\
 
 \citep{breiner2015overcoming} &
-ESMs &
-Occurrence data + multi-source environmental variables \\
+Ensembles of small models; low-dimensional predictor subsets &
+Rare-species modelling &
+Evaluated ensembles of bivariate models as a strategy for reducing overfitting with limited occurrences \\
 
 \citep{liu2016selection} &
-MaxEnt, RF, GLM, DOMAIN &
-Virtual species data + environmental variables \\
+Multiple presence-only SDM &
+Threshold selection &
+Compared threshold-selection procedures and evaluated their sensitivity to prevalence and sampling ratios \\
 
 \citep{mi2017choose} &
-Random Forest, BRT, CART, MaxEnt &
-Occurrence data + remote sensing variables + validation data \\
+Random forest and multiple SDMs; small occurrence datasets and independent tracking data &
+Rare-species prediction with limited samples &
+Compared multiple modelling approaches under small-sample and undersampled conditions and evaluated random forest predictions using independent occurrence information \\
 
 \citep{de2018evaluating} &
-MaxEnt, GLM, BIOCLIM &
-Virtual species data + climate variables \\
+Multiple SDMs; virtual species and correlated predictors &
+Predictor collinearity &
+Quantified how predictor collinearity affects model performance and uncertainty across algorithms \\
 
-\citep{guo2019predicting} &
-Ensemble Model &
-Occurrence data + climate, soil, and vegetation variables \\
+\citep{feng2019collinearity} &
+MaxEnt; correlated environmental predictors and transferred projections &
+Predictor collinearity and transferability &
+Distinguished predictor collinearity from collinearity shift and environmental novelty and evaluated their effects on model transferability \\
 
-\citep{kaky2020comparison}&
-Ensemble, MaxEnt, RF, SVM &
-Occurrence data + climate scenarios \\
+\citep{benkendorf2020sample} &
+Deep neural networks and random forest; occurrence and environmental data &
+Sample-size and network-depth sensitivity &
+Evaluated how training sample size and neural-network depth affect DL-SDM performance and compared deep networks with conventional ML \\
 
 \citep{deneu2021convolutional} &
-CNN-SDM &
-Occurrence data + environmental tensors \\
+CNN-based SDM; environmental tensors &
+Spatial feature learning &
+Incorporated surrounding environmental structure through convolutional feature learning \\
 
 \citep{estopinan2022deep} &
-Deep-SDM, CNN &
-Occurrence data + remote sensing time-series imagery \\
+CNN-based SDM; Sentinel-2 time-series imagery &
+Remote-sensing representation &
+Integrated satellite image time series directly into deep species distribution models \\
 
 \citep{davis2023deep} &
-Deep JSDM &
-Citizen science occurrence data + environmental variables \\
+Joint SDM; citizen-science and environmental data &
+Community-level modelling &
+Applied a deep multivariate framework to estimate species diversity and composition jointly at continental scales \\
 
 \citep{brun2024multispecies} &
-Multispecies DNN &
-Citizen science occurrence data + multi-source environmental variables \\
+Multispecies DNN; large citizen-science datasets &
+Shared multispecies learning &
+Jointly modelled thousands of species while accounting for seasonal observation patterns and community composition \\
 
 \citep{wu2025gnn} &
-GNN-SDM &
-Species range data + landscape and environmental variables \\
+GNN-based SDM; landscape graphs &
+Graph-based landscape representation &
+Represented landscape units and their connectivity through a graph neural-network framework \\
 
-\bottomrule
-\end{longtable}
+\end{xltabular}
+\endgroup
 
+%%\end{comment}
+
+%%\begin{comment}
+%-----------------------
+% table 6
+%-----------------------
+\begin{landscape}
+\begingroup
 \footnotesize
 \renewcommand{\arraystretch}{1.2}
+\setlength{\tabcolsep}{4pt}
+\setlength{\LTleft}{0pt}
+\setlength{\LTright}{0pt}
+\setlength{\LTcapwidth}{\linewidth}
 
-\begin{longtable}{p{3cm} p{6cm} p{6cm}}
+\begin{xltabular}{\linewidth}{
+@{}
+>{\raggedright\arraybackslash}p{3cm}
+>{\raggedright\arraybackslash}p{9cm}
+>{\raggedright\arraybackslash}p{9cm}
+>{\raggedright\arraybackslash}p{4cm}
+@{}
+}
 
-\caption{Advantages and limitations of representative modelling approaches in ML-SDM.
-The advantages and limitations were synthesized from the representative studies listed in Table \ref{tab:method_milestones} and related methodological literature. The comparison summarizes the general characteristics of each modelling approach rather than the performance of individual studies, as model effectiveness may vary depending on data availability, species characteristics, environmental variables, and evaluation strategies.}
-
+\caption{Comparison of representative ML-SDM approaches in terms of their modelling capabilities and model-specific constraints. The selected approaches illustrate major differences in learning mechanisms and environmental-data representation across non-deep and deep-learning ML-SDM approaches; the table is not intended as an exhaustive taxonomy of ML-SDM methods.}
 \label{tab:model_comparison}\\
 
 \toprule
-\textbf{Model/Method} & 
-\textbf{Advantages} & 
-\textbf{Limitations} \\
+\textbf{Model} &
+\textbf{Modelling capability} &
+\textbf{Model-specific constraints} &
+\textbf{Supporting studies} \\
 \midrule
 \endfirsthead
 
-\caption[]{Advantages and limitations of representative modelling approaches in ML-SDM (continued).}\\
+\caption[]{Comparison of representative ML-SDM approaches in terms of their modelling capabilities and model-specific constraints (continued).}\\
 
 \toprule
-\textbf{Model/Method} & 
-\textbf{Advantages} & 
-\textbf{Limitations} \\
+\textbf{Model} &
+\textbf{capability} &
+\textbf{Model-specific constraints} &
+\textbf{Supporting studies} \\
 \midrule
 \endhead
 
 \midrule
-\multicolumn{3}{r}{Continued on next page}\\
+\multicolumn{4}{r}{Continued on next page}\\
 \endfoot
 
 \bottomrule
 \endlastfoot
 
-MaxEnt &
-1. Applicable to presence-only data. 
-2. Maintains relatively stable predictive ability even under small sample conditions. 
-3. Has clear statistical interpretation and regularization mechanism, enabling control of model complexity. 
-4. Easy to use, with low computational cost, and still capable of obtaining reliable prediction results in resource-limited scenarios.
-&
-1. It is prone to sampling bias due to the reliance on background points. 
-2. Presence-only data lacks true absence information, which affects the interpretation of predictions. 
-3. It may lead to significant uncertainty in environmental extrapolation and future scenario predictions. 
-4. It has limited ability to represent complex spatial structures.
-\\
+\multicolumn{4}{@{}l}{
+\textbf{Traditional machine-learning species distribution models (TML-SDM)}
+}\\
+\addlinespace[3pt]
 
-\midrule
+MaxEnt &
+1.Estimates relative environmental suitability by contrasting environmental conditions at occurrence locations with those available across the background using a maximum-entropy formulation.
+2.Feature classes provide flexible representations of species–environment relationships, while built-in regularization explicitly controls model complexity and reduces overfitting. &
+1.Model complexity is sensitive to feature-class and regularization settings, default configurations may produce over-complex or over-simplified models.
+2.MaxEnt outputs primarily quantify relative suitability/relative occurrence, interpreting the default logistic output as absolute occurrence probability requires additional assumptions about prevalence and sampling. &
+\citep{merow2013practical,elith2011statistical,warren2011ecological,low2021predictor,guillera2014maxent,yackulic2013presence,morales2017maxent} \\
 
 Random Forest &
-1. Capable of handling complex nonlinear relationships. 
-2. Strong modeling ability for variable interactions. 
-3. Outstanding performance in scenarios with few samples and under-sampling. 
-4. Good generalization ability and transferability.
-&
-1. Presence/absence or pseudo-absence data are required. 
-2. The interpretability of the model is limited. 
-3. It does not directly handle spatial structure and environmental neighborhood information. 
-4. Performance depends on the quality of the training data.
-\\
+1.Combines bootstrap-aggregated decision trees with random predictor subsampling, enabling nonlinear species–environment relationships and complex predictor interactions to be represented without specifying a parametric response function.
+2.Bootstrap sampling provides out-of-bag observations for internal prediction-error estimation, while built-in variable-importance measures allow environmental predictors to be ranked. &
+1.Standard RF variable-importance measures may favour predictors with more possible split points or more categories, potentially producing biased importance rankings.
+2.Strong correlations among predictors can distort conventional permutation importance because marginal permutation breaks the dependence structure among variables. &
+\citep{cutler2007random,pichler2023machine,boulesteix2012overview,biau2016random,strobl2007bias,strobl2008conditional} \\
 
+Boosted Regression Trees &
+Builds an additive ensemble of regression trees through forward stagewise boosting, with successive trees focusing on prediction errors left by previous trees; this enables flexible modelling of nonlinear responses and predictor interactions without prespecifying their functional form. &
+1. Regularization requires coordinated tuning of learning rate, tree complexity, and number of trees, whose optimal combination depends on the data and interaction complexity.
+2. Because trees are added sequentially, boosting can continue reducing training error beyond the point of optimal generalization; cross-validation or independent validation is therefore needed to select the number of trees and control overfitting &
+\citep{elith2008working,pichler2023machine,natekin2013gradient}\\
+
+\addlinespace
+
+\multicolumn{4}{@{}l}{
+\textbf{Deep-learning species distribution models (DL-SDM)}
+}\\
+\addlinespace[3pt]
+CNN-based SDM &
+1.Uses convolution over geospatial environmental tensors or image patches to preserve and learn the spatial configuration of environmental conditions surrounding occurrence locations, rather than relying only on point-wise covariates.
+2.Can learn predictive features directly from high-resolution remote-sensing imagery and can be extended to multi-temporal image stacks to incorporate seasonal environmental dynamics. &
+1.Requires predictors to be represented as spatial tensors or image patches, making spatial extent, raster resolution, and cross-layer alignment additional modelling choices that determine the environmental context available to the CNN.
+2.Patch-based inputs increase susceptibility to spatial information leakage when training and test neighbourhoods overlap or are spatially close, potentially inflating evaluation performance; spatial validation therefore needs to account for the footprint of CNN input patches. &
+\citep{deneu2021convolutional,estopinan2022deep,kellenberger2026performance,deneu2022very,gillespie2024deep} \\
+
+Vision Transformer-based SDM &
+Divides environmental imagery into patches and uses positional encoding and self-attention to learn dependencies among image-patch representations, providing a non-convolutional mechanism for extracting spatial features from environmental imagery. &
+1.Vision transformer models generally require large training datasets and carefully designed training strategies to achieve competitive performance, and transfer or self-supervised pretraining is often preferable to training from scratch.
+2.In the evaluated plant-community case, Vision transformer models achieved lower predictive performance than both CNN and multilayer perceptron models, so a general advantage over alternative SDM architectures has not yet been established&
+\citep{hu2025introduction,chen2024mitree,zhang2022multimodal} \\
+
+GNN-based SDM &
+1.Represents ecological entities such as locations, landscape patches, or species as graph nodes and their spatial or detection relationships as edges, allowing message passing to model relational dependencies that are not explicitly represented by point-wise environmental covariates.
+2.Graph representations can encode irregular or heterogeneous ecological relationships rather than requiring environmental context to be represented on a regular raster neighbourhood. &
+GNN-SDM requires an explicit graph representation, so node definitions, edge construction, and neighbourhood structure become additional modelling decisions that can influence the information propagated through the network. &
+\citep{wu2025gnn,corso2024graph} \\
+
+\addlinespace
 \midrule
+\end{xltabular}
+\endgroup
 
-Boosted Regression Trees (GBM/BRT) &
-1. It can capture the complex interaction relationships among variables. 
-2. It can fit nonlinear environmental responses. 
-3. It has high predictive performance under large sample conditions.
-&
-1. The performance significantly deteriorates in small sample situations. 
-2. Parameter adjustment is rather complex. 
-3. It is sensitive to data quality and the quantity of training samples.
-\\
-
-\midrule
-
-ESM (GLM, GBM, and MaxEnt models) &
-1. Specifically addresses the issues of rare species and small sample overfitting. 
-2. Reduces instability caused by excessive variables. 
-3. Has better transferability than a single SDM.
-&
-1. The modeling process is complex. 
-2. A large number of small models need to be trained. 
-3. It is difficult to explain the contribution of individual variables.
-\\
-
-\midrule
-
-CNN-SDM &
-1. No longer limited to single-point environmental variables. 
-2. Can utilize spatial environmental tensors. 
-3. Capable of capturing landscape structure and spatial neighborhood effects. 
-4. Has advantages in predicting rare species.
-&
-1. The black box nature is enhanced, making ecological interpretation difficult. 
-2. A large amount of training data is required. 
-3. Traditional AUC/TSS evaluation methods may not be fully applicable.
-\\
-
-\midrule
-
-Deep-SDM (CNN with remote sensing image time series) &
-1. Utilize remote sensing time series to capture environmental dynamic changes. 
-2. Be capable of extracting seasonal information. 
-3. Enhance the prediction ability for low-recorded species.
-&
-1. Rely on high-quality and large-scale remote sensing data. 
-2. The model interpretation methods still need to be developed.
-\\
-
-\midrule
-
-DMVP-DRNets (Deep Reasoning Networks and Deep Multivariate Probit Model) &
-1. Support multi-species joint modeling. 
-2. Capable of utilizing large-scale citizen science data. 
-3. Capture species composition and interrelationships.
-&
-1. Large-scale data is required. 
-2. The network structure is complex. 
-3. It is challenging to explain the ecological mechanism.
-\\
-
-\midrule
-
-GNN-SDM (GNN with landscape patches) &
-1. Treat landscape patches as a graph structure. 
-2. It can simulate relationships between adjacent patches. 
-3. It is more suitable for analyzing complex landscape structures and ecological connectivity. 
-4. It has potential for limited occurrence data.
-&
-1. Standardized polygon data for spatial representation are required. 
-2. The method is relatively new and validation using actual species data remains limited. 
-3. Further research is needed for model interpretation. 
-4. High computational capacity is demanded.
-\\
-\end{longtable}
+\end{landscape}
+%%\end{comment}
 
 
 
 \subsection{Evolution toward DL-SDM: opportunities and limitations}
 
-Keyword evolution and Tables \ref{tab:method_milestones}, \ref{tab:model_comparison} indicate that the development of ML-SDM is not a replacement of traditional ML by DL. Instead, it represents an expansion of modelling capability driven by increasing data complexity and computational advances. Since 2006, ML-SDM has evolved from nonlinear prediction based on structured environmental variables toward high-dimensional ecological modelling with multi-source data. This transition reflects an extension of modelling capacity rather than a complete change of modelling paradigm.
+Keyword evolution and Tables \ref{tab:method_milestones}, \ref{tab:model_comparison} indicate that the development of ML-SDM is not a replacement of traditional ML by DL. Instead, it represents an expansion of modelling capability coinciding with increasing data complexity and advances in computational technologies. Since 2006, ML-SDM research has increasingly incorporated approaches for handling high-dimensional ecological data and multi-source environmental information \citep{pichler2023machine}. This transition reflects an extension of modelling capacity rather than a complete change of modelling paradigm.
 
 (1) From nonlinear prediction to high-dimensional ecological modelling.
 
-Early ML-SDM mainly focused on establishing nonlinear relationships between species occurrences and structured environmental variables. MaxEnt and Random Forest became two representative approaches during this period. MaxEnt provided an effective solution for presence-only modelling and performed well under limited occurrence data \citep{phillips2006maximum}. Random Forest improved the representation of nonlinear relationships and variable interactions through ensemble decision trees \citep{mi2017choose}. However, these approaches usually depend on manually selected predictors and predefined feature representations. Model performance is strongly influenced by the quality and availability of environmental variables. Most inputs are structured datasets containing climate, topography, and land-use variables.
+Early ML-SDM mainly focused on establishing nonlinear relationships between species occurrences and structured environmental variables. MaxEnt and Random Forest became two representative approaches during this period (Figure \ref{fig_mom11}). MaxEnt provided an effective solution for presence-only modelling and performed well under limited occurrence data \citep{phillips2006maximum}. Random Forest provided an alternative framework for representing nonlinear relationships of nonlinear relationships and variable interactions through ensemble decision trees \citep{mi2017choose}. However, these approaches usually depend on manually selected predictors and predefined feature representations. Model performance is strongly influenced by the quality and availability of environmental variables. Most inputs are structured datasets containing climate, topography, and land-use variables.
 
-Recent keyword evolution shows increasing attention toward DL, remote sensing, and ensemble modelling. These trends indicate a shift toward multi-source and high-dimensional ecological data integration. DL-SDM extends traditional approaches through automatic feature learning. CNN-based models can extract spatial patterns from environmental grids, while GNN-based approaches provide new opportunities to represent spatial connections among landscape units \citep{deneu2021convolutional, wu2025gnn}. Therefore, the transition from TML-SDM to DL-SDM represents an expansion of modelling capability rather than a replacement of previous approaches. Traditional ML remains valuable for small datasets, structured predictors, and studies requiring clear ecological interpretation. DL provides additional capacity for complex data structures and large-scale environmental information.
+Recent keyword evolution shows increasing attention toward DL, remote sensing, and ensemble modelling (Figures \ref{fig_mom12} and \ref{fig_mom13}). These trends indicate a shift toward multi-source and high-dimensional ecological data integration. DL-SDM extends traditional approaches through automatic feature learning. CNN-based models can extract spatial patterns from environmental grids, while GNN-based approaches provide new opportunities to represent spatial connections among landscape units \citep{deneu2021convolutional, wu2025gnn}. Therefore, the transition from TML-SDM to DL-SDM represents an expansion of modelling capability rather than a replacement of previous approaches. Traditional ML remains valuable for small datasets, structured predictors, and studies requiring clear ecological interpretation. DL provides additional capacity for complex data structures and large-scale environmental information.
 
 (2) DL improves prediction but does not automatically improve ecological understanding.
 
-Although DL models can capture complex nonlinear relationships and spatial patterns, they remain primarily correlative approaches when trained with species occurrence and environmental data. Improved prediction performance does not automatically indicate better representation of ecological mechanisms. DL models can identify complex statistical associations between species distributions and environmental conditions. However, they do not directly reveal physiological mechanisms, species interactions, or ecological processes underlying distribution patterns. This limitation is particularly important for SDM applications. Traditional ML models often provide relatively direct interpretations through variable importance analysis. In contrast, DNN generate hierarchical feature representations, which increase model complexity and reduce transparency. CNN, Transformer, and GNN architectures improve spatial pattern recognition but also introduce stronger black-box characteristics \citep{zhang2020three, hu2025introduction, wu2025gnn}. Therefore, future DL-SDM development should focus not only on predictive performance but also on ecological interpretability and scientific reliability.
+Although DL models can capture complex nonlinear relationships and spatial patterns, they remain primarily correlative approaches when trained with species occurrence and environmental data. Similarly, predictive performance should be distinguished from model calibration. A model may achieve high discrimination metrics while still producing poorly calibrated predictions or unreliable suitability estimates under different environmental conditions \citep{ryo2021explainable}. Improved prediction performance does not automatically indicate better representation of ecological mechanisms. DL models can identify complex statistical associations between species distributions and environmental conditions. However, they are difficult reveal physiological mechanisms, species interactions, or ecological processes underlying distribution patterns. This limitation is particularly relevant to SDM applications because model predictions are often interpreted in ecological terms and used to support biodiversity assessment and conservation decision-making. Traditional ML models may provide comparatively accessible diagnostic information through approaches such as variable importance analysis, although these measures also require careful interpretation. In contrast, DNN generate hierarchical feature representations, which increase model complexity and reduce transparency. CNN, Transformer, and GNN architectures improve spatial pattern recognition but also introduce stronger black-box characteristics \citep{zhang2020three, hu2025introduction, wu2025gnn}. Therefore, future DL-SDM development should focus not only on predictive performance but also on ecological interpretability and scientific reliability.
 
 (3) Interpretability and uncertainty as future priorities.
 
-As ML-SDM becomes increasingly applied in biodiversity assessment and conservation planning, trustworthy prediction has become more important. Future research should improve model reliability through these major directions.
+As ML-SDM becomes increasingly applied in biodiversity assessment and conservation planning, trustworthy prediction has become more important. Future research should improve model reliability.
 
-First, explainable artificial intelligence methods should be integrated into DL-SDM. Approaches such as SHAP, attention mechanisms, and feature attribution methods can help identify important environmental drivers and improve ecological interpretation \citep{huang2025identification, du2025revealing}.
-
-Second, uncertainty assessment should become a standard component of ML-SDM. Model uncertainty originates from multiple sources, including data uncertainty, model uncertainty, and extrapolation uncertainty. Data uncertainty is associated with occurrence data quality, sampling bias, and spatial coverage. Model uncertainty results from algorithm selection, parameter settings, and model structure. Extrapolation uncertainty occurs when models are transferred to novel environmental conditions \citep{meyer2016multidimensional, vrugt2003shuffled, yanlong2020challenges}.
-
-Therefore, future evaluation frameworks should move beyond single performance metrics and consider predictive accuracy, interpretability, and uncertainty simultaneously.
+First, explainable artificial intelligence methods should be integrated into DL-SDM. Approaches such as shapley additive explanations (SHAP), attention mechanisms, and feature attribution methods can help identify influential predictors and improve model interpretation \citep{huang2025identification, du2025revealing}. Second, uncertainty assessment should become a standard component of ML-SDM. Model uncertainty originates from multiple sources, including data uncertainty, model uncertainty, and extrapolation uncertainty. Data uncertainty is associated with occurrence data quality, sampling bias, and spatial coverage. Model uncertainty results from algorithm selection, parameter settings, and model structure. Extrapolation uncertainty occurs when models are transferred to novel environmental conditions \citep{meyer2016multidimensional, vrugt2003shuffled, yanlong2020challenges}. Therefore, future evaluation frameworks should move beyond single performance metrics and consider predictive accuracy, interpretability, and uncertainty simultaneously.
 
 (4) Spatial transferability and multi-source ecological data.
 
-Spatial transferability remains a major challenge for ML-SDM \citep{yanlong2020challenges}. Many studies calibrate and evaluate models within limited geographic regions. However, models with high predictive accuracy in one region may fail under novel environmental conditions. Global biodiversity assessment requires models that can maintain reliability across regions and spatial scales. Future research should focus on three directions.
+Spatial transferability remains a major challenge for ML-SDM \citep{yanlong2020challenges}. Many studies calibrate and evaluate models within limited geographic regions. However, models with high predictive accuracy in one region may fail under novel environmental conditions. Applications such as global biodiversity assessment require evaluation of whether models maintain reliability across regions and spatial scales. Future research should focus on three directions. First, cross-region validation should be strengthened to evaluate model generalization. Second, domain adaptation approaches may provide potential approaches for addressing transferability challenges among different ecological regions. Third, the integration of multi-source ecological data and foundation models may provide new opportunities for combining remote sensing, climate information, land-use dynamics, and species relationships within unified prediction frameworks.
 
-First, cross-region validation should be strengthened to evaluate model generalization. Second, domain adaptation approaches may improve model transferability among different ecological regions. Third, the integration of multi-source ecological data and foundation models may provide new opportunities for combining remote sensing, climate information, land-use dynamics, and species relationships within unified prediction frameworks.
-
-Overall, DL-SDM represents an important transition from manual feature engineering toward data-driven feature learning in species distribution modelling. However, the future of ML-SDM should not be defined by increasingly complex models alone. The primary goal should be the development of trustworthy ecological prediction frameworks that integrate predictive performance, ecological interpretation, and uncertainty assessment.
+Overall, DL-SDM represents an important transition from manual feature engineering toward data-driven feature learning in species distribution modelling. However, the future of ML-SDM should not be defined by increasingly complex models alone. The primary goal should be the development of trustworthy ecological prediction frameworks that integrate predictive performance, calibration, spatial transferability, ecological interpretation, and uncertainty assessment.
 
 
 \section{Conclusion}
 
-This study provides a systematic overview of the technological evolution of ML-SDM from 2006 to 2025 by integrating bibliometric analysis with methodological synthesis. The results demonstrate that ML-SDM has undergone a progressive expansion of modelling capability rather than a simple replacement of traditional approaches by DL. Its development has been shaped by methodological innovation, increasing ecological demands, expanding environmental data resources, and advances in computational technologies. The main conclusions are summarized as follows.
+This study provides a systematic overview of the technological evolution of ML-SDM from 2006 to 2025 by integrating bibliometric analysis with methodological synthesis. The results demonstrate that ML-SDM has undergone a progressive expansion of modelling capability rather than a simple replacement of traditional approaches by DL. Its development has coincided with methodological innovation, increasing ecological demands, expanding environmental data resources, and advances in computational technologies. The main conclusions are summarized as follows.
 
 (1) Temporal analysis revealed that ML-SDM has undergone a continuous evolution in both methodological approaches and research themes. Early studies primarily focused on establishing ML-based prediction frameworks, with MaxEnt and random forest becoming foundational approaches for species distribution modelling. Subsequent research increasingly emphasized model evaluation, sampling bias correction, uncertainty assessment, and ecological applicability. Since 2020, emerging themes including DL, remote sensing, ensemble modelling, and multi-source environmental data have become increasingly prominent, indicating a transition from improving predictive performance toward integrating more complex ecological information.
 
-(2) The development and global dissemination of ML-SDM have been jointly shaped by publication growth, contributions from leading countries, institutions, authors, and journals, as well as ecological demands, technological advances, and collaborative knowledge networks. Rapid increases in research output, together with the prominent roles of the United States, China, influential research institutions, leading authors, and core ecological journals, have established a globally connected research landscape. Meanwhile, growing demands for biodiversity assessment, climate change evaluation, and ecosystem management have driven methodological innovation, while expanding biodiversity databases, environmental datasets, remote sensing products, computational resources, and international collaboration have accelerated knowledge exchange and the worldwide adoption of ML-SDM. Together, these factors have transformed ML-SDM from individual predictive methods into a globally connected framework supporting large-scale ecological prediction and biodiversity conservation.
+(2) ML-SDM research expanded rapidly during 2006–2025 and developed into a globally connected research landscape. The United States and China were the leading contributors in publication output, while major institutions, productive authors, and core journals formed prominent nodes in the research network. The emergence, development, and global dissemination of ML-SDM were associated with growing ecological demands, advances in computational technologies, expanding biodiversity and environmental data resources, and increasing international collaboration. These patterns indicate that ML-SDM development occurred alongside broader ecological, technological, and collaborative changes.
 
 (3) Methodological evolution and knowledge accumulation analysis demonstrated that methodological innovation in ML-SDM has accumulated through successive solutions to ecological modelling challenges rather than through the emergence of individual algorithms. Co-citation analysis highlighted the intellectual foundations established by early MaxEnt-based studies and ecological modelling frameworks, whereas bibliographic coupling revealed recent methodological diversification involving ensemble approaches, DL, and spatially explicit modelling. This evolutionary pathway reflects a gradual shift from algorithm selection toward integrated modelling frameworks capable of addressing complex ecological data characteristics.
 

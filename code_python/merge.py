@@ -1,6 +1,5 @@
 # =====================================================
 # Merge Web of Science Records
-#
 # Description:
 # This script merges multiple Web of Science Core
 # Collection (WoSCC) plain-text export files into a

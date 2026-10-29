@@ -2,7 +2,6 @@
 # Keyword Life Cycle Analysis
 # SDM research 2006-2025
 ############################################################
-
 library(tidyverse)
 library(viridis)
 

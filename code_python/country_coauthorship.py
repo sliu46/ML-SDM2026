@@ -1,6 +1,5 @@
 # =====================================================
 # Generate Country-level Co-authorship Matrix
-#
 # Description:
 # This script extracts country information from Web of
 # Science Core Collection records and constructs a

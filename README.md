@@ -39,7 +39,7 @@ Web of Science records：``` data/WoS_raw_records/ 06-10.txt... ```
 
 ### ML_SDM_5224_Bibliographic_Records.xlsx
 
-The complete dataset of 5,224 publication records included in the bibliometric analysis is provided in the following file. The file contains publication identifiers, publication years, available DOIs, and bibliometric citation indicators, including Total Local Citation Score (TLCS) and Total Global Citation Score (TGCS). These records correspond to the publications analyzed in this study and are provided to improve the transparency and reproducibility of the bibliometric analysis.
+The complete dataset of 5,224 publication records included in the bibliometric analysis is provided in ML_SDM_5224_Bibliographic_Records.xlsx. The file contains publication identifiers, publication years, available DOIs, and bibliometric citation indicators, including Total Local Citation Score (TLCS) and Total Global Citation Score (TGCS). These records correspond to the publications analyzed in this study and are provided to improve the transparency and reproducibility of the bibliometric analysis.
 
 ### Processed datasets
 

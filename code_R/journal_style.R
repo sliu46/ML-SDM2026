@@ -2,7 +2,6 @@
 # Ecological Informatics / Elsevier figure style
 # Full-width artwork: 190 mm x 100 mm; Arial; 600 dpi
 # ============================================================
-
 journal_output_dir <- "F:/PythonItem/bib/Second8.30/image/journal_figures"
 journal_width_mm <- 190
 journal_height_mm <- 100

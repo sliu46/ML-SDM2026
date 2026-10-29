@@ -2,20 +2,15 @@
 # Bubble temporal evolution plot
 # ML-SDM bibliometric analysis
 # ==========================================================
-
-
 # --------------------------
 # 1. 加载包
 # --------------------------
-
 library(tidyverse)
 library(scales)
 library(ggrepel)
 library(RColorBrewer)
 library(viridis)
-
 source("code_R/journal_style.R")
-
 
 # --------------------------
 # 2. 读取数据

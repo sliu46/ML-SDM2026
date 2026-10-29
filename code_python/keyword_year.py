@@ -1,6 +1,5 @@
 # =====================================================
 # Generate Annual Keyword Frequency Matrix
-#
 # Description:
 # This script extracts author keywords from bibliographic
 # records and calculates keyword occurrence frequencies

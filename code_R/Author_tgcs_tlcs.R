@@ -2,12 +2,9 @@
 # Author citation analysis based on TLCS and TGCS
 # TLCS-TGCS bubble plot
 # =====================================================
-
-
 # ============================
 # 1. 加载包
 # ============================
-
 library(tidyverse)
 library(readr)
 library(ggrepel)
@@ -16,15 +13,12 @@ library(viridis)
 
 source("code_R/journal_style.R")
 
-
 # ============================
 # 2. 读取HistCite作者数据
 # ============================
-
 tgcs <- read_csv(
   "data/processed/Author_TGCS.csv"
 )
-
 
 # ============================
 # 3. 数据整理
@@ -40,24 +34,20 @@ author_data <- tgcs %>%
     TGCS = GCS
   )
 
-
 # ============================
 # 4. 选择同时进入
 # TGCS Top20 和 TLCS Top20 的作者
 # ============================
-
 
 # TGCS Top20
 top20_tgcs <- author_data %>%
   arrange(desc(TGCS)) %>%
   slice_head(n = 20)
 
-
 # TLCS Top20
 top20_tlcs <- author_data %>%
   arrange(desc(TLCS)) %>%
   slice_head(n = 20)
-
 
 # ============================
 # 5. 获取两个Top20的交集
@@ -74,11 +64,9 @@ top20 <- author_data %>%
     Order = row_number()
   )
 
-
 # ============================
 # 6. 输出筛选结果
 # ============================
-
 
 # 创建保存目录
 output_dir <- "F:/PythonItem/bib/Second8.30/image"
@@ -99,7 +87,6 @@ write_csv(
   )
 )
 
-
 # 在控制台显示结果
 print(
   top20 %>%
@@ -119,7 +106,6 @@ cat(
   nrow(top20),
   "\n"
 )
-
 
 # ============================
 # 7. 绘制气泡图
@@ -378,7 +364,6 @@ p <- p +
 # ============================
 
 if (interactive()) print(p)
-
 
 # ============================
 # 10. 高清保存
